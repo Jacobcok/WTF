@@ -1,0 +1,10 @@
+
+GottaGoFastDB = {
+	["profileKeys"] = {
+		["Bigyacob - Aerie Peak"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

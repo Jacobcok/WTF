@@ -1,0 +1,13 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0013,
+	["LastPlayerFullName"] = "Lepok-Aerie Peak",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = nil
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "ROGUE",
+	["LastAdded"] = 5,
+}

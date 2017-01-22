@@ -1,0 +1,383 @@
+
+VExRT = {
+	["BattleRes"] = {
+	},
+	["ProfileKeys"] = {
+		["Zygi-AeriePeak"] = "default",
+	},
+	["Arrow"] = {
+	},
+	["Encounter"] = {
+		["names"] = {
+			[1787] = "Kormrok",
+			[1798] = "Hellfire High Council",
+		},
+		["list"] = {
+			["Zygi"] = {
+				"6FBF14490268440F8020Heauxpless", -- [1]
+				"6FBF144902805709C020Genkidin", -- [2]
+				"6FBF1449028394075020Nisara", -- [3]
+				"6FBF14490287050A5020Zygi", -- [4]
+				"6FBF14490290790AC020Emilawafer", -- [5]
+				"6FBF14490294730D7120", -- [6]
+				"706F144903062306B020Osherio", -- [7]
+				"706F144903092208F020Demonbeard", -- [8]
+				"706F144903129906E020Nisara", -- [9]
+				"706F14490315850A4020Naoyuki", -- [10]
+				"706F14490319570E2020Arríl", -- [11]
+			},
+		},
+	},
+	["Marks"] = {
+		["list"] = {
+		},
+	},
+	["Coins"] = {
+		["list"] = {
+			"4188960Emilawafer1449029691", -- [1]
+			"9188960Sayr1449029691", -- [2]
+			"6188960Vuro1449029692", -- [3]
+			"8188960Arríl1449029692", -- [4]
+			"!8124363Arríl1449029692:1:567:529", -- [5]
+			"5188960Fizzl1449029693", -- [6]
+			"B188960Adonrager1449029693", -- [7]
+			"8188960Nisara1449029698", -- [8]
+			"7188960Osherio1449029699", -- [9]
+			"2188960Heauxpless1449029703", -- [10]
+			"7188960Kharaz1449029704", -- [11]
+			"B188960Notshteve1449029707", -- [12]
+			"!B124363Notshteve1449029707:1:567:529", -- [13]
+			"B188960Zygi1449029710", -- [14]
+			"2188960Elisabit1449029713", -- [15]
+			"3188960Agurthewise1449029713", -- [16]
+			"!3124296Agurthewise1449029714:1:567:529", -- [17]
+			"2188960Lacotll1449029719", -- [18]
+			"7188960Aleenaa1449029721", -- [19]
+			"!7124358Aleenaa1449029721:1:567:529", -- [20]
+			"2188960Genkidin1449029742", -- [21]
+			"!2124341Genkidin1449029742:1:567:529", -- [22]
+			"A188960Naoyuki1449029805", -- [23]
+		},
+	},
+	["ExCD2"] = {
+		["default_userDuration"] = {
+		},
+		["gnGUIDs"] = {
+			["Demonbeard"] = 267,
+			["Osherio"] = 264,
+			["Genkidin"] = 65,
+			["Heauxpless"] = 66,
+			["Notshteve"] = 102,
+			["Vuro"] = 251,
+			["Fizzl"] = 258,
+			["Zygi"] = 102,
+			["Breetai"] = 70,
+			["Nisara"] = 62,
+			["Elisabit"] = 70,
+			["Aleenaa"] = 263,
+			["Arríl"] = 62,
+			["Kharaz"] = 263,
+			["Naoyuki"] = 270,
+			["Sayr"] = 265,
+			["Lacotll"] = 66,
+			["Emilawafer"] = 261,
+			["Adonrager"] = 105,
+			["Agurthewise"] = 254,
+		},
+		["NoRaid"] = true,
+		["CDECol"] = {
+		},
+		["default_userCD"] = {
+		},
+		["Save"] = {
+		},
+		["colSet"] = {
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [1]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [2]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [3]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [4]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [5]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [6]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [7]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [8]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [9]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [10]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["textureGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [11]
+		},
+		["Priority"] = {
+		},
+		["CDE"] = {
+		},
+		["userDB"] = {
+		},
+	},
+	["Bossmods"] = {
+		["KormrokSetups"] = {
+		},
+		["Mannoroth"] = {
+		},
+		["Kormrok"] = {
+			[242] = "Sayr",
+			[38] = "Breetai",
+			[243] = "Osherio",
+			[272] = "Genkidin",
+			[270] = "Lacotll",
+			[268] = "Kharaz",
+			[267] = "Emilawafer",
+			[264] = "Elisabit",
+			[168] = "Kharaz",
+			[260] = "Nisara",
+			[259] = "Demonbeard",
+			[70] = "Lacotll",
+			[63] = "Fizzl",
+			[32] = "Notshteve",
+			[142] = "Sayr",
+			[236] = "Agurthewise",
+			[126] = "Vuro",
+			[235] = "Heauxpless",
+			[233] = "Adonrager",
+			[232] = "Notshteve",
+			[64] = "Elisabit",
+			[164] = "Elisabit",
+			[226] = "Vuro",
+			[159] = "Demonbeard",
+			[33] = "Adonrager",
+			["name"] = "Lacotll-AeriePeak",
+			[129] = "Arríl",
+			[163] = "Fizzl",
+			[136] = "Agurthewise",
+			[225] = "Zygi",
+			[25] = "Zygi",
+			[29] = "Arríl",
+			[67] = "Emilawafer",
+			[42] = "Sayr",
+			[133] = "Adonrager",
+			[263] = "Fizzl",
+			[68] = "Kharaz",
+			[229] = "Arríl",
+			[135] = "Heauxpless",
+			[167] = "Emilawafer",
+			[35] = "Heauxpless",
+			[43] = "Osherio",
+			[137] = "Aleenaa",
+			[59] = "Demonbeard",
+			[138] = "Breetai",
+			[170] = "Lacotll",
+			[26] = "Vuro",
+			[160] = "Nisara",
+			[36] = "Agurthewise",
+			[172] = "Genkidin",
+			[141] = "Naoyuki",
+			[60] = "Nisara",
+			[72] = "Genkidin",
+			[237] = "Aleenaa",
+			[143] = "Osherio",
+			[238] = "Breetai",
+			[37] = "Aleenaa",
+			["sync"] = true,
+			["time"] = 1449027127,
+			[132] = "Notshteve",
+			[41] = "Naoyuki",
+			[241] = "Naoyuki",
+			[125] = "Zygi",
+		},
+		["Kromog"] = {
+		},
+	},
+	["LegendaryRing"] = {
+	},
+	["InspectViewer"] = {
+	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["Version"] = 3555,
+		["PreVersion"] = 0,
+	},
+	["Profiles"] = {
+	},
+	["BossWatcher"] = {
+		["fightsNum"] = 2,
+		["autoSegments"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["Note"] = {
+		["BlackNames"] = {
+		},
+		["FontSize"] = 12,
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Height"] = 100,
+		["Strata"] = "HIGH",
+		["Width"] = 200,
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["ReadyCheckFrameTimerFade"] = 4,
+	},
+	["Logging"] = {
+	},
+	["MarksBar"] = {
+		["Show"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+		},
+		["pulltimer"] = 10,
+	},
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 3,
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
+	},
+	["Timers"] = {
+	},
+}

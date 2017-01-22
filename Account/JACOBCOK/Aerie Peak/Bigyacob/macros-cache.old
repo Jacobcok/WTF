@@ -1,0 +1,23 @@
+VER 3 0100000000000003 "CDs" "INV_MISC_QUESTIONMARK"
+#showtooltip chaos blades
+/use 13
+/use 14
+/cast chaos blades
+END
+VER 3 0100000000000004 "CDs" "INV_MISC_QUESTIONMARK"
+#showtooltip metamorphosis
+/use 13
+/use 14
+/cast metamorphosis
+END
+VER 3 0100000000000002 "doom" "INV_MISC_QUESTIONMARK"
+/tar doom
+END
+VER 3 0100000000000001 "Herb" "SPELL_NATURE_SPIRITARMOR"
+/use Broken Fireweed Stem
+/use Broken Frostweed Stem
+/use Gorgrond Flytrap Ichor
+/use Nagrand Arrowbloom Petal
+/use Starflower Petal
+/use Talador Orchid Petal
+END

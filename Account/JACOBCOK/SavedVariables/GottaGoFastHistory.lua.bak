@@ -1,0 +1,1553 @@
+
+GottaGoFastHistoryDB = {
+	["profileKeys"] = {
+		["Lepok - Aerie Peak"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["History"] = {
+				[1516] = {
+					["objectives"] = {
+						"Ivanyr", -- [1]
+						"Corstilax", -- [2]
+						"General Xakal", -- [3]
+						"Nal'tira", -- [4]
+						"Advisor Vandros", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1516,
+					["name"] = "The Arcway",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Daggered (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Raganorg (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Kíllswìtch (*)",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 5,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 152551.38,
+							["timeStamp"] = {
+								["day"] = 29,
+								["month"] = 9,
+								["hours"] = 10,
+								["year"] = 2016,
+								["mins"] = 44,
+							},
+							["startTime"] = 150311.843,
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"32:33.553 ", -- [1]
+								"25:58.948 ", -- [2]
+								"20:36.767 ", -- [3]
+								"09:52.617 ", -- [4]
+								"37:44.161 ", -- [5]
+								"27:56.398 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+					},
+				},
+				[1466] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 336803.807,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 13,
+								["mins"] = 54,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Priest",
+									["name"] = "Nebulosity",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Illfy (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"06:22.926 ", -- [1]
+								"12:58.982 ", -- [2]
+								"17:24.741 ", -- [3]
+								"22:16.333 ", -- [4]
+								"18:32.575 ", -- [5]
+							},
+							["startTime"] = 335467.14,
+						}, -- [1]
+						{
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 338418.62,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 14,
+								["year"] = 2016,
+								["mins"] = 22,
+							},
+							["startTime"] = 337399.134,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"05:24.921 ", -- [1]
+								"10:07.139 ", -- [2]
+								"13:20.381 ", -- [3]
+								"17:04.295 ", -- [4]
+								"10:44.486 ", -- [5]
+							},
+							["corrupt"] = false,
+						}, -- [2]
+						{
+							["players"] = {
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Flaxennut",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 528535.705,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 19,
+								["year"] = 2016,
+								["mins"] = 11,
+							},
+							["startTime"] = 527406.042,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"05:37.559 ", -- [1]
+								"11:28.704 ", -- [2]
+								"14:50.376 ", -- [3]
+								"18:54.326 ", -- [4]
+								"12:25.389 ", -- [5]
+							},
+							["corrupt"] = false,
+						}, -- [3]
+					},
+					["name"] = "Darkheart Thicket",
+					["zoneID"] = 1466,
+					["objectives"] = {
+						"Archdruid Glaidalis", -- [1]
+						"Oakheart", -- [2]
+						"Dresaron", -- [3]
+						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
+					},
+				},
+				[1458] = {
+					["objectives"] = {
+						"Rokmora", -- [1]
+						"Ularogg Cragshaper", -- [2]
+						"Naraxas", -- [3]
+						"Dargrul", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1458,
+					["name"] = "Neltharion's Lair",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Aladelre",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 9,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 356997.085,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 19,
+								["year"] = 2016,
+								["mins"] = 31,
+							},
+							["level"] = 6,
+							["startTime"] = 355307.008,
+							["objectiveTimes"] = {
+								"07:34.973 ", -- [1]
+								"17:21.137 ", -- [2]
+								"22:32.592 ", -- [3]
+								"28:54.914 ", -- [4]
+								"25:23.687 ", -- [5]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 532717.388,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 20,
+								["mins"] = 20,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Flaxennut",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 531155.028,
+							["objectiveTimes"] = {
+								"05:29.743 ", -- [1]
+								"14:39.036 ", -- [2]
+								"20:12.351 ", -- [3]
+								"26:12.142 ", -- [4]
+								"23:07.268 ", -- [5]
+							},
+							["level"] = 4,
+						}, -- [2]
+					},
+				},
+				[1477] = {
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1477,
+					["name"] = "Halls of Valor",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Søuthpaw",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Xuneh",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Angryseabee",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 7,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 102947.534,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 9,
+								["hours"] = 20,
+								["year"] = 2016,
+								["mins"] = 57,
+							},
+							["level"] = 2,
+							["startTime"] = 101075.667,
+							["objectiveTimes"] = {
+								"03:01.327 ", -- [1]
+								"12:43.368 ", -- [2]
+								"19:07.953 ", -- [3]
+								"28:57.409 ", -- [4]
+								"31:46.615 ", -- [5]
+								"19:49.056 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 448145.279,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 10,
+								["hours"] = 20,
+								["mins"] = 49,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Fizzl",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Omajin",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Heauxpless",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Brujanna",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 446073.49,
+							["objectiveTimes"] = {
+								"04:20.514 ", -- [1]
+								"16:40.070 ", -- [2]
+								"24:00.642 ", -- [3]
+								"30:27.596 ", -- [4]
+								"34:56.522 ", -- [5]
+								"18:26.955 ", -- [6]
+							},
+							["level"] = 3,
+						}, -- [2]
+						{
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Thaurian",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mage",
+									["name"] = "Raideon",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 18,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 487207.849,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 10,
+								["hours"] = 21,
+								["year"] = 2016,
+								["mins"] = 48,
+							},
+							["startTime"] = 484779.603,
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"06:49.491", -- [1]
+								"23:32.957", -- [2]
+								"30:44.128", -- [3]
+								"38:04.384", -- [4]
+								"40:29.592", -- [5]
+								"41:58.235", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [3]
+					},
+				},
+				[1571] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 443069.401,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 10,
+								["hours"] = 19,
+								["mins"] = 26,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Fizzl",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Omajin",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Heauxpless",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 441790.517,
+							["objectiveTimes"] = {
+								"07:08.995 ", -- [1]
+								"17:08.666 ", -- [2]
+								"21:33.592 ", -- [3]
+								"11:53.685 ", -- [4]
+							},
+							["level"] = 2,
+						}, -- [1]
+					},
+					["name"] = "Court of Stars",
+					["zoneID"] = 1571,
+					["objectives"] = {
+						"Patrol Captain Gerdo", -- [1]
+						"Talixae Flamewreath", -- [2]
+						"Advisor Melandrus", -- [3]
+						"Enemy Forces", -- [4]
+					},
+				},
+				[1456] = {
+					["objectives"] = {
+						"Warlord Parjesh", -- [1]
+						"Lady Hatecoil", -- [2]
+						"King Deepbeard", -- [3]
+						"Serpentrix", -- [4]
+						"Wrath of Azshara", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1456,
+					["name"] = "Eye of Azshara",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Warlock",
+									["name"] = "Eminnelly",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Haze",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Bertrios",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 15,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 158423.909,
+							["timeStamp"] = {
+								["day"] = 29,
+								["month"] = 9,
+								["hours"] = 12,
+								["year"] = 2016,
+								["mins"] = 22,
+							},
+							["startTime"] = 156619.811,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"08:22.407 ", -- [1]
+								"14:29.849 ", -- [2]
+								"26:48.444 ", -- [3]
+								"19:40.351 ", -- [4]
+								"31:18.932 ", -- [5]
+								"22:56.805 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+						{
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Aladelre",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 354294.833,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 18,
+								["year"] = 2016,
+								["mins"] = 46,
+							},
+							["level"] = 3,
+							["startTime"] = 353057.021,
+							["objectiveTimes"] = {
+								"04:55.540 ", -- [1]
+								"09:35.678 ", -- [2]
+								"17:28.324 ", -- [3]
+								"13:22.047 ", -- [4]
+								"20:37.573 ", -- [5]
+								"15:51.440 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 535308.877,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 21,
+								["mins"] = 3,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Flaxennut",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Rabiddemon",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 533402.016,
+							["objectiveTimes"] = {
+								"05:40.519 ", -- [1]
+								"12:23.773 ", -- [2]
+								"23:59.221 ", -- [3]
+								"18:17.857 ", -- [4]
+								"32:41.506 ", -- [5]
+								"21:30.883 ", -- [6]
+							},
+							["level"] = 6,
+						}, -- [3]
+						{
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Heauxpless",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Drupada",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 5,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 54259.417,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 10,
+								["hours"] = 21,
+								["year"] = 2016,
+								["mins"] = 33,
+							},
+							["startTime"] = 52575.341,
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"06:49.203 ", -- [1]
+								"13:23.626 ", -- [2]
+								"24:37.794 ", -- [3]
+								"18:40.995 ", -- [4]
+								"28:28.804 ", -- [5]
+								"21:41.502 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [4]
+						{
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Distayn",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 306535.137,
+							["timeStamp"] = {
+								["day"] = 7,
+								["month"] = 10,
+								["hours"] = 19,
+								["year"] = 2016,
+								["mins"] = 36,
+							},
+							["level"] = 2,
+							["startTime"] = 305385.3,
+							["objectiveTimes"] = {
+								"03:31.152", -- [1]
+								"07:47.675", -- [2]
+								"15:56.488", -- [3]
+								"11:20.536", -- [4]
+								"19:14.648", -- [5]
+								"14:06.440", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [5]
+					},
+				},
+				[1492] = {
+					["objectives"] = {
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
+					},
+					["zoneID"] = 1492,
+					["name"] = "Maw of Souls",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Xuneh",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Monk",
+									["name"] = "Søuthpaw",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Angryseabee",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 100053.288,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 9,
+								["hours"] = 20,
+								["year"] = 2016,
+								["mins"] = 9,
+							},
+							["level"] = 3,
+							["startTime"] = 99026.665,
+							["objectiveTimes"] = {
+								"03:45.691 ", -- [1]
+								"08:11.187 ", -- [2]
+								"17:11.415 ", -- [3]
+								"13:24.823 ", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+						{
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Bgranger",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priest",
+									["name"] = "Fizzl",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 240895.21,
+							["timeStamp"] = {
+								["day"] = 30,
+								["month"] = 9,
+								["hours"] = 11,
+								["year"] = 2016,
+								["mins"] = 16,
+							},
+							["level"] = 2,
+							["startTime"] = 239919.491,
+							["objectiveTimes"] = {
+								"03:09.907 ", -- [1]
+								"08:54.104 ", -- [2]
+								"16:20.489 ", -- [3]
+								"12:29.039 ", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [2]
+						{
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 2,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 340333.901,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 14,
+								["year"] = 2016,
+								["mins"] = 54,
+							},
+							["startTime"] = 339366.115,
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"02:54.343 ", -- [1]
+								"08:34.880 ", -- [2]
+								"16:17.463 ", -- [3]
+								"12:32.843 ", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 3,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 342310.423,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 15,
+								["mins"] = 27,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Warrior",
+									["name"] = "Tandaelin",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mage",
+									["name"] = "Raideon",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 341450.1,
+							["objectiveTimes"] = {
+								"02:48.360 ", -- [1]
+								"07:59.352 ", -- [2]
+								"14:35.134 ", -- [3]
+								"11:11.897 ", -- [4]
+							},
+							["level"] = 2,
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 343933.515,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 10,
+								["hours"] = 15,
+								["mins"] = 54,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Agurthewolf",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Warrior",
+									["name"] = "Tandaelin",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mage",
+									["name"] = "Raideon",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 342841.1,
+							["objectiveTimes"] = {
+								"03:58.011 ", -- [1]
+								"10:11.218 ", -- [2]
+								"18:17.160 ", -- [3]
+								"14:36.219 ", -- [4]
+							},
+							["level"] = 5,
+						}, -- [5]
+						{
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Distayn",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 3,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 308346.063,
+							["timeStamp"] = {
+								["day"] = 7,
+								["month"] = 10,
+								["hours"] = 20,
+								["year"] = 2016,
+								["mins"] = 7,
+							},
+							["level"] = 5,
+							["startTime"] = 307142.291,
+							["objectiveTimes"] = {
+								"03:56.916", -- [1]
+								"10:50.867", -- [2]
+								"20:18.507", -- [3]
+								"16:14.322", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [6]
+						{
+							["players"] = {
+								{
+									["class"] = "Shaman",
+									["name"] = "Paisha (*)",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Raelistraza (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Stella (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priest",
+									["name"] = "Obsçurity (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 445252.798,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 10,
+								["hours"] = 10,
+								["year"] = 2016,
+								["mins"] = 10,
+							},
+							["level"] = 2,
+							["startTime"] = 444441.738,
+							["objectiveTimes"] = {
+								"02:47.752", -- [1]
+								"07:11.466", -- [2]
+								"13:35.852", -- [3]
+								"10:16.680", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [7]
+						{
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Palazhor (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Rosenrot (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priest",
+									["name"] = "Velinde (*)",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Noir (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Mage",
+									["name"] = "Raideon",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 19,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 455134.612,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 10,
+								["hours"] = 12,
+								["year"] = 2016,
+								["mins"] = 53,
+							},
+							["startTime"] = 453497.713,
+							["level"] = 3,
+							["objectiveTimes"] = {
+								"03:59.585", -- [1]
+								"11:34.266", -- [2]
+								"28:51.703", -- [3]
+								"19:33.985", -- [4]
+							},
+							["corrupt"] = false,
+						}, -- [8]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 484123.662,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 10,
+								["hours"] = 20,
+								["mins"] = 57,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Adonrager",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Thaurian",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Druid",
+									["name"] = "Notshteve",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"03:48.214", -- [1]
+								"09:29.278", -- [2]
+								"18:34.823", -- [3]
+								"14:30.462", -- [4]
+							},
+							["startTime"] = 483018.593,
+						}, -- [9]
+					},
+				},
+				[1493] = {
+					["objectives"] = {
+						"Tirathon Saltheril", -- [1]
+						"Inquisitor Tormentorum", -- [2]
+						"Ash'golm", -- [3]
+						"Glazer", -- [4]
+						"Cordana Felsong", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1493,
+					["name"] = "Vault of the Wardens",
+					["runs"] = {
+						{
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Xuneh",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Monk",
+									["name"] = "Søuthpaw",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Angryseabee",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 11,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 98566.202,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 9,
+								["hours"] = 19,
+								["year"] = 2016,
+								["mins"] = 44,
+							},
+							["level"] = 2,
+							["startTime"] = 96815.685,
+							["objectiveTimes"] = {
+								"06:09.570 ", -- [1]
+								"15:53.420 ", -- [2]
+								"19:53.810 ", -- [3]
+								"21:59.550 ", -- [4]
+								"30:05.372 ", -- [5]
+								"25:09.738 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [1]
+						{
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Osherio",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Bgranger",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "ßellatrix",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["deaths"] = 3,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 243072.081,
+							["timeStamp"] = {
+								["day"] = 30,
+								["month"] = 9,
+								["hours"] = 11,
+								["year"] = 2016,
+								["mins"] = 53,
+							},
+							["level"] = 2,
+							["startTime"] = 241475.5,
+							["objectiveTimes"] = {
+								"06:27.701 ", -- [1]
+								"11:40.471 ", -- [2]
+								"17:04.985 ", -- [3]
+								"14:40.133 ", -- [4]
+								"26:51.393 ", -- [5]
+								"20:47.467 ", -- [6]
+							},
+							["corrupt"] = false,
+						}, -- [2]
+					},
+				},
+				[1501] = {
+					["objectives"] = {
+						"Amalgam of Souls", -- [1]
+						"Illysanna Ravencrest", -- [2]
+						"Smashspite the Hateful", -- [3]
+						"Lord Kur'talos Ravencrest", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1501,
+					["name"] = "Black Rook Hold",
+					["runs"] = {
+						{
+							["corrupt"] = true,
+							["deaths"] = 2,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 530652.485,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 10,
+								["hours"] = 19,
+								["mins"] = 45,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Warlock",
+									["name"] = "Millari",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sanctym",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Flaxennut",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Breetai",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Rogue",
+									["name"] = "Lepok",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["startTime"] = 529072.485,
+							["objectiveTimes"] = {
+								"?", -- [1]
+								"?", -- [2]
+								"20:30 ", -- [3]
+								"26:20 ", -- [4]
+								"21:12 ", -- [5]
+							},
+							["level"] = 2,
+						}, -- [1]
+					},
+				},
+			},
+		},
+	},
+}

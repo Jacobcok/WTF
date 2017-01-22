@@ -1,0 +1,17 @@
+VER 3 010000000000006A "flash heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] flash heal
+END
+VER 3 010000000000006B "penn" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][
+help] penance
+END
+VER 3 010000000000006C "pw:S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] power word: shield
+END
+VER 3 0100000000000069 "ZGVMacro1" "0"
+/target Marshal Gryan Stoutmantle
+/run ZGV:MRM():CG(52,1)
+END

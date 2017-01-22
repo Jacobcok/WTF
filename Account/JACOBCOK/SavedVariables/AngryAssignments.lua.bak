@@ -1,0 +1,42 @@
+
+AngryAssign_Pages = {
+	[1411426666] = {
+		["Updated"] = 1449026375,
+		["Name"] = "M KORMROK",
+		["Id"] = 1411426666,
+		["UpdateId"] = 91955529,
+		["Contents"] = "BG Kite the Infernal\n\nRoars: Adon, Shteve, Zygi\n\nHeal CDs for Pound: \n             1) Revival + Ring\n             2) Tranq\n             3) Tide\n             4) Asscend",
+	},
+	[1616726438] = {
+		["Updated"] = 1449024502,
+		["Name"] = "mythic iron reaver",
+		["Id"] = 1616726438,
+		["UpdateId"] = 2697788050,
+		["Contents"] = "P1 – Bombs are priority\n\nP2 – Bomb priority: \n\nQuick Fuse > Burning Bomb (stop at 3-4 stacks) > Reactive Bombs (tanks, jump on them and use cd) > Reinforce Bombs (melee)\n\nHealing CDs (Pounding):\n\n1 - VE, Ascendence\n2 - Ring, Personals\n3 - Tide",
+	},
+	[869608095] = {
+		["Updated"] = 1449023515,
+		["Name"] = "mythic assault",
+		["Id"] = 869608095,
+		["UpdateId"] = 3153363328,
+		["Contents"] = "Hero for transporter and crusher (3m in)\n\nGROUPS 1&2 ON BLUE\nGROUPS 3&4 ON ORANGE\n\nRing 1 - on pull\nRing 2 - transport\nRing 3 - Zygi uses for 2nd transport",
+	},
+}
+AngryAssign_State = {
+	["displayed"] = 1411426666,
+	["directionUp"] = false,
+	["locked"] = true,
+	["display"] = {
+		["y"] = 184.000061035156,
+		["x"] = 37.0000267028809,
+		["point"] = "LEFT",
+		["scale"] = 1,
+		["hidden"] = false,
+	},
+	["tree"] = {
+	},
+	["window"] = {
+	},
+}
+AngryAssign_Config = {
+}

@@ -1,0 +1,40 @@
+VER 3 0100000000000054 " " "INV_MISC_QUESTIONMARK"
+/cast water jet
+END
+VER 3 010000000000005A " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane barrage
+/cast [nochanneling] Arcane barrage
+END
+VER 3 0100000000000058 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane missiles
+/cast [nochanneling] Arcane Missiles
+END
+VER 3 0100000000000059 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/cast [nochanneling] Arcane Blast
+END
+VER 3 010000000000002F " " "INV_MISC_QUESTIONMARK"
+/cast freeze
+END
+VER 3 0100000000000067 "block" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast ice block
+END
+VER 3 0100000000000069 "invis" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast greater invisibility
+END
+VER 3 0100000000000068 "PC" "INV_MISC_QUESTIONMARK"
+#showtooltip Prismatic Crystal
+/cast Prismatic Crystal
+END
+VER 3 010000000000006A "trink" "INV_MISC_QUESTIONMARK"
+#showtooltip rune of power
+/use 13
+/use 14
+/cast rune of power
+END
+VER 3 0100000000000066 "ZGVMacro2" "0"
+/target The Spirit of Gnomeregan
+/run ZGV:MRM():CG(21,2)
+END

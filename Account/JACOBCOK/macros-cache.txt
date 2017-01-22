@@ -1,0 +1,94 @@
+VER 3 000000000000002D " STFU" "INV_PET_BATTLEPETTRAINING"
+___ 
+{o,o} 
+||)__) 
+-"-"- 
+O RLY? 
+END
+VER 3 0000000000000035 "art" "INV_MISC_QUESTIONMARK"
+#showtooltip Adventurer's Glory
+/use Jewel of Victory
+/use Adventurer's Glory
+/use Adventurer's Resounding Glory
+/use Selfless Glory
+/use Symbol of Victory
+END
+VER 3 0000000000000038 "barrel wq" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/script SetRaidTarget("mouseover",1)
+END
+VER 3 0000000000000037 "confirm buy" "INV_MISC_QUESTIONMARK"
+/click StaticPopup1Button1
+END
+VER 3 0000000000000027 "CWM" "INV_MISC_QUESTIONMARK"
+/cwm all
+END
+VER 3 000000000000001A "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Dispel Magic;  [@mouseover,exists,mod:ctrl] Purify; [@mouseover,exists,mod:shift] Dispel Magic
+END
+VER 3 000000000000002E "extra 2" "SPELL_SHADOW_ANTISHADOW"
+/click [target=mouseover,help,nodead][help][target=player] ExtraActionButton1
+END
+VER 3 000000000000002C "Extra Action But" "134211"
+/click ExtraActionButton1
+END
+VER 3 0000000000000034 "GR" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/script UIErrorsFrame:Hide()
+#showtooltip 
+/use big crate of salvage
+/use bag of salvaged goods
+/use crate of salvage
+/use Sack of Salvaged Goods
+/use big crate of salvage
+END
+VER 3 0000000000000036 "hide" "SPELL_MISC_PETHEAL"
+/tar Inconspicuous basket
+END
+VER 3 0000000000000021 "Hide Errors" "SPELL_NATURE_SLEEP"
+/script UIErrorsFrame:Hide();
+END
+VER 3 000000000000002A "kolento" "INV_MISC_QUESTIONMARK"
+/use autographed hearthstone card
+END
+VER 3 0000000000000020 "Mount" "Ability_Mount_RidingHorse"
+/run if not IsMounted() then local m,t,f="mount",{{},{}} for i=2,GetNumCompanions(m) do tinsert(t[bit.band(2,select(6,GetCompanionInfo(m,i)))==0 and 1 or 2],i) end f=IsFlyableArea() and 2 or 1 CallCompanion(m,t[f][random(#t[f])]) else Dismount() end
+END
+VER 3 000000000000001E "Mouseover" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] Rejuvenation
+END
+VER 3 0000000000000031 "pull" "255142"
+/pull 10
+END
+VER 3 0000000000000030 "ready?" "SPELL_SHADOW_CHARM"
+/readycheck
+END
+VER 3 000000000000002F "reset" "INV_MISC_NOTE_05"
+/script ResetChallengeMode()
+END
+VER 3 0000000000000032 "ROFL" "134299"
+/s  <:ROFL:ROFL:ROFL:LOL:ROFL:ROFL:ROFL> 
+/s  ............ _________/\_______ 
+/s  \\.......... L / o o o o o o o o\_\_ 
+/s  =======LOL===|| ROFLcopter ..\ 
+/s  //.......... L\_________________/ 
+/s .................... __/______\__ 
+END
+VER 3 0000000000000023 "Show" "Ability_CheapShot"
+/script UIErrorsFrame:Show();
+END
+VER 3 0000000000000033 "target" "INV_MISC_QUESTIONMARK"
+/tar ethereum jailor
+END
+VER 3 0000000000000024 "WM 1" "INV_MISC_QUESTIONMARK"
+/wm 1
+END
+VER 3 0000000000000025 "WM 2" "INV_MISC_QUESTIONMARK"
+/wm 2
+END
+VER 3 0000000000000026 "WM 3" "INV_MISC_QUESTIONMARK"
+/wm 3
+END
+VER 3 0000000000000018 "Zoom" "Ability_EyeOfTheOwl"
+/console cameradistancemaxfactor 2.6
+END

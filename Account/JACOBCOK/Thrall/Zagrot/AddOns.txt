@@ -1,0 +1,8 @@
+DBM-Core: disabled
+TidyPlates: disabled
+Loremaster: disabled
+Grail: disabled
+GarrisonMissionManager: disabled
+MasterPlan: disabled
+MikScrollingBattleText: disabled
+ShadowedUnitFrames: enabled

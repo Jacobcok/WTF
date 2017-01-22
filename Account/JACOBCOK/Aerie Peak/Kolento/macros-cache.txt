@@ -1,0 +1,26 @@
+VER 3 010000000000011E " " "INV_MISC_QUESTIONMARK"
+#showtooltip shield of the righteous
+/use 13
+/use 14
+/cast shield of the righteous
+END
+VER 3 0100000000000125 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] hand of freedom
+END
+VER 3 0100000000000122 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] hand of protection
+END
+VER 3 0100000000000123 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] holy prism
+END
+VER 3 0100000000000124 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] hand of sacrifice
+END
+VER 3 0100000000000127 "ZGVMacro2" "0"
+/target The Lich King
+/run ZGV:MRM()
+END

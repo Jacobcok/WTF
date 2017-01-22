@@ -1,0 +1,37 @@
+
+TellMeWhenDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["TextLayouts"] = {
+			["icon1"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+			["bar2"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+		},
+	},
+	["Version"] = 74003,
+	["profiles"] = {
+		["Zygi - Aerie Peak"] = {
+			["Version"] = 74003,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1MNYfqoTb1Uy",
+					["Point"] = {
+						["y"] = 121.500152587891,
+						["x"] = 174.500061035156,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

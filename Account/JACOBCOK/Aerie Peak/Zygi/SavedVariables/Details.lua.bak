@@ -1,0 +1,1185 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Zygi-Aerie Peak",
+	["last_day"] = "14",
+	["ignore_nicktag"] = false,
+	["combat_counter"] = 14,
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["dps"] = 0,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["hide_on_combat"] = false,
+			["max_emote_segments"] = 3,
+			["opened"] = 0,
+			["author"] = "Details! Team",
+			["show_icon"] = 5,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["pre_pot_tanks"] = false,
+			["mythic_1_4"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["auto_create"] = true,
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+	},
+	["savedbuffs"] = {
+	},
+	["last_instance_time"] = 0,
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["tabela_pets"] = {
+		["Creature-0-3134-1159-27808-94852-00001808BA"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804314, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808BA", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808BB"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804316, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808BB", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-000018085D"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804222, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-000018085D", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-000018089E"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804286, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-000018089E", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808F7"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804376, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808F7", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-0000180872"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804243, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-0000180872", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-000018086D"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804238, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-000018086D", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-0000180885"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804262, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-0000180885", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808A6"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804295, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808A6", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808D0"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804337, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808D0", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-000018091C"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804413, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-000018091C", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808C9"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804330, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808C9", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808FC"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804381, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808FC", -- [7]
+		},
+		["Creature-0-3134-1159-27808-94852-00001808E2"] = {
+			"Zygi", -- [1]
+			"Player-1426-077CE5D0", -- [2]
+			1297, -- [3]
+			1452804354, -- [4]
+			false, -- [5]
+			"Fey Moonwing", -- [6]
+			"Creature-0-3134-1159-27808-94852-00001808E2", -- [7]
+		},
+	},
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 12764479,
+								["Raider's Training Dummy"] = 2795467,
+								["Dungeoneer's Training Dummy"] = 1522082,
+							},
+							["pets"] = {
+								"Fey Moonwing <Zygi>", -- [1]
+							},
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["total_without_pet"] = 16180433.005875,
+							["spec"] = 102,
+							["colocacao"] = 1,
+							["dps_started"] = true,
+							["total"] = 17082028.005875,
+							["friendlyfire_total"] = 0,
+							["timeMachine"] = 1,
+							["nome"] = "Zygi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 734125,
+										["g_amt"] = 0,
+										["n_max"] = 53471,
+										["targets"] = {
+											["Training Dummy"] = 1959766,
+										},
+										["m_dmg"] = 175964,
+										["n_dmg"] = 1049677,
+										["n_min"] = 27325,
+										["g_dmg"] = 0,
+										["counter"] = 35,
+										["total"] = 1959766,
+										["c_max"] = 114630,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 3,
+										["a_amt"] = 0,
+										["m_amt"] = 11,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 26,
+										["r_amt"] = 0,
+										["c_min"] = 67361,
+									},
+									[164812] = {
+										["c_amt"] = 25,
+										["b_amt"] = 0,
+										["c_dmg"] = 343493,
+										["g_amt"] = 0,
+										["n_max"] = 20722,
+										["targets"] = {
+											["Training Dummy"] = 1049605,
+										},
+										["m_dmg"] = 54868,
+										["n_dmg"] = 651244,
+										["n_min"] = 2680,
+										["g_dmg"] = 0,
+										["counter"] = 120,
+										["total"] = 1049605,
+										["c_max"] = 36634,
+										["id"] = 164812,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 2,
+										["a_amt"] = 0,
+										["m_amt"] = 23,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 95,
+										["r_amt"] = 0,
+										["c_min"] = 6249,
+									},
+									[78674] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 680471,
+										["g_amt"] = 0,
+										["n_max"] = 191732,
+										["targets"] = {
+											["Training Dummy"] = 2230838,
+										},
+										["m_dmg"] = 224405,
+										["n_dmg"] = 1325962,
+										["n_min"] = 50387,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 2230838,
+										["c_max"] = 409677,
+										["id"] = 78674,
+										["r_dmg"] = 0,
+										["spellschool"] = 72,
+										["a_dmg"] = 0,
+										["m_crit"] = 2,
+										["a_amt"] = 0,
+										["m_amt"] = 8,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["r_amt"] = 0,
+										["c_min"] = 130481,
+									},
+									[50288] = {
+										["c_amt"] = 95,
+										["b_amt"] = 0,
+										["c_dmg"] = 1325586,
+										["g_amt"] = 0,
+										["n_max"] = 19358,
+										["targets"] = {
+											["Training Dummy"] = 1518994,
+											["Raider's Training Dummy"] = 1481308,
+											["Dungeoneer's Training Dummy"] = 1499091,
+										},
+										["m_dmg"] = 321255,
+										["n_dmg"] = 2852552,
+										["n_min"] = 2887,
+										["g_dmg"] = 0,
+										["counter"] = 528,
+										["total"] = 4499393,
+										["c_max"] = 38644,
+										["id"] = 50288,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 29,
+										["a_amt"] = 0,
+										["m_amt"] = 123,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 433,
+										["r_amt"] = 0,
+										["c_min"] = 5809,
+									},
+									[164815] = {
+										["c_amt"] = 42,
+										["b_amt"] = 0,
+										["c_dmg"] = 522003,
+										["g_amt"] = 0,
+										["n_max"] = 19689,
+										["targets"] = {
+											["Training Dummy"] = 1004626,
+											["Raider's Training Dummy"] = 789693,
+										},
+										["m_dmg"] = 99863,
+										["n_dmg"] = 1172453,
+										["n_min"] = 1909,
+										["g_dmg"] = 0,
+										["counter"] = 216,
+										["total"] = 1794319,
+										["c_max"] = 48174,
+										["id"] = 164815,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 8,
+										["a_amt"] = 0,
+										["m_amt"] = 37,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 174,
+										["r_amt"] = 0,
+										["c_min"] = 5681,
+									},
+									[187625] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 508586,
+										["targets"] = {
+											["Training Dummy"] = 508586,
+											["Raider's Training Dummy"] = 508585,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1017171,
+										["n_min"] = 508585,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1017171,
+										["c_max"] = 0,
+										["id"] = 187625,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[2912] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 1279359,
+										["g_amt"] = 0,
+										["n_max"] = 188771,
+										["targets"] = {
+											["Training Dummy"] = 3629341,
+										},
+										["m_dmg"] = 287503,
+										["n_dmg"] = 2062479,
+										["n_min"] = 43930,
+										["g_dmg"] = 0,
+										["counter"] = 32,
+										["total"] = 3629341,
+										["c_max"] = 377543,
+										["id"] = 2912,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 3,
+										["a_amt"] = 0,
+										["m_amt"] = 10,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 25,
+										["r_amt"] = 0,
+										["c_min"] = 91362,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = true,
+							["serial"] = "Player-1426-077CE5D0",
+							["last_dps"] = 85433.2069952638,
+							["custom"] = 0,
+							["last_event"] = 1452804421,
+							["damage_taken"] = 0.005875,
+							["start_time"] = 1452804219,
+							["delay"] = 1452804421,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Training Dummy"] = 862723,
+								["Raider's Training Dummy"] = 15881,
+								["Dungeoneer's Training Dummy"] = 22991,
+							},
+							["serial"] = "Creature-0-3134-1159-27808-94852-000018085D",
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["total_without_pet"] = 901595.004548,
+							["dps_started"] = false,
+							["total"] = 901595.004548,
+							["classe"] = "PET",
+							["ownerName"] = "Zygi",
+							["nome"] = "Fey Moonwing <Zygi>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[188046] = {
+										["c_amt"] = 38,
+										["b_amt"] = 0,
+										["c_dmg"] = 333140,
+										["g_amt"] = 0,
+										["n_max"] = 7164,
+										["targets"] = {
+											["Training Dummy"] = 862723,
+											["Raider's Training Dummy"] = 15881,
+											["Dungeoneer's Training Dummy"] = 22991,
+										},
+										["m_dmg"] = 62803,
+										["n_dmg"] = 505652,
+										["n_min"] = 4071,
+										["g_dmg"] = 0,
+										["counter"] = 156,
+										["total"] = 901595,
+										["c_max"] = 14328,
+										["id"] = 188046,
+										["r_dmg"] = 0,
+										["spellschool"] = 72,
+										["a_dmg"] = 0,
+										["m_crit"] = 10,
+										["a_amt"] = 0,
+										["m_amt"] = 38,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 118,
+										["r_amt"] = 0,
+										["c_min"] = 8143,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1452804419,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004548,
+							["start_time"] = 1452804226,
+							["delay"] = 0,
+							["last_event"] = 1452804411,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[164812] = {
+										["uptime"] = 198,
+										["activedamt"] = 1,
+										["id"] = 164812,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[164815] = {
+										["uptime"] = 180,
+										["activedamt"] = 0,
+										["id"] = 164815,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2096,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[137452] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 137452,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[24858] = {
+										["uptime"] = 181,
+										["activedamt"] = 1,
+										["id"] = 24858,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[164547] = {
+										["uptime"] = 159,
+										["activedamt"] = 12,
+										["id"] = 164547,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[171743] = {
+										["uptime"] = 31,
+										["activedamt"] = 10,
+										["id"] = 171743,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[24907] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 24907,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[783] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 783,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[165961] = {
+										["actived_at"] = 1452804416,
+										["uptime"] = 2,
+										["activedamt"] = 2,
+										["id"] = 165961,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156426] = {
+										["uptime"] = 25,
+										["activedamt"] = 1,
+										["id"] = 156426,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[187616] = {
+										["uptime"] = 15,
+										["activedamt"] = 1,
+										["id"] = 187616,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[112071] = {
+										["uptime"] = 15,
+										["activedamt"] = 1,
+										["id"] = 112071,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[184989] = {
+										["uptime"] = 187,
+										["activedamt"] = 2,
+										["id"] = 184989,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[171744] = {
+										["uptime"] = 33,
+										["activedamt"] = 9,
+										["id"] = 171744,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[102560] = {
+										["uptime"] = 28,
+										["activedamt"] = 1,
+										["id"] = 102560,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[164545] = {
+										["uptime"] = 130,
+										["activedamt"] = 8,
+										["id"] = 164545,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[186400] = {
+										["uptime"] = 200,
+										["activedamt"] = 1,
+										["id"] = 186400,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[183924] = {
+										["uptime"] = 40,
+										["activedamt"] = 2,
+										["id"] = 183924,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[768] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 768,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[188086] = {
+										["uptime"] = 195,
+										["activedamt"] = 2,
+										["id"] = 188086,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[180750] = {
+										["uptime"] = 200,
+										["activedamt"] = 1,
+										["id"] = 180750,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[1126] = {
+										["uptime"] = 200,
+										["activedamt"] = 1,
+										["id"] = 1126,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[93400] = {
+										["uptime"] = 42,
+										["activedamt"] = 16,
+										["id"] = 93400,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156079] = {
+										["uptime"] = 200,
+										["activedamt"] = 1,
+										["id"] = 156079,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[175457] = {
+										["uptime"] = 200,
+										["activedamt"] = 1,
+										["id"] = 175457,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 378,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 102,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 35,
+								[2912] = 32,
+								[783] = 2,
+								[187611] = 1,
+								[112071] = 1,
+								[102280] = 1,
+								[8921] = 5,
+								[93402] = 7,
+								[78674] = 21,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1452804419,
+							["nome"] = "Zygi",
+							["pets"] = {
+								"Fey Moonwing <Zygi>", -- [1]
+							},
+							["serial"] = "Player-1426-077CE5D0",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Zygi",
+							["nome"] = "Fey Moonwing <Zygi>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[188046] = 156,
+							},
+							["serial"] = "Creature-0-3134-1159-27808-94852-000018085D",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zygi"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["combat_counter"] = 14,
+				["playing_solo"] = true,
+				["totals"] = {
+					17082027.990043, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["Training Dummy - Damage Taken"] = 12764479,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Zygi"] = 17068524.005875,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 11872.071,
+				["combat_id"] = 1,
+				["instance_type"] = "party",
+				["frags"] = {
+				},
+				["data_fim"] = "15:47:00",
+				["data_inicio"] = "15:43:40",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					16180433, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 11672.125,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [1]
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1454099224,
+		["last_version"] = 7,
+	},
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 1,
+	["savedStyles"] = {
+	},
+	["last_version"] = "v4.1.6",
+	["cached_talents"] = {
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["start_time"] = 0,
+		["data_inicio"] = 0,
+		["combat_counter"] = 13,
+		["last_events_tables"] = {
+		},
+		["raid_roster"] = {
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["CombatSkillCache"] = {
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
+		["__call"] = {
+		},
+	},
+	["last_realversion"] = 78,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = true,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[2] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -85.4999084472656,
+					["x"] = 736.499755859375,
+					["w"] = 240.999954223633,
+					["h"] = 138.999984741211,
+				},
+				["solo"] = {
+					["y"] = 156.000122070313,
+					["x"] = 163,
+					["w"] = 300.000061035156,
+					["h"] = 300,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = true,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				6, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[4] = 1,
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -221.999938964844,
+					["x"] = 736.499755859375,
+					["w"] = 241.000091552734,
+					["h"] = 94.0000457763672,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
+	["cached_specs"] = {
+		["Player-1426-077CE5D0"] = 102,
+	},
+}

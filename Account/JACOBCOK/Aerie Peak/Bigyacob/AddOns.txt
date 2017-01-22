@@ -1,0 +1,8 @@
+autoturnin: enabled
+NugComboBar: disabled
+XRoll: disabled
+MikScrollingBattleText: enabled
+DBM-Core: enabled
+BigWigs: disabled
+WeakAuras: enabled
+Gatherer: disabled

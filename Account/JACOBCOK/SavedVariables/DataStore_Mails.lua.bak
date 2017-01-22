@@ -1,0 +1,14 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Aerie Peak.Zygi"] = {
+				["lastUpdate"] = 1449019522,
+				["lastVisitDate"] = "2015/12/01 20:25",
+			},
+		},
+	},
+}

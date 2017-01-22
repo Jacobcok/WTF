@@ -1,0 +1,27 @@
+VER 3 0100000000000041 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast poisoned ammo
+END
+VER 3 0100000000000042 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast frozen ammo
+END
+VER 3 0100000000000040 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast incendiary ammo
+END
+VER 3 0100000000000044 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip rapid fire
+/use 13
+/use 14
+/cast rapid fire
+END
+VER 3 0100000000000043 "MD" "INV_MISC_QUESTIONMARK"
+/tar dog
+/cast misdirection
+/targetlasttarget
+END
+VER 3 010000000000003F "ZGVMacro3" "0"
+/target Windroc
+/run ZGV:MRM():CG(81,3)
+END

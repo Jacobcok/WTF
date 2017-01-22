@@ -1,0 +1,135 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Aerie Peak.Zygi"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:124261:0:0:0:0:0:0:0:100:102:4:5:1:566:531|h[Oathclaw Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:124212:5319:0:0:0:0:0:0:100:102:4:5:1:566:529|h[Vial of Immiscible Liquid]|h|r", -- [2]
+					"|cffa335ee|Hitem:124270:0:0:0:0:0:0:0:100:102:4:6:2:562:567:531|h[Rangefinder's Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:124246:0:0:0:0:0:0:0:100:102:4:5:1:566:531|h[Oathclaw Vestment]|h|r", -- [5]
+					"|cffa335ee|Hitem:124276:0:0:0:0:0:0:0:100:102:4:5:1:566:529|h[Waistwrap of Banishment]|h|r", -- [6]
+					"|cffa335ee|Hitem:124267:0:0:0:0:0:0:0:100:102:4:5:2:42:566:531|h[Oathclaw Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:124251:0:0:0:0:0:0:0:100:102:4:5:2:561:566:531|h[Oppressor's Merciless Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:124280:0:0:0:0:0:0:0:100:102:4:5:1:566:529|h[Manacles of the Multitudes]|h|r", -- [9]
+					"|cffa335ee|Hitem:124255:0:0:0:0:0:0:0:100:102:4:5:2:561:566:531|h[Oathclaw Gauntlets]|h|r", -- [10]
+					"|cffa335ee|Hitem:124190:5326:5348:0:0:0:0:0:100:102:4:5:2:564:566:529|h[Sootstained Felsworn Signet]|h|r", -- [11]
+					"|cffff8000|Hitem:124635:5326:0:0:0:0:0:0:100:102:0:11:2:621:649|h[Nithramus, the All-Seer]|h|r", -- [12]
+					"|cffa335ee|Hitem:124514:0:0:0:0:0:0:0:100:102:4:5:1:566:531|h[Seed of Creation]|h|r", -- [13]
+					"|cffa335ee|Hitem:124228:0:0:0:0:0:0:0:100:102:4:5:1:566:529|h[Desecrated Shadowmoon Insignia]|h|r", -- [14]
+					"|cffa335ee|Hitem:124137:5312:0:0:0:0:0:0:100:102:4:5:1:566:529|h[Shawl of Sanguinary Ritual]|h|r", -- [15]
+					"|cffa335ee|Hitem:124382:5384:0:0:0:0:0:0:100:102:4:5:3:561:42:566:531|h[Edict of Argus]|h|r", -- [16]
+				},
+				["averageItemLvl"] = 722.933349609375,
+				["overallAIL"] = 731.266662597656,
+				["lastUpdate"] = 1449019685,
+			},
+		},
+		["Guilds"] = {
+			["Default.Aerie Peak.Convert to Raid Sha"] = {
+				["Members"] = {
+					["Pointnclick"] = {
+						["averageItemLvl"] = 682,
+					},
+					["Dricaud"] = {
+						["averageItemLvl"] = 682,
+					},
+					["Bruzlee"] = {
+						["averageItemLvl"] = 649,
+					},
+					["Liticia"] = {
+						["averageItemLvl"] = 692,
+					},
+					["Rhoswyne"] = {
+						["averageItemLvl"] = 698,
+					},
+					["Hachiro"] = {
+						["averageItemLvl"] = 668,
+					},
+					["Lilofire"] = {
+						["averageItemLvl"] = 713,
+					},
+					["Fromdarkness"] = {
+						["averageItemLvl"] = 540,
+					},
+					["Sgtbuckshot"] = {
+						["averageItemLvl"] = 680,
+					},
+					["Nyxa"] = {
+						["averageItemLvl"] = 705,
+					},
+					["Solknight"] = {
+						["averageItemLvl"] = 664,
+					},
+					["Jackrackhám"] = {
+						["averageItemLvl"] = 593,
+					},
+					["Ashroviel"] = {
+						["averageItemLvl"] = 695,
+					},
+					["Drunkenhêalz"] = {
+						["averageItemLvl"] = 670,
+					},
+					["Zygi"] = {
+						["averageItemLvl"] = 726,
+					},
+					["Relyck"] = {
+						["averageItemLvl"] = 627,
+					},
+					["Getsmoked"] = {
+						["averageItemLvl"] = 645,
+					},
+					["Liloaf"] = {
+						["averageItemLvl"] = 654,
+					},
+					["Peremorè"] = {
+						["averageItemLvl"] = 692,
+					},
+					["Peremore"] = {
+						["averageItemLvl"] = 657,
+					},
+					["Apöphis"] = {
+						["averageItemLvl"] = 689,
+					},
+					["Allârick"] = {
+						["averageItemLvl"] = 673,
+					},
+					["Lunami"] = {
+						["averageItemLvl"] = 704,
+					},
+					["Tidist"] = {
+						["averageItemLvl"] = 660,
+					},
+					["Lielcor"] = {
+						["averageItemLvl"] = 672,
+					},
+					["Kerregor"] = {
+						["averageItemLvl"] = 661,
+					},
+					["Rylahko"] = {
+						["averageItemLvl"] = 525,
+					},
+					["Oafster"] = {
+						["averageItemLvl"] = 64,
+					},
+					["Nisara"] = {
+						["averageItemLvl"] = 730,
+					},
+					["Bigcràwfish"] = {
+						["averageItemLvl"] = 542,
+					},
+					["Luckstone"] = {
+						["averageItemLvl"] = 70,
+					},
+					["Xandara"] = {
+						["averageItemLvl"] = 671,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,9 @@
+VER 3 01000000000002E0 "CD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast curse of the dreadblades
+/use 12
+END
+VER 3 01000000000002DF "tricks" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] Tricks of the Trade
+END

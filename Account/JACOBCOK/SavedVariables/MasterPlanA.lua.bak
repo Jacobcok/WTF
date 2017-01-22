@@ -1,0 +1,28 @@
+
+MasterPlanAG = {
+	["Aerie Peak"] = {
+		["Raideon"] = {
+			["faction"] = "Alliance",
+			["class"] = "MAGE",
+		},
+		["Bigyacob"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
+		},
+		["Human"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Alliance",
+		},
+		["Zygi"] = {
+			["faction"] = "Alliance",
+			["curOil"] = 22715,
+			["class"] = "DRUID",
+			["curRes"] = 25,
+			["lastCacheTime"] = 1475023629,
+		},
+		["Lepok"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+	},
+}

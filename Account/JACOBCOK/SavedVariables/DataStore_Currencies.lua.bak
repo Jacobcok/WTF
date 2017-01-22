@@ -1,0 +1,98 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Currencies"] = {
+				"Warlords of Draenor|", -- [1]
+				"Apexis Crystal|Interface\\Icons\\inv_apexis_draenor", -- [2]
+				"Garrison Resources|Interface\\Icons\\inv_garrison_resource", -- [3]
+				"Oil|Interface\\Icons\\garrison_oil", -- [4]
+				"Seal of Inevitable Fate|Interface\\Icons\\achievement_battleground_templeofkotmogu_02_green", -- [5]
+				"Seal of Tempered Fate|Interface\\Icons\\ability_animusorbs", -- [6]
+				"Dungeon and Raid|", -- [7]
+				"Timewarped Badge|Interface\\Icons\\pvecurrency-justice", -- [8]
+				"Valor|Interface\\Icons\\pvecurrency-valor", -- [9]
+				"Miscellaneous|", -- [10]
+				"Ironpaw Token|Interface\\Icons\\inv_relics_idolofferocity", -- [11]
+				"Player vs. Player|", -- [12]
+				"Conquest Points|Interface\\Icons\\PVPCurrency-Conquest-Alliance", -- [13]
+				"Honor Points|Interface\\Icons\\PVPCurrency-Honor-Alliance", -- [14]
+				"Mists of Pandaria|", -- [15]
+				"Lesser Charm of Good Fortune|Interface\\Icons\\inv_misc_coin_18", -- [16]
+				"Timeless Coin|Interface\\Icons\\timelesscoin", -- [17]
+			},
+			["CurrencyTextRev"] = {
+				["Ironpaw Token"] = 11,
+				["Valor"] = 9,
+				["Dungeon and Raid"] = 7,
+				["Oil"] = 4,
+				["Mists of Pandaria"] = 15,
+				["Player vs. Player"] = 12,
+				["Timewarped Badge"] = 8,
+				["Honor Points"] = 14,
+				["Miscellaneous"] = 10,
+				["Timeless Coin"] = 17,
+				["Apexis Crystal"] = 2,
+				["Lesser Charm of Good Fortune"] = 16,
+				["Seal of Inevitable Fate"] = 5,
+				["Conquest Points"] = 13,
+				["Seal of Tempered Fate"] = 6,
+				["Warlords of Draenor"] = 1,
+				["Garrison Resources"] = 3,
+			},
+		},
+		["Characters"] = {
+			["Default.Aerie Peak.Zygi"] = {
+				["Currencies"] = {
+					3, -- [1]
+					3085444, -- [2]
+					1185158, -- [3]
+					4245128, -- [4]
+					778, -- [5]
+					140, -- [6]
+					15, -- [7]
+					85776, -- [8]
+					25618, -- [9]
+					21, -- [10]
+					150, -- [11]
+					25, -- [12]
+					26, -- [13]
+					7068, -- [14]
+					31, -- [15]
+					3744, -- [16]
+					898722, -- [17]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					57, -- [13]
+					250, -- [14]
+					139, -- [15]
+				},
+				["lastUpdate"] = 1449019693,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[396] = "0-0-10-3000",
+					[390] = "0-0-4700-0",
+					[823] = "24105-0-0-0",
+					[392] = "55-0-0-4000",
+					[994] = "1-0-0-20",
+					[824] = "9259-0-0-10000",
+				},
+			},
+		},
+	},
+}

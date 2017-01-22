@@ -1,0 +1,40 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Aerie Peak.Zygi"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-1426-077CE5D0:158765:185|h[Cooking]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 700,
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 2,
+					},
+					["Alchemy"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-1426-077CE5D0:156606:171|h[Alchemy]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 700,
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-1426-077CE5D0:158741:129|h[First Aid]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 206,
+					},
+					["Herbalism"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 700,
+					},
+				},
+				["Prof2"] = "Herbalism",
+				["lastUpdate"] = 1449019527,
+				["Prof1"] = "Alchemy",
+			},
+		},
+	},
+}

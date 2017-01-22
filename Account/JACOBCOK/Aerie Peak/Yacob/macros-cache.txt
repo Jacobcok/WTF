@@ -1,0 +1,80 @@
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast lightning bolt
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast chain lightning
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast unleash elements
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/startattack
+/cast Earth Shock
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/startattack
+/cast Flame Shock
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip  Searing Totem
+/cast [nopet:Primal Fire Elemental] Searing Totem
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Feral Spirit
+/use 10
+/cast feral spirit
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+/#showtooltip shamanistic rage
+/cast shamanistic rage
+/cast gifr of the naaru
+END
+VER 3 0100000000000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar fungal flesh
+/cast wind shear
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip magma totem
+/cast [nopet:Primal Fire Elemental] magma totem
+END
+VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip elemental mastery
+/use 13
+/use 14
+/cast elemental mastery
+END
+VER 3 0100000000000010 " Glider" "443393"
+/use 15
+END
+VER 3 0100000000000015 " iron maidens" "INV_MISC_QUESTIONMARK"
+#showtooltip wind shear
+/tar battle 
+/cast wind shear
+/targetlasttarget
+END
+VER 3 0100000000000018 " macro" "INV_MISC_QUESTIONMARK"
+/cast earth elemental totem
+/cast reinforce
+END
+VER 3 010000000000000F " Nitro " "133031"
+/use 6
+END
+VER 3 0100000000000019 "Soul Cap" "SPELL_FROST_ARCTICWINDS"
+/cancelaura spirt shift
+END
+VER 3 010000000000000E "trinks" "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast elemental mastery
+/cast ascendance
+/use 13
+/use 14
+END

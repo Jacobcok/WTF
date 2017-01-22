@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Aerie Peak.Zygi"] = {
+				["guildName"] = "Convert to Raid Sha",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.Aerie Peak.Convert to Raid Sha"] = {
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}
