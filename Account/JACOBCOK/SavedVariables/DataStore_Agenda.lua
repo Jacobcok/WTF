@@ -27,11 +27,11 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-01-24",
+			["NextWeeklyReset"] = "2017-01-31",
 		},
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1485035206,
+				["lastUpdate"] = 1485358649,
 			},
 			["Default.Aerie Peak.Twodrop"] = {
 				["lastUpdate"] = 1472616214,
@@ -96,16 +96,11 @@ DataStore_AgendaDB = {
 				["Contacts"] = {
 					["Krelumian"] = {
 						["note"] = "",
-						["level"] = 110,
 						["class"] = "Druid",
+						["level"] = 110,
 					},
 				},
-				["DungeonIDs"] = {
-					["Court of Stars Mythic|276110294"] = "247829|1485022172|0|0",
-					["The Nighthold Normal|276164416"] = "247829|1485022172|0|1",
-					["The Arcway Mythic|276106872"] = "247829|1485022172|0|0",
-				},
-				["lastUpdate"] = 1485022172,
+				["lastUpdate"] = 1485271853,
 			},
 			["Default.Aerie Peak.Kolento"] = {
 				["lastUpdate"] = 1472616143,
@@ -133,13 +128,12 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["The Nighthold Normal|275820601"] = "162233|1485107770|0|1",
-					["Eye of Azshara Mythic|276255649"] = "162233|1485107770|0|0",
-					["The Nighthold Heroic|276043807"] = "162233|1485107770|0|1",
-					["Court of Stars Mythic|655691903"] = "162233|1485107770|0|0",
-					["Darkheart Thicket Mythic|655898218"] = "162233|1485107770|0|0",
+					["The Arcway Mythic|276529126"] = "508639|1485366160|0|0",
+					["The Nighthold Heroic|276573664"] = "508639|1485366160|0|1",
+					["Court of Stars Mythic|276523852"] = "508639|1485366160|0|0",
+					["Return to Karazhan Mythic|276596494"] = "508639|1485366160|0|0",
 				},
-				["lastUpdate"] = 1485107770,
+				["lastUpdate"] = 1485366160,
 			},
 			["Default.Aerie Peak.Yacob"] = {
 				["lastUpdate"] = 1483595961,

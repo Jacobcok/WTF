@@ -12,15 +12,6 @@ MSBTProfiles_SavedVars = {
 			["enableBlizzardHealing"] = true,
 			["normalFontName"] = "2002",
 			["scrollAreas"] = {
-				["Incoming"] = {
-					["stickyDirection"] = "Up",
-					["offsetX"] = 393,
-					["stickyBehavior"] = "Normal",
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = -139,
-					["skillIconsDisabled"] = true,
-					["animationStyle"] = "Straight",
-				},
 				["Outgoing"] = {
 					["direction"] = "Up",
 					["offsetX"] = 274,
@@ -29,12 +20,21 @@ MSBTProfiles_SavedVars = {
 					["animationStyle"] = "Straight",
 					["disabled"] = true,
 				},
+				["Static"] = {
+					["disabled"] = true,
+					["skillIconsDisabled"] = true,
+				},
 				["Notification"] = {
 					["disabled"] = true,
 					["skillIconsDisabled"] = true,
 				},
-				["Static"] = {
-					["disabled"] = true,
+				["Incoming"] = {
+					["stickyDirection"] = "Up",
+					["offsetX"] = 393,
+					["behavior"] = "MSBT_NORMAL",
+					["stickyBehavior"] = "Normal",
+					["offsetY"] = -139,
+					["animationStyle"] = "Straight",
 					["skillIconsDisabled"] = true,
 				},
 			},
@@ -114,11 +114,11 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_HEAL"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_HEAL_CRIT"] = {
-					["disabled"] = true,
-				},
 				["INCOMING_MISS"] = {
 					["disabled"] = true,
+				},
+				["INCOMING_SPELL_DOT"] = {
+					["message"] = "-%a",
 				},
 				["PET_INCOMING_DAMAGE_CRIT"] = {
 					["disabled"] = true,
@@ -184,8 +184,8 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_ABSORB"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_DOT"] = {
-					["message"] = "-%a",
+				["PET_INCOMING_HEAL_CRIT"] = {
+					["disabled"] = true,
 				},
 				["PET_INCOMING_SPELL_DAMAGE_SHIELD"] = {
 					["disabled"] = true,

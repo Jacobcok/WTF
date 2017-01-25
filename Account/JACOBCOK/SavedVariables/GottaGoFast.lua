@@ -12,7 +12,7 @@ GottaGoFastDB = {
 	["profiles"] = {
 		["Default"] = {
 			["TimerType"] = "Blizzard",
-			["Version"] = 26100,
+			["Version"] = 26200,
 		},
 	},
 }

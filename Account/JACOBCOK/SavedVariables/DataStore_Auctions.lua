@@ -62,8 +62,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2016/10/29 16:17",
 			},
 			["Default.Aerie Peak.Zygi"] = {
-				["lastUpdate"] = 1484972326,
-				["lastVisitDate"] = "2017/01/20 23:18",
+				["lastUpdate"] = 1485309096,
+				["lastVisitDate"] = "2017/01/24 20:51",
 			},
 			["Default.Aerie Peak.Bigyacob"] = {
 				["lastUpdate"] = 1480476451,

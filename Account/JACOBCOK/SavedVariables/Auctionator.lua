@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["STARTING_DISCOUNT"] = 5,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["_500"] = 5,
-	["_10000"] = 200,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -86,11 +86,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 8,
 		},
 		["Quick Dawnlight"] = {
-			["mr"] = 32000000,
+			["mr"] = 29240000,
 			["cc"] = 3,
 			["id"] = "130220:0:0:0:0",
+			["H2262"] = 29240000,
 			["sc"] = 7,
-			["H2250"] = 32000000,
 		},
 		["Tome of the Tranquil Mind"] = {
 			["mr"] = 5640000,
@@ -121,11 +121,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 		},
 		["Azshari Salad"] = {
-			["mr"] = 974998,
-			["H2255"] = 974998,
-			["id"] = "133571:0:0:0:0",
-			["sc"] = 5,
+			["mr"] = 997945,
 			["cc"] = 0,
+			["id"] = "133571:0:0:0:0",
+			["H2262"] = 997945,
+			["sc"] = 5,
 		},
 		["Flask of the Seventh Demon"] = {
 			["mr"] = 7550000,
@@ -141,12 +141,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "133564:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Ancient Healing Potion"] = {
-			["mr"] = 444444,
-			["cc"] = 0,
-			["id"] = "127834:0:0:0:0",
-			["H2241"] = 444444,
-			["sc"] = 1,
+		["Felhide"] = {
+			["H2249"] = 6000000,
+			["cc"] = 7,
+			["id"] = "124116:0:0:0:0",
+			["sc"] = 6,
+			["mr"] = 6000000,
 		},
 		["Potion of Prolonged Power"] = {
 			["H2217"] = 354999,
@@ -162,19 +162,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2187"] = 77000,
 			["sc"] = 8,
 		},
-		["Masterful Shadowruby"] = {
-			["mr"] = 19999999,
-			["H2236"] = 19999999,
-			["id"] = "130222:0:0:0:0",
-			["cc"] = 3,
-			["sc"] = 6,
+		["Nightborne Delicacy Platter"] = {
+			["mr"] = 1070000,
+			["sc"] = 5,
+			["id"] = "133572:0:0:0:0",
+			["H2262"] = 1070000,
+			["cc"] = 0,
 		},
-		["Felhide"] = {
-			["H2249"] = 6000000,
-			["cc"] = 7,
-			["id"] = "124116:0:0:0:0",
-			["sc"] = 6,
-			["mr"] = 6000000,
+		["Ancient Healing Potion"] = {
+			["mr"] = 444444,
+			["cc"] = 0,
+			["id"] = "127834:0:0:0:0",
+			["H2241"] = 444444,
+			["sc"] = 1,
 		},
 		["Fishbrul Special"] = {
 			["mr"] = 498000,
@@ -182,6 +182,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2206"] = 498000,
 			["id"] = "133574:0:0:0:0",
 			["sc"] = 5,
+		},
+		["Enchant Cloak - Binding of Intellect"] = {
+			["mr"] = 58000000,
+			["cc"] = 8,
+			["id"] = "128550:0:0:0:0",
+			["sc"] = 3,
+			["H2203"] = 58000000,
 		},
 		["The Hungry Magister"] = {
 			["mr"] = 486434,
@@ -197,13 +204,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 			["sc"] = 3,
 		},
-		["Enchant Cloak - Binding of Intellect"] = {
-			["mr"] = 58000000,
-			["cc"] = 8,
-			["id"] = "128550:0:0:0:0",
-			["sc"] = 3,
-			["H2203"] = 58000000,
-		},
 		["Defiled Augment Rune"] = {
 			["mr"] = 4299999,
 			["L2227"] = 4299999,
@@ -212,12 +212,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2227"] = 9900000,
 			["sc"] = 8,
 		},
-		["Nightborne Delicacy Platter"] = {
-			["mr"] = 759698,
-			["H2236"] = 759698,
-			["id"] = "133572:0:0:0:0",
-			["cc"] = 0,
-			["sc"] = 5,
+		["Masterful Shadowruby"] = {
+			["mr"] = 19999999,
+			["H2236"] = 19999999,
+			["id"] = "130222:0:0:0:0",
+			["cc"] = 3,
+			["sc"] = 6,
 		},
 		["Leybeque Ribs"] = {
 			["mr"] = 375114,
@@ -259,7 +259,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Zygi"] = {
 		["firstSeen"] = 1478285721,
-		["guid"] = "Player-1426-077CE5D0",
 		["firstVersion"] = "4.0.15",
 	},
 	["Yacob"] = {

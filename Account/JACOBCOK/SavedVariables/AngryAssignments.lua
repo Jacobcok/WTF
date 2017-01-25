@@ -1,11 +1,11 @@
 
 AngryAssign_Pages = {
-	[998904773] = {
-		["Updated"] = 1453871246,
-		["Name"] = "m council",
-		["Id"] = 998904773,
-		["UpdateId"] = 824185270,
-		["Contents"] = "Hero for Gurtogg @ 30%\n\nHealing CDs for Spinning:\n      1) Devo, Ring ~ 3 Seconds\n      2) Tranq\n      4) Revival",
+	[706516373] = {
+		["Updated"] = 1460514744,
+		["Name"] = "soc",
+		["Id"] = 706516373,
+		["UpdateId"] = 4030841661,
+		["Contents"] = "Ring on pull\n\nDom 1: Hero\nDom 2: Ring\nDom 3: big cd's\n\nStuns:\nEmila, Ron, Lac",
 	},
 	[869608095] = {
 		["Updated"] = 1452049345,
@@ -13,27 +13,6 @@ AngryAssign_Pages = {
 		["Id"] = 869608095,
 		["UpdateId"] = 3088977255,
 		["Contents"] = "Hero for transporter and crusher (3m in)\n\nGROUPS 1&2 ON BLUE\nGROUPS 3&4 ON ORANGE\n\nRing 1 - on pull\nRing 2 - transport\nRing 3 - Zygi uses for 2nd transport",
-	},
-	[2009432247] = {
-		["Updated"] = 1481992223,
-		["Name"] = "ursoc",
-		["Id"] = 2009432247,
-		["UpdateId"] = 2982644443,
-		["Contents"] = "3 DARKS DEVO\n4 TRANQ\n5 revival\n6 Hiyun Hymn\n7 Atri devo\n8 hiyun",
-	},
-	[341898876] = {
-		["Updated"] = 1452829674,
-		["Name"] = "adon",
-		["Id"] = 341898876,
-		["UpdateId"] = 3471552069,
-		["Contents"] = "Fizzl doesn't like walls of text",
-	},
-	[706516373] = {
-		["Updated"] = 1460514744,
-		["Name"] = "soc",
-		["Id"] = 706516373,
-		["UpdateId"] = 4030841661,
-		["Contents"] = "Ring on pull\n\nDom 1: Hero\nDom 2: Ring\nDom 3: big cd's\n\nStuns:\nEmila, Ron, Lac",
 	},
 	[288910475] = {
 		["Updated"] = 1449630951,
@@ -48,6 +27,27 @@ AngryAssign_Pages = {
 		["Id"] = 1411426666,
 		["UpdateId"] = 1928030448,
 		["Contents"] = "Runes:  Fizz  <--> Nis\n            Emila <--> Arril\n\nRoars: Adon, Shteve, Zygi\n\nHeal CDs for Pound: \n             1) Revival\n             2) Ring\n             3) Tranq\n             4) GET FUCKED",
+	},
+	[1616726438] = {
+		["Updated"] = 1452049356,
+		["Name"] = "m iron reaver",
+		["Id"] = 1616726438,
+		["UpdateId"] = 3577041845,
+		["Contents"] = "P1 – Bombs are priority\n\nP2 – Bomb priority: \n\nQuick Fuse > Burning Bomb (stop at 3-4 stacks) > Reactive Bombs (tanks, jump on them and use cd) > Reinforce Bombs (melee)\n\nHealing CDs (Pounding):\n\n1 - VE, Ascendence\n2 - Ring, Personals\n3 - Tide",
+	},
+	[2009432247] = {
+		["Updated"] = 1481992223,
+		["Name"] = "ursoc",
+		["Id"] = 2009432247,
+		["UpdateId"] = 2982644443,
+		["Contents"] = "3 DARKS DEVO\n4 TRANQ\n5 revival\n6 Hiyun Hymn\n7 Atri devo\n8 hiyun",
+	},
+	[341898876] = {
+		["Updated"] = 1452829674,
+		["Name"] = "adon",
+		["Id"] = 341898876,
+		["UpdateId"] = 3471552069,
+		["Contents"] = "Fizzl doesn't like walls of text",
 	},
 	[753844932] = {
 		["Updated"] = 1458093951,
@@ -84,13 +84,6 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3546501842,
 		["Contents"] = "PHASE 1: \nUB1: Tranquility 1\nUB2: Revival\n\n\nPHASE 2:\n\nShield - \n\nUB3: Divine Hymn\nHorn 1: Devo/Aura Mastery\n\nUB4: Tranquility 1\nShield 2: Personals\n\nUB5: Revival\nHorn 2: Tranquility 2",
 	},
-	[305494032] = {
-		["Updated"] = 1460512025,
-		["Name"] = "m fel lord",
-		["Id"] = 305494032,
-		["UpdateId"] = 2366267704,
-		["Contents"] = "Fissure soak groups (and cleaves):\n1: Agur, Bella,  Emila, Arril\n2: Aladdin, Zygi, Scotchz, Shteve\n3: Fizz, Roniin, Sanc, Osh (no cleave)\n4: same as 1 (no cleave)\n5: same as 2 (no cleave)",
-	},
 	[497904207] = {
 		["Updated"] = 1457492300,
 		["Name"] = "m xhul",
@@ -98,19 +91,26 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1798851305,
 		["Contents"] = "Chain/Void Surge Bait: Bella, Nis & Arril\nBlack Hole Soak - Emila, Vuro, Fizz, Sanc, Aladdin",
 	},
+	[305494032] = {
+		["Updated"] = 1460512025,
+		["Name"] = "m fel lord",
+		["Id"] = 305494032,
+		["UpdateId"] = 2366267704,
+		["Contents"] = "Fissure soak groups (and cleaves):\n1: Agur, Bella,  Emila, Arril\n2: Aladdin, Zygi, Scotchz, Shteve\n3: Fizz, Roniin, Sanc, Osh (no cleave)\n4: same as 1 (no cleave)\n5: same as 2 (no cleave)",
+	},
+	[998904773] = {
+		["Updated"] = 1453871246,
+		["Name"] = "m council",
+		["Id"] = 998904773,
+		["UpdateId"] = 824185270,
+		["Contents"] = "Hero for Gurtogg @ 30%\n\nHealing CDs for Spinning:\n      1) Devo, Ring ~ 3 Seconds\n      2) Tranq\n      4) Revival",
+	},
 	[908498691] = {
 		["Updated"] = 1453430209,
 		["Name"] = "soc ints",
 		["Id"] = 908498691,
 		["UpdateId"] = 1677368396,
 		["Contents"] = "",
-	},
-	[1616726438] = {
-		["Updated"] = 1452049356,
-		["Name"] = "m iron reaver",
-		["Id"] = 1616726438,
-		["UpdateId"] = 3577041845,
-		["Contents"] = "P1 – Bombs are priority\n\nP2 – Bomb priority: \n\nQuick Fuse > Burning Bomb (stop at 3-4 stacks) > Reactive Bombs (tanks, jump on them and use cd) > Reinforce Bombs (melee)\n\nHealing CDs (Pounding):\n\n1 - VE, Ascendence\n2 - Ring, Personals\n3 - Tide",
 	},
 }
 AngryAssign_Categories = {

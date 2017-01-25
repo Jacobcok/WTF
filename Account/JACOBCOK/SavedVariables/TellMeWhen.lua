@@ -70,7 +70,6 @@ TellMeWhenDB = {
 		},
 		["Human - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 82302,
 			["NumGroups"] = 6,
 			["Groups"] = {
 				{
@@ -362,10 +361,10 @@ TellMeWhenDB = {
 					["OnlyInCombat"] = true,
 				}, -- [6]
 			},
+			["Version"] = 82302,
 		},
 		["Adope - Thrall"] = {
 			["Locked"] = true,
-			["Version"] = 81209,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1NOWbcvXTvgh",
@@ -375,6 +374,10 @@ TellMeWhenDB = {
 						["x"] = -128.5,
 					},
 					["Name"] = "buffs",
+					["EnabledSpecs"] = {
+						[65] = false,
+						[70] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -390,10 +393,6 @@ TellMeWhenDB = {
 							["ShowTimerText"] = true,
 							["Type"] = "buff",
 						}, -- [2]
-					},
-					["EnabledSpecs"] = {
-						[65] = false,
-						[70] = false,
 					},
 				}, -- [1]
 				{
@@ -477,6 +476,7 @@ TellMeWhenDB = {
 				}, -- [2]
 			},
 			["NumGroups"] = 2,
+			["Version"] = 81209,
 		},
 		["Subreddit - Aerie Peak"] = {
 			["Locked"] = true,
@@ -1359,7 +1359,6 @@ TellMeWhenDB = {
 		},
 		["Bigyacob - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 82501,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1NnkEcSwnhao",
@@ -1622,6 +1621,9 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1Nv11dijhEWY",
 					["Columns"] = 1,
 					["Scale"] = 2.13333463668823,
+					["EnabledSpecs"] = {
+						[581] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1643,9 +1645,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["EnabledSpecs"] = {
-						[581] = false,
-					},
 					["Point"] = {
 						["y"] = -74.5311604476411,
 						["x"] = 79.6874048910733,
@@ -1653,6 +1652,7 @@ TellMeWhenDB = {
 				}, -- [5]
 			},
 			["NumGroups"] = 5,
+			["Version"] = 82501,
 		},
 		["Raideon - Aerie Peak"] = {
 			["Locked"] = true,
@@ -1665,6 +1665,10 @@ TellMeWhenDB = {
 						["x"] = 4.21059586515892,
 					},
 					["Scale"] = 1.9000039100647,
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1739,10 +1743,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[63] = false,
-						[62] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [1]
 				{
@@ -1754,6 +1754,11 @@ TellMeWhenDB = {
 						["relativePoint"] = "BOTTOMLEFT",
 					},
 					["Name"] = "frost",
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
+					["Columns"] = 1,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1772,11 +1777,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["Columns"] = 1,
-					["EnabledSpecs"] = {
-						[63] = false,
-						[62] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
@@ -1787,7 +1787,11 @@ TellMeWhenDB = {
 						["point"] = "TOPLEFT",
 						["relativePoint"] = "BOTTOMLEFT",
 					},
-					["Name"] = "frost",
+					["Columns"] = 2,
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1808,11 +1812,11 @@ TellMeWhenDB = {
 						{
 							["StackMin"] = 3,
 							["ShowTimer"] = true,
-							["Name"] = "Fingers of Frost; Fingers of Frost",
-							["Enabled"] = true,
-							["Type"] = "buff",
-							["StackMinEnabled"] = true,
 							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Fingers of Frost; Fingers of Frost",
+							["StackMinEnabled"] = true,
+							["Type"] = "buff",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1824,11 +1828,7 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 					},
-					["EnabledSpecs"] = {
-						[63] = false,
-						[62] = false,
-					},
-					["Columns"] = 2,
+					["Name"] = "frost",
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1MOlPDOXFo7s",
@@ -1836,6 +1836,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -116.499984741211,
 						["x"] = 0.4998779296875,
+					},
+					["EnabledSpecs"] = {
+						[64] = false,
+						[63] = false,
 					},
 					["Icons"] = {
 						{
@@ -1893,10 +1897,6 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 					},
-					["EnabledSpecs"] = {
-						[64] = false,
-						[63] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 				{
@@ -1905,6 +1905,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -77.5000610351563,
 						["x"] = -107.000091552734,
+					},
+					["EnabledSpecs"] = {
+						[64] = false,
+						[63] = false,
 					},
 					["Icons"] = {
 						{
@@ -1923,10 +1927,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [1]
-					},
-					["EnabledSpecs"] = {
-						[64] = false,
-						[63] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
@@ -2007,15 +2007,19 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[64] = false,
+					},
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
 							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Fire Blast",
 							["Enabled"] = true,
 							["RangeCheck"] = true,
+							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Fire Blast",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2031,11 +2035,11 @@ TellMeWhenDB = {
 						{
 							["ClockGCD"] = true,
 							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Phoenix's Flames",
 							["Enabled"] = true,
 							["RangeCheck"] = true,
+							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Phoenix's Flames",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2060,10 +2064,6 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [7]
 				{
@@ -2073,14 +2073,19 @@ TellMeWhenDB = {
 						["y"] = -80.4999542236328,
 						["x"] = -109.499969482422,
 					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[64] = false,
+					},
+					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Living Bomb",
 							["ClockGCD"] = true,
+							["Name"] = "Living Bomb",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2098,8 +2103,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Cinderstorm; Meteor",
 							["ClockGCD"] = true,
+							["Name"] = "Cinderstorm; Meteor",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2113,11 +2118,6 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 					},
-					["Rows"] = 2,
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [8]
 				{
@@ -2126,14 +2126,18 @@ TellMeWhenDB = {
 						["y"] = -80.5000305175781,
 						["x"] = 128.500183105469,
 					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[64] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "rune of power; Mirror Image",
 							["ClockGCD"] = true,
+							["Name"] = "rune of power; Mirror Image",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2187,10 +2191,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [9]
 			},
@@ -2208,7 +2208,6 @@ TellMeWhenDB = {
 		},
 		["Lepok - Aerie Peak"] = {
 			["Locked"] = true,
-			["NumGroups"] = 11,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdpVZYjk=q",
@@ -2548,22 +2547,23 @@ TellMeWhenDB = {
 						["point"] = "TOP",
 						["relativePoint"] = "TOP",
 					},
+					["Name"] = "meta group",
+					["Rows"] = 2,
 					["EnabledSpecs"] = {
 						[259] = false,
 						[261] = false,
 					},
-					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["GUID"] = "TMW:icon:1Nw=D7jaxpYB",
 							["ShowTimer"] = true,
 							["FakeHidden"] = true,
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Curse of the Dreadblades",
 							["DurationMax"] = 70,
 							["Type"] = "cooldown",
 							["DurationMin"] = 70,
-							["Name"] = "Curse of the Dreadblades",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2582,10 +2582,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
 							["FakeHidden"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Curse of the Dreadblades",
 							["GUID"] = "TMW:icon:1Nw=D7jeorX1",
 							["Type"] = "buff",
-							["Name"] = "Curse of the Dreadblades",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2643,10 +2643,10 @@ TellMeWhenDB = {
 							["BuffOrDebuff"] = "HARMFUL",
 							["Unit"] = "target",
 							["FakeHidden"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Ghostly Strike",
 							["GUID"] = "TMW:icon:1N=xS_wHAegk",
 							["Type"] = "buff",
-							["Name"] = "Ghostly Strike",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2663,11 +2663,11 @@ TellMeWhenDB = {
 							["DurationMaxEnabled"] = true,
 							["FakeHidden"] = true,
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Curse of the Dreadblades",
 							["DurationMax"] = 30,
 							["Type"] = "cooldown",
 							["DurationMin"] = 70,
-							["Name"] = "Curse of the Dreadblades",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -2697,10 +2697,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["DurationMaxEnabled"] = true,
 							["FakeHidden"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Adrenaline Rush",
 							["DurationMax"] = 30,
 							["Type"] = "cooldown",
-							["Name"] = "Adrenaline Rush",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -2731,7 +2731,7 @@ TellMeWhenDB = {
 							["BuffOrDebuff"] = "HARMFUL",
 							["Unit"] = "target",
 							["FakeHidden"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Ghostly Strike",
 							["Enabled"] = true,
 							["Events"] = {
 								{
@@ -2744,7 +2744,7 @@ TellMeWhenDB = {
 								["n"] = 1,
 							},
 							["Type"] = "buff",
-							["Name"] = "Ghostly Strike",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -2759,7 +2759,6 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Name"] = "meta group",
 				}, -- [5]
 				{
 					["GUID"] = "TMW:group:1NxItrWbMcp=",
@@ -2866,10 +2865,10 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["DurationMaxEnabled"] = true,
 							["ClockGCD"] = true,
-							["Name"] = "Kingsbane",
+							["ShowTimerText"] = true,
 							["DurationMax"] = 10,
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
+							["Name"] = "Kingsbane",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2925,6 +2924,16 @@ TellMeWhenDB = {
 				}, -- [7]
 				{
 					["GUID"] = "TMW:group:1Nz8Jy0hVIB2",
+					["Point"] = {
+						["y"] = -87,
+						["x"] = 141.5,
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
+					},
+					["EnabledSpecs"] = {
+						[260] = false,
+						[261] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2951,17 +2960,17 @@ TellMeWhenDB = {
 							["Unit"] = "target",
 							["FakeHidden"] = true,
 							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Vendetta",
 							["Enabled"] = true,
 							["Type"] = "buff",
 							["Events"] = {
 								{
 									["OnConditionConditions"] = {
 										{
-											["Operator"] = "~=",
+											["Unit"] = "target",
 											["Type"] = "DEBUFFDUR",
 											["Name"] = "Vendetta",
-											["Unit"] = "target",
+											["Operator"] = "~=",
 										}, -- [1]
 										["n"] = 1,
 									},
@@ -2971,7 +2980,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "Vendetta",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -2987,11 +2996,11 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["DurationMaxEnabled"] = true,
 							["FakeHidden"] = true,
-							["ShowTimerText"] = true,
+							["Name"] = "Vendetta",
 							["DurationMax"] = 10,
 							["Enabled"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Vendetta",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -3017,16 +3026,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Point"] = {
-						["y"] = -87,
-						["x"] = 141.5,
-						["point"] = "TOP",
-						["relativePoint"] = "TOP",
-					},
-					["EnabledSpecs"] = {
-						[260] = false,
-						[261] = false,
-					},
 				}, -- [8]
 				{
 					["GUID"] = "TMW:group:1O4D1F8qH0EA",
@@ -3046,9 +3045,9 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Symbols of Death",
-							["OnlyMine"] = true,
 							["ShowTimerText"] = true,
+							["OnlyMine"] = true,
+							["Name"] = "Symbols of Death",
 							["Type"] = "buff",
 							["States"] = {
 								{
@@ -3063,9 +3062,9 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Shadow Dance; Subterfuge",
-							["OnlyMine"] = true,
 							["ShowTimerText"] = true,
+							["OnlyMine"] = true,
+							["Name"] = "Shadow Dance; Subterfuge",
 							["Type"] = "buff",
 							["States"] = {
 								{
@@ -3261,10 +3260,10 @@ TellMeWhenDB = {
 				}, -- [11]
 			},
 			["Version"] = 82501,
+			["NumGroups"] = 11,
 		},
 		["Yacob - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 82302,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdjB0Sk35V",
@@ -3273,10 +3272,6 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -123.124687922934,
 						["x"] = -126.875025030289,
-					},
-					["EnabledSpecs"] = {
-						[264] = false,
-						[262] = false,
 					},
 					["Icons"] = {
 						{
@@ -3327,6 +3322,10 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [3]
+					},
+					["EnabledSpecs"] = {
+						[264] = false,
+						[262] = false,
 					},
 				}, -- [1]
 				{
@@ -3473,9 +3472,12 @@ TellMeWhenDB = {
 				}, -- [3]
 			},
 			["NumGroups"] = 3,
+			["Version"] = 82302,
 		},
 		["Zagrot - Aerie Peak"] = {
 			["Locked"] = true,
+			["NumGroups"] = 7,
+			["Version"] = 82405,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdkAMrKRre",
@@ -4186,8 +4188,6 @@ TellMeWhenDB = {
 					},
 				}, -- [8]
 			},
-			["NumGroups"] = 7,
-			["Version"] = 82405,
 		},
 		["Zagrut - Thrall"] = {
 			["Locked"] = true,

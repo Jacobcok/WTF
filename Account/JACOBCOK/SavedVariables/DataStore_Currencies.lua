@@ -61,9 +61,9 @@ DataStore_CurrenciesDB = {
 			["CurrencyTextRev"] = {
 				["Ancient Mana"] = 24,
 				["Ironpaw Token"] = 11,
-				["Seal of Broken Fate"] = 30,
-				["Nethershard"] = 22,
 				["Valor"] = 9,
+				["Nethershard"] = 22,
+				["Seal of Broken Fate"] = 30,
 				["Oil"] = 4,
 				["Dungeon and Raid"] = 7,
 				["Garrison Resources"] = 3,
@@ -76,15 +76,15 @@ DataStore_CurrenciesDB = {
 				["Timewarped Badge"] = 8,
 				["Unused"] = 26,
 				["Seal of Inevitable Fate"] = 5,
-				["Miscellaneous"] = 10,
 				["Conquest Points"] = 13,
-				["Apexis Crystal"] = 2,
-				["Timeworn Artifact"] = 27,
-				["Sightless Eye"] = 28,
 				["Warlords of Draenor"] = 1,
+				["Apexis Crystal"] = 2,
+				["Honor Points"] = 14,
+				["Sightless Eye"] = 28,
+				["Miscellaneous"] = 10,
 				["Timeless Coin"] = 17,
 				["Legion"] = 21,
-				["Honor Points"] = 14,
+				["Timeworn Artifact"] = 27,
 				["Seal of Tempered Fate"] = 6,
 				["Lesser Charm of Good Fortune"] = 16,
 				["Dingy Iron Coins"] = 29,
@@ -135,7 +135,7 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1485035207,
+				["lastUpdate"] = 1485358649,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
@@ -495,9 +495,9 @@ DataStore_CurrenciesDB = {
 			["Default.Aerie Peak.Raideon"] = {
 				["Currencies"] = {
 					43, -- [1]
-					12720, -- [2]
-					1074, -- [3]
-					1821614, -- [4]
+					24624, -- [2]
+					1202, -- [3]
+					2506158, -- [4]
 					188, -- [5]
 					34744, -- [6]
 					15, -- [7]
@@ -532,11 +532,11 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1485022172,
+				["lastUpdate"] = 1485271853,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[1220] = "14231-0-0-0",
+					[1220] = "19579-0-0-0",
 					[824] = "38-0-0-10000",
 					[1273] = "1-0-0-6",
 					[823] = "126513-0-0-0",
@@ -728,12 +728,12 @@ DataStore_CurrenciesDB = {
 			["Default.Aerie Peak.Zygi"] = {
 				["Currencies"] = {
 					43, -- [1]
-					32176, -- [2]
-					1330, -- [3]
-					1342, -- [4]
+					167344, -- [2]
+					1970, -- [3]
+					2622, -- [4]
 					52268, -- [5]
-					858542, -- [6]
-					316, -- [7]
+					2517806, -- [6]
+					60, -- [7]
 					52152, -- [8]
 					15, -- [9]
 					220176, -- [10]
@@ -770,13 +770,13 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1485107770,
+				["lastUpdate"] = 1485366160,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-10-3000",
-					[1220] = "6707-0-0-0",
+					[1220] = "19670-0-0-0",
 					[824] = "337-0-0-10000",
-					[1273] = "2-0-0-6",
+					[1273] = "0-0-0-6",
 					[823] = "86332-0-0-0",
 					[392] = "0-0-0-0",
 					[994] = "2-0-0-20",

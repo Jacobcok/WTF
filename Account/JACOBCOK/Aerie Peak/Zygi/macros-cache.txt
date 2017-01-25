@@ -34,6 +34,10 @@ VER 3 01000000000003F4 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] cenarion ward
 END
+VER 3 01000000000003F5 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] ironbark
+END
 VER 3 01000000000003F1 "healing touch" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /run if InCombatLockdown() then SetCVar("autounshift",0) end

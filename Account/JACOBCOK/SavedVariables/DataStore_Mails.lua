@@ -26,8 +26,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1485035236,
-				["lastVisitDate"] = "2017/01/21 16:47",
+				["lastUpdate"] = 1485358696,
+				["lastVisitDate"] = "2017/01/25 10:38",
 			},
 			["Default.Aerie Peak.Twodrop"] = {
 				["lastUpdate"] = 1483742008,
@@ -231,8 +231,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2016/08/30 00:07",
 			},
 			["Default.Aerie Peak.Raideon"] = {
-				["lastUpdate"] = 1485018361,
-				["lastVisitDate"] = "2017/01/21 12:06",
+				["lastUpdate"] = 1485271887,
+				["lastVisitDate"] = "2017/01/24 10:31",
 			},
 			["Default.Aerie Peak.Kolento"] = {
 				["lastUpdate"] = 1470757468,
@@ -267,8 +267,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2016/08/27 21:23",
 			},
 			["Default.Aerie Peak.Zygi"] = {
-				["lastUpdate"] = 1485035265,
-				["lastVisitDate"] = "2017/01/21 16:47",
+				["lastUpdate"] = 1485358725,
+				["lastVisitDate"] = "2017/01/25 10:38",
 			},
 		},
 	},

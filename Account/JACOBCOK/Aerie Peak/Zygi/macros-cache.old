@@ -20,39 +20,19 @@ VER 3 01000000000003E2 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 01000000000003E3 " " "INV_MISC_QUESTIONMARK"
 #showtooltip wild growth
-/use 13
-/use 14
 /cast [target=mouseover,help,nodead][help][target=player] wild growth
 END
 VER 3 01000000000003E4 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] regrowth
 END
-VER 3 01000000000003E5 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] nourish
-END
-VER 3 01000000000003E7 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast nature's swiftness
-/cast  [target=mouseover,help,nodead][help][target=player] regrowth
-END
 VER 3 01000000000003EA " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] nature's cure
 END
-VER 3 01000000000003F0 " " "SPELL_FROST_ARCTICWINDS"
-#showtooltip Spirit Shift
-/cancelaura Spirit Shift
-END
 VER 3 01000000000003F4 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] cenarion ward
-END
-VER 3 01000000000003ED "CD" "INV_MISC_QUESTIONMARK"
-/cast berserk
-/use 13
-/use 14
 END
 VER 3 01000000000003F1 "healing touch" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -61,8 +41,8 @@ VER 3 01000000000003F1 "healing touch" "INV_MISC_QUESTIONMARK"
 /console autounshift 1
 END
 VER 3 01000000000003F3 "innervate" "INV_MISC_QUESTIONMARK"
-#showtooltip innervate
-/cast [target=Osherio] innervate
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] innervate
 END
 VER 3 01000000000003F2 "KITTY" "INV_MISC_QUESTIONMARK"
 /cancelaura travel form
