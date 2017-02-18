@@ -10,11 +10,13 @@ DataStoreDB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -54,19 +56,20 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Aerie Peak.Twodrop"] = {
-				["guildName"] = "Convert to Raid Ordos",
 				["faction"] = "Alliance",
 			},
 			["Default.Aerie Peak.Subreddit"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Convert to Raid Nalak",
 			},
+			["Default.Turalyon.Zagrot"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Thrall.Zagrut"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Aerie Peak.Wurrior"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Convert to Raid Emeriss",
 			},
 			["Default.Thrall.Adope"] = {
 				["faction"] = "Horde",
@@ -95,22 +98,21 @@ DataStoreDB = {
 			},
 			["Default.Aerie Peak.Kolento"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Convert to Raid Ordos",
 			},
 			["Default.Thrall.Zagrat"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Aerie Peak.Bigyacob"] = {
-				["faction"] = "Alliance",
+			["Default.Aerie Peak.Yacub"] = {
 				["guildName"] = "Convert to Raid Sha",
+				["faction"] = "Alliance",
 			},
 			["Default.Aerie Peak.Human"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Convert to Raid Sha",
 			},
-			["Default.Aerie Peak.Zygi"] = {
-				["guildName"] = "Convert to Raid Sha",
+			["Default.Aerie Peak.Bigyacob"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Convert to Raid Sha",
 			},
 			["Default.Aerie Peak.Yacob"] = {
 				["faction"] = "Alliance",
@@ -128,6 +130,7 @@ DataStoreDB = {
 		},
 		["ShortToLongRealmNames"] = {
 			["Thrall"] = "Thrall",
+			["Turalyon"] = "Turalyon",
 			["Aegwynn"] = "Aegwynn",
 			["AeriePeak"] = "Aerie Peak",
 		},

@@ -7,11 +7,11 @@ GreenWall = {
 	["redact"] = true,
 	["roster"] = true,
 	["logsize"] = 2048,
-	["rank"] = false,
-	["ochat"] = false,
-	["achievements"] = true,
-	["version"] = "1.8.1",
 	["tag"] = true,
+	["version"] = "1.8.2",
+	["achievements"] = true,
+	["ochat"] = false,
+	["rank"] = false,
 }
 GreenWallLog = {
 }

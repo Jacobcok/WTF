@@ -1,8 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0111,
+	["LastVersion"] = 2.0115,
 	["LastPlayerFullName"] = "Zagrot-Aerie Peak",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }

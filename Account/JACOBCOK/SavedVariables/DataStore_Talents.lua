@@ -10,11 +10,13 @@ DataStore_TalentsDB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -27,7 +29,7 @@ DataStore_TalentsDB = {
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
 				["EquippedArtifact"] = "The Kingslayers",
-				["lastUpdate"] = 1485358649,
+				["lastUpdate"] = 1487307888,
 				["Specializations"] = {
 					7638, -- [1]
 					10965, -- [2]
@@ -98,7 +100,7 @@ DataStore_TalentsDB = {
 				["Specializations"] = {
 					[2] = 5461,
 				},
-				["lastUpdate"] = 1472616214,
+				["lastUpdate"] = 1486564097,
 				["GlyphList"] = {
 					11, -- [1]
 					5818, -- [2]
@@ -189,6 +191,13 @@ DataStore_TalentsDB = {
 					5461, -- [1]
 				},
 			},
+			["Default.Turalyon.Zagrot"] = {
+				["lastUpdate"] = 1486347652,
+				["Specializations"] = {
+					1365, -- [1]
+				},
+				["Class"] = "SHAMAN",
+			},
 			["Default.Thrall.Zagrut"] = {
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1471482911,
@@ -201,7 +210,7 @@ DataStore_TalentsDB = {
 			["Default.Aerie Peak.Wurrior"] = {
 				["ActiveTalents"] = 1,
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1472616166,
+				["lastUpdate"] = 1486564013,
 				["GlyphList"] = {
 					11, -- [1]
 					7962, -- [2]
@@ -381,7 +390,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Aerie Peak.Zagrot"] = {
 				["EquippedArtifact"] = "Fists of the Heavens",
-				["lastUpdate"] = 1484067808,
+				["lastUpdate"] = 1486563846,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 20,
 				["Artifacts"] = {
@@ -450,90 +459,12 @@ DataStore_TalentsDB = {
 					11771, -- [3]
 				},
 			},
-			["Default.Aerie Peak.Zygi"] = {
-				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
-				["lastUpdate"] = 1485366215,
+			["Default.Thrall.Zagrat"] = {
+				["lastUpdate"] = 1471999154,
 				["Specializations"] = {
-					9721, -- [1]
-					15226, -- [2]
-					7031, -- [3]
-					16362, -- [4]
+					[3] = 15,
 				},
-				["ArtifactKnowledge"] = 25,
-				["Artifacts"] = {
-					["Claws of Ursoc"] = {
-						["pointsRemaining"] = 173300,
-						["rank"] = 35,
-					},
-					["G'Hanir, the Mother Tree"] = {
-						["pointsRemaining"] = 673350,
-						["rank"] = 36,
-					},
-					["Fangs of Ashamane"] = {
-						["pointsRemaining"] = 26418,
-						["rank"] = 27,
-					},
-					["Scythe of Elune"] = {
-						["pointsRemaining"] = 123770,
-						["rank"] = 35,
-					},
-				},
-				["ActiveTalents"] = 1,
-				["GlyphList"] = {
-					11, -- [1]
-					17882, -- [2]
-					10826, -- [3]
-					6954, -- [4]
-					14986, -- [5]
-					17962, -- [6]
-					10810, -- [7]
-					8826, -- [8]
-					17914, -- [9]
-					2618, -- [10]
-					2906, -- [11]
-					14938, -- [12]
-					14954, -- [13]
-					13306, -- [14]
-					2778, -- [15]
-					2842, -- [16]
-					17898, -- [17]
-					17994, -- [18]
-					10106, -- [19]
-					2602, -- [20]
-					18026, -- [21]
-					19370, -- [22]
-					17946, -- [23]
-					2682, -- [24]
-					2730, -- [25]
-					2746, -- [26]
-					2762, -- [27]
-					2890, -- [28]
-					19290, -- [29]
-					18010, -- [30]
-					2858, -- [31]
-					10794, -- [32]
-					10746, -- [33]
-					10762, -- [34]
-					13, -- [35]
-					6908, -- [36]
-					6940, -- [37]
-					19420, -- [38]
-					6972, -- [39]
-					17260, -- [40]
-					17228, -- [41]
-					9820, -- [42]
-					6924, -- [43]
-					16876, -- [44]
-					2828, -- [45]
-					14972, -- [46]
-					19308, -- [47]
-					2636, -- [48]
-					15004, -- [49]
-					18044, -- [50]
-					2812, -- [51]
-				},
-				["Class"] = "DRUID",
-				["ArtifactKnowledgeMultiplier"] = 250,
+				["Class"] = "MONK",
 			},
 			["Default.Thrall.Yacob"] = {
 				["ActiveTalents"] = 1,
@@ -607,19 +538,20 @@ DataStore_TalentsDB = {
 			},
 			["Default.Aerie Peak.Raideon"] = {
 				["EquippedArtifact"] = "Felo'melorn",
-				["lastUpdate"] = 1485271863,
+				["lastUpdate"] = 1487370970,
 				["Class"] = "MAGE",
 				["ArtifactKnowledge"] = 25,
 				["Artifacts"] = {
 					["Aluneth, Greatstaff of the Magna"] = {
-						["pointsRemaining"] = 100,
+						["rank"] = 31,
+						["pointsRemaining"] = 22170,
 					},
 					["Ebonchill"] = {
 						["pointsRemaining"] = 915895,
 					},
 					["Felo'melorn"] = {
-						["pointsRemaining"] = 1642593,
-						["rank"] = 38,
+						["pointsRemaining"] = 47593,
+						["rank"] = 43,
 					},
 					["Ebonchill, Greatstaff of Alodi"] = {
 						["rank"] = 32,
@@ -663,7 +595,7 @@ DataStore_TalentsDB = {
 				},
 				["Specializations"] = {
 					13685, -- [1]
-					13717, -- [2]
+					13718, -- [2]
 					10583, -- [3]
 				},
 				["ArtifactKnowledgeMultiplier"] = 250,
@@ -671,9 +603,9 @@ DataStore_TalentsDB = {
 			["Default.Aerie Peak.Kolento"] = {
 				["ActiveTalents"] = 1,
 				["Specializations"] = {
-					[3] = 6745,
+					[3] = 6729,
 				},
-				["lastUpdate"] = 1472616144,
+				["lastUpdate"] = 1486564050,
 				["Class"] = "PALADIN",
 				["GlyphList"] = {
 					11, -- [1]
@@ -727,13 +659,6 @@ DataStore_TalentsDB = {
 					7252, -- [49]
 				},
 			},
-			["Default.Thrall.Zagrat"] = {
-				["lastUpdate"] = 1471999154,
-				["Specializations"] = {
-					[3] = 15,
-				},
-				["Class"] = "MONK",
-			},
 			["Default.Thrall.Zagsham"] = {
 				["lastUpdate"] = 1472403870,
 				["Specializations"] = {
@@ -741,9 +666,44 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
+			["Default.Aerie Peak.Yacub"] = {
+				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
+				["ArtifactKnowledgeMultiplier"] = 250,
+				["Specializations"] = {
+					9723, -- [1]
+					nil, -- [2]
+					7031, -- [3]
+					15338, -- [4]
+				},
+				["lastUpdate"] = 1487371052,
+				["Class"] = "DRUID",
+				["ArtifactKnowledge"] = 25,
+				["Artifacts"] = {
+					["G'Hanir, the Mother Tree"] = {
+						["rank"] = 52,
+						["pointsRemaining"] = 3373350,
+					},
+					["Fangs of Ashamane"] = {
+						["rank"] = 27,
+						["pointsRemaining"] = 26418,
+					},
+					["Claws of Ursoc"] = {
+						["pointsRemaining"] = 173300,
+						["rank"] = 35,
+					},
+					["Scythe of Elune"] = {
+						["rank"] = 35,
+						["pointsRemaining"] = 461270,
+					},
+					["Underlight Angler"] = {
+						["rank"] = 15,
+						["pointsRemaining"] = 5480,
+					},
+				},
+			},
 			["Default.Aerie Peak.Human"] = {
 				["EquippedArtifact"] = "Apocalypse",
-				["lastUpdate"] = 1480307486,
+				["lastUpdate"] = 1486563957,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 5,
 				["Artifacts"] = {
@@ -810,7 +770,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1484863129,
+				["lastUpdate"] = 1486412310,
 				["Specializations"] = {
 					5625, -- [1]
 					5742, -- [2]
@@ -886,7 +846,7 @@ DataStore_TalentsDB = {
 			},
 			["Default.Aerie Peak.Yacob"] = {
 				["EquippedArtifact"] = "Doomhammer",
-				["lastUpdate"] = 1483595961,
+				["lastUpdate"] = 1486563909,
 				["Class"] = "SHAMAN",
 				["ArtifactKnowledge"] = 20,
 				["Artifacts"] = {
@@ -1155,14 +1115,14 @@ DataStore_TalentsDB = {
 				[671] = "Survival Instincts",
 				[1085] = "Sha",
 				[464] = "Distract",
-				[929] = "Blind",
+				[465] = "Pick Lock",
 				[672] = "Wild Growth",
 				[1087] = "Inspired Hymns",
 				[928] = "Inferno Blast",
 				[1088] = "Headhunting",
-				[933] = "Fae Silence",
-				[401] = "Garrote",
-				[465] = "Pick Lock",
+				[467] = "Safe Fall",
+				[1089] = "Improved Distraction",
+				[929] = "Blind",
 				[1090] = "Spirit Raptors",
 				[674] = "Stampeding Roar",
 				[1091] = "Lingering Ancestors",
@@ -1178,14 +1138,14 @@ DataStore_TalentsDB = {
 				[1096] = "Astral Fixation",
 				[677] = "Chimaera Shot",
 				[1097] = "Rain of Frogs",
-				[467] = "Safe Fall",
+				[933] = "Fae Silence",
 				[1098] = "Raging Whirlwind",
 				[170] = "Rebirth",
 				[1099] = "Subtle Defender",
 				[934] = "Faerie Fire",
 				[551] = "Dash",
-				[1101] = "Weaponmaster",
 				[404] = "Hemorrhage",
+				[1101] = "Weaponmaster",
 				[935] = "The Predator",
 				[1102] = "Lean Pack",
 				[402] = "Detection",
@@ -1231,7 +1191,7 @@ DataStore_TalentsDB = {
 				[173] = "Healing Touch",
 				[263] = "Power Word: Shield",
 				[259] = "Mass Dispel",
-				[1124] = "Maim",
+				[282] = "Subtlety",
 				[691] = "Tranquilizing Shot",
 				[1125] = "Shapemender",
 				[276] = "Nightmares",
@@ -1260,7 +1220,7 @@ DataStore_TalentsDB = {
 				[1137] = "Flying Serpent",
 				[477] = "Unending Breath",
 				[1138] = "Keg Smash",
-				[175] = "Untamed Stars",
+				[698] = "Illusion",
 				[1139] = "Renewed Tea",
 				[1140] = "Victory Roll",
 				[286] = "Shadow Bolt",
@@ -1284,15 +1244,15 @@ DataStore_TalentsDB = {
 				[831] = "Ferocious Bite",
 				[281] = "Healthstone",
 				[1150] = "Free Action",
-				[481] = "Enslave Demon",
+				[961] = "Shadow",
 				[1151] = "Delayed Coalescence",
-				[706] = "Holy Shock",
-				[1152] = "Guardian Spirit",
+				[177] = "Hurricane",
+				[289] = "Soulstone",
 				[353] = "Liberation",
 				[1153] = "Restored Faith",
-				[961] = "Shadow",
+				[481] = "Enslave Demon",
 				[1154] = "Miraculous Dispelling",
-				[177] = "Hurricane",
+				[706] = "Holy Shock",
 				[1155] = "Inquisitor",
 				[280] = "Health Funnel",
 				[1156] = "Silence",
@@ -1303,16 +1263,16 @@ DataStore_TalentsDB = {
 				[708] = "Dispersion",
 				[1159] = "Energy",
 				[274] = "Siphon Life",
-				[1160] = "Elusiveness",
-				[709] = "Leap of Faith",
+				[291] = "Unstable Affliction",
+				[355] = "Distracting Shot",
 				[1161] = "Energy Flows",
 				[483] = "Mystic Shout",
 				[1162] = "Disappearance",
-				[178] = "Skull Bash",
+				[710] = "Penance",
 				[1163] = "Ephemeral Spirits",
-				[711] = "Focused Mending",
-				[292] = "Falling Meteor",
 				[356] = "Endless Wrath",
+				[1164] = "Ghostly Speed",
+				[711] = "Focused Mending",
 				[1165] = "Grounding",
 				[484] = "Bloodcurdling Shout",
 				[1166] = "Lava Spread",
@@ -1320,15 +1280,15 @@ DataStore_TalentsDB = {
 				[1167] = "Reactive Shielding",
 				[1109] = "Absorb Magic",
 				[1168] = "Shamanistic Resolve",
-				[357] = "Deterrence",
+				[713] = "Binding Heal",
 				[1169] = "Shocks",
 				[485] = "Long Charge",
 				[1170] = "Spiritwalker's Focus",
 				[714] = "Vendetta",
 				[1171] = "Spiritwalker's Aegis",
 				[502] = "Shield Slam",
-				[715] = "Killing Spree",
 				[358] = "Disengage",
+				[715] = "Killing Spree",
 				[1173] = "Dark Soul",
 				[486] = "Gushing Wound",
 				[396] = "Recuperate",
@@ -1379,20 +1339,20 @@ DataStore_TalentsDB = {
 				[364] = "No Escape",
 				[273] = "Conflagrate",
 				[492] = "Hindering Strikes",
-				[731] = "Deadly Momentum",
+				[366] = "Tame Beast",
 				[987] = "Falling Avenger",
 				[1209] = "Detoxing",
 				[184] = "Devotion Aura",
-				[1213] = "Flapping Owl",
+				[432] = "The Chameleon",
 				[365] = "Pathfinding",
 				[1201] = "Frostbrand Weapon",
 				[997] = "Rapid Rolling",
 				[1202] = "Mind Harvest",
 				[183] = "Double Jeopardy",
-				[215] = "Capacitor Totem",
+				[1203] = "Merciful Wrath",
 				[986] = "Focused Wrath",
 				[1204] = "Army of the Dead",
-				[366] = "Tame Beast",
+				[731] = "Deadly Momentum",
 				[1205] = "Savagery",
 				[494] = "Bloodthirst",
 				[1206] = "The Solstice",
@@ -1405,11 +1365,11 @@ DataStore_TalentsDB = {
 				[495] = "Rude Interruption",
 				[1210] = "Nature's Cure",
 				[734] = "Cloak of Shadows",
-				[1211] = "Purification",
+				[216] = "Purge",
 				[990] = "Crow Feast",
 				[1212] = "Flying Fists",
 				[735] = "Thunder",
-				[432] = "The Chameleon",
+				[1213] = "Flapping Owl",
 				[991] = "Burning Anger",
 				[512] = "Anti-Magic Shell",
 				[736] = "Feral Spirit",
@@ -1435,11 +1395,11 @@ DataStore_TalentsDB = {
 				[371] = "Solace",
 				[435] = "Grace",
 				[499] = "Die by the Sword",
-				[216] = "Purge",
+				[1211] = "Purification",
 				[186] = "Divine Protection",
 				[218] = "Fire Nova",
 				[998] = "Guard",
-				[1203] = "Merciful Wrath",
+				[215] = "Capacitor Totem",
 				[769] = "Dark Simulacrum",
 				[871] = "Counterspell",
 				[999] = "Zen Meditation",
@@ -1459,23 +1419,23 @@ DataStore_TalentsDB = {
 				[911] = "Eternal Resolve",
 				[277] = "Fear",
 				[1003] = "Mind Flay",
-				[713] = "Binding Heal",
-				[1164] = "Ghostly Speed",
-				[710] = "Penance",
-				[355] = "Distracting Shot",
-				[291] = "Unstable Affliction",
-				[289] = "Soulstone",
+				[357] = "Deterrence",
+				[292] = "Falling Meteor",
+				[178] = "Skull Bash",
+				[709] = "Leap of Faith",
+				[1160] = "Elusiveness",
+				[1152] = "Guardian Spirit",
 				[439] = "Revive Pet",
 				[1005] = "Shadow Word: Death",
 				[758] = "Demonic Circle",
 				[188] = "Avenging Wrath",
 				[220] = "Wind Shear",
 				[1006] = "Vampiric Embrace",
-				[698] = "Illusion",
+				[175] = "Untamed Stars",
 				[751] = "Deluge",
 				[440] = "Lesser Proportion",
 				[1007] = "Heavens",
-				[282] = "Subtlety",
+				[1124] = "Maim",
 				[752] = "Shamanistic Rage",
 				[557] = "Outbreak",
 				[258] = "Deep Wells",
@@ -1494,7 +1454,7 @@ DataStore_TalentsDB = {
 				[254] = "Fear Ward",
 				[270] = "Smite",
 				[264] = "Spirit of Redemption",
-				[1089] = "Improved Distraction",
+				[401] = "Garrote",
 				[262] = "Weakened Soul",
 				[757] = "Ember Tap",
 				[443] = "Aspect of the Pack",
@@ -1514,11 +1474,13 @@ DataStore_TalentsRefDB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -1560,7 +1522,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Marksmanship",
 				},
 			},
-			["Version"] = 22522,
+			["Version"] = 23420,
 		},
 		["WARRIOR"] = {
 			["Locale"] = "enUS",
@@ -1575,7 +1537,7 @@ DataStore_TalentsRefDB = {
 						22625, -- [5]
 						22409, -- [6]
 						22380, -- [7]
-						22626, -- [8]
+						22489, -- [8]
 						19138, -- [9]
 						15757, -- [10]
 						22627, -- [11]
@@ -1610,7 +1572,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Fury",
 				}, -- [2]
 			},
-			["Version"] = 22522,
+			["Version"] = 23420,
 		},
 		["SHAMAN"] = {
 			["Locale"] = "enUS",
@@ -1630,6 +1592,12 @@ DataStore_TalentsRefDB = {
 						19271, -- [10]
 						19272, -- [11]
 						19273, -- [12]
+						22144, -- [13]
+						22172, -- [14]
+						19270, -- [15]
+						22145, -- [16]
+						19266, -- [17]
+						21968, -- [18]
 					},
 					["icon"] = "Interface\\Icons\\Spell_Nature_Lightning",
 					["name"] = "Elemental",
@@ -1689,7 +1657,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 23222,
+			["Version"] = 23420,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -1702,14 +1670,14 @@ DataStore_TalentsRefDB = {
 						22464, -- [3]
 						22442, -- [4]
 						22443, -- [5]
-						16025, -- [6]
+						22906, -- [6]
 						22444, -- [7]
 						22445, -- [8]
 						22447, -- [9]
 						22453, -- [10]
 						22467, -- [11]
 						22470, -- [12]
-						22446, -- [13]
+						22907, -- [13]
 						22448, -- [14]
 						22471, -- [15]
 						22455, -- [16]
@@ -1779,7 +1747,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Frost",
 				}, -- [3]
 			},
-			["Version"] = 23360,
+			["Version"] = 23420,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -1903,7 +1871,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Subtlety",
 				}, -- [3]
 			},
-			["Version"] = 23360,
+			["Version"] = 23420,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -1999,7 +1967,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Vengeance",
 				}, -- [2]
 			},
-			["Version"] = 23360,
+			["Version"] = 23420,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -2013,7 +1981,7 @@ DataStore_TalentsRefDB = {
 						22319, -- [4]
 						22592, -- [5]
 						22593, -- [6]
-						22179, -- [7]
+						22896, -- [7]
 						22180, -- [8]
 						21811, -- [9]
 						22375, -- [10]
@@ -2049,7 +2017,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Protection",
 				},
 			},
-			["Version"] = 22522,
+			["Version"] = 23420,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -2167,7 +2135,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Restoration",
 				}, -- [4]
 			},
-			["Version"] = 23360,
+			["Version"] = 23420,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",
@@ -2253,7 +2221,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Windwalker",
 				}, -- [3]
 			},
-			["Version"] = 23360,
+			["Version"] = 23420,
 		},
 		["DEATHKNIGHT"] = {
 			["Locale"] = "enUS",
@@ -2343,7 +2311,7 @@ DataStore_TalentsRefDB = {
 					["name"] = "Unholy",
 				}, -- [3]
 			},
-			["Version"] = 22996,
+			["Version"] = 23420,
 		},
 	},
 }

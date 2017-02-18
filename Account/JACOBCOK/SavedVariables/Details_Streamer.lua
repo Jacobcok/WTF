@@ -10,11 +10,13 @@ Details_StreamerDB = {
 		["Discgusting - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Zygi - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Yacob - Thrall"] = "Zygi - Aerie Peak",
 		["Lepok - Aerie Peak"] = "Zygi - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Zygi - Aerie Peak",
 		["Zagrot - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Zagrut - Thrall"] = "Zygi - Aerie Peak",
+		["Zagrot - Turalyon"] = "Zygi - Aerie Peak",
+		["Twogauge - Bleeding Hollow"] = "Zygi - Aerie Peak",
 		["Zagrot - Thrall"] = "Zygi - Aerie Peak",
 		["Yacob - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Zygi - Aerie Peak",
@@ -38,7 +40,10 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["arrow_anchor_y"] = 0,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.000030517578, -- [2]
+			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -48,9 +53,10 @@ Details_StreamerDB = {
 			["row_texture"] = "Details Serenity",
 			["scale"] = 1,
 			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["point"] = "CENTER",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -65,28 +71,25 @@ Details_StreamerDB = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -4.577636718750e-005,
 			["font_size"] = 10,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["author"] = "Details! Team",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1.5,
 				["font_shadow"] = true,
 				["y"] = 0,
-				["update_speed"] = 0.05,
-				["attribute_type"] = 1,
 				["x"] = 0,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
+			["y"] = -4.577636718750e-005,
 			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = false,
-			["main_frame_size"] = {
-				300, -- [1]
-				500.000030517578, -- [2]
-			},
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }

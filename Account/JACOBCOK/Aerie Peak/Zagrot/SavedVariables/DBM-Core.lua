@@ -1,4 +1,4 @@
 
 DBM_UsedProfile = "Default"
-DBM_UseDualProfile = true
-DBM_CharSavedRevision = 15610
+DBM_UseDualProfile = false
+DBM_CharSavedRevision = 15758

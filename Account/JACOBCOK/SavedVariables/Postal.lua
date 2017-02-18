@@ -16,15 +16,17 @@ Postal3DB = {
 				"Wurrior|Aerie Peak|Alliance|100|WARRIOR", -- [11]
 				"Yacob|Aerie Peak|Alliance|110|SHAMAN", -- [12]
 				"Yacob|Thrall|Horde|56|DRUID", -- [13]
-				"Zagrat|Thrall|Horde|33|MONK", -- [14]
-				"Zagrat|Thrall|Neutral|1|MONK", -- [15]
-				"Zagrot|Aerie Peak|Alliance|110|MONK", -- [16]
-				"Zagrot|Thrall|Horde|58|WARRIOR", -- [17]
-				"Zagrut|Thrall|Horde|56|HUNTER", -- [18]
-				"Zagsham|Thrall|Horde|72|SHAMAN", -- [19]
-				"Zionae|Thrall|Horde|55|PRIEST", -- [20]
-				"Zygi|Aerie Peak|Alliance|110|DRUID", -- [21]
-				"Züül|Aegwynn|Alliance|70|MAGE", -- [22]
+				"Yacub|Aerie Peak|Alliance|110|DRUID", -- [14]
+				"Zagrat|Thrall|Horde|33|MONK", -- [15]
+				"Zagrat|Thrall|Neutral|1|MONK", -- [16]
+				"Zagrot|Aerie Peak|Alliance|110|MONK", -- [17]
+				"Zagrot|Thrall|Horde|58|WARRIOR", -- [18]
+				"Zagrot|Turalyon|Alliance|90|SHAMAN", -- [19]
+				"Zagrut|Thrall|Horde|56|HUNTER", -- [20]
+				"Zagsham|Thrall|Horde|72|SHAMAN", -- [21]
+				"Zionae|Thrall|Horde|55|PRIEST", -- [22]
+				"Zygi|Aerie Peak|Alliance|110|DRUID", -- [23]
+				"Züül|Aegwynn|Alliance|70|MAGE", -- [24]
 			},
 		},
 	},
@@ -38,11 +40,13 @@ Postal3DB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -55,11 +59,12 @@ Postal3DB = {
 		["Kolento - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Raideon|Aerie Peak|Alliance", -- [1]
-					"Twodrop|Aerie Peak|Alliance", -- [2]
-					"Zygi|Aerie Peak|Alliance", -- [3]
-					"Yacob|Aerie Peak|Alliance", -- [4]
-					"Discgusting|Aerie Peak|Alliance", -- [5]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Raideon|Aerie Peak|Alliance", -- [2]
+					"Twodrop|Aerie Peak|Alliance", -- [3]
+					"Zygi|Aerie Peak|Alliance", -- [4]
+					"Yacob|Aerie Peak|Alliance", -- [5]
+					"Discgusting|Aerie Peak|Alliance", -- [6]
 				},
 			},
 		},
@@ -68,13 +73,14 @@ Postal3DB = {
 		["Human - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Raideon|Aerie Peak|Alliance", -- [1]
-					"Twodrop|Aerie Peak|Alliance", -- [2]
-					"Kolento|Aerie Peak|Alliance", -- [3]
-					"Zygi|Aerie Peak|Alliance", -- [4]
-					"Yacob|Aerie Peak|Alliance", -- [5]
-					"Subreddit|Aerie Peak|Alliance", -- [6]
-					"Lepok|Aerie Peak|Alliance", -- [7]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Raideon|Aerie Peak|Alliance", -- [2]
+					"Twodrop|Aerie Peak|Alliance", -- [3]
+					"Kolento|Aerie Peak|Alliance", -- [4]
+					"Zygi|Aerie Peak|Alliance", -- [5]
+					"Yacob|Aerie Peak|Alliance", -- [6]
+					"Subreddit|Aerie Peak|Alliance", -- [7]
+					"Lepok|Aerie Peak|Alliance", -- [8]
 				},
 			},
 		},
@@ -126,19 +132,19 @@ Postal3DB = {
 		["Bigyacob - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Genkidin|Aerie Peak|Alliance", -- [1]
-					"Breetai|Aerie Peak|Alliance", -- [2]
-					"Raideon|Aerie Peak|Alliance", -- [3]
-					"Zagrot|Aerie Peak|Alliance", -- [4]
-					"Lepok|Aerie Peak|Alliance", -- [5]
-					"Orkhid-AeriePeak|Aerie Peak|Alliance", -- [6]
-					"Nisara|Aerie Peak|Alliance", -- [7]
-					"Yacob|Aerie Peak|Alliance", -- [8]
-					"Nebulosity|Aerie Peak|Alliance", -- [9]
-					"Agurthewolf|Aerie Peak|Alliance", -- [10]
-					"Adonrager|Aerie Peak|Alliance", -- [11]
-					"Human|Aerie Peak|Alliance", -- [12]
-					"Zygi|Aerie Peak|Alliance", -- [13]
+					"Zygi|Aerie Peak|Alliance", -- [1]
+					"Genkidin|Aerie Peak|Alliance", -- [2]
+					"Breetai|Aerie Peak|Alliance", -- [3]
+					"Raideon|Aerie Peak|Alliance", -- [4]
+					"Zagrot|Aerie Peak|Alliance", -- [5]
+					"Lepok|Aerie Peak|Alliance", -- [6]
+					"Orkhid-AeriePeak|Aerie Peak|Alliance", -- [7]
+					"Nisara|Aerie Peak|Alliance", -- [8]
+					"Yacob|Aerie Peak|Alliance", -- [9]
+					"Nebulosity|Aerie Peak|Alliance", -- [10]
+					"Agurthewolf|Aerie Peak|Alliance", -- [11]
+					"Adonrager|Aerie Peak|Alliance", -- [12]
+					"Human|Aerie Peak|Alliance", -- [13]
 					"Breetai-AeriePeak|Aerie Peak|Alliance", -- [14]
 					"Naoyuki|Aerie Peak|Alliance", -- [15]
 					"Setna|Aerie Peak|Alliance", -- [16]
@@ -152,17 +158,26 @@ Postal3DB = {
 		["Raideon - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Demonpact|Aerie Peak|Alliance", -- [1]
-					"Adonrager|Aerie Peak|Alliance", -- [2]
-					"Zygi|Aerie Peak|Alliance", -- [3]
-					"Lepok|Aerie Peak|Alliance", -- [4]
-					"Osherio|Aerie Peak|Alliance", -- [5]
-					"Bigyacob|Aerie Peak|Alliance", -- [6]
-					"Zagrot|Aerie Peak|Alliance", -- [7]
-					"Twodrop|Aerie Peak|Alliance", -- [8]
-					"Yacob|Aerie Peak|Alliance", -- [9]
-					"Subreddit|Aerie Peak|Alliance", -- [10]
-					"Human|Aerie Peak|Alliance", -- [11]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Zygi|Aerie Peak|Alliance", -- [2]
+					"Nisara|Aerie Peak|Alliance", -- [3]
+					"Adonrager|Aerie Peak|Alliance", -- [4]
+					"Demonpact|Aerie Peak|Alliance", -- [5]
+					"Lepok|Aerie Peak|Alliance", -- [6]
+					"Osherio|Aerie Peak|Alliance", -- [7]
+					"Bigyacob|Aerie Peak|Alliance", -- [8]
+					"Zagrot|Aerie Peak|Alliance", -- [9]
+					"Twodrop|Aerie Peak|Alliance", -- [10]
+					"Yacob|Aerie Peak|Alliance", -- [11]
+					"Subreddit|Aerie Peak|Alliance", -- [12]
+					"Human|Aerie Peak|Alliance", -- [13]
+				},
+			},
+		},
+		["Yacub - Aerie Peak"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Raideon|Aerie Peak|Alliance", -- [1]
 				},
 			},
 		},
@@ -171,21 +186,20 @@ Postal3DB = {
 		["Lepok - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Zygi|Aerie Peak|Alliance", -- [1]
-					"Raideon|Aerie Peak|Alliance", -- [2]
-					"Zagrot|Aerie Peak|Alliance", -- [3]
-					"Twodrop|Aerie Peak|Alliance", -- [4]
-					"Notshteve-AeriePeak|Aerie Peak|Alliance", -- [5]
-					"Adonrager|Aerie Peak|Alliance", -- [6]
-					"Yacob|Aerie Peak|Alliance", -- [7]
-					"Nebulosity|Aerie Peak|Alliance", -- [8]
-					"Agurthewolf|Aerie Peak|Alliance", -- [9]
-					"Bigyacob|Aerie Peak|Alliance", -- [10]
-					"Wurrior|Aerie Peak|Alliance", -- [11]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Adonrager|Aerie Peak|Alliance", -- [2]
+					"Zygi|Aerie Peak|Alliance", -- [3]
+					"Raideon|Aerie Peak|Alliance", -- [4]
+					"Zagrot|Aerie Peak|Alliance", -- [5]
+					"Twodrop|Aerie Peak|Alliance", -- [6]
+					"Notshteve-AeriePeak|Aerie Peak|Alliance", -- [7]
+					"Yacob|Aerie Peak|Alliance", -- [8]
+					"Nebulosity|Aerie Peak|Alliance", -- [9]
+					"Agurthewolf|Aerie Peak|Alliance", -- [10]
+					"Bigyacob|Aerie Peak|Alliance", -- [11]
+					"Wurrior|Aerie Peak|Alliance", -- [12]
 				},
 			},
-		},
-		["Twogauge - Bleeding Hollow"] = {
 		},
 		["Zagrot - Aerie Peak"] = {
 			["BlackBook"] = {
@@ -204,6 +218,10 @@ Postal3DB = {
 		},
 		["Zagrut - Thrall"] = {
 		},
+		["Zagrot - Turalyon"] = {
+		},
+		["Twogauge - Bleeding Hollow"] = {
+		},
 		["Zagrot - Thrall"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -214,39 +232,42 @@ Postal3DB = {
 		["Yacob - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Lepok|Aerie Peak|Alliance", -- [1]
-					"Zagrot|Aerie Peak|Alliance", -- [2]
-					"Disparíty|Aerie Peak|Alliance", -- [3]
-					"Bigyacob|Aerie Peak|Alliance", -- [4]
-					"Raideon|Aerie Peak|Alliance", -- [5]
-					"Human|Aerie Peak|Alliance", -- [6]
-					"Zygi|Aerie Peak|Alliance", -- [7]
-					"Adonrager|Aerie Peak|Alliance", -- [8]
-					"Discgusting|Aerie Peak|Alliance", -- [9]
-					"Genkidin-AeriePeak|Aerie Peak|Alliance", -- [10]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Lepok|Aerie Peak|Alliance", -- [2]
+					"Zagrot|Aerie Peak|Alliance", -- [3]
+					"Disparíty|Aerie Peak|Alliance", -- [4]
+					"Bigyacob|Aerie Peak|Alliance", -- [5]
+					"Raideon|Aerie Peak|Alliance", -- [6]
+					"Human|Aerie Peak|Alliance", -- [7]
+					"Zygi|Aerie Peak|Alliance", -- [8]
+					"Adonrager|Aerie Peak|Alliance", -- [9]
+					"Discgusting|Aerie Peak|Alliance", -- [10]
+					"Genkidin-AeriePeak|Aerie Peak|Alliance", -- [11]
 				},
 			},
 		},
 		["Wurrior - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Raideon|Aerie Peak|Alliance", -- [1]
-					"Twodrop|Aerie Peak|Alliance", -- [2]
-					"Yacob|Aerie Peak|Alliance", -- [3]
-					"Zygi|Aerie Peak|Alliance", -- [4]
-					"Human|Aerie Peak|Alliance", -- [5]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Raideon|Aerie Peak|Alliance", -- [2]
+					"Twodrop|Aerie Peak|Alliance", -- [3]
+					"Yacob|Aerie Peak|Alliance", -- [4]
+					"Zygi|Aerie Peak|Alliance", -- [5]
+					"Human|Aerie Peak|Alliance", -- [6]
 				},
 			},
 		},
 		["Twodrop - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Raideon|Aerie Peak|Alliance", -- [1]
-					"Zygi|Aerie Peak|Alliance", -- [2]
-					"Wurrior|Aerie Peak|Alliance", -- [3]
-					"Yacob|Aerie Peak|Alliance", -- [4]
-					"Subreddit|Aerie Peak|Alliance", -- [5]
-					"Human|Aerie Peak|Alliance", -- [6]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Raideon|Aerie Peak|Alliance", -- [2]
+					"Zygi|Aerie Peak|Alliance", -- [3]
+					"Wurrior|Aerie Peak|Alliance", -- [4]
+					"Yacob|Aerie Peak|Alliance", -- [5]
+					"Subreddit|Aerie Peak|Alliance", -- [6]
+					"Human|Aerie Peak|Alliance", -- [7]
 				},
 			},
 		},

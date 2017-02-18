@@ -13,16 +13,41 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Zygi-Aerie Peak",
-	["last_day"] = "25",
+	["last_day"] = "17",
 	["tabela_historico"] = {
 		["tabelas"] = {
 		},
 	},
 	["ignore_nicktag"] = false,
-	["savedbuffs"] = {
+	["nick_tag_cache"] = {
+		["nextreset"] = 1487820991,
+		[133125570] = {
+			"Lepok", -- [1]
+			"Interface\\EncounterJournal\\UI-EJ-BOSS-Vanessa VanCleef", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\PetBattles\\Weather-StaticField", -- [4]
+			{
+				0.1171875, -- [1]
+				0.953125, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			3, -- [7]
+		},
+		["last_version"] = 8,
 	},
-	["combat_counter"] = 11859,
-	["last_encounter"] = "Elerethe Renferal",
+	["combat_counter"] = 11871,
+	["force_font_outline"] = "",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -30,8 +55,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["dps"] = 0,
 			["author"] = "Details! Team",
+			["dps"] = 0,
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -82,8 +107,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -167,28 +192,14 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["y"] = -4.577636718750e-005,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["arrow_anchor_y"] = 0,
+			["enabled"] = false,
+			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -200,6 +211,21 @@ _detalhes_database = {
 				["x"] = 0,
 				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = -4.577636718750e-005,
+			["arrow_anchor_y"] = 0,
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
@@ -209,38 +235,13 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 		},
 	},
-	["force_font_outline"] = "",
+	["last_instance_time"] = 1483500370,
 	["character_data"] = {
-		["logons"] = 409,
+		["logons"] = 415,
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1485999750,
-		[133125570] = {
-			"Lepok", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Vanessa VanCleef", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-StaticField", -- [4]
-			{
-				0.1171875, -- [1]
-				0.953125, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
-		["last_version"] = 8,
+	["savedbuffs"] = {
 	},
-	["last_version"] = "v7.1.5.3315",
+	["last_version"] = "v7.1.5.3370",
 	["tabela_instancias"] = {
 	},
 	["combat_id"] = 8722,
@@ -445,7 +446,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_instance_time"] = 1483500370,
+	["last_encounter"] = "Elerethe Renferal",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

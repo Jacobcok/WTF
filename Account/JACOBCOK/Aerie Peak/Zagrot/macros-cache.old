@@ -1,32 +1,40 @@
-VER 3 010000000000012C "art wep" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] sheilun's gift
+VER 3 0100000000000054 " " "INV_MISC_QUESTIONMARK"
+/cast water jet
 END
-VER 3 0100000000000129 "Cocoon" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] life cocoon
+VER 3 010000000000005A " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane barrage
+/cast [nochanneling] Arcane barrage
 END
-VER 3 010000000000012A "effuse" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] effuse
+VER 3 0100000000000058 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane missiles
+/cast [nochanneling] Arcane Missiles
 END
-VER 3 0100000000000126 "Enveloping Mist" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] Enveloping Mist
+VER 3 0100000000000059 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/cast [nochanneling] Arcane Blast
 END
-VER 3 0100000000000127 "Renewing Mist" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] Renewing Mist
+VER 3 010000000000002F " " "INV_MISC_QUESTIONMARK"
+/cast freeze
 END
-VER 3 0100000000000128 "Soothing Mist" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] [nochanneling] Soothing Mist
+VER 3 0100000000000067 "block" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast ice block
 END
-VER 3 010000000000012B "vivify" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] vivify
+VER 3 0100000000000069 "invis" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast greater invisibility
 END
-VER 3 0100000000000124 "ZGVMacro2" "0"
-/target Master Shang Xi
-/run ZGV:MRM()
+VER 3 0100000000000068 "PC" "INV_MISC_QUESTIONMARK"
+#showtooltip Prismatic Crystal
+/cast Prismatic Crystal
+END
+VER 3 010000000000006A "trink" "INV_MISC_QUESTIONMARK"
+#showtooltip rune of power
+/use 13
+/use 14
+/cast rune of power
+END
+VER 3 0100000000000066 "ZGVMacro2" "0"
+/target The Spirit of Gnomeregan
+/run ZGV:MRM():CG(21,2)
 END

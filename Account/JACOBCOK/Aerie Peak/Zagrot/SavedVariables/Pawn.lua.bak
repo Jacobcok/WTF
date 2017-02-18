@@ -1,12 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0101,
-	["LastPlayerFullName"] = "Zagrot-Aerie Peak",
+	["LastVersion"] = 2.0013,
+	["LastPlayerFullName"] = "Raideon-Aerie Peak",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }
-PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "MONK",
-	["LastAdded"] = 1,
+PawnMrRobotScaleProviderOptions = nil
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 5,
 }

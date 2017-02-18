@@ -10,11 +10,13 @@ DataStore_AuctionsDB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -38,20 +40,24 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2016/05/19 18:39",
 			},
 			["Default.Aerie Peak.Raideon"] = {
-				["lastUpdate"] = 1484409379,
-				["lastVisitDate"] = "2017/01/14 10:56",
+				["lastUpdate"] = 1486216014,
+				["lastVisitDate"] = "2017/02/04 08:46",
 			},
 			["Default.Aerie Peak.Subreddit"] = {
 				["lastUpdate"] = 1452028683,
 				["lastVisitDate"] = "2016/01/05 16:18",
 			},
-			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1483494938,
-				["lastVisitDate"] = "2017/01/03 20:55",
+			["Default.Aerie Peak.Yacub"] = {
+				["lastUpdate"] = 1487178604,
+				["lastVisitDate"] = "2017/02/15 12:10",
 			},
 			["Default.Aerie Peak.Human"] = {
 				["lastUpdate"] = 1463694312,
 				["lastVisitDate"] = "2016/05/19 17:44",
+			},
+			["Default.Aerie Peak.Lepok"] = {
+				["lastUpdate"] = 1483494938,
+				["lastVisitDate"] = "2017/01/03 20:55",
 			},
 			["Default.Aerie Peak.Kolento"] = {
 				["lastUpdate"] = 1466366134,
@@ -60,10 +66,6 @@ DataStore_AuctionsDB = {
 			["Default.Aerie Peak.Yacob"] = {
 				["lastUpdate"] = 1477772267,
 				["lastVisitDate"] = "2016/10/29 16:17",
-			},
-			["Default.Aerie Peak.Zygi"] = {
-				["lastUpdate"] = 1485309096,
-				["lastVisitDate"] = "2017/01/24 20:51",
 			},
 			["Default.Aerie Peak.Bigyacob"] = {
 				["lastUpdate"] = 1480476451,

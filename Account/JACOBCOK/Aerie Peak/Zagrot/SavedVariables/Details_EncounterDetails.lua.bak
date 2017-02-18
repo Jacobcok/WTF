@@ -1,7 +1,1529 @@
 
 EncounterDetailsDB = {
 	["encounter_spells"] = {
+		[182077] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[184252] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181617] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[181792] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[159234] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[183634] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[181126] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Doom Lord Usael",
+		},
+		[182031] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181793] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181190] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dread Infernal",
+		},
+		[181841] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[183254] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[185175] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fel Iron Summoner",
+		},
+		[183969] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
+		},
+		[181191] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dread Infernal",
+		},
+		[181255] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[190050] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shadowed Netherwalker",
+		},
+		[181557] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181192] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dread Infernal",
+		},
+		[185590] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[183828] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[181193] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dread Infernal",
+		},
+		[182225] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[191068] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
+		},
+		[185147] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fel Iron Summoner",
+		},
+		[181099] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Doom Lord Usael",
+		},
+		[31707] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Water Elemental",
+		},
+		[185830] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[182084] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[187180] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[181132] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fel Imp",
+		},
+		[185847] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181799] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181180] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[173322] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[187054] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Infernal Doombringer",
+		},
+		[182879] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[182006] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[183864] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hellfire Deathcaller",
+		},
+		[184280] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mirror Image",
+		},
+		[85692] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Doomguard",
+		},
+		[187078] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Infernal Doombringer",
+		},
+		[181134] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fel Imp",
+		},
+		[183817] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[187047] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Living Shadow",
+		},
+		[184265] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[191231] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[187053] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Infernal Doombringer",
+		},
+		[181738] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181119] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Doom Lord Usael",
+		},
+		[187244] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[182040] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[187107] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[188267] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Shadowed Netherwalker",
+		},
+		[182088] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[190018] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Void Star",
+		},
+		[181358] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[189895] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Void Star",
+		},
+		[187254] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadow Storm",
+		},
+		[189280] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[187250] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadowed Netherwalker",
+		},
+		[184867] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[186961] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[181597] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181359] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[188614] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[186562] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dreadstalker",
+		},
+		[125950] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Jade Serpent Statue",
+		},
+		[185008] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shackled Soul",
+		},
+		[181566] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[186662] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Felborne Overfiend",
+		},
+		[183376] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[184931] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[182011] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[181138] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fel Imp",
+		},
+		[184964] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Shackled Soul",
+		},
+		[186123] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[181948] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[186663] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felborne Overfiend",
+		},
+		[183377] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[183598] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archimonde",
+		},
+		[182212] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fel Iron Summoner",
+		},
+		[181275] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Demon Portal",
+		},
+		[182171] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[188950] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Desecration",
+		},
+		[182076] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[181838] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[159675] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[187742] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hellfire Deathcaller",
+		},
+		[156060] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
+		},
+		[181122] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Doom Lord Usael",
+		},
+		[185831] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mannoroth",
+		},
+		[189897] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Archimonde",
+		},
 	},
 	["emotes"] = {
+		{
+			{
+				15.2039999999997, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				29.799, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				29.799, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				45.585, -- [1]
+				"Anach kyree!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				54.3639999999996, -- [1]
+				"Witness the flames that have consumed countless worlds!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				60.1790000000001, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				78.3989999999994, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				78.3989999999994, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				92.9529999999995, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				97.9470000000001, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				118.549, -- [1]
+				"Your foolish resolve will break.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				128.293, -- [1]
+				"Kirel narak!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				134.364, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [13]
+			{
+				134.4, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				138.034, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				149.034, -- [1]
+				"This world will not fall so easily, demon. Its people will not give up without a fight. Our will is unbreakable! For Draenor!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				158.755999999999, -- [1]
+				"Your soul shall know endless torment!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				170.913, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				183.084, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				183.117, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				195.293, -- [1]
+				"Your foolish resolve will break.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				200.172, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				211.176, -- [1]
+				"Enough! Your meaningless struggle ends now!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				212.733, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Wylliam is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				256.217, -- [1]
+				"Your foolish resolve will break.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				264.731, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				275.964, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Ragnnarr is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				278.744, -- [1]
+				"Aid me, champions! This is not our final hour! We must survive!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				285.755999999999, -- [1]
+				"Oblivion draws closer, mage! Give up!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				290.768, -- [1]
+				"|TINTERFACE\\ICONS\\spell_shadow_soulleech_1.blp:20|t You are marked with |cFFF00000|Hspell:185014|h[Focused Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [30]
+			{
+				295.757, -- [1]
+				"Never! This world will stand against the legion and prevail!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				295.757, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [32]
+			{
+				330.377, -- [1]
+				"Your foolish resolve will break.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				337.701999999999, -- [1]
+				"You will never escape the endless void!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				339.200999999999, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Wylliam is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				352.248, -- [1]
+				"You cannot escape my power!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				353.93, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [37]
+			{
+				363.146999999999, -- [1]
+				"Your soul shall know endless torment!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [38]
+			["boss"] = "Archimonde",
+		}, -- [1]
+		{
+			{
+				15.1709999999994, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				29.7889999999998, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				29.7889999999998, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				53.1959999999999, -- [1]
+				"All will burn in the legion's fire.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				59.0659999999998, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				78.5689999999995, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				78.643, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				89.8350000000001, -- [1]
+				"You fall so easily!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				90.8599999999997, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				95.759, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				116.717, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				126.072999999999, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				132.183, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [13]
+			{
+				132.214, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				141.869, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				150.902999999999, -- [1]
+				"|TINTERFACE\\ICONS\\spell_shadow_soulleech_1.blp:20|t You are marked with |cFFF00000|Hspell:185014|h[Focused Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [16]
+			{
+				152.895, -- [1]
+				"This world will not fall so easily, demon. Its people will not give up without a fight. Our will is unbreakable! For Draenor!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				155.907, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [18]
+			{
+				168.713, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				179.763, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				179.763, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				193.121999999999, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				201.645, -- [1]
+				"You cannot escape my power!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				208.130999999999, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				219.141, -- [1]
+				"Enough! Your meaningless struggle ends now!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				220.172, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Ragnnarr is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				241.114, -- [1]
+				"|TINTERFACE\\ICONS\\inv_enchant_voidsphere.blp:20|t A Void Star is |cFFF00000|Hspell:189894|h[Fixated]|h|r on you!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [27]
+			{
+				253.935, -- [1]
+				"Kneel before the might of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				260.668, -- [1]
+				"|TINTERFACE\\ICONS\\spell_shadow_soulleech_1.blp:20|t You are marked with |cFFF00000|Hspell:185014|h[Focused Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [29]
+			{
+				263.664, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				265.669, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [31]
+			{
+				270.551, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				282.217, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Wylliam is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				284.554, -- [1]
+				"Aid me, champions! This is not our final hour! We must survive!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				288.092, -- [1]
+				"You fall so easily!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				291.566, -- [1]
+				"Oblivion draws closer, mage! Give up!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				301.568, -- [1]
+				"Never! This world will stand against the legion and prevail!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				326.982, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				342.807, -- [1]
+				"The infinite darkness shall claim you!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				344.342, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Ragnnarr is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				352.574, -- [1]
+				"Pathetic.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				361.025, -- [1]
+				"Your foolish resolve will break.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [42]
+			["boss"] = "Archimonde",
+		}, -- [2]
+		{
+			{
+				15.3130000000001, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				29.893, -- [1]
+				"This meaningless little world has already succumbed to my corruption. The land itself seethes with the mark of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				29.893, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				45.6930000000002, -- [1]
+				"Insignificant whelps!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				54.5169999999998, -- [1]
+				"Witness the flames that have consumed countless worlds!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				60.3159999999998, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				78.531, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				78.5619999999999, -- [1]
+				"Akim-kurai!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				91.924, -- [1]
+				"The light will not fail!", -- [2]
+				"Exarch Yrel", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				96.9160000000002, -- [1]
+				"I grow tired of this pointless game. You face the immortal Legion, scourge of a thousand worlds.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				117.493, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				127.193, -- [1]
+				"You are so easily corrupted.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				133.298, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [13]
+			{
+				133.298, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				140.583, -- [1]
+				"Look upon the endless forces of the Burning Legion and know the folly of your resistance.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				151.606, -- [1]
+				"This world will not fall so easily, demon. Its people will not give up without a fight. Our will is unbreakable! For Draenor!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				152.035, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [17]
+			{
+				157.683, -- [1]
+				"Your soul shall know endless torment!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				169.81, -- [1]
+				"Kirel narak!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				182.018, -- [1]
+				"|TINTERFACE\\ICONS\\spell_fire_felflamestrike.blp:20|t Archimonde begins to cast |cFFF00000|Hspell:183254|h[Allure of Flames]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				182.068, -- [1]
+				"Accept your miserable fate.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				194.214, -- [1]
+				"Your soul shall know endless torment!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				202.691, -- [1]
+				"You cannot escape my power!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				204.407, -- [1]
+				"|TINTERFACE\\ICONS\\spell_misc_zandalari_council_soulswap.blp:20|t You are marked with |cFFF00000|Hspell:186123|h[Wrought Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [24]
+			{
+				212.443, -- [1]
+				"Lok'tar ogar! They are pushed back! To the portal! Gul'dan is mine!", -- [2]
+				"Grommash Hellscream", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				219.456, -- [1]
+				"|TINTERFACE\\ICONS\\spell_shadow_soulleech_1.blp:20|t You are marked with |cFFF00000|Hspell:185014|h[Focused Chaos]|h|r!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [26]
+			{
+				223.455, -- [1]
+				"Enough! Your meaningless struggle ends now!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				224.92, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Wylliam is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				260.051, -- [1]
+				"|TINTERFACE\\ICONS\\inv_enchant_voidsphere.blp:20|t A Void Star is |cFFF00000|Hspell:189894|h[Fixated]|h|r on you!", -- [2]
+				"Raideon", -- [3]
+				2, -- [4]
+			}, -- [29]
+			{
+				268.399, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				273.262, -- [1]
+				"I will shatter this pathetic world! Its broken husk will be torn apart in the twisting nether for all time!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				286.904, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Ragnnarr is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				287.274, -- [1]
+				"Aid me, champions! This is not our final hour! We must survive!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				294.266, -- [1]
+				"Oblivion draws closer, mage! Give up!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				304.27, -- [1]
+				"Never! This world will stand against the legion and prevail!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				331.629, -- [1]
+				"Your soul will be mine!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				347.412, -- [1]
+				"You will never escape the endless void!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				348.933, -- [1]
+				"|TINTERFACE\\ICONS\\ability_warlock_moltencoregreen.blp:20|t Wylliam is marked with |cFFF00000|Hspell:186961|h[Nether Banish]|h|r!", -- [2]
+				"Archimonde", -- [3]
+				1, -- [4]
+			}, -- [38]
+			{
+				354.029, -- [1]
+				"Miserable worm.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				361.967, -- [1]
+				"Kneel before the might of the legion!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				369.269, -- [1]
+				"Your soul shall know endless torment!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				382.556, -- [1]
+				"Miserable worm.", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				383.833, -- [1]
+				"You have failed this world!", -- [2]
+				"Archimonde", -- [3]
+				7, -- [4]
+			}, -- [43]
+			["boss"] = "Archimonde",
+		}, -- [3]
 	},
 }

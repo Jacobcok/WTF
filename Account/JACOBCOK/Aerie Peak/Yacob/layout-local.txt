@@ -6,6 +6,13 @@ X: -201
 Y: -189
 W: 150
 H: 80
+Frame: ExtraActionBarFrame
+FrameLevel: 2
+Anchor: BOTTOM
+X: -307
+Y: 147
+W: 64
+H: 64
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: LEFT

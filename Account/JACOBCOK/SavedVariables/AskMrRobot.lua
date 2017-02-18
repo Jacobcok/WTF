@@ -1,6 +1,55 @@
 
 AskMrRobotDb3 = {
 	["char"] = {
+		["Yacob - Thrall"] = {
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Eastern Kingdoms",
+			},
+			["Talents"] = {
+				"3230000", -- [1]
+				"0000000", -- [2]
+				"3310000", -- [3]
+			},
+			["Equipped"] = {
+				{
+					"|cff00ccff|Hitem:122249::::::::58:102:::1:582:::|h[Preened Tribal War Feathers]|h|r", -- [1]
+					"|cff00ccff|Hitem:122663::::::::58:102:::1:582:::|h[Eternal Amulet of the Redeemed]|h|r", -- [2]
+					"|cff00ccff|Hitem:122358::::::::58:102:::1:583:::|h[Stained Shadowcraft Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cff00ccff|Hitem:122383:1843:::::::58:102:::1:583:::|h[Stained Shadowcraft Tunic]|h|r", -- [5]
+					"|cff0070dd|Hitem:138169::::::::58:102:512:9:1:3387:58:::|h[Felshroud Belt]|h|r", -- [6]
+					"|cff00ccff|Hitem:122254::::::::58:102:::1:583:::|h[Stained Shadowcraft Pants]|h|r", -- [7]
+					"|cff0070dd|Hitem:51963::::::-78:1895235605:58:102::1::::|h[Vigorous Stompers of the Monkey]|h|r", -- [8]
+					"|cff0070dd|Hitem:138163::::::::58:102:512:9:1:3387:56:::|h[Felshroud Bindings]|h|r", -- [9]
+					"|cff0070dd|Hitem:51965::::::-71:1361117198:58:102::1::::|h[Vigorous Handguards of the Bandit]|h|r", -- [10]
+					"|cff0070dd|Hitem:51992::::::-86:777453581:58:102::1::::|h[Tumultuous Ring of the Soldier]|h|r", -- [11]
+					"|cff0070dd|Hitem:51992::::::-71:1200160781:58:102::1::::|h[Tumultuous Ring of the Bandit]|h|r", -- [12]
+					"|cff00ccff|Hitem:128318::::::::58:102::::::|h[Touch of the Void]|h|r", -- [13]
+					"|cff00ccff|Hitem:122361::::::::58:102:::1:583:::|h[Swift Hand of Justice]|h|r", -- [14]
+					"|cff00ccff|Hitem:122262::::::::58:102:::1:583:::|h[Ancient Bloodmoon Cloak]|h|r", -- [15]
+					"|cff00ccff|Hitem:122353::::::::58:102:::1:582:::|h[Dignified Headmaster's Charge]|h|r", -- [16]
+				}, -- [1]
+				[3] = {
+					"|cff00ccff|Hitem:122248::::::::55:104:::1:583:::|h[Stained Shadowcraft Cap]|h|r", -- [1]
+					"|cff00ccff|Hitem:122666::::::::55:104::::::|h[Eternal Woven Ivy Necklace]|h|r", -- [2]
+					"|cff00ccff|Hitem:122358::::::::55:104:::1:583:::|h[Stained Shadowcraft Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cff00ccff|Hitem:122383:1843:::::::55:104:::1:583:::|h[Stained Shadowcraft Tunic]|h|r", -- [5]
+					"|cff0070dd|Hitem:51964::::::-78:1606615050:55:104::1::::|h[Vigorous Belt of the Monkey]|h|r", -- [6]
+					"|cff00ccff|Hitem:122254::::::::55:104:::1:583:::|h[Stained Shadowcraft Pants]|h|r", -- [7]
+					"|cff0070dd|Hitem:51963::::::-78:1895235605:55:104::1::::|h[Vigorous Stompers of the Monkey]|h|r", -- [8]
+					"|cff0070dd|Hitem:51962::::::-71:1982988304:55:104::1::::|h[Vigorous Bracers of the Bandit]|h|r", -- [9]
+					"|cff0070dd|Hitem:51965::::::-71:1361117198:55:104::1::::|h[Vigorous Handguards of the Bandit]|h|r", -- [10]
+					"|cff0070dd|Hitem:51992::::::-86:777453581:55:104::1::::|h[Tumultuous Ring of the Soldier]|h|r", -- [11]
+					"|cff0070dd|Hitem:51992::::::-71:1200160781:55:104::1::::|h[Tumultuous Ring of the Bandit]|h|r", -- [12]
+					"|cff00ccff|Hitem:128318::::::::55:104::::::|h[Touch of the Void]|h|r", -- [13]
+					"|cff00ccff|Hitem:122361::::::::55:104:::1:583:::|h[Swift Hand of Justice]|h|r", -- [14]
+					"|cff00ccff|Hitem:122261::::::::55:104:::1:583:::|h[Inherited Cape of the Black Baron]|h|r", -- [15]
+					"|cff00ccff|Hitem:122386::::::::55:104:::1:582:::|h[Repurposed Lava Dredger]|h|r", -- [16]
+				},
+			},
+		},
 		["Zagrat - Thrall"] = {
 			["Logging"] = {
 				["LastDiff"] = 0,
@@ -29,15 +78,6 @@ AskMrRobotDb3 = {
 					"|cff00ccff|Hitem:122396::::::::37:269:::1:582:::|h[Brawler's Razor Claws]|h|r", -- [16]
 					"|cff00ccff|Hitem:122396::::::::37:269:::1:582:::|h[Brawler's Razor Claws]|h|r", -- [17]
 				},
-			},
-		},
-		["Zagrot - Thrall"] = {
-			["Logging"] = {
-				["LastDiff"] = 0,
-				["LastZone"] = "Eastern Kingdoms",
-			},
-			["Talents"] = {
-				[2] = "0000000",
 			},
 		},
 		["Adope - Thrall"] = {
@@ -89,53 +129,42 @@ AskMrRobotDb3 = {
 				},
 			},
 		},
-		["Yacob - Thrall"] = {
+		["Zagrot - Thrall"] = {
 			["Logging"] = {
 				["LastDiff"] = 0,
 				["LastZone"] = "Eastern Kingdoms",
 			},
 			["Talents"] = {
-				"3230000", -- [1]
-				"0000000", -- [2]
-				"3310000", -- [3]
+				[2] = "0000000",
+			},
+		},
+		["Zagrot - Turalyon"] = {
+			["Talents"] = {
+				"1111110", -- [1]
 			},
 			["Equipped"] = {
 				{
-					"|cff00ccff|Hitem:122249::::::::58:102:::1:582:::|h[Preened Tribal War Feathers]|h|r", -- [1]
-					"|cff00ccff|Hitem:122663::::::::58:102:::1:582:::|h[Eternal Amulet of the Redeemed]|h|r", -- [2]
-					"|cff00ccff|Hitem:122358::::::::58:102:::1:583:::|h[Stained Shadowcraft Spaulders]|h|r", -- [3]
+					"|cffa335ee|Hitem:99093::95347:76672:::::90:262:4:::505:::|h[Headpiece of Celestial Harmony]|h|r", -- [1]
+					"|cffa335ee|Hitem:105290:::::::782237184:90:262:4:::505:::|h[Ashflare Pendant]|h|r", -- [2]
+					"|cffa335ee|Hitem:99095:4806:76672:76672:::::90:262:4:::505:::|h[Shoulderwraps of Celestial Harmony]|h|r", -- [3]
 					nil, -- [4]
-					"|cff00ccff|Hitem:122383:1843:::::::58:102:::1:583:::|h[Stained Shadowcraft Tunic]|h|r", -- [5]
-					"|cff0070dd|Hitem:138169::::::::58:102:512:9:1:3387:58:::|h[Felshroud Belt]|h|r", -- [6]
-					"|cff00ccff|Hitem:122254::::::::58:102:::1:583:::|h[Stained Shadowcraft Pants]|h|r", -- [7]
-					"|cff0070dd|Hitem:51963::::::-78:1895235605:58:102::1::::|h[Vigorous Stompers of the Monkey]|h|r", -- [8]
-					"|cff0070dd|Hitem:138163::::::::58:102:512:9:1:3387:56:::|h[Felshroud Bindings]|h|r", -- [9]
-					"|cff0070dd|Hitem:51965::::::-71:1361117198:58:102::1::::|h[Vigorous Handguards of the Bandit]|h|r", -- [10]
-					"|cff0070dd|Hitem:51992::::::-86:777453581:58:102::1::::|h[Tumultuous Ring of the Soldier]|h|r", -- [11]
-					"|cff0070dd|Hitem:51992::::::-71:1200160781:58:102::1::::|h[Tumultuous Ring of the Bandit]|h|r", -- [12]
-					"|cff00ccff|Hitem:128318::::::::58:102::::::|h[Touch of the Void]|h|r", -- [13]
-					"|cff00ccff|Hitem:122361::::::::58:102:::1:583:::|h[Swift Hand of Justice]|h|r", -- [14]
-					"|cff00ccff|Hitem:122262::::::::58:102:::1:583:::|h[Ancient Bloodmoon Cloak]|h|r", -- [15]
-					"|cff00ccff|Hitem:122353::::::::58:102:::1:582:::|h[Dignified Headmaster's Charge]|h|r", -- [16]
+					"|cffa335ee|Hitem:99579:4419:76672:76672:76672::::90:262:4:::493:::|h[Hauberk of Celestial Harmony]|h|r", -- [5]
+					"|cffa335ee|Hitem:103941::76672:76700:76700:::944150912:90:262:4:::505:::|h[Chitin-Link Chain Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:105755:4825:76700:76700::::1562016128:90:262:4:::505:::|h[Moshne's Keen Kilt]|h|r", -- [7]
+					"|cffa335ee|Hitem:103813:4429:76700:::::1413213312:90:262:4:::493:::|h[Treads of Autonomic Motion]|h|r", -- [8]
+					"|cffa335ee|Hitem:103863:4414::::::1963105792:90:262:4:::493:::|h[Cavemaker Wristguards]|h|r", -- [9]
+					"|cffa335ee|Hitem:99092:4430:76672:76672:::::90:262:4:::505:::|h[Gloves of Celestial Harmony]|h|r", -- [10]
+					"|cffa335ee|Hitem:103771::76700:::::771751552:90:262:4:::493:::|h[Seal of Eternal Sorrow]|h|r", -- [11]
+					"|cffa335ee|Hitem:103823:::::::1427883392:90:262:4:::493:::|h[Extinguished Ember of Galakras]|h|r", -- [12]
+					"|cffa335ee|Hitem:102300:::::::141223168:90:262:4:::493:::|h[Kardris' Toxic Totem]|h|r", -- [13]
+					"|cffa335ee|Hitem:102293:::::::926100480:90:262:4:::505:::|h[Purified Bindings of Immerseus]|h|r", -- [14]
+					"|cffff8000|Hitem:102246:4423:76672:::::1799171456:90:262:4:::505:::|h[Xing-Ho, Breath of Yu'lon]|h|r", -- [15]
+					"|cffa335ee|Hitem:103873:4442:76700:::::968688000:90:262:4:::493:::|h[Gaze of Arrogance]|h|r", -- [16]
 				}, -- [1]
-				[3] = {
-					"|cff00ccff|Hitem:122248::::::::55:104:::1:583:::|h[Stained Shadowcraft Cap]|h|r", -- [1]
-					"|cff00ccff|Hitem:122666::::::::55:104::::::|h[Eternal Woven Ivy Necklace]|h|r", -- [2]
-					"|cff00ccff|Hitem:122358::::::::55:104:::1:583:::|h[Stained Shadowcraft Spaulders]|h|r", -- [3]
-					nil, -- [4]
-					"|cff00ccff|Hitem:122383:1843:::::::55:104:::1:583:::|h[Stained Shadowcraft Tunic]|h|r", -- [5]
-					"|cff0070dd|Hitem:51964::::::-78:1606615050:55:104::1::::|h[Vigorous Belt of the Monkey]|h|r", -- [6]
-					"|cff00ccff|Hitem:122254::::::::55:104:::1:583:::|h[Stained Shadowcraft Pants]|h|r", -- [7]
-					"|cff0070dd|Hitem:51963::::::-78:1895235605:55:104::1::::|h[Vigorous Stompers of the Monkey]|h|r", -- [8]
-					"|cff0070dd|Hitem:51962::::::-71:1982988304:55:104::1::::|h[Vigorous Bracers of the Bandit]|h|r", -- [9]
-					"|cff0070dd|Hitem:51965::::::-71:1361117198:55:104::1::::|h[Vigorous Handguards of the Bandit]|h|r", -- [10]
-					"|cff0070dd|Hitem:51992::::::-86:777453581:55:104::1::::|h[Tumultuous Ring of the Soldier]|h|r", -- [11]
-					"|cff0070dd|Hitem:51992::::::-71:1200160781:55:104::1::::|h[Tumultuous Ring of the Bandit]|h|r", -- [12]
-					"|cff00ccff|Hitem:128318::::::::55:104::::::|h[Touch of the Void]|h|r", -- [13]
-					"|cff00ccff|Hitem:122361::::::::55:104:::1:583:::|h[Swift Hand of Justice]|h|r", -- [14]
-					"|cff00ccff|Hitem:122261::::::::55:104:::1:583:::|h[Inherited Cape of the Black Baron]|h|r", -- [15]
-					"|cff00ccff|Hitem:122386::::::::55:104:::1:582:::|h[Repurposed Lava Dredger]|h|r", -- [16]
-				},
+			},
+			["Logging"] = {
+				["LastZone"] = "Pandaria",
+				["LastDiff"] = 0,
 			},
 		},
 		["Zagrut - Thrall"] = {
@@ -266,36 +295,45 @@ AskMrRobotDb3 = {
 			},
 		},
 		["Züül - Aegwynn"] = {
-			["Talents"] = {
-				[3] = "0000000",
-			},
 			["Logging"] = {
 				["LastDiff"] = 0,
 				["LastZone"] = "Eastern Kingdoms",
 			},
+			["Talents"] = {
+				[3] = "0000000",
+			},
 		},
 	},
-	["global"] = {
-		["Region"] = "US",
-	},
 	["profileKeys"] = {
-		["Zagrat - Thrall"] = "Zagrat - Thrall",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Adope - Thrall"] = "Adope - Thrall",
 		["Yacob - Thrall"] = "Yacob - Thrall",
+		["Zagrat - Thrall"] = "Zagrat - Thrall",
+		["Adope - Thrall"] = "Adope - Thrall",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
 		["Zionae - Thrall"] = "Zionae - Thrall",
 		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
+	["global"] = {
+		["Region"] = "US",
+	},
 	["profiles"] = {
-		["Zagrat - Thrall"] = {
+		["Yacob - Thrall"] = {
 		},
-		["Zagrot - Thrall"] = {
+		["Zagrat - Thrall"] = {
 		},
 		["Adope - Thrall"] = {
 		},
-		["Yacob - Thrall"] = {
+		["Zagrot - Thrall"] = {
+		},
+		["Zagrot - Turalyon"] = {
+			["Logging"] = {
+				["Auto"] = {
+					[870] = {
+					},
+				},
+			},
 		},
 		["Zagrut - Thrall"] = {
 		},

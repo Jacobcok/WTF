@@ -10,11 +10,13 @@ DataStore_StatsDB = {
 		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
@@ -26,7 +28,7 @@ DataStore_StatsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1485358696,
+				["lastUpdate"] = 1487307910,
 				["Stats"] = {
 					["Ranged"] = "19849-19850|0|28568|0|39.69750213623",
 					["HealthMax"] = 2578020,
@@ -39,16 +41,16 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Aerie Peak.Twodrop"] = {
-				["lastUpdate"] = 1472616214,
+				["lastUpdate"] = 1486564097,
 				["Stats"] = {
-					["Ranged"] = "7169-7171|2.5060000419617|5046|0|26.054546356201",
+					["Ranged"] = "7169-7171|2.5060000419617|5046|0|21.054544448853",
 					["HealthMax"] = 315720,
-					["Melee"] = "5191-5192|2.5060000419617|5046|0|26.054546356201|0",
-					["MaxPower"] = "2|120",
+					["Melee"] = "5191-5192|2.5060000419617|5046|0|21.054544448853|0",
+					["MaxPower"] = "2|130",
 					["Defense"] = "1422|1|12.888561248779|0|0|0",
 					["PVP"] = "7|0",
 					["Base"] = "886|5046|5262|854|1422",
-					["Spell"] = "854|854|0|26.054546356201|1573|0",
+					["Spell"] = "854|854|0|21.054544448853|1573|0",
 				},
 			},
 			["Default.Aerie Peak.Subreddit"] = {
@@ -62,6 +64,19 @@ DataStore_StatsDB = {
 					["PVP"] = "0|0",
 					["Base"] = "551|985|3750|4249|693",
 					["Spell"] = "4249|4249|0|17.390909194946|560|8000",
+				},
+			},
+			["Default.Turalyon.Zagrot"] = {
+				["lastUpdate"] = 1486347944,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|22.608695983887",
+					["HealthMax"] = 83447,
+					["Melee"] = "555-662|2.6460001468658|361|0|22.608695983887|0",
+					["MaxPower"] = "11|100",
+					["Defense"] = "656|1|3|0|3|0",
+					["PVP"] = "106|0",
+					["Base"] = "176|361|1703|1945|656",
+					["Spell"] = "1945|1945|0|22.608695983887|494|1184",
 				},
 			},
 			["Default.Thrall.Zagrut"] = {
@@ -78,7 +93,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Aerie Peak.Wurrior"] = {
-				["lastUpdate"] = 1472616167,
+				["lastUpdate"] = 1486564014,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|17.145454406738",
 					["HealthMax"] = 239220,
@@ -117,7 +132,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Aerie Peak.Zagrot"] = {
-				["lastUpdate"] = 1484067828,
+				["lastUpdate"] = 1486563847,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|27.915000915527",
 					["HealthMax"] = 1922100,
@@ -169,20 +184,20 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Aerie Peak.Raideon"] = {
-				["lastUpdate"] = 1485271885,
+				["lastUpdate"] = 1487370970,
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|39.052501678467",
-					["HealthMax"] = 2691600,
-					["Melee"] = "2742-5095|2.2630000114441|0|0|39.052501678467|0",
+					["Ranged"] = "1-2|0|0|0|36.594997406006",
+					["HealthMax"] = 2906220,
+					["Melee"] = "2993-5562|2.3580000400543|0|0|36.594997406006|0",
 					["MaxPower"] = "0|1100000",
-					["Defense"] = "1793|1|3|0|0|0",
-					["PVP"] = "78|0",
-					["Base"] = "4550|6252|44860|35682|1793",
-					["Spell"] = "35682|35682|0|54.052501678467|5577|82500",
+					["Defense"] = "1832|1|3|0|0|0",
+					["PVP"] = "89|0",
+					["Base"] = "4550|6252|48437|41224|1832",
+					["Spell"] = "41224|41224|0|51.595001220703|3846|82500",
 				},
 			},
 			["Default.Aerie Peak.Kolento"] = {
-				["lastUpdate"] = 1472616143,
+				["lastUpdate"] = 1486564052,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|19.727272033691",
 					["HealthMax"] = 291420,
@@ -207,8 +222,34 @@ DataStore_StatsDB = {
 					["Spell"] = "86|86|0|21.788177490234|61|260",
 				},
 			},
+			["Default.Aerie Peak.Yacub"] = {
+				["lastUpdate"] = 1487371286,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|22.492500305176",
+					["HealthMax"] = 3176100,
+					["Melee"] = "26217-31441|3.076000213623|9027|0|22.492500305176|0",
+					["MaxPower"] = "0|1100000",
+					["Defense"] = "2269|1|4.9977107048035|0|0|0",
+					["PVP"] = "28|0",
+					["Base"] = "4405|9027|52935|42459|2269",
+					["Spell"] = "42459|42459|0|21.492498397827|6387|46639",
+				},
+			},
+			["Default.Aerie Peak.Human"] = {
+				["lastUpdate"] = 1486563957,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|17.092498779297",
+					["HealthMax"] = 1273140,
+					["Melee"] = "24880-27471|3.2230000495911|18770|0|17.092498779297|0",
+					["MaxPower"] = "6|100",
+					["Defense"] = "3578|1|3|8.5175466537476|0|0",
+					["PVP"] = "5|0",
+					["Base"] = "18770|7532|21219|4002|3578",
+					["Spell"] = "4002|4002|0|17.092498779297|4389|0",
+				},
+			},
 			["Default.Aerie Peak.Bigyacob"] = {
-				["lastUpdate"] = 1484863201,
+				["lastUpdate"] = 1486412309,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|33.897499084473",
 					["HealthMax"] = 2105700,
@@ -220,43 +261,17 @@ DataStore_StatsDB = {
 					["Defense"] = "2108|1|13.082772254944|3|0|0",
 				},
 			},
-			["Default.Aerie Peak.Human"] = {
-				["lastUpdate"] = 1480307500,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|18.462856292725",
-					["HealthMax"] = 1242120,
-					["Melee"] = "24593-27189|3.1750001907349|18454|0|18.462856292725|0",
-					["MaxPower"] = "6|100",
-					["Defense"] = "3560|1|3|8.3329391479492|0|0",
-					["PVP"] = "5|0",
-					["Base"] = "18454|7532|20702|4002|3560",
-					["Spell"] = "4002|4002|0|18.462856292725|4350|0",
-				},
-			},
-			["Default.Aerie Peak.Zygi"] = {
-				["lastUpdate"] = 1485366232,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|22.937498092651",
-					["HealthMax"] = 2707800,
-					["Melee"] = "23528-28111|2.9080002307892|9030|0|22.937498092651|0",
-					["MaxPower"] = "0|1155000",
-					["Defense"] = "2216|1|3|0|0|0",
-					["PVP"] = "24|0",
-					["Base"] = "4402|9030|45130|38727|2216",
-					["Spell"] = "38727|38727|0|22.937498092651|8924|46640",
-				},
-			},
 			["Default.Aerie Peak.Yacob"] = {
-				["lastUpdate"] = 1483595961,
+				["lastUpdate"] = 1486563910,
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|24.385715484619",
-					["HealthMax"] = 1937580,
-					["Melee"] = "22702-26432|2.2230000495911|24297|0|24.385715484619|0",
-					["MaxPower"] = "0|220000",
-					["Defense"] = "2547|1|12.150390625|0|3|0",
+					["Ranged"] = "1-2|0|0|0|18.625",
+					["HealthMax"] = 2023560,
+					["Melee"] = "23191-26913|2.239000082016|25002|0|18.625|0",
+					["MaxPower"] = "11|150",
+					["Defense"] = "2547|1|12.50067615509|0|3|0",
 					["PVP"] = "94|0",
-					["Base"] = "4824|24297|32293|7756|2547",
-					["Spell"] = "29156|29156|0|24.385715484619|5515|35200",
+					["Base"] = "4824|25002|33726|7756|2547",
+					["Spell"] = "30002|30002|0|18.625|6047|35200",
 				},
 			},
 			["Default.Thrall.Zionae"] = {

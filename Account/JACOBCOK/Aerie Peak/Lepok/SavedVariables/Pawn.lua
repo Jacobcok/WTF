@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0114,
+	["LastVersion"] = 2.0115,
 	["LastPlayerFullName"] = "Lepok-Aerie Peak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,

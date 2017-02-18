@@ -1,0 +1,9 @@
+VER 3 0100000000000007 "Blobs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar foul
+/cast Chain Lightning
+END
+VER 3 0100000000000008 "ZGVMacro1" "0"
+/target Archmage Khadgar
+/run ZGV:MRM():CG(2,1)
+END

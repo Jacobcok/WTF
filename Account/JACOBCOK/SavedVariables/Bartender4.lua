@@ -380,20 +380,19 @@ Bartender4DB = {
 							["padding"] = 5,
 						}, -- [4]
 						{
-							["rows"] = 5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -260.499923706055,
-								["x"] = 471.98291015625,
-								["point"] = "CENTER",
+								["y"] = 103.969612121582,
+								["x"] = 449.281982421875,
+								["point"] = "BOTTOMLEFT",
 							},
 							["padding"] = 6,
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = 109.000007629395,
-								["x"] = 8.99993896484375,
+								["y"] = 103.776596069336,
+								["x"] = -4.21807861328125,
 								["point"] = "BOTTOM",
 							},
 							["padding"] = 6,
@@ -606,6 +605,73 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499923706055,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
 				["Yacob - Thrall"] = {
 					["actionbars"] = {
 						{
@@ -741,74 +807,6 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["rows"] = 5,
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -260.499923706055,
-								["x"] = 471.98291015625,
-								["point"] = "CENTER",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 109.000007629395,
-								["x"] = 8.99993896484375,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["actionbars"] = {
 						{
@@ -919,6 +917,140 @@ Bartender4DB = {
 						{
 							["padding"] = 6,
 							["rows"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -260.499923706055,
+								["x"] = 471.98291015625,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 109.000007629395,
+								["x"] = 8.99993896484375,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499923706055,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["rows"] = 5,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -260.499923706055,
@@ -1419,6 +1551,15 @@ Bartender4DB = {
 			},
 		},
 		["LibDualSpec-1.0"] = {
+			["char"] = {
+				["Yacub - Aerie Peak"] = {
+					"Zygi - Aerie Peak", -- [1]
+					"Zygi - Aerie Peak", -- [2]
+					"Zygi - Aerie Peak", -- [3]
+					"Zygi - Aerie Peak", -- [4]
+					["enabled"] = true,
+				},
+			},
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
@@ -1464,8 +1605,8 @@ Bartender4DB = {
 				},
 				["Zygi - Aerie Peak"] = {
 					["position"] = {
-						["y"] = 126.052894592285,
-						["x"] = -56.3717651367188,
+						["y"] = 164.486968994141,
+						["x"] = -31.4999389648438,
 						["point"] = "BOTTOM",
 					},
 					["version"] = 3,
@@ -1494,6 +1635,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -1510,14 +1659,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 126.052894592285,
-						["x"] = -56.3717651367188,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
@@ -1527,6 +1668,22 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 126.052894592285,
+						["x"] = -56.3717651367188,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 126.052894592285,
@@ -1681,6 +1838,16 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -1700,15 +1867,6 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 32.4000035345555,
-						["x"] = 160.357265573103,
-						["point"] = "BOTTOMLEFT",
-						["scale"] = 0.800000011920929,
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -1720,6 +1878,25 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 32.4000035345555,
+						["x"] = 160.357265573103,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 32.4000035345555,
@@ -1799,6 +1976,22 @@ Bartender4DB = {
 		},
 		["ZoneAbilityBar"] = {
 			["profiles"] = {
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Zygi - Aerie Peak"] = {
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -1996,6 +2189,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Yacob - Thrall"] = {
 					["enabled"] = true,
 					["artLayout"] = "TWOBAR",
@@ -2008,16 +2210,6 @@ Bartender4DB = {
 				},
 				["Lepok - Aerie Peak"] = {
 					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Twogauge - Bleeding Hollow"] = {
-					["enabled"] = true,
-					["artLayout"] = "TWOBAR",
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
@@ -2043,6 +2235,25 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 					["artLayout"] = "TWOBAR",
+				},
+				["Zagrot - Turalyon"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
+					["enabled"] = true,
+					["artLayout"] = "TWOBAR",
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
 				},
 				["Zagrot - Thrall"] = {
 					["enabled"] = true,
@@ -2157,8 +2368,8 @@ Bartender4DB = {
 				["Zygi - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 135.000015258789,
-						["x"] = -469.000061035156,
+						["y"] = 139.519790649414,
+						["x"] = -462.566680908203,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -2186,6 +2397,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2202,14 +2421,6 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 135.000015258789,
-						["x"] = -469.000061035156,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2219,6 +2430,22 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 135.000015258789,
+						["x"] = -469.000061035156,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 135.000015258789,
@@ -2358,6 +2585,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2374,14 +2609,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 36,
-						["x"] = -2.99998950958252,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2391,6 +2618,22 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 36,
+						["x"] = -2.99998950958252,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
@@ -2504,8 +2747,8 @@ Bartender4DB = {
 				},
 				["Zygi - Aerie Peak"] = {
 					["position"] = {
-						["y"] = 99,
-						["x"] = 443.499908447266,
+						["y"] = 66.2000045776367,
+						["x"] = 222.533279418945,
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 1,
 					},
@@ -2535,6 +2778,15 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2553,15 +2805,6 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 99,
-						["x"] = 443.499908447266,
-						["point"] = "BOTTOMLEFT",
-						["scale"] = 1,
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2572,6 +2815,23 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99,
+						["x"] = 443.499908447266,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 1,
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999618530273,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 99,
@@ -2687,8 +2947,8 @@ Bartender4DB = {
 				["Zygi - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 99.6888732910156,
-						["x"] = -386.000122070313,
+						["y"] = 143.762161254883,
+						["x"] = -402.5380859375,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -2716,6 +2976,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Yacub - Aerie Peak"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Yacob - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2732,14 +3000,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Twogauge - Bleeding Hollow"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 99.6888732910156,
-						["x"] = -386.000122070313,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Zagrot - Aerie Peak"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2749,6 +3009,22 @@ Bartender4DB = {
 					},
 				},
 				["Zagrut - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.6888732910156,
+						["x"] = -386.000122070313,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Zagrot - Turalyon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Twogauge - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 99.6888732910156,
@@ -2910,11 +3186,13 @@ Bartender4DB = {
 		["Discgusting - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Bigyacob - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Raideon - Aerie Peak"] = "Zygi - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Zygi - Aerie Peak",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
 		["Zagrot - Thrall"] = "Zagrot - Thrall",
 		["Yacob - Aerie Peak"] = "Zygi - Aerie Peak",
 		["Wurrior - Aerie Peak"] = "Zygi - Aerie Peak",
@@ -2978,6 +3256,11 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+		["Yacub - Aerie Peak"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["Yacob - Thrall"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -2991,7 +3274,12 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Twogauge - Bleeding Hollow"] = {
+		["Zagrot - Aerie Peak"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Zagrut - Thrall"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["minimapIcon"] = {
@@ -2999,12 +3287,12 @@ Bartender4DB = {
 			},
 			["outofrange"] = "hotkey",
 		},
-		["Zagrot - Aerie Peak"] = {
+		["Zagrot - Turalyon"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Zagrut - Thrall"] = {
+		["Twogauge - Bleeding Hollow"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["minimapIcon"] = {

@@ -45,6 +45,9 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN1"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Spell_Nature_Lightning",
 			["PerCharacterOptions"] = {
+				["Zagrot-Turalyon"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070de",
 			["LocalizedName"] = "Shaman: Elemental",
@@ -261,6 +264,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID4"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
 			["PerCharacterOptions"] = {
+				["Yacub-Aerie Peak"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7d0a",
 			["LocalizedName"] = "Druid: Restoration",
@@ -363,13 +369,13 @@ PawnCommon = {
 				["IsWand"] = -1000000,
 				["Indestructible"] = 0.01,
 				["IsWarglaive"] = -1000000,
-				["CritRating"] = 0.781,
-				["HasteRating"] = 0.498,
-				["MasteryRating"] = 0.866,
-				["Versatility"] = 0.723,
+				["CritRating"] = 0.808,
+				["HasteRating"] = 0.602,
+				["MasteryRating"] = 0.82,
+				["Versatility"] = 0.756,
 				["IsAxe"] = -1000000,
 				["IsGun"] = -1000000,
-				["Avoidance"] = 0.01,
+				["Stamina"] = 0.01,
 				["Is2HAxe"] = -1000000,
 				["Intellect"] = 1,
 				["IsSword"] = -1000000,
@@ -379,8 +385,8 @@ PawnCommon = {
 				["Leech"] = 0.01,
 				["MovementSpeed"] = 0.02,
 				["IsCrossbow"] = -1000000,
+				["Avoidance"] = 0.01,
 				["Is2HSword"] = -1000000,
-				["Stamina"] = 0.01,
 				["IsShield"] = -1000000,
 			},
 		},
@@ -430,21 +436,19 @@ PawnCommon = {
 			["SpecID"] = 1,
 		},
 		["Balance"] = {
+			["Values"] = {
+				["Intellect"] = 8.76,
+				["HasteRating"] = 6.75,
+				["MasteryRating"] = 5.99,
+				["Versatility"] = 6.37,
+				["CritRating"] = 6.4,
+			},
 			["PerCharacterOptions"] = {
 				["Zygi-Aerie Peak"] = {
 					["Visible"] = true,
 				},
 			},
 			["UpgradesFollowSpecialization"] = true,
-			["Color"] = "8ec3e6",
-			["UnenchantedColor"] = "6a92ac",
-			["Values"] = {
-				["Intellect"] = 8.1,
-				["HasteRating"] = 6.58,
-				["MasteryRating"] = 4.95,
-				["Versatility"] = 5.87,
-				["CritRating"] = 5.6,
-			},
 		},
 		["sin (EX)"] = {
 			["PerCharacterOptions"] = {
@@ -478,36 +482,6 @@ PawnCommon = {
 			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "c79c6e",
-			["LocalizedName"] = "Warrior: Arms",
-			["ClassID"] = 1,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = true,
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "957552",
-			["SpecID"] = 1,
-		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "3fc7eb",
-			["LocalizedName"] = "Mage: Arcane",
-			["ClassID"] = 8,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = false,
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2f95b0",
-			["SpecID"] = 1,
-		},
 		["outlaw"] = {
 			["Values"] = {
 				["Agility"] = 11.05,
@@ -525,6 +499,41 @@ PawnCommon = {
 				},
 			},
 		},
+		["sub"] = {
+			["PerCharacterOptions"] = {
+				["Lepok-Aerie Peak"] = {
+					["Visible"] = true,
+				},
+			},
+			["UpgradesFollowSpecialization"] = true,
+			["Color"] = "911ce6",
+			["UnenchantedColor"] = "6c15ac",
+			["Values"] = {
+				["Agility"] = 11.06,
+				["HasteRating"] = 6.91,
+				["MasteryRating"] = 7.89,
+				["Versatility"] = 8.33,
+				["CritRating"] = 7.26,
+			},
+		},
+		["\"MrRobot\":PALADIN3"] = {
+			["IconTexturePath"] = "Interface\\Icons\\Spell_Holy_AuraOfLight",
+			["PerCharacterOptions"] = {
+				["Kolento-Aerie Peak"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "f58cba",
+			["LocalizedName"] = "Paladin: Retribution",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = true,
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
+		},
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Spell_Shadow_Metamorphosis",
 			["PerCharacterOptions"] = {
@@ -538,6 +547,36 @@ PawnCommon = {
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "6566b2",
+			["SpecID"] = 2,
+		},
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = "Interface\\Icons\\Spell_Holy_MagicalSentry",
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "3fc7eb",
+			["LocalizedName"] = "Mage: Arcane",
+			["ClassID"] = 8,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = false,
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "2f95b0",
+			["SpecID"] = 1,
+		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = "Interface\\Icons\\ability_demonhunter_spectank",
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "a330c9",
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["ClassID"] = 12,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = false,
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "7a2496",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DRUID2"] = {
@@ -555,21 +594,6 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "0070de",
-			["LocalizedName"] = "Shaman: Restoration",
-			["ClassID"] = 7,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = false,
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0054a6",
-			["SpecID"] = 3,
-		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Ability_Paladin_ShieldoftheTemplar",
 			["PerCharacterOptions"] = {
@@ -583,21 +607,6 @@ PawnCommon = {
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 2,
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = "Interface\\Icons\\ability_demonhunter_spectank",
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "a330c9",
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["ClassID"] = 12,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = false,
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "7a2496",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":HUNTER1"] = {
@@ -615,37 +624,38 @@ PawnCommon = {
 			["UnenchantedColor"] = "809f56",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":PALADIN3"] = {
-			["IconTexturePath"] = "Interface\\Icons\\Spell_Holy_AuraOfLight",
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = "Interface\\Icons\\Ability_Warrior_SavageBlow",
 			["PerCharacterOptions"] = {
+				["Wurrior-Aerie Peak"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "f58cba",
-			["LocalizedName"] = "Paladin: Retribution",
-			["ClassID"] = 2,
+			["Color"] = "c79c6e",
+			["LocalizedName"] = "Warrior: Arms",
+			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = true,
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "957552",
+			["SpecID"] = 1,
 		},
-		["sub"] = {
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
 			["PerCharacterOptions"] = {
-				["Lepok-Aerie Peak"] = {
-					["Visible"] = true,
-				},
 			},
+			["Color"] = "0070de",
+			["LocalizedName"] = "Shaman: Restoration",
+			["ClassID"] = 7,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = false,
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
-			["Color"] = "911ce6",
-			["UnenchantedColor"] = "6c15ac",
-			["Values"] = {
-				["Agility"] = 11.06,
-				["HasteRating"] = 6.91,
-				["MasteryRating"] = 7.89,
-				["Versatility"] = 8.33,
-				["CritRating"] = 7.26,
-			},
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
@@ -710,6 +720,9 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER2"] = {
 			["IconTexturePath"] = "Interface\\Icons\\Ability_Hunter_FocusedAim",
 			["PerCharacterOptions"] = {
+				["Twodrop-Aerie Peak"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "abd473",
 			["LocalizedName"] = "Hunter: Marksmanship",
@@ -785,9 +798,6 @@ PawnCommon = {
 		["\"MrRobot\":MONK3"] = {
 			["IconTexturePath"] = "Interface\\Icons\\spell_monk_windwalker_spec",
 			["PerCharacterOptions"] = {
-				["Zagrot-Aerie Peak"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "00ff96",
 			["LocalizedName"] = "Monk: Windwalker",
@@ -805,6 +815,6 @@ PawnCommon = {
 	["ButtonPosition"] = 1,
 	["Debug"] = false,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0114,
+	["LastVersion"] = 2.0115,
 	["ShownGettingStarted"] = true,
 }

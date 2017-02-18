@@ -13,15 +13,21 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Zygi-Aerie Peak",
-	["last_day"] = "19",
-	["ignore_nicktag"] = false,
+	["last_day"] = "06",
 	["tabela_historico"] = {
 		["tabelas"] = {
 		},
 	},
-	["savedbuffs"] = {
+	["ignore_nicktag"] = false,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
-	["combat_counter"] = 10759,
+	["combat_counter"] = 10763,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -30,9 +36,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -54,7 +60,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -63,7 +69,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -163,11 +169,12 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
+			["use_spark"] = true,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -175,7 +182,7 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["row_color"] = {
 				0.1, -- [1]
@@ -183,7 +190,7 @@ _detalhes_database = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["font_size"] = 10,
+			["y"] = -4.577636718750e-005,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -197,7 +204,7 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["y"] = -4.577636718750e-005,
+			["font_size"] = 10,
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
@@ -219,25 +226,30 @@ _detalhes_database = {
 			["realm_lastamt"] = 0,
 		},
 	},
-	["last_encounter"] = "Elerethe Renferal",
+	["savedbuffs"] = {
+	},
+	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 360,
+		["logons"] = 362,
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
-	},
+	["last_instance_time"] = 1478226245,
 	["tabela_instancias"] = {
 	},
 	["combat_id"] = 8418,
 	["savedStyles"] = {
 	},
-	["last_version"] = "v7.1.5.3305",
 	["last_realversion"] = 116,
+	["cached_talents"] = {
+		["Player-1426-08CD72FB"] = {
+			21854, -- [1]
+			21862, -- [2]
+			21900, -- [3]
+			21865, -- [4]
+			21866, -- [5]
+			21869, -- [6]
+			22765, -- [7]
+		},
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -351,17 +363,7 @@ _detalhes_database = {
 		},
 		["overall_refreshed"] = true,
 	},
-	["cached_talents"] = {
-		["Player-1426-08CD72FB"] = {
-			21854, -- [1]
-			21862, -- [2]
-			21900, -- [3]
-			21865, -- [4]
-			21866, -- [5]
-			21869, -- [6]
-			22765, -- [7]
-		},
-	},
+	["last_version"] = "v7.1.5.3325",
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
@@ -432,7 +434,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_instance_time"] = 1478226245,
+	["last_encounter"] = "Elerethe Renferal",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -442,7 +444,7 @@ _detalhes_database = {
 	},
 	["nick_tag_cache"] = {
 		["last_version"] = 8,
-		["nextreset"] = 1485705488,
+		["nextreset"] = 1487170338,
 	},
 	["last_instance_id"] = 1651,
 	["cached_specs"] = {
