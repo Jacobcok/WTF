@@ -25,7 +25,7 @@ TellMeWhenDB = {
 		},
 		["AllowCombatConfig"] = true,
 	},
-	["Version"] = 83001,
+	["Version"] = 83102,
 	["profileKeys"] = {
 		["Kolento - Aerie Peak"] = "Kolento - Aerie Peak",
 		["Zagrat - Thrall"] = "Zagrat - Thrall",
@@ -39,15 +39,15 @@ TellMeWhenDB = {
 		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
-		["Zagrut - Thrall"] = "Zagrut - Thrall",
-		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
-		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
-		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
-		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
+		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zionae - Thrall"] = "Zionae - Thrall",
 		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
@@ -118,7 +118,6 @@ TellMeWhenDB = {
 		},
 		["Human - Aerie Peak"] = {
 			["Locked"] = true,
-			["NumGroups"] = 6,
 			["Version"] = 82501,
 			["Groups"] = {
 				{
@@ -127,14 +126,18 @@ TellMeWhenDB = {
 						["y"] = -74.0001525878906,
 						["x"] = -124.999969482422,
 					},
+					["EnabledSpecs"] = {
+						[252] = false,
+						[251] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["Name"] = "Bone Shield",
 							["ManaCheck"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -151,8 +154,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "rune tap",
 							["ManaCheck"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -171,8 +174,8 @@ TellMeWhenDB = {
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Vampiric Blood",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -191,8 +194,8 @@ TellMeWhenDB = {
 							["Name"] = "Icebound Fortitude",
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -206,10 +209,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[252] = false,
-						[251] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [1]
 				{
@@ -219,14 +218,18 @@ TellMeWhenDB = {
 						["y"] = -72.9999694824219,
 						["x"] = 85.5000610351563,
 					},
+					["EnabledSpecs"] = {
+						[252] = false,
+						[251] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["Name"] = "Defile",
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["ClockGCD"] = true,
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -240,10 +243,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["EnabledSpecs"] = {
-						[252] = false,
-						[251] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
@@ -253,6 +252,10 @@ TellMeWhenDB = {
 						["x"] = 0.999908447265625,
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
+					},
+					["EnabledSpecs"] = {
+						[251] = false,
+						[250] = false,
 					},
 					["Icons"] = {
 						{
@@ -312,10 +315,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[251] = false,
-						[250] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [3]
 				{
@@ -324,6 +323,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -60.9999237060547,
 						["x"] = -49.999755859375,
+					},
+					["EnabledSpecs"] = {
+						[251] = false,
+						[250] = false,
 					},
 					["Icons"] = {
 						{
@@ -343,10 +346,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["EnabledSpecs"] = {
-						[251] = false,
-						[250] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 				{
@@ -355,6 +354,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -78.9999389648438,
 						["x"] = -167.500061035156,
+					},
+					["EnabledSpecs"] = {
+						[251] = false,
+						[250] = false,
 					},
 					["Icons"] = {
 						{
@@ -372,10 +375,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["EnabledSpecs"] = {
-						[251] = false,
-						[250] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
 				{
@@ -385,12 +384,17 @@ TellMeWhenDB = {
 						["y"] = -61.9999542236328,
 						["x"] = 58.5003051757813,
 					},
+					["EnabledSpecs"] = {
+						[251] = false,
+						[250] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["Type"] = "buff",
 							["Name"] = "194310",
 							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
 							["States"] = {
 								{
 								}, -- [1]
@@ -400,20 +404,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Unit"] = "target",
 						}, -- [1]
-					},
-					["EnabledSpecs"] = {
-						[251] = false,
-						[250] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
 			},
+			["NumGroups"] = 6,
 		},
 		["Adope - Thrall"] = {
 			["Locked"] = true,
-			["NumGroups"] = 2,
 			["Version"] = 81209,
 			["Groups"] = {
 				{
@@ -423,27 +422,27 @@ TellMeWhenDB = {
 						["y"] = -94.0000610351563,
 						["x"] = -128.5,
 					},
-					["Name"] = "buffs",
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["Name"] = "Shield of the Righteous",
-							["ShowTimerText"] = true,
 							["Type"] = "buff",
+							["ShowTimerText"] = true,
 						}, -- [1]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["Name"] = "Divine Protection",
-							["ShowTimerText"] = true,
 							["Type"] = "buff",
+							["ShowTimerText"] = true,
 						}, -- [2]
 					},
 					["EnabledSpecs"] = {
 						[65] = false,
 						[70] = false,
 					},
+					["Name"] = "buffs",
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1NbXL=srnL0o",
@@ -454,6 +453,10 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
+					["EnabledSpecs"] = {
+						[65] = false,
+						[70] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -462,8 +465,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["Name"] = "Judgment",
 							["Type"] = "cooldown",
-							["ManaCheck"] = true,
 							["ShowTimerText"] = true,
+							["ManaCheck"] = true,
 							["States"] = {
 								nil, -- [1]
 								{
@@ -478,8 +481,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["Name"] = "Shield of the Righteous",
 							["Type"] = "cooldown",
-							["ManaCheck"] = true,
 							["ShowTimerText"] = true,
+							["ManaCheck"] = true,
 							["States"] = {
 								nil, -- [1]
 								{
@@ -494,8 +497,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["Name"] = "Consecration",
 							["Type"] = "cooldown",
-							["ManaCheck"] = true,
 							["ShowTimerText"] = true,
+							["ManaCheck"] = true,
 							["States"] = {
 								nil, -- [1]
 								{
@@ -508,8 +511,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Name"] = "Avenger's Shield",
 							["Type"] = "cooldown",
+							["Name"] = "Avenger's Shield",
 							["States"] = {
 								nil, -- [1]
 								{
@@ -518,13 +521,10 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[65] = false,
-						[70] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 			},
+			["NumGroups"] = 2,
 		},
 		["Subreddit - Aerie Peak"] = {
 			["Locked"] = true,
@@ -537,7 +537,6 @@ TellMeWhenDB = {
 		},
 		["Zygi - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 82501,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNYfqoTb1Uy",
@@ -676,8 +675,13 @@ TellMeWhenDB = {
 						["y"] = -89.0622306107417,
 						["x"] = -88.5936813776321,
 					},
-					["Name"] = "balance",
+					["Columns"] = 2,
 					["Scale"] = 2.1333339214325,
+					["EnabledSpecs"] = {
+						[103] = false,
+						[104] = false,
+						[105] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -756,12 +760,7 @@ TellMeWhenDB = {
 							},
 						}, -- [6]
 					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[104] = false,
-						[105] = false,
-					},
-					["Columns"] = 2,
+					["Name"] = "balance",
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1MPr22N9Yynh",
@@ -820,8 +819,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["Name"] = "Brutal Slash",
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -879,13 +878,20 @@ TellMeWhenDB = {
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1MPrOYuXdt=V",
-					["Name"] = "stance",
 					["Point"] = {
 						["y"] = -62.2428725558164,
 						["x"] = 67.1494698241533,
 						["point"] = "TOP",
 						["relativePoint"] = "TOP",
 					},
+					["Name"] = "stance",
+					["EnabledSpecs"] = {
+						[104] = false,
+						[102] = false,
+						[105] = false,
+					},
+					["Scale"] = 3.56667256355286,
+					["Columns"] = 1,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -905,13 +911,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [1]
-					},
-					["Scale"] = 3.56667256355286,
-					["Columns"] = 1,
-					["EnabledSpecs"] = {
-						[104] = false,
-						[102] = false,
-						[105] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
@@ -1107,6 +1106,11 @@ TellMeWhenDB = {
 						["x"] = -156.724027960331,
 					},
 					["Scale"] = 1.93333196640015,
+					["EnabledSpecs"] = {
+						[103] = false,
+						[104] = false,
+						[102] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1166,32 +1170,21 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[104] = false,
-						[102] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [8]
 				{
 					["GUID"] = "TMW:group:1OTcXQcBB2dR",
 					["Role"] = 2,
 					["Columns"] = 2,
-					["Point"] = {
-						["y"] = -36,
-						["x"] = 24.4999084472656,
-						["point"] = "TOP",
-						["relativePoint"] = "TOP",
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["GUID"] = "TMW:icon:1OTcXQbxJQZk",
-							["FakeHidden"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Essence of G'Hanir",
+							["Type"] = "cooldown",
+							["FakeHidden"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -1270,6 +1263,12 @@ TellMeWhenDB = {
 						[104] = false,
 						[102] = false,
 					},
+					["Point"] = {
+						["y"] = -36,
+						["x"] = 24.4999084472656,
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
+					},
 				}, -- [9]
 				{
 					["GUID"] = "TMW:group:1OX3rFCZd0lv",
@@ -1281,15 +1280,20 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
+					["EnabledSpecs"] = {
+						[103] = false,
+						[104] = false,
+						[105] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Starsurge",
 							["ClockGCD"] = true,
+							["Name"] = "Starsurge",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1307,8 +1311,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "New Moon",
 							["ClockGCD"] = true,
+							["Name"] = "New Moon",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1326,9 +1330,9 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Starfall",
 							["ClockGCD"] = true,
+							["Name"] = "Starfall",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1386,27 +1390,366 @@ TellMeWhenDB = {
 							},
 						},
 					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[104] = false,
-						[105] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [10]
 			},
 			["NumGroups"] = 10,
+			["Version"] = 82501,
 		},
 		["Discgusting - Aerie Peak"] = {
 			["Locked"] = true,
+			["NumGroups"] = 4,
+			["Version"] = 83102,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MRup8rGHvQq",
+					["Columns"] = 3,
+					["Point"] = {
+						["y"] = 123.999938964844,
+						["x"] = -6.99990844726563,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["EnabledSpecs"] = {
+						[257] = false,
+						[256] = false,
+					},
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Mind Blast",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Void Eruption",
+							["Conditions"] = {
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Void Torrent",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						[7] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[10] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+					},
+					["OnlyInCombat"] = true,
 				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1OioH11JACnt",
+					["Columns"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "buff",
+							["Name"] = "Shadow Word: Pain",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["OnlyMine"] = true,
+							["Name"] = "Vampiric Touch",
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[257] = false,
+						[256] = false,
+					},
+					["Point"] = {
+						["y"] = -95.5000762939453,
+						["x"] = -92.5000915527344,
+					},
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1OioHobVRF1X",
+					["Columns"] = 2,
+					["Point"] = {
+						["y"] = -79.4999389648438,
+						["x"] = 99.5,
+					},
+					["EnabledSpecs"] = {
+						[256] = false,
+						[257] = false,
+					},
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Mindbender",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Vampiric Embrace",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.58,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1Oiop8etxc03",
+					["Columns"] = 1,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "buff",
+							["Name"] = "Twist of Fate",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[256] = false,
+						[257] = false,
+					},
+					["Point"] = {
+						["y"] = 79.5000915527344,
+						["x"] = 66.5,
+					},
+				}, -- [4]
 			},
-			["Version"] = 81209,
 		},
 		["Bigyacob - Aerie Peak"] = {
 			["Locked"] = true,
+			["NumGroups"] = 5,
+			["Version"] = 82501,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1NnkEcSwnhao",
@@ -1421,8 +1764,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Eye Beam",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1571,6 +1914,9 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
+					["EnabledSpecs"] = {
+						[581] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1595,8 +1941,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Fel Rush",
 							["ClockGCD"] = true,
+							["Name"] = "Fel Rush",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1616,8 +1962,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Fel Barrage",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1631,9 +1977,6 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 					},
-					["EnabledSpecs"] = {
-						[581] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [3]
 				{
@@ -1644,6 +1987,9 @@ TellMeWhenDB = {
 						["x"] = -80.0000915527344,
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
+					},
+					["EnabledSpecs"] = {
+						[581] = false,
 					},
 					["Icons"] = {
 						{
@@ -1660,19 +2006,12 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 					},
-					["EnabledSpecs"] = {
-						[581] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1Nv11dijhEWY",
 					["Columns"] = 1,
 					["Scale"] = 2.13333463668823,
-					["Point"] = {
-						["y"] = -74.5311604476411,
-						["x"] = 79.6874048910733,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1697,22 +2036,27 @@ TellMeWhenDB = {
 					["EnabledSpecs"] = {
 						[581] = false,
 					},
+					["Point"] = {
+						["y"] = -74.5311604476411,
+						["x"] = 79.6874048910733,
+					},
 				}, -- [5]
 			},
-			["NumGroups"] = 5,
-			["Version"] = 82501,
 		},
 		["Raideon - Aerie Peak"] = {
 			["Locked"] = true,
+			["NumGroups"] = 12,
+			["Version"] = 83102,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdhvLQvtc=",
 					["Name"] = "frost",
 					["Point"] = {
-						["y"] = -121.841823406493,
-						["x"] = 4.21059586515892,
+						["y"] = 129.473373413086,
+						["x"] = 0.526391763596423,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
 					},
-					["Scale"] = 1.9000039100647,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1751,11 +2095,13 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
-							["Enabled"] = true,
+							["ManaCheck"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Ice Nova",
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["RangeCheck"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Ebonbolt",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1769,17 +2115,10 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Comet Storm",
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -1787,6 +2126,8 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Scale"] = 1.9000039100647,
+					["Columns"] = 3,
 					["EnabledSpecs"] = {
 						[63] = false,
 						[62] = false,
@@ -1796,10 +2137,10 @@ TellMeWhenDB = {
 				{
 					["GUID"] = "TMW:group:1MOk_OggTpAK",
 					["Point"] = {
-						["y"] = 221.5,
-						["x"] = 361.999908447266,
-						["point"] = "TOPLEFT",
-						["relativePoint"] = "BOTTOMLEFT",
+						["y"] = -86.9999694824219,
+						["x"] = 102.999694824219,
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
 					},
 					["Name"] = "frost",
 					["Icons"] = {
@@ -1807,8 +2148,10 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["Name"] = "Icy Veins",
+							["FakeHidden"] = true,
 							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["GUID"] = "TMW:icon:1OgDw8k0k91H",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1819,13 +2162,53 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Icy Veins",
+							["FakeHidden"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["GUID"] = "TMW:icon:1OgEBVrrJtdD",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
 					},
-					["Columns"] = 1,
+					["Rows"] = 2,
 					["EnabledSpecs"] = {
 						[63] = false,
 						[62] = false,
 					},
-					["OnlyInCombat"] = true,
+					["Columns"] = 2,
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1MOl3JoTV5UK",
@@ -1838,10 +2221,12 @@ TellMeWhenDB = {
 					["Name"] = "frost",
 					["Icons"] = {
 						{
-							["Enabled"] = true,
+							["StackMin"] = 3,
 							["ShowTimer"] = true,
-							["Name"] = "Brain Freeze; Brain Freeze",
+							["Name"] = "Fingers of Frost",
 							["Type"] = "buff",
+							["Enabled"] = true,
+							["StackMinEnabled"] = true,
 							["ShowTimerText"] = true,
 							["States"] = {
 								{
@@ -1854,13 +2239,6 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
-							["StackMin"] = 3,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "buff",
-							["Enabled"] = true,
-							["StackMinEnabled"] = true,
-							["Name"] = "Fingers of Frost; Fingers of Frost",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1871,6 +2249,17 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
 					},
 					["EnabledSpecs"] = {
 						[63] = false,
@@ -2059,11 +2448,11 @@ TellMeWhenDB = {
 						{
 							["ClockGCD"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Fire Blast",
+							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
+							["Name"] = "Fire Blast",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2079,11 +2468,11 @@ TellMeWhenDB = {
 						{
 							["ClockGCD"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Phoenix's Flames",
+							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
+							["Name"] = "Phoenix's Flames",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2244,14 +2633,6 @@ TellMeWhenDB = {
 				{
 					["GUID"] = "TMW:group:1OZAmf1_lZB3",
 					["Columns"] = 1,
-					["Point"] = {
-						["y"] = 79.5000915527344,
-						["x"] = 86,
-					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2303,14 +2684,266 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Point"] = {
+						["y"] = 79.5000915527344,
+						["x"] = 86,
+					},
 				}, -- [10]
+				{
+					["GUID"] = "TMW:group:1OgEBG7pUKbG",
+					["Columns"] = 1,
+					["Point"] = {
+						["y"] = -80.4997100830078,
+						["x"] = -107.000091552734,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "meta",
+							["Events"] = {
+								{
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "BUFFDUR",
+											["Name"] = "Icy Veins",
+											["Operator"] = "~=",
+										}, -- [1]
+										["n"] = 1,
+									},
+									["Type"] = "Animations",
+									["Event"] = "WCSP",
+									["Animation"] = "ACTVTNGLOW",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Icons"] = {
+								"TMW:icon:1OgEBVrrJtdD", -- [1]
+								"TMW:icon:1OgDw8k0k91H", -- [2]
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [11]
+				{
+					["GUID"] = "TMW:group:1OgEBv902zId",
+					["Columns"] = 3,
+					["Point"] = {
+						["y"] = -85.2630117609855,
+						["x"] = 118.42086197844,
+					},
+					["Scale"] = 1.9000039100647,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Blizzard",
+							["ClockGCD"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ice Nova",
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Comet Storm",
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						[7] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[10] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+					},
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [12]
+				{
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [13]
 			},
-			["Version"] = 83001,
-			["NumGroups"] = 10,
 		},
 		["Yacub - Aerie Peak"] = {
 			["Groups"] = {
 				{
+					["Point"] = {
+						["y"] = 175.603897094727,
+						["x"] = 246.812255859375,
+						["point"] = "TOPLEFT",
+						["relativePoint"] = "BOTTOMLEFT",
+					},
 					["Scale"] = 4.55001354217529,
 					["Role"] = 3,
 					["EnabledSpecs"] = {
@@ -2374,14 +3007,14 @@ TellMeWhenDB = {
 					},
 					["Name"] = "balance",
 					["GUID"] = "TMW:group:1MNYfqoTb1Uy",
-					["Point"] = {
-						["y"] = 175.603897094727,
-						["x"] = 246.812255859375,
-						["point"] = "TOPLEFT",
-						["relativePoint"] = "BOTTOMLEFT",
-					},
 				}, -- [1]
 				{
+					["Point"] = {
+						["y"] = 129.152557373047,
+						["x"] = 3.30541701322329,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
 					["Scale"] = 1.96666610240936,
 					["Role"] = 1,
 					["EnabledSpecs"] = {
@@ -2456,12 +3089,6 @@ TellMeWhenDB = {
 					},
 					["Name"] = "feral",
 					["GUID"] = "TMW:group:1MOE9Ri8GYQc",
-					["Point"] = {
-						["y"] = 129.152557373047,
-						["x"] = 3.30541701322329,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
 				}, -- [2]
 				{
 					["Point"] = {
@@ -2576,6 +3203,10 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1MOFJ9awUnCO",
 				}, -- [3]
 				{
+					["Point"] = {
+						["y"] = -59.4285677336922,
+						["x"] = 107.714283563653,
+					},
 					["Scale"] = 1.75,
 					["Rows"] = 3,
 					["Role"] = 1,
@@ -2631,8 +3262,8 @@ TellMeWhenDB = {
 						{
 							["ShowTimer"] = true,
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["Name"] = "Brutal Slash",
+							["ShowTimerText"] = true,
 							["ClockGCD"] = true,
 							["ManaCheck"] = true,
 							["States"] = {
@@ -2684,10 +3315,6 @@ TellMeWhenDB = {
 					},
 					["Name"] = "feral",
 					["GUID"] = "TMW:group:1MPr22N9Yynh",
-					["Point"] = {
-						["y"] = -59.4285677336922,
-						["x"] = 107.714283563653,
-					},
 				}, -- [4]
 				{
 					["Point"] = {
@@ -3275,12 +3902,13 @@ TellMeWhenDB = {
 				{
 					["GUID"] = "TMW:group:1OfrtlLpLmp=",
 					["Role"] = 1,
+					["OnlyInCombat"] = true,
 					["EnabledSpecs"] = {
 						[103] = false,
 						[104] = false,
 						[105] = false,
 					},
-					["Columns"] = 2,
+					["Columns"] = 3,
 					["Icons"] = {
 						{
 							["ShowTimer"] = true,
@@ -3321,6 +3949,11 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 						}, -- [2]
 						{
+							["ShowTimer"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["Name"] = "Mass Entanglement",
+							["ClockGCD"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3330,6 +3963,7 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
 							["States"] = {
@@ -3342,15 +3976,26 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
 					},
 					["Point"] = {
-						["y"] = -78.5000305175781,
-						["x"] = 109.999938964844,
+						["y"] = -79.4999847412109,
+						["x"] = 113.999938964844,
 					},
 				}, -- [11]
 			},
 			["NumGroups"] = 11,
-			["Version"] = 83001,
+			["Version"] = 83102,
 			["Locked"] = true,
 		},
 		["Yacob - Thrall"] = {
@@ -3364,11 +4009,13 @@ TellMeWhenDB = {
 		},
 		["Lepok - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 83001,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdpVZYjk=q",
-					["Scale"] = 1.83333432674408,
+					["Point"] = {
+						["y"] = 14.4548126010836,
+						["x"] = -107.454568364591,
+					},
 					["Icons"] = {
 						{
 							["States"] = {
@@ -3428,10 +4075,7 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Point"] = {
-						["y"] = 14.4548126010836,
-						["x"] = -107.454568364591,
-					},
+					["Scale"] = 1.83333432674408,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1Nsr9IDsXzCI",
@@ -3442,18 +4086,14 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
-					["EnabledSpecs"] = {
-						[259] = false,
-						[261] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["ClockGCD"] = true,
 							["Name"] = "Death from Above",
+							["ClockGCD"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3471,8 +4111,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["ClockGCD"] = true,
 							["Name"] = "Cannonball Barrage",
+							["ClockGCD"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3497,6 +4137,10 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 					},
+					["EnabledSpecs"] = {
+						[259] = false,
+						[261] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
@@ -3506,10 +4150,6 @@ TellMeWhenDB = {
 						["x"] = 134.727356392438,
 					},
 					["Scale"] = 1.83333265781403,
-					["EnabledSpecs"] = {
-						[259] = false,
-						[261] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3579,17 +4219,27 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[259] = false,
+						[261] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1Nw=AW5Cmdi6",
 					["Columns"] = 2,
+					["Point"] = {
+						["y"] = 92.3066024780274,
+						["x"] = -251.537480044032,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["Scale"] = 1.73334002494812,
+					["Rows"] = 3,
 					["EnabledSpecs"] = {
 						[259] = false,
 						[261] = false,
 					},
-					["Scale"] = 1.73334002494812,
-					["Rows"] = 3,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3688,17 +4338,22 @@ TellMeWhenDB = {
 							},
 						}, -- [6]
 					},
-					["Point"] = {
-						["y"] = 92.3066024780274,
-						["x"] = -251.537480044032,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1Nw=D7jY3CZV",
 					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -28.9997863769531,
+						["x"] = 191.499938964844,
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
+					},
 					["Name"] = "meta group",
+					["Rows"] = 2,
+					["EnabledSpecs"] = {
+						[259] = false,
+						[261] = false,
+					},
 					["Icons"] = {
 						{
 							["GUID"] = "TMW:icon:1Nw=D7jaxpYB",
@@ -3707,9 +4362,9 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Name"] = "Curse of the Dreadblades",
 							["DurationMax"] = 70,
-							["ShowTimerText"] = true,
-							["DurationMin"] = 70,
 							["Type"] = "cooldown",
+							["DurationMin"] = 70,
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -3730,8 +4385,8 @@ TellMeWhenDB = {
 							["FakeHidden"] = true,
 							["Name"] = "Curse of the Dreadblades",
 							["Type"] = "buff",
-							["GUID"] = "TMW:icon:1Nw=D7jeorX1",
 							["ShowTimerText"] = true,
+							["GUID"] = "TMW:icon:1Nw=D7jeorX1",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3748,10 +4403,10 @@ TellMeWhenDB = {
 							["FakeHidden"] = true,
 							["Enabled"] = true,
 							["ShowTimerText"] = true,
-							["Name"] = "Adrenaline Rush",
-							["DurationMin"] = 150,
-							["DurationMinEnabled"] = true,
 							["Type"] = "cooldown",
+							["DurationMinEnabled"] = true,
+							["DurationMin"] = 150,
+							["Name"] = "Adrenaline Rush",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3770,9 +4425,9 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["FakeHidden"] = true,
-							["GUID"] = "TMW:icon:1Nw=D7jmd4V4",
-							["Name"] = "Adrenaline Rush",
 							["Type"] = "buff",
+							["Name"] = "Adrenaline Rush",
+							["GUID"] = "TMW:icon:1Nw=D7jmd4V4",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3791,8 +4446,8 @@ TellMeWhenDB = {
 							["FakeHidden"] = true,
 							["Name"] = "Ghostly Strike",
 							["Type"] = "buff",
-							["GUID"] = "TMW:icon:1N=xS_wHAegk",
 							["ShowTimerText"] = true,
+							["GUID"] = "TMW:icon:1N=xS_wHAegk",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3811,9 +4466,9 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["Name"] = "Curse of the Dreadblades",
 							["DurationMax"] = 30,
-							["ShowTimerText"] = true,
-							["DurationMin"] = 70,
 							["Type"] = "cooldown",
+							["DurationMin"] = 70,
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -3879,7 +4534,7 @@ TellMeWhenDB = {
 							["FakeHidden"] = true,
 							["Name"] = "Ghostly Strike",
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
+							["Type"] = "buff",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -3890,7 +4545,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "buff",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -3905,17 +4560,6 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Rows"] = 2,
-					["EnabledSpecs"] = {
-						[259] = false,
-						[261] = false,
-					},
-					["Point"] = {
-						["y"] = -28.9997863769531,
-						["x"] = 191.499938964844,
-						["point"] = "TOP",
-						["relativePoint"] = "TOP",
-					},
 				}, -- [5]
 				{
 					["GUID"] = "TMW:group:1NxItrWbMcp=",
@@ -3927,10 +4571,6 @@ TellMeWhenDB = {
 						["relativePoint"] = "BOTTOM",
 					},
 					["Scale"] = 1.86666214466095,
-					["EnabledSpecs"] = {
-						[260] = false,
-						[261] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3992,6 +4632,10 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 					},
+					["EnabledSpecs"] = {
+						[260] = false,
+						[261] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
 				{
@@ -3999,10 +4643,6 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -78.4999847412109,
 						["x"] = 127.000183105469,
-					},
-					["EnabledSpecs"] = {
-						[260] = false,
-						[261] = false,
 					},
 					["Icons"] = {
 						{
@@ -4077,6 +4717,10 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[260] = false,
+						[261] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [7]
 				{
@@ -4097,9 +4741,9 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["FakeHidden"] = true,
-							["GUID"] = "TMW:icon:1Nz8Jy0lE=Cg",
-							["Name"] = "Vendetta",
 							["Type"] = "cooldown",
+							["Name"] = "Vendetta",
+							["GUID"] = "TMW:icon:1Nz8Jy0lE=Cg",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4119,25 +4763,25 @@ TellMeWhenDB = {
 							["OnlyMine"] = true,
 							["Name"] = "Vendetta",
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
+							["Type"] = "buff",
 							["Events"] = {
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
-											["Unit"] = "target",
+											["Operator"] = "~=",
 											["Type"] = "DEBUFFDUR",
 											["Name"] = "Vendetta",
-											["Operator"] = "~=",
+											["Unit"] = "target",
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "WCSP",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "buff",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -4156,8 +4800,8 @@ TellMeWhenDB = {
 							["Name"] = "Vendetta",
 							["DurationMax"] = 10,
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 									["Alpha"] = 0,
@@ -4188,6 +4832,12 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1O4D1F8qH0EA",
 					["Columns"] = 3,
 					["Scale"] = 2.03333854675293,
+					["Point"] = {
+						["y"] = 120.491333007813,
+						["x"] = 4.42633029592975,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
 					["EnabledSpecs"] = {
 						[259] = false,
 						[260] = false,
@@ -4198,8 +4848,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "buff",
-							["Name"] = "Symbols of Death",
 							["OnlyMine"] = true,
+							["Name"] = "Symbols of Death",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4215,8 +4865,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "buff",
-							["Name"] = "Shadow Dance; Subterfuge",
 							["OnlyMine"] = true,
+							["Name"] = "Shadow Dance; Subterfuge",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4231,10 +4881,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
-							["Unit"] = "target",
-							["BuffOrDebuff"] = "HARMFUL",
-							["Type"] = "buff",
-							["Name"] = "Nightblade",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4244,6 +4890,10 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["BuffOrDebuff"] = "HARMFUL",
+							["Name"] = "Nightblade",
+							["Type"] = "buff",
+							["Unit"] = "target",
 						}, -- [3]
 						{
 							["States"] = {
@@ -4268,17 +4918,15 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["Point"] = {
-						["y"] = 120.491333007813,
-						["x"] = 4.42633029592975,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
 				}, -- [9]
 				{
 					["GUID"] = "TMW:group:1O4f1GB2HSop",
 					["Columns"] = 1,
 					["Scale"] = 4.03334712982178,
+					["Point"] = {
+						["y"] = 56.1567979094118,
+						["x"] = -1.61164066408714,
+					},
 					["EnabledSpecs"] = {
 						[260] = false,
 						[261] = false,
@@ -4333,20 +4981,12 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Point"] = {
-						["y"] = 56.1567979094118,
-						["x"] = -1.61164066408714,
-					},
 				}, -- [10]
 				{
 					["GUID"] = "TMW:group:1O6rvSJMReeH",
 					["Point"] = {
 						["y"] = -77.5000152587891,
 						["x"] = 129.000183105469,
-					},
-					["EnabledSpecs"] = {
-						[259] = false,
-						[260] = false,
 					},
 					["Icons"] = {
 						{
@@ -4413,14 +5053,550 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[259] = false,
+						[260] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [11]
 			},
+			["Version"] = 83102,
 			["NumGroups"] = 11,
+		},
+		["Zagsham - Thrall"] = {
+			["Locked"] = true,
+			["Version"] = 81209,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NmSPw3IJAgX",
+				}, -- [1]
+			},
+		},
+		["Twodrop - Aerie Peak"] = {
+			["Locked"] = true,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1MNdn5BC7gux",
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [1]
+			},
+			["Version"] = 82501,
+		},
+		["Twogauge - Bleeding Hollow"] = {
+			["Locked"] = true,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1N2yfU7nkT0n",
+				}, -- [1]
+			},
+			["Version"] = 74003,
+		},
+		["Zagrot - Turalyon"] = {
+			["Locked"] = true,
+			["Version"] = 82501,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1Obzptv8Mjp2",
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [1]
+			},
+		},
+		["Zagrot - Thrall"] = {
+			["Locked"] = true,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NLZC7XCzPxM",
+				}, -- [1]
+			},
+			["Version"] = 81209,
+		},
+		["Yacob - Aerie Peak"] = {
+			["Locked"] = true,
+			["NumGroups"] = 3,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1MNdjB0Sk35V",
+					["Columns"] = 3,
+					["Scale"] = 1.60000050067902,
+					["Point"] = {
+						["y"] = -123.124687922934,
+						["x"] = -126.875025030289,
+					},
+					["EnabledSpecs"] = {
+						[264] = false,
+						[262] = false,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Boulderfist",
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Frostbrand",
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Flametongue",
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1O0liHo3O8cP",
+					["Columns"] = 2,
+					["Point"] = {
+						["y"] = -102.835503495128,
+						["x"] = 115.361523944761,
+					},
+					["Scale"] = 1.61665570735931,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Doom Winds",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.51,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Feral Spirit",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.42,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+					},
+					["EnabledSpecs"] = {
+						[262] = false,
+						[264] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1O0ll5lqR42R",
+					["Columns"] = 3,
+					["Point"] = {
+						["y"] = 156.060913085938,
+						["x"] = -0.302933051844881,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["Scale"] = 1.64999759197235,
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Boulderfist",
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+									["Color"] = "ff404f7f",
+									["Alpha"] = 1,
+								}, -- [3]
+								{
+									["Color"] = "ff404f7f",
+									["Alpha"] = 1,
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Stormstrike",
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+									["Alpha"] = 1,
+								}, -- [3]
+								{
+									["Color"] = "ff404f7f",
+									["Alpha"] = 1,
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Crash Lightning",
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+									["Alpha"] = 1,
+								}, -- [3]
+								{
+									["Alpha"] = 1,
+								}, -- [4]
+							},
+						}, -- [3]
+					},
+					["EnabledSpecs"] = {
+						[262] = false,
+						[264] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+			},
+			["Version"] = 82501,
+		},
+		["Wurrior - Aerie Peak"] = {
+			["Locked"] = true,
+			["Version"] = 83102,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1MNdmIY8VRlC",
+					["Columns"] = 3,
+					["Point"] = {
+						["y"] = 127.000038146973,
+						["x"] = 1,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
+					["Icons"] = {
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Bloodthirst",
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Raging Blow",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
+							["ClockGCD"] = true,
+							["Name"] = "Rampage",
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[73] = false,
+						[71] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1OisOR1IsbmK",
+					["Point"] = {
+						["y"] = -78.9998779296875,
+						["x"] = 128.000061035156,
+					},
+					["Icons"] = {
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Odyn's Fury",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Bladestorm",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Battle Cry",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[71] = false,
+						[73] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+			},
+			["NumGroups"] = 2,
+		},
+		["Zagrut - Thrall"] = {
+			["Locked"] = true,
+			["Version"] = 81209,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1NbZIo9Vet=a",
+				}, -- [1]
+			},
 		},
 		["Zagrot - Aerie Peak"] = {
 			["Locked"] = true,
-			["Version"] = 82501,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1MNdkAMrKRre",
@@ -4428,6 +5604,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -17.9999542236328,
 						["x"] = -169.500061035156,
+					},
+					["EnabledSpecs"] = {
+						[269] = false,
+						[268] = false,
 					},
 					["Icons"] = {
 						{
@@ -4446,17 +5626,17 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
+							["Name"] = "Chi Burst",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "Chi Burst",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "Chi Burst",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4497,10 +5677,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[269] = false,
-						[268] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [1]
 				{
@@ -4509,6 +5685,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -14.9999237060547,
 						["x"] = 150.500061035156,
+					},
+					["EnabledSpecs"] = {
+						[269] = false,
+						[268] = false,
 					},
 					["Icons"] = {
 						{
@@ -4550,8 +5730,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Expel Harm",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4578,10 +5758,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[269] = false,
-						[268] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
@@ -4594,6 +5770,10 @@ TellMeWhenDB = {
 						["relativePoint"] = "BOTTOM",
 					},
 					["Scale"] = 1.65000069141388,
+					["EnabledSpecs"] = {
+						[270] = false,
+						[268] = false,
+					},
 					["Icons"] = {
 						{
 							["ManaCheck"] = true,
@@ -4602,8 +5782,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Fists of Fury",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4623,8 +5803,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Rising Sun Kick",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4644,8 +5824,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Strike of the Windlord",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4665,8 +5845,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Whirling Dragon Punch",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4686,8 +5866,8 @@ TellMeWhenDB = {
 							["ClockGCD"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "chi wave",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4700,10 +5880,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [5]
-					},
-					["EnabledSpecs"] = {
-						[270] = false,
-						[268] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [3]
@@ -4779,6 +5955,10 @@ TellMeWhenDB = {
 						["relativePoint"] = "BOTTOM",
 					},
 					["Scale"] = 1.92499852180481,
+					["EnabledSpecs"] = {
+						[269] = false,
+						[270] = false,
+					},
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -4786,8 +5966,8 @@ TellMeWhenDB = {
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Keg Smash",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4806,8 +5986,8 @@ TellMeWhenDB = {
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Blackout Strike",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4826,8 +6006,8 @@ TellMeWhenDB = {
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Rushing Jade Wind",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4846,8 +6026,8 @@ TellMeWhenDB = {
 							["Name"] = "Breath of Fire",
 							["Enabled"] = true,
 							["RangeCheck"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4872,10 +6052,6 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["EnabledSpecs"] = {
-						[269] = false,
-						[270] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
 				{
@@ -4885,6 +6061,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -79.9999847412109,
 						["x"] = -109.999938964844,
+					},
+					["EnabledSpecs"] = {
+						[270] = false,
+						[269] = false,
 					},
 					["Icons"] = {
 						{
@@ -4903,8 +6083,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Purifying Brew",
 							["ClockGCD"] = true,
+							["Name"] = "Purifying Brew",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4978,10 +6158,6 @@ TellMeWhenDB = {
 							},
 						},
 					},
-					["EnabledSpecs"] = {
-						[270] = false,
-						[269] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
 				{
@@ -4992,14 +6168,18 @@ TellMeWhenDB = {
 						["y"] = -78.4999847412109,
 						["x"] = 98.0001220703125,
 					},
+					["EnabledSpecs"] = {
+						[270] = false,
+						[269] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Exploding Keg",
 							["ClockGCD"] = true,
+							["Name"] = "Exploding Keg",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5017,8 +6197,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Type"] = "cooldown",
-							["Name"] = "Fortifying Brew",
 							["ClockGCD"] = true,
+							["Name"] = "Fortifying Brew",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5076,10 +6256,6 @@ TellMeWhenDB = {
 							},
 						},
 					},
-					["EnabledSpecs"] = {
-						[270] = false,
-						[269] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [7]
 				{
@@ -5132,419 +6308,7 @@ TellMeWhenDB = {
 				}, -- [8]
 			},
 			["NumGroups"] = 7,
-		},
-		["Zagrut - Thrall"] = {
-			["Locked"] = true,
-			["Version"] = 81209,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NbZIo9Vet=a",
-				}, -- [1]
-			},
-		},
-		["Zagrot - Turalyon"] = {
-			["Locked"] = true,
 			["Version"] = 82501,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1Obzptv8Mjp2",
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
-				}, -- [1]
-			},
-		},
-		["Yacob - Aerie Peak"] = {
-			["Locked"] = true,
-			["Version"] = 82501,
-			["NumGroups"] = 3,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1MNdjB0Sk35V",
-					["Columns"] = 3,
-					["Scale"] = 1.60000050067902,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Boulderfist",
-							["Type"] = "buff",
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Frostbrand",
-							["Type"] = "buff",
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Flametongue",
-							["Type"] = "buff",
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-					},
-					["EnabledSpecs"] = {
-						[264] = false,
-						[262] = false,
-					},
-					["Point"] = {
-						["y"] = -123.124687922934,
-						["x"] = -126.875025030289,
-					},
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1O0liHo3O8cP",
-					["Columns"] = 2,
-					["Point"] = {
-						["y"] = -102.835503495128,
-						["x"] = 115.361523944761,
-					},
-					["Scale"] = 1.61665570735931,
-					["EnabledSpecs"] = {
-						[262] = false,
-						[264] = false,
-					},
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Doom Winds",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.51,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Feral Spirit",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.42,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1O0ll5lqR42R",
-					["Columns"] = 3,
-					["Point"] = {
-						["y"] = 156.060913085938,
-						["x"] = -0.302933051844881,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
-					["Scale"] = 1.64999759197235,
-					["EnabledSpecs"] = {
-						[262] = false,
-						[264] = false,
-					},
-					["Icons"] = {
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["RangeCheck"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Boulderfist",
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-									["Color"] = "ff404f7f",
-									["Alpha"] = 1,
-								}, -- [3]
-								{
-									["Color"] = "ff404f7f",
-									["Alpha"] = 1,
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["RangeCheck"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Stormstrike",
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-									["Alpha"] = 1,
-								}, -- [3]
-								{
-									["Color"] = "ff404f7f",
-									["Alpha"] = 1,
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["ManaCheck"] = true,
-							["ShowTimer"] = true,
-							["RangeCheck"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Crash Lightning",
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-									["Alpha"] = 1,
-								}, -- [3]
-								{
-									["Alpha"] = 1,
-								}, -- [4]
-							},
-						}, -- [3]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-			},
-		},
-		["Zagrot - Thrall"] = {
-			["Locked"] = true,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NLZC7XCzPxM",
-				}, -- [1]
-			},
-			["Version"] = 81209,
-		},
-		["Twogauge - Bleeding Hollow"] = {
-			["Locked"] = true,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1N2yfU7nkT0n",
-				}, -- [1]
-			},
-			["Version"] = 74003,
-		},
-		["Wurrior - Aerie Peak"] = {
-			["Locked"] = true,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1MNdmIY8VRlC",
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
-				}, -- [1]
-			},
-			["Version"] = 82501,
-		},
-		["Twodrop - Aerie Peak"] = {
-			["Locked"] = true,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1MNdn5BC7gux",
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
-				}, -- [1]
-			},
-			["Version"] = 82501,
-		},
-		["Zagsham - Thrall"] = {
-			["Locked"] = true,
-			["Version"] = 81209,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1NmSPw3IJAgX",
-				}, -- [1]
-			},
 		},
 		["Zionae - Thrall"] = {
 			["Locked"] = true,

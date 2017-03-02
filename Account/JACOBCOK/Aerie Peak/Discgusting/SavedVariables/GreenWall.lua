@@ -10,7 +10,7 @@ GreenWall = {
 	["rank"] = false,
 	["ochat"] = false,
 	["achievements"] = false,
-	["version"] = "1.7.3",
+	["version"] = "1.8.2",
 	["tag"] = true,
 }
 GreenWallLog = {

@@ -13,15 +13,15 @@ DataStore_AgendaDB = {
 		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
-		["Zagrut - Thrall"] = "Zagrut - Thrall",
-		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
-		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
-		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
+		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
+		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zionae - Thrall"] = "Zionae - Thrall",
 		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
@@ -29,11 +29,11 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-02-21",
+			["NextWeeklyReset"] = "2017-03-07",
 		},
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1487307888,
+				["lastUpdate"] = 1488344416,
 			},
 			["Default.Aerie Peak.Twodrop"] = {
 				["lastUpdate"] = 1486564097,
@@ -48,7 +48,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1471481892,
 			},
 			["Default.Aerie Peak.Wurrior"] = {
-				["lastUpdate"] = 1486564014,
+				["lastUpdate"] = 1488160315,
 			},
 			["Default.Thrall.Adope"] = {
 				["lastUpdate"] = 1472347283,
@@ -60,7 +60,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1486563846,
 			},
 			["Default.Aerie Peak.Discgusting"] = {
-				["lastUpdate"] = 1472616233,
+				["lastUpdate"] = 1488158074,
 			},
 			["Default.Thrall.Yacob"] = {
 				["lastUpdate"] = 1471204890,
@@ -101,15 +101,17 @@ DataStore_AgendaDB = {
 				["Contacts"] = {
 					["Krelumian"] = {
 						["note"] = "",
+						["level"] = 110,
+						["class"] = "Druid",
 					},
 				},
-				["lastUpdate"] = 1487370593,
+				["lastUpdate"] = 1488309672,
 			},
 			["Default.Aerie Peak.Kolento"] = {
 				["lastUpdate"] = 1486564050,
 			},
-			["Default.Thrall.Zagrat"] = {
-				["lastUpdate"] = 1471998767,
+			["Default.Thrall.Zagrot"] = {
+				["lastUpdate"] = 1472347374,
 			},
 			["Default.Aerie Peak.Yacub"] = {
 				["Contacts"] = {
@@ -118,47 +120,34 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["Black Rook Hold Mythic|278607440"] = "318149|1487371053|0|0",
-					["Darkheart Thicket Mythic|278601384"] = "318149|1487371053|0|0",
-					["Vault of the Wardens Mythic|327995465"] = "318149|1487371053|0|0",
-					["The Emerald Nightmare Heroic|191520041"] = "318149|1487371053|0|1",
-					["The Nighthold Normal|278651437"] = "318149|1487371053|0|1",
-					["The Arcway Mythic|327994591"] = "318149|1487371053|0|0",
-					["Eye of Azshara Mythic|278599851"] = "318149|1487371053|0|0",
-					["The Nighthold Heroic|278527521"] = "318149|1487371053|0|1",
-					["Return to Karazhan Mythic|278541090"] = "318149|1487371053|0|0",
-					["Halls of Valor Mythic|278604510"] = "318149|1487371053|0|0",
-					["Maw of Souls Mythic|278566283"] = "318149|1487371053|0|0",
-					["Court of Stars Mythic|657778132"] = "318149|1487371053|0|0",
-					["Neltharion's Lair Mythic|278602637"] = "318149|1487371053|0|0",
-					["Assault on Violet Hold Mythic|278600525"] = "318149|1487371053|0|0",
+					["The Nighthold Heroic|279659554"] = "547875|1488350926|0|1",
 				},
-				["lastUpdate"] = 1487371052,
+				["lastUpdate"] = 1488351208,
 			},
 			["Default.Aerie Peak.Human"] = {
 				["lastUpdate"] = 1486563955,
+			},
+			["Default.Thrall.Zagsham"] = {
+				["lastUpdate"] = 1472403870,
+			},
+			["Default.Thrall.Zionae"] = {
+				["lastUpdate"] = 1471915132,
+			},
+			["Default.Aerie Peak.Yacob"] = {
+				["lastUpdate"] = 1486563909,
 			},
 			["Default.Aerie Peak.Bigyacob"] = {
 				["Contacts"] = {
 					["Drupada"] = {
 						["note"] = "",
-						["level"] = 110,
 						["class"] = "Hunter",
+						["level"] = 110,
 					},
 				},
 				["lastUpdate"] = 1486412308,
 			},
-			["Default.Aerie Peak.Yacob"] = {
-				["lastUpdate"] = 1486563909,
-			},
-			["Default.Thrall.Zionae"] = {
-				["lastUpdate"] = 1471915132,
-			},
-			["Default.Thrall.Zagsham"] = {
-				["lastUpdate"] = 1472403870,
-			},
-			["Default.Thrall.Zagrot"] = {
-				["lastUpdate"] = 1472347374,
+			["Default.Thrall.Zagrat"] = {
+				["lastUpdate"] = 1471998767,
 			},
 		},
 	},

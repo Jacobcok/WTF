@@ -13,15 +13,15 @@ DataStore_CurrenciesDB = {
 		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
-		["Zagrut - Thrall"] = "Zagrut - Thrall",
-		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
-		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
-		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
+		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
+		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zionae - Thrall"] = "Zionae - Thrall",
 		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
@@ -84,18 +84,18 @@ DataStore_CurrenciesDB = {
 				["Player vs. Player"] = 12,
 				["Timewarped Badge"] = 8,
 				["Unused"] = 26,
-				["Garrison Resources"] = 3,
 				["Honor Points"] = 14,
-				["Mogu Rune of Fate"] = 32,
-				["Miscellaneous"] = 10,
-				["Oil"] = 4,
-				["Legion"] = 21,
-				["Darkmoon Prize Ticket"] = 33,
-				["Seal of Inevitable Fate"] = 5,
-				["Warlords of Draenor"] = 1,
-				["Apexis Crystal"] = 2,
-				["Conquest Points"] = 13,
 				["Timeworn Artifact"] = 27,
+				["Miscellaneous"] = 10,
+				["Conquest Points"] = 13,
+				["Legion"] = 21,
+				["Apexis Crystal"] = 2,
+				["Darkmoon Prize Ticket"] = 33,
+				["Warlords of Draenor"] = 1,
+				["Seal of Inevitable Fate"] = 5,
+				["Oil"] = 4,
+				["Mogu Rune of Fate"] = 32,
+				["Garrison Resources"] = 3,
 			},
 		},
 		["Characters"] = {
@@ -141,7 +141,7 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1487307887,
+				["lastUpdate"] = 1488344414,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
@@ -232,8 +232,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[824] = "6991-0-0-10000",
 					[994] = "0-0-0-0",
+					[824] = "6991-0-0-10000",
 				},
 			},
 			["Default.Turalyon.Zagrot"] = {
@@ -254,9 +254,9 @@ DataStore_CurrenciesDB = {
 					[396] = "0-0-10-3000",
 					[1220] = "0-0-0-0",
 					[823] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[994] = "0-0-0-0",
 					[395] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1273] = "0-0-0-0",
 				},
 			},
 			["Default.Thrall.Zagrut"] = {
@@ -291,19 +291,21 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[994] = "0-0-0-0",
 					[824] = "0-0-0-0",
+					[994] = "0-0-0-0",
 				},
 			},
 			["Default.Aerie Peak.Wurrior"] = {
 				["Currencies"] = {
-					3, -- [1]
-					1233284, -- [2]
-					258182, -- [3]
-					42248, -- [4]
-					268, -- [5]
-					15, -- [6]
-					78736, -- [7]
+					43, -- [1]
+					52526, -- [2]
+					15, -- [3]
+					78736, -- [4]
+					3, -- [5]
+					1233284, -- [6]
+					258182, -- [7]
+					42248, -- [8]
+					268, -- [9]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -325,11 +327,11 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1486564013,
+				["lastUpdate"] = 1488160315,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[1220] = "0-0-0-0",
+					[1220] = "410-0-0-0",
 					[824] = "2017-0-0-10000",
 					[1273] = "0-0-0-0",
 					[823] = "9635-0-0-0",
@@ -366,8 +368,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[824] = "0-0-0-0",
 					[994] = "0-0-0-0",
+					[824] = "0-0-0-0",
 				},
 			},
 			["Default.Bleeding Hollow.Twogauge"] = {
@@ -382,8 +384,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-31700-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[994] = "0-0-0-0",
 					[824] = "0-0-0-0",
+					[994] = "0-0-0-0",
 				},
 			},
 			["Default.Aerie Peak.Zagrot"] = {
@@ -439,12 +441,14 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Aerie Peak.Discgusting"] = {
 				["Currencies"] = {
-					3, -- [1]
-					394758, -- [2]
+					43, -- [1]
+					312494, -- [2]
 					21, -- [3]
 					150, -- [4]
-					31, -- [5]
-					160, -- [6]
+					3, -- [5]
+					394758, -- [6]
+					31, -- [7]
+					160, -- [8]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -466,15 +470,17 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1472616233,
+				["lastUpdate"] = 1488158319,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[390] = "0-0-0-0",
+					[1220] = "2441-0-0-0",
+					[824] = "3084-0-0-10000",
+					[1273] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[824] = "3084-0-0-10000",
 					[994] = "0-0-0-0",
+					[390] = "0-0-0-0",
 				},
 			},
 			["Default.Thrall.Yacob"] = {
@@ -509,8 +515,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[824] = "0-0-0-0",
 					[994] = "0-0-0-0",
+					[824] = "0-0-0-0",
 				},
 			},
 			["Default.Aegwynn.Züül"] = {
@@ -521,17 +527,17 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[994] = "0-0-0-0",
 					[824] = "0-0-0-0",
+					[994] = "0-0-0-0",
 				},
 			},
 			["Default.Aerie Peak.Raideon"] = {
 				["Currencies"] = {
 					43, -- [1]
-					17840, -- [2]
-					2098, -- [3]
-					2375086, -- [4]
-					444, -- [5]
+					36272, -- [2]
+					2738, -- [3]
+					4216238, -- [4]
+					60, -- [5]
 					34744, -- [6]
 					15, -- [7]
 					111376, -- [8]
@@ -565,13 +571,13 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1487370639,
+				["lastUpdate"] = 1488310147,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[1220] = "18555-0-0-0",
+					[1220] = "32939-0-0-0",
 					[824] = "38-0-0-10000",
-					[1273] = "3-0-0-6",
+					[1273] = "0-0-0-6",
 					[823] = "126513-0-0-0",
 					[392] = "0-0-0-0",
 					[994] = "19-0-0-20",
@@ -624,8 +630,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 				},
 			},
-			["Default.Thrall.Zagrat"] = {
-				["lastUpdate"] = 1471999163,
+			["Default.Thrall.Zagrot"] = {
+				["lastUpdate"] = 1472347374,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -642,13 +648,6 @@ DataStore_CurrenciesDB = {
 					0, -- [13]
 					0, -- [14]
 					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["Currencies"] = {
-					43, -- [1]
-					21164, -- [2]
 				},
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
@@ -656,18 +655,18 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
-					[994] = "0-0-0-0",
 					[824] = "0-0-0-0",
+					[994] = "0-0-0-0",
 				},
 			},
 			["Default.Aerie Peak.Yacub"] = {
 				["Currencies"] = {
 					43, -- [1]
-					217648, -- [2]
-					4146, -- [3]
-					6462, -- [4]
+					183984, -- [2]
+					5298, -- [3]
+					9022, -- [4]
 					52268, -- [5]
-					1267374, -- [6]
+					2228910, -- [6]
 					60, -- [7]
 					52152, -- [8]
 					15, -- [9]
@@ -705,15 +704,15 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1487371050,
+				["lastUpdate"] = 1488351208,
 				["CurrencyInfo"] = {
 					[824] = "337-0-0-10000",
 					[396] = "0-0-10-3000",
-					[1220] = "9901-0-0-0",
+					[1220] = "17413-0-0-0",
 					[823] = "86332-0-0-0",
-					[1273] = "0-0-0-6",
-					[994] = "2-0-0-20",
 					[395] = "0-0-0-0",
+					[994] = "2-0-0-20",
+					[1273] = "0-0-0-6",
 				},
 			},
 			["Default.Aerie Peak.Human"] = {
@@ -764,8 +763,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 				},
 			},
-			["Default.Aerie Peak.Bigyacob"] = {
-				["lastUpdate"] = 1486412309,
+			["Default.Thrall.Zagsham"] = {
+				["lastUpdate"] = 1472403870,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -788,32 +787,52 @@ DataStore_CurrenciesDB = {
 				},
 				["Currencies"] = {
 					43, -- [1]
-					132528, -- [2]
-					1458, -- [3]
-					8236, -- [4]
-					204462, -- [5]
-					572, -- [6]
-					106552, -- [7]
-					1334, -- [8]
-					15, -- [9]
-					25616, -- [10]
-					128018, -- [11]
-					53, -- [12]
-					5224068, -- [13]
-					462982, -- [14]
-					588808, -- [15]
-					650, -- [16]
+					134188, -- [2]
 				},
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[1220] = "1597-0-0-0",
-					[824] = "3617-0-0-10000",
-					[1273] = "4-0-0-6",
-					[823] = "40813-0-0-0",
+					[390] = "0-0-0-0",
+					[823] = "0-0-0-0",
 					[392] = "0-0-0-0",
 					[994] = "0-0-0-0",
+					[824] = "0-0-0-0",
+				},
+			},
+			["Default.Thrall.Zionae"] = {
+				["lastUpdate"] = 1471915964,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["Currencies"] = {
+					43, -- [1]
+					76844, -- [2]
+				},
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[396] = "0-0-0-0",
 					[390] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[392] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[824] = "0-0-0-0",
 				},
 			},
 			["Default.Aerie Peak.Yacob"] = {
@@ -873,8 +892,8 @@ DataStore_CurrenciesDB = {
 					[390] = "0-0-0-0",
 				},
 			},
-			["Default.Thrall.Zionae"] = {
-				["lastUpdate"] = 1471915964,
+			["Default.Aerie Peak.Bigyacob"] = {
+				["lastUpdate"] = 1486412309,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -897,20 +916,36 @@ DataStore_CurrenciesDB = {
 				},
 				["Currencies"] = {
 					43, -- [1]
-					76844, -- [2]
+					132528, -- [2]
+					1458, -- [3]
+					8236, -- [4]
+					204462, -- [5]
+					572, -- [6]
+					106552, -- [7]
+					1334, -- [8]
+					15, -- [9]
+					25616, -- [10]
+					128018, -- [11]
+					53, -- [12]
+					5224068, -- [13]
+					462982, -- [14]
+					588808, -- [15]
+					650, -- [16]
 				},
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[396] = "0-0-0-0",
-					[390] = "0-0-0-0",
-					[823] = "0-0-0-0",
+					[1220] = "1597-0-0-0",
+					[824] = "3617-0-0-10000",
+					[1273] = "4-0-0-6",
+					[823] = "40813-0-0-0",
 					[392] = "0-0-0-0",
-					[824] = "0-0-0-0",
 					[994] = "0-0-0-0",
+					[390] = "0-0-0-0",
 				},
 			},
-			["Default.Thrall.Zagsham"] = {
-				["lastUpdate"] = 1472403870,
+			["Default.Thrall.Zagrat"] = {
+				["lastUpdate"] = 1471999163,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -933,7 +968,7 @@ DataStore_CurrenciesDB = {
 				},
 				["Currencies"] = {
 					43, -- [1]
-					134188, -- [2]
+					21164, -- [2]
 				},
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
@@ -943,35 +978,6 @@ DataStore_CurrenciesDB = {
 					[392] = "0-0-0-0",
 					[824] = "0-0-0-0",
 					[994] = "0-0-0-0",
-				},
-			},
-			["Default.Thrall.Zagrot"] = {
-				["lastUpdate"] = 1472347374,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-				},
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[396] = "0-0-0-0",
-					[390] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[392] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[824] = "0-0-0-0",
 				},
 			},
 		},

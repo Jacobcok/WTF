@@ -86,7 +86,7 @@ H: 155
 Frame: Quartz3CastBarPlayer
 FrameLevel: 1
 Anchor: BOTTOM
-X: 10
-Y: 105
+X: 5
+Y: 180
 W: 260
 H: 35

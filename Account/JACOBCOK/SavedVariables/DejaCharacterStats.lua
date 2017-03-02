@@ -19,8 +19,8 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsShowDecimalsChecked"] = {
 			["SetChecked"] = true,
 		},
-		["dejacharacterstatsExpandButtonChecked"] = {
-			["ExpandButtonSetChecked"] = true,
+		["dejacharacterstatsScrollbarChecked"] = {
+			["ScrollbarSetChecked"] = false,
 		},
 		["dejacharacterstatsShowDuraTextureChecked"] = {
 			["ShowDuraTextureSetChecked"] = false,
@@ -40,8 +40,8 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsRepairTotalStatChecked"] = {
 			["RepairTotalStatSetChecked"] = true,
 		},
-		["dejacharacterstatsScrollbarChecked"] = {
-			["ScrollbarSetChecked"] = false,
+		["dejacharacterstatsExpandButtonChecked"] = {
+			["ExpandButtonSetChecked"] = true,
 		},
 	},
 }
@@ -174,6 +174,172 @@ DCS_ClassSpecDB = {
 			["hidden"] = true,
 		}, -- [34]
 		["uniqueKey"] = "Lepok:Aerie Peak:3",
+	},
+	["Discgusting:Aerie Peak:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [6]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [7]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [8]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [9]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [10]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [12]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "WEAPON_DPS",
+			["hidden"] = true,
+		}, -- [14]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [15]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [16]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [19]
+		{
+			["statKey"] = "GCD",
+		}, -- [20]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [21]
+		{
+			["statKey"] = "REPAIR_COST",
+			["hidden"] = true,
+		}, -- [22]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [23]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [24]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [31]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [33]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [42]
+		["uniqueKey"] = "Discgusting:Aerie Peak:3",
 	},
 	["Bigyacob:Aerie Peak:1"] = {
 		{
@@ -478,6 +644,155 @@ DCS_ClassSpecDB = {
 			["statKey"] = "AVOIDANCE_RATING",
 		}, -- [42]
 		["uniqueKey"] = "Zagrot:Aerie Peak:3",
+	},
+	["Raideon:Aerie Peak:3"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [4]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [5]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "INTELLECT",
+		}, -- [7]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [8]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+			["hidden"] = true,
+		}, -- [9]
+		{
+			["statKey"] = "ATTACK_AP",
+			["hidden"] = true,
+		}, -- [10]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [12]
+		{
+			["statKey"] = "SPELLPOWER",
+		}, -- [13]
+		{
+			["statKey"] = "MANAREGEN",
+		}, -- [14]
+		{
+			["statKey"] = "ENERGY_REGEN",
+			["hidden"] = true,
+		}, -- [15]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [16]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [18]
+		{
+			["statKey"] = "GCD",
+		}, -- [19]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [20]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [21]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [22]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [23]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [24]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [29]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [30]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [31]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [33]
+		{
+			["statKey"] = "PARRY_RATING",
+		}, -- [34]
+		{
+			["statKey"] = "DODGE_RATING",
+		}, -- [35]
+		{
+			["statKey"] = "HASTE_RATING",
+		}, -- [36]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+		}, -- [37]
+		{
+			["statKey"] = "MASTERY_RATING",
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+		}, -- [39]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [40]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+		}, -- [41]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+		}, -- [42]
+		["uniqueKey"] = "Raideon:Aerie Peak:3",
 	},
 	["Lepok:Aerie Peak:1"] = {
 		{
@@ -798,6 +1113,169 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Zygi:Aerie Peak:4",
 	},
+	["Yacub:Aerie Peak:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [6]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [7]
+		{
+			["statKey"] = "AGILITY",
+		}, -- [8]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [9]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [10]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [11]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [12]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [13]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [14]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [15]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [16]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [17]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [18]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [19]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [20]
+		{
+			["statKey"] = "GCD",
+		}, -- [21]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [22]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [23]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [24]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [25]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [26]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [27]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [31]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [33]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [42]
+		["uniqueKey"] = "Yacub:Aerie Peak:2",
+	},
 	["Yacob:Aerie Peak:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -1088,7 +1566,7 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Raideon:Aerie Peak:1",
 	},
-	["Yacub:Aerie Peak:3"] = {
+	["Zygi:Aerie Peak:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -1113,6 +1591,7 @@ DCS_ClassSpecDB = {
 		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
+			["hidden"] = true,
 		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
@@ -1152,16 +1631,17 @@ DCS_ClassSpecDB = {
 			["statKey"] = "FOCUS_REGEN",
 		}, -- [19]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "GCD",
 		}, -- [20]
 		{
-			["statKey"] = "GCD",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [21]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "REPAIR_COST",
+			["hidden"] = true,
 		}, -- [22]
 		{
-			["statKey"] = "REPAIR_COST",
+			["statKey"] = "MOVESPEED",
 		}, -- [23]
 		{
 			["statKey"] = "EnhancementsCategory",
@@ -1193,14 +1673,17 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [33]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
@@ -1246,7 +1729,7 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		["uniqueKey"] = "Yacub:Aerie Peak:3",
+		["uniqueKey"] = "Zygi:Aerie Peak:1",
 	},
 	["Zygi:Aerie Peak:2"] = {
 		{
@@ -1696,167 +2179,125 @@ DCS_ClassSpecDB = {
 		}, -- [34]
 		["uniqueKey"] = "Zagrot:Aerie Peak:2",
 	},
-	["Raideon:Aerie Peak:2"] = {
+	["Zagrot:Aerie Peak:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
 			["statKey"] = "AttributesCategory",
-			["hidden"] = false,
 		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "POWER",
 		}, -- [4]
+		{
+			["statKey"] = "ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [6]
 		{
 			["statKey"] = "STRENGTH",
 			["hidden"] = true,
-		}, -- [5]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = false,
 		}, -- [7]
 		{
-			["statKey"] = "STAMINA",
+			["statKey"] = "AGILITY",
 		}, -- [8]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
 		}, -- [9]
 		{
-			["statKey"] = "ATTACK_AP",
+			["statKey"] = "STAMINA",
 		}, -- [10]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
+			["statKey"] = "ATTACK_DAMAGE",
 		}, -- [11]
 		{
-			["statKey"] = "WEAPON_DPS",
-			["hidden"] = true,
+			["statKey"] = "ATTACK_AP",
 		}, -- [12]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [13]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [14]
 		{
 			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
-		}, -- [13]
+		}, -- [15]
 		{
 			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
-		}, -- [14]
+		}, -- [16]
 		{
 			["statKey"] = "ENERGY_REGEN",
-			["hidden"] = true,
-		}, -- [15]
+		}, -- [17]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
 			["hidden"] = true,
-		}, -- [16]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [17]
-		{
-			["statKey"] = "GCD",
 		}, -- [18]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "FOCUS_REGEN",
 		}, -- [19]
 		{
-			["statKey"] = "REPAIR_COST",
-			["hidden"] = true,
+			["statKey"] = "MOVESPEED",
 		}, -- [20]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "GCD",
 		}, -- [21]
 		{
-			["statKey"] = "EnhancementsCategory",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [22]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [23]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [24]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [23]
+		}, -- [25]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [24]
+		}, -- [26]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [25]
+		}, -- [27]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [26]
+		}, -- [28]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [29]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [30]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [29]
+		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [30]
+		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [31]
+		}, -- [33]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "DCS_POWER",
-			["hidden"] = true,
-		}, -- [33]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hidden"] = false,
 		}, -- [34]
-		{
-			["statKey"] = "DODGE_RATING",
-		}, -- [35]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hidden"] = true,
-		}, -- [42]
-		["uniqueKey"] = "Raideon:Aerie Peak:2",
+		["uniqueKey"] = "Zagrot:Aerie Peak:1",
 	},
 	["Yacub:Aerie Peak:1"] = {
 		{
@@ -1924,16 +2365,17 @@ DCS_ClassSpecDB = {
 			["statKey"] = "FOCUS_REGEN",
 		}, -- [19]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "GCD",
 		}, -- [20]
 		{
-			["statKey"] = "GCD",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [21]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "REPAIR_COST",
+			["hidden"] = true,
 		}, -- [22]
 		{
-			["statKey"] = "REPAIR_COST",
+			["statKey"] = "MOVESPEED",
 		}, -- [23]
 		{
 			["statKey"] = "EnhancementsCategory",
@@ -2350,7 +2792,7 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Zagrot:Turalyon:1",
 	},
-	["Zagrot:Aerie Peak:1"] = {
+	["Kolento:Aerie Peak:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -2361,20 +2803,20 @@ DCS_ClassSpecDB = {
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "POWER",
+			["statKey"] = "DCS_POWER",
 		}, -- [4]
 		{
-			["statKey"] = "ALTERNATEMANA",
+			["statKey"] = "DCS_ALTERNATEMANA",
 		}, -- [5]
 		{
 			["statKey"] = "ARMOR",
 		}, -- [6]
 		{
 			["statKey"] = "STRENGTH",
-			["hidden"] = true,
 		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
+			["hidden"] = true,
 		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
@@ -2408,7 +2850,6 @@ DCS_ClassSpecDB = {
 		}, -- [17]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
 		}, -- [18]
 		{
 			["statKey"] = "FOCUS_REGEN",
@@ -2455,20 +2896,63 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [33]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [34]
-		["uniqueKey"] = "Zagrot:Aerie Peak:1",
+		}, -- [42]
+		["uniqueKey"] = "Kolento:Aerie Peak:3",
 	},
 	["Wurrior:Aerie Peak:1"] = {
 		{
@@ -2904,7 +3388,7 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Yacob:Aerie Peak:2",
 	},
-	["Raideon:Aerie Peak:3"] = {
+	["Wurrior:Aerie Peak:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -2915,143 +3399,156 @@ DCS_ClassSpecDB = {
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "ARMOR",
+			["statKey"] = "DCS_POWER",
 		}, -- [4]
 		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
+			["statKey"] = "DCS_ALTERNATEMANA",
 		}, -- [5]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [6]
+		{
+			["statKey"] = "STRENGTH",
+		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
 			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "INTELLECT",
-		}, -- [7]
-		{
-			["statKey"] = "STAMINA",
 		}, -- [8]
 		{
-			["statKey"] = "ATTACK_DAMAGE",
+			["statKey"] = "INTELLECT",
 			["hidden"] = true,
 		}, -- [9]
 		{
-			["statKey"] = "ATTACK_AP",
-			["hidden"] = true,
+			["statKey"] = "STAMINA",
 		}, -- [10]
 		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-			["hidden"] = true,
+			["statKey"] = "ATTACK_DAMAGE",
 		}, -- [11]
 		{
-			["statKey"] = "WEAPON_DPS",
+			["statKey"] = "ATTACK_AP",
 		}, -- [12]
 		{
-			["statKey"] = "SPELLPOWER",
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
 		}, -- [13]
 		{
-			["statKey"] = "MANAREGEN",
+			["statKey"] = "WEAPON_DPS",
 		}, -- [14]
 		{
-			["statKey"] = "ENERGY_REGEN",
+			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
 		}, -- [15]
 		{
-			["statKey"] = "DCS_RUNEREGEN",
+			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
 		}, -- [16]
 		{
-			["statKey"] = "FOCUS_REGEN",
+			["statKey"] = "ENERGY_REGEN",
 		}, -- [17]
 		{
-			["statKey"] = "MOVESPEED",
+			["statKey"] = "DCS_RUNEREGEN",
 		}, -- [18]
 		{
-			["statKey"] = "GCD",
+			["statKey"] = "FOCUS_REGEN",
 		}, -- [19]
 		{
-			["statKey"] = "DURABILITY_STAT",
+			["statKey"] = "MOVESPEED",
 		}, -- [20]
 		{
-			["statKey"] = "REPAIR_COST",
+			["statKey"] = "GCD",
 		}, -- [21]
 		{
-			["statKey"] = "EnhancementsCategory",
+			["statKey"] = "DURABILITY_STAT",
 		}, -- [22]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [23]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [24]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [23]
+		}, -- [25]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [24]
+		}, -- [26]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [25]
+		}, -- [27]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [26]
+		}, -- [28]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [29]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [30]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [29]
+		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [30]
+		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [31]
+		}, -- [33]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
-		}, -- [32]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [33]
-		{
-			["statKey"] = "PARRY_RATING",
-		}, -- [34]
-		{
-			["statKey"] = "DODGE_RATING",
-		}, -- [35]
-		{
-			["statKey"] = "HASTE_RATING",
-		}, -- [36]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-		}, -- [37]
-		{
-			["statKey"] = "MASTERY_RATING",
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-		}, -- [39]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [40]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-		}, -- [41]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
 		}, -- [42]
-		["uniqueKey"] = "Raideon:Aerie Peak:3",
+		["uniqueKey"] = "Wurrior:Aerie Peak:2",
 	},
 	["Yacub:Aerie Peak:4"] = {
 		{
@@ -3218,172 +3715,169 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		["uniqueKey"] = "Yacub:Aerie Peak:4",
 	},
-	["Zygi:Aerie Peak:1"] = {
+	["Raideon:Aerie Peak:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
 		{
 			["statKey"] = "AttributesCategory",
+			["hidden"] = false,
 		}, -- [2]
 		{
 			["statKey"] = "HEALTH",
 		}, -- [3]
 		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
 			["statKey"] = "ARMOR",
-		}, -- [6]
+		}, -- [4]
 		{
 			["statKey"] = "STRENGTH",
 			["hidden"] = true,
-		}, -- [7]
+		}, -- [5]
 		{
 			["statKey"] = "AGILITY",
 			["hidden"] = true,
-		}, -- [8]
+		}, -- [6]
 		{
 			["statKey"] = "INTELLECT",
-			["hidden"] = true,
-		}, -- [9]
+			["hidden"] = false,
+		}, -- [7]
 		{
 			["statKey"] = "STAMINA",
-		}, -- [10]
+		}, -- [8]
 		{
 			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [11]
+		}, -- [9]
 		{
 			["statKey"] = "ATTACK_AP",
-		}, -- [12]
+		}, -- [10]
 		{
 			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [13]
+			["hidden"] = true,
+		}, -- [11]
 		{
 			["statKey"] = "WEAPON_DPS",
-		}, -- [14]
+			["hidden"] = true,
+		}, -- [12]
 		{
 			["statKey"] = "SPELLPOWER",
 			["hidden"] = true,
-		}, -- [15]
+		}, -- [13]
 		{
 			["statKey"] = "MANAREGEN",
 			["hidden"] = true,
-		}, -- [16]
+		}, -- [14]
 		{
 			["statKey"] = "ENERGY_REGEN",
-		}, -- [17]
+			["hidden"] = true,
+		}, -- [15]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
 			["hidden"] = true,
-		}, -- [18]
+		}, -- [16]
 		{
 			["statKey"] = "FOCUS_REGEN",
-		}, -- [19]
+		}, -- [17]
 		{
 			["statKey"] = "GCD",
-		}, -- [20]
+		}, -- [18]
 		{
 			["statKey"] = "DURABILITY_STAT",
-		}, -- [21]
+		}, -- [19]
 		{
 			["statKey"] = "REPAIR_COST",
 			["hidden"] = true,
-		}, -- [22]
+		}, -- [20]
 		{
 			["statKey"] = "MOVESPEED",
-		}, -- [23]
+		}, -- [21]
 		{
 			["statKey"] = "EnhancementsCategory",
-		}, -- [24]
+		}, -- [22]
 		{
 			["statKey"] = "CRITCHANCE",
 			["hideAt"] = 0,
-		}, -- [25]
+		}, -- [23]
 		{
 			["statKey"] = "HASTE",
 			["hideAt"] = 0,
-		}, -- [26]
+		}, -- [24]
 		{
 			["statKey"] = "VERSATILITY",
 			["hideAt"] = 0,
-		}, -- [27]
+		}, -- [25]
 		{
 			["statKey"] = "MASTERY",
 			["hideAt"] = 0,
-		}, -- [28]
+		}, -- [26]
 		{
 			["statKey"] = "LIFESTEAL",
 			["hideAt"] = 0,
-		}, -- [29]
+		}, -- [27]
 		{
 			["statKey"] = "AVOIDANCE",
 			["hideAt"] = 0,
-		}, -- [30]
+		}, -- [28]
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [31]
+		}, -- [29]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [32]
+		}, -- [30]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
 			["hidden"] = true,
-		}, -- [33]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
+		}, -- [31]
 		{
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
+		}, -- [32]
+		{
+			["statKey"] = "DCS_POWER",
+			["hidden"] = true,
+		}, -- [33]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hidden"] = false,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE_RATING",
+		}, -- [35]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hidden"] = true,
 		}, -- [42]
-		["uniqueKey"] = "Zygi:Aerie Peak:1",
+		["uniqueKey"] = "Raideon:Aerie Peak:2",
 	},
-	["Kolento:Aerie Peak:3"] = {
+	["Yacub:Aerie Peak:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -3404,10 +3898,10 @@ DCS_ClassSpecDB = {
 		}, -- [6]
 		{
 			["statKey"] = "STRENGTH",
+			["hidden"] = true,
 		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
-			["hidden"] = true,
 		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
@@ -3441,6 +3935,7 @@ DCS_ClassSpecDB = {
 		}, -- [17]
 		{
 			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
 		}, -- [18]
 		{
 			["statKey"] = "FOCUS_REGEN",
@@ -3487,17 +3982,14 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [33]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
@@ -3543,7 +4035,7 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		["uniqueKey"] = "Kolento:Aerie Peak:3",
+		["uniqueKey"] = "Yacub:Aerie Peak:3",
 	},
 	["Zygi:Aerie Peak:3"] = {
 		{

@@ -98,12 +98,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3471552069,
 		["Contents"] = "Fizzl doesn't like walls of text",
 	},
-	[1616726438] = {
-		["Updated"] = 1452049356,
-		["Name"] = "m iron reaver",
-		["Id"] = 1616726438,
-		["UpdateId"] = 3577041845,
-		["Contents"] = "P1 – Bombs are priority\n\nP2 – Bomb priority: \n\nQuick Fuse > Burning Bomb (stop at 3-4 stacks) > Reactive Bombs (tanks, jump on them and use cd) > Reinforce Bombs (melee)\n\nHealing CDs (Pounding):\n\n1 - VE, Ascendence\n2 - Ring, Personals\n3 - Tide",
+	[869608095] = {
+		["Updated"] = 1452049345,
+		["Name"] = "m assault",
+		["Id"] = 869608095,
+		["UpdateId"] = 3088977255,
+		["Contents"] = "Hero for transporter and crusher (3m in)\n\nGROUPS 1&2 ON BLUE\nGROUPS 3&4 ON ORANGE\n\nRing 1 - on pull\nRing 2 - transport\nRing 3 - Zygi uses for 2nd transport",
 	},
 	[706516373] = {
 		["Updated"] = 1460514744,
@@ -112,21 +112,22 @@ AngryAssign_Pages = {
 		["UpdateId"] = 4030841661,
 		["Contents"] = "Ring on pull\n\nDom 1: Hero\nDom 2: Ring\nDom 3: big cd's\n\nStuns:\nEmila, Ron, Lac",
 	},
-	[869608095] = {
-		["Updated"] = 1452049345,
-		["Name"] = "m assault",
-		["Id"] = 869608095,
-		["UpdateId"] = 3088977255,
-		["Contents"] = "Hero for transporter and crusher (3m in)\n\nGROUPS 1&2 ON BLUE\nGROUPS 3&4 ON ORANGE\n\nRing 1 - on pull\nRing 2 - transport\nRing 3 - Zygi uses for 2nd transport",
+	[1616726438] = {
+		["Updated"] = 1452049356,
+		["Name"] = "m iron reaver",
+		["Id"] = 1616726438,
+		["UpdateId"] = 3577041845,
+		["Contents"] = "P1 – Bombs are priority\n\nP2 – Bomb priority: \n\nQuick Fuse > Burning Bomb (stop at 3-4 stacks) > Reactive Bombs (tanks, jump on them and use cd) > Reinforce Bombs (melee)\n\nHealing CDs (Pounding):\n\n1 - VE, Ascendence\n2 - Ring, Personals\n3 - Tide",
 	},
 }
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["window"] = {
+	["tree"] = {
 	},
 	["locked"] = true,
-	["directionUp"] = false,
+	["window"] = {
+	},
 	["display"] = {
 		["y"] = 192.000244140625,
 		["x"] = 22.999979019165,
@@ -134,8 +135,7 @@ AngryAssign_State = {
 		["scale"] = 1,
 		["hidden"] = false,
 	},
-	["tree"] = {
-	},
+	["directionUp"] = false,
 }
 AngryAssign_Config = {
 }

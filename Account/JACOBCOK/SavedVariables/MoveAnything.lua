@@ -53,14 +53,20 @@ MADB = {
 						339.000213623047, -- [5]
 					},
 				},
-				["AchievementAlertFrame2"] = {
-					["name"] = "AchievementAlertFrame2",
-					["pos"] = {
-						"BOTTOM", -- [1]
+				["TooltipMover"] = {
+					["orgPos"] = {
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						-546.000061035156, -- [4]
-						497.999908447266, -- [5]
+						0, -- [3]
+						0, -- [4]
+					},
+					["name"] = "TooltipMover",
+					["pos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						684.000244140625, -- [4]
+						-688.999755859375, -- [5]
 					},
 				},
 				["ExtraActionBarFrame"] = {
@@ -80,27 +86,21 @@ MADB = {
 						45.9997863769531, -- [5]
 					},
 				},
-				["TooltipMover"] = {
-					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						0, -- [3]
-						0, -- [4]
-					},
-					["name"] = "TooltipMover",
+				["AchievementAlertFrame2"] = {
+					["name"] = "AchievementAlertFrame2",
 					["pos"] = {
-						"TOP", -- [1]
+						"BOTTOM", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
-						684.000244140625, -- [4]
-						-688.999755859375, -- [5]
+						"BOTTOM", -- [3]
+						-546.000061035156, -- [4]
+						497.999908447266, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["tooltips"] = true,
-	["noBags"] = false,
-	["playSound"] = false,
 	["closeGUIOnEscape"] = false,
+	["playSound"] = false,
+	["noBags"] = false,
+	["tooltips"] = true,
 }

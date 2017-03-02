@@ -11,12 +11,15 @@ Quartz3DB = {
 		},
 		["Pet"] = {
 			["profiles"] = {
+				["Raideon - Aerie Peak"] = {
+					["x"] = 860,
+				},
 				["Yacub - Aerie Peak"] = {
 					["x"] = 860,
 				},
 				["Default"] = {
-					["y"] = 136.999786376953,
-					["x"] = 859.999938964844,
+					["y"] = 142.000152587891,
+					["x"] = 584.000122070313,
 				},
 				["healing"] = {
 					["x"] = 870,
@@ -30,16 +33,16 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
+				["Raideon - Aerie Peak"] = {
+					["x"] = 835,
+				},
 				["Yacub - Aerie Peak"] = {
 					["x"] = 835,
 				},
 				["Default"] = {
-					["y"] = 104.999732971191,
-					["x"] = 840,
+					["x"] = 835,
 				},
 				["healing"] = {
 					["y"] = 357.000030517578,
@@ -53,27 +56,34 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["GCD"] = {
 			["profiles"] = {
-				["Default"] = {
-					["y"] = 370,
-					["gcdposition"] = "free",
-					["x"] = 840,
+				["Raideon - Aerie Peak"] = {
+					["gcdheight"] = 15,
 				},
 				["healing"] = {
 					["gcdheight"] = 15,
 					["gcdgap"] = 3,
 				},
+				["Default"] = {
+					["gcdgap"] = 0,
+					["gcdheight"] = 15,
+				},
 			},
 		},
 		["Focus"] = {
 			["profiles"] = {
+				["Raideon - Aerie Peak"] = {
+					["x"] = 860,
+				},
 				["Yacub - Aerie Peak"] = {
 					["x"] = 860,
 				},
 				["Default"] = {
-					["y"] = 361.000122070313,
-					["x"] = 287.000305175781,
+					["y"] = 368.999938964844,
+					["x"] = 291.999908447266,
 				},
 				["healing"] = {
 					["y"] = 341.999816894531,
@@ -89,12 +99,15 @@ Quartz3DB = {
 		},
 		["Target"] = {
 			["profiles"] = {
+				["Raideon - Aerie Peak"] = {
+					["x"] = 860,
+				},
 				["Yacub - Aerie Peak"] = {
 					["x"] = 860,
 				},
 				["Default"] = {
-					["y"] = 314.999969482422,
-					["h"] = 34,
+					["y"] = 381.999969482422,
+					["h"] = 25,
 					["w"] = 250,
 					["x"] = 835,
 				},
@@ -110,9 +123,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -130,19 +143,21 @@ Quartz3DB = {
 		["Yacub - Aerie Peak"] = "healing",
 		["Yacob - Thrall"] = "Default",
 		["Lepok - Aerie Peak"] = "Default",
-		["Zagrot - Aerie Peak"] = "Default",
-		["Zagrut - Thrall"] = "Default",
-		["Zagrot - Turalyon"] = "Default",
-		["Twogauge - Bleeding Hollow"] = "Default",
-		["Zagrot - Thrall"] = "Default",
-		["Yacob - Aerie Peak"] = "Default",
-		["Wurrior - Aerie Peak"] = "Default",
-		["Twodrop - Aerie Peak"] = "Default",
 		["Zagsham - Thrall"] = "Default",
+		["Twodrop - Aerie Peak"] = "Default",
+		["Yacob - Aerie Peak"] = "Default",
+		["Zagrot - Turalyon"] = "Default",
+		["Zagrot - Thrall"] = "Default",
+		["Twogauge - Bleeding Hollow"] = "Default",
+		["Wurrior - Aerie Peak"] = "Default",
+		["Zagrut - Thrall"] = "Default",
+		["Zagrot - Aerie Peak"] = "Default",
 		["Zionae - Thrall"] = "Default",
 		["Züül - Aegwynn"] = "Default",
 	},
 	["profiles"] = {
+		["Raideon - Aerie Peak"] = {
+		},
 		["Yacub - Aerie Peak"] = {
 		},
 		["Default"] = {

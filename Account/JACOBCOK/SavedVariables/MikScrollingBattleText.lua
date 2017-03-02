@@ -11,33 +11,6 @@ MSBTProfiles_SavedVars = {
 			["mergeSwingsDisabled"] = true,
 			["enableBlizzardHealing"] = true,
 			["normalFontName"] = "2002",
-			["scrollAreas"] = {
-				["Static"] = {
-					["disabled"] = true,
-					["skillIconsDisabled"] = true,
-				},
-				["Incoming"] = {
-					["stickyDirection"] = "Up",
-					["offsetX"] = 393,
-					["stickyBehavior"] = "Normal",
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = -139,
-					["skillIconsDisabled"] = true,
-					["animationStyle"] = "Straight",
-				},
-				["Notification"] = {
-					["disabled"] = true,
-					["skillIconsDisabled"] = true,
-				},
-				["Outgoing"] = {
-					["direction"] = "Up",
-					["offsetX"] = 274,
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = -144,
-					["animationStyle"] = "Straight",
-					["disabled"] = true,
-				},
-			},
 			["events"] = {
 				["PET_INCOMING_HOT_CRIT"] = {
 					["disabled"] = true,
@@ -108,19 +81,19 @@ MSBTProfiles_SavedVars = {
 				["INCOMING_SPELL_DAMAGE_SHIELD_CRIT"] = {
 					["message"] = "-%a",
 				},
-				["INCOMING_BLOCK"] = {
+				["PET_INCOMING_SPELL_DAMAGE_SHIELD"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_HEAL"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_DOT"] = {
-					["message"] = "-%a",
-				},
 				["PET_INCOMING_HEAL_CRIT"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_DAMAGE_CRIT"] = {
+				["INCOMING_MISS"] = {
+					["disabled"] = true,
+				},
+				["PET_INCOMING_ABSORB"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_HEAL_CRIT"] = {
@@ -133,34 +106,34 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_SPELL_DAMAGE_SHIELD_CRIT"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_DODGE"] = {
+				["INCOMING_SPELL_RESIST"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_SPELL_DEFLECT"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_SPELL_DOT"] = {
+				["PET_INCOMING_SPELL_BLOCK"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_SPELL_IMMUNE"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_DAMAGE_CRIT"] = {
-					["message"] = "-%a",
-				},
-				["PET_INCOMING_SPELL_BLOCK"] = {
-					["disabled"] = true,
-				},
 				["PET_INCOMING_SPELL_DOT_CRIT"] = {
 					["disabled"] = true,
+				},
+				["PET_INCOMING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
+				["INCOMING_SPELL_DAMAGE_CRIT"] = {
+					["message"] = "-%a",
 				},
 				["INCOMING_DEFLECT"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_SPELL_ABSORB"] = {
+				["PET_INCOMING_IMMUNE"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_IMMUNE"] = {
+				["PET_INCOMING_SPELL_ABSORB"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_SPELL_DAMAGE_CRIT"] = {
@@ -172,7 +145,7 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_SPELL_DEFLECT"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_RESIST"] = {
+				["INCOMING_DODGE"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_BLOCK"] = {
@@ -181,17 +154,44 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_HOT"] = {
 					["disabled"] = true,
 				},
-				["PET_INCOMING_ABSORB"] = {
+				["PET_INCOMING_DAMAGE_CRIT"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_MISS"] = {
-					["disabled"] = true,
+				["INCOMING_SPELL_DOT"] = {
+					["message"] = "-%a",
 				},
-				["PET_INCOMING_SPELL_DAMAGE_SHIELD"] = {
+				["INCOMING_BLOCK"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_PARRY"] = {
 					["disabled"] = true,
+				},
+			},
+			["scrollAreas"] = {
+				["Incoming"] = {
+					["stickyDirection"] = "Up",
+					["offsetX"] = 393,
+					["skillIconsDisabled"] = true,
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = -139,
+					["animationStyle"] = "Straight",
+					["stickyBehavior"] = "Normal",
+				},
+				["Outgoing"] = {
+					["direction"] = "Up",
+					["offsetX"] = 274,
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = -144,
+					["animationStyle"] = "Straight",
+					["disabled"] = true,
+				},
+				["Notification"] = {
+					["disabled"] = true,
+					["skillIconsDisabled"] = true,
+				},
+				["Static"] = {
+					["disabled"] = true,
+					["skillIconsDisabled"] = true,
 				},
 			},
 		},

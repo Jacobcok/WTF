@@ -2,7 +2,7 @@
 PawnOptions = {
 	["LastVersion"] = 2.0115,
 	["LastPlayerFullName"] = "Yacub-Aerie Peak",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }

@@ -13,15 +13,15 @@ DataStore_PetsDB = {
 		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
 		["Yacob - Thrall"] = "Yacob - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
-		["Zagrut - Thrall"] = "Zagrut - Thrall",
-		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
-		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
-		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
+		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
+		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
 		["Zionae - Thrall"] = "Zionae - Thrall",
 		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
@@ -47,6 +47,7 @@ DataStore_PetsDB = {
 				[193368] = 98077,
 				[170270] = 86447,
 				[4055] = 2671,
+				[195369] = 99389,
 				[148046] = 73533,
 				[168668] = 84330,
 				[135156] = 68601,
@@ -65,6 +66,7 @@ DataStore_PetsDB = {
 				[193388] = 97207,
 				[15999] = 10259,
 				[189357] = 95572,
+				[223409] = 112167,
 				[10673] = 7385,
 				[187532] = 94623,
 				[148051] = 73532,
@@ -75,36 +77,36 @@ DataStore_PetsDB = {
 				[10683] = 7387,
 				[210695] = 106181,
 				[71840] = 38374,
-				[135255] = 68657,
+				[169695] = 84915,
 				[139148] = 70144,
-				[148067] = 73359,
+				[172632] = 86420,
 				[176137] = 88222,
-				[55068] = 29726,
-				[164212] = 81431,
+				[221907] = 111423,
+				[36031] = 21056,
 				[122748] = 62829,
 				[48406] = 27217,
-				[159296] = 78895,
+				[167394] = 83594,
 				[170282] = 85231,
-				[159581] = 79039,
-				[223359] = 112144,
+				[221684] = 111202,
+				[36027] = 21055,
 				[78683] = 42177,
 				[65682] = 34587,
 				[148373] = 73668,
-				[36027] = 21055,
-				[221684] = 111202,
+				[223359] = 112144,
+				[159581] = 79039,
 				[69452] = 36871,
-				[167394] = 83594,
+				[159296] = 78895,
 				[39181] = 22445,
 				[210699] = 106278,
-				[36031] = 21056,
-				[221907] = 111423,
-				[172632] = 86420,
-				[169695] = 84915,
+				[164212] = 81431,
+				[55068] = 29726,
+				[148067] = 73359,
+				[135255] = 68657,
 			},
 		},
 		["Characters"] = {
 			["Default.Aerie Peak.Lepok"] = {
-				["lastUpdate"] = 1487307889,
+				["lastUpdate"] = 1488344417,
 				["CRITTER"] = {
 					225200, -- [1]
 					210701, -- [2]
@@ -147,7 +149,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1471481892,
 			},
 			["Default.Aerie Peak.Wurrior"] = {
-				["lastUpdate"] = 1486564014,
+				["lastUpdate"] = 1488160315,
 				["CRITTER"] = {
 					173542, -- [1]
 					164212, -- [2]
@@ -173,7 +175,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Aerie Peak.Discgusting"] = {
-				["lastUpdate"] = 1472616234,
+				["lastUpdate"] = 1488158074,
+				["CRITTER"] = {
+					195368, -- [1]
+				},
 			},
 			["Default.Thrall.Yacob"] = {
 				["lastUpdate"] = 1471204890,
@@ -188,7 +193,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Aerie Peak.Raideon"] = {
-				["lastUpdate"] = 1487370593,
+				["lastUpdate"] = 1488309672,
 				["CRITTER"] = {
 					184482, -- [1]
 					26533, -- [2]
@@ -215,11 +220,11 @@ DataStore_PetsDB = {
 					26541, -- [9]
 				},
 			},
-			["Default.Thrall.Zagrat"] = {
-				["lastUpdate"] = 1471998768,
+			["Default.Thrall.Zagrot"] = {
+				["lastUpdate"] = 1472347374,
 			},
 			["Default.Aerie Peak.Yacub"] = {
-				["lastUpdate"] = 1487371053,
+				["lastUpdate"] = 1488351208,
 				["CRITTER"] = {
 					78683, -- [1]
 					173547, -- [2]
@@ -232,13 +237,15 @@ DataStore_PetsDB = {
 					195368, -- [9]
 					36027, -- [10]
 					170270, -- [11]
-					188084, -- [12]
-					147124, -- [13]
-					159296, -- [14]
-					39181, -- [15]
-					167394, -- [16]
-					26045, -- [17]
-					65046, -- [18]
+					223409, -- [12]
+					188084, -- [13]
+					147124, -- [14]
+					159296, -- [15]
+					39181, -- [16]
+					167394, -- [17]
+					195369, -- [18]
+					26045, -- [19]
+					65046, -- [20]
 				},
 			},
 			["Default.Aerie Peak.Human"] = {
@@ -251,24 +258,14 @@ DataStore_PetsDB = {
 					71840, -- [5]
 				},
 			},
-			["Default.Aerie Peak.Bigyacob"] = {
-				["lastUpdate"] = 1486412310,
+			["Default.Thrall.Zagsham"] = {
+				["lastUpdate"] = 1472403870,
 				["CRITTER"] = {
-					221684, -- [1]
-					210694, -- [2]
-					225200, -- [3]
-					159581, -- [4]
-					193368, -- [5]
-					193388, -- [6]
-					210671, -- [7]
-					223339, -- [8]
-					210691, -- [9]
-					221908, -- [10]
-					215560, -- [11]
-					195370, -- [12]
-					210695, -- [13]
-					221907, -- [14]
+					210699, -- [1]
 				},
+			},
+			["Default.Thrall.Zionae"] = {
+				["lastUpdate"] = 1471915132,
 			},
 			["Default.Aerie Peak.Yacob"] = {
 				["lastUpdate"] = 1486563909,
@@ -297,17 +294,27 @@ DataStore_PetsDB = {
 					173543, -- [22]
 				},
 			},
-			["Default.Thrall.Zionae"] = {
-				["lastUpdate"] = 1471915132,
-			},
-			["Default.Thrall.Zagsham"] = {
-				["lastUpdate"] = 1472403870,
+			["Default.Aerie Peak.Bigyacob"] = {
+				["lastUpdate"] = 1486412310,
 				["CRITTER"] = {
-					210699, -- [1]
+					221684, -- [1]
+					210694, -- [2]
+					225200, -- [3]
+					159581, -- [4]
+					193368, -- [5]
+					193388, -- [6]
+					210671, -- [7]
+					223339, -- [8]
+					210691, -- [9]
+					221908, -- [10]
+					215560, -- [11]
+					195370, -- [12]
+					210695, -- [13]
+					221907, -- [14]
 				},
 			},
-			["Default.Thrall.Zagrot"] = {
-				["lastUpdate"] = 1472347374,
+			["Default.Thrall.Zagrat"] = {
+				["lastUpdate"] = 1471998768,
 			},
 		},
 	},

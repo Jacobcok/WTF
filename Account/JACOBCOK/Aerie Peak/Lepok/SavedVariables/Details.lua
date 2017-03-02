@@ -13,14 +13,14 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Zygi-Aerie Peak",
-	["last_day"] = "17",
+	["last_day"] = "01",
 	["tabela_historico"] = {
 		["tabelas"] = {
 		},
 	},
 	["ignore_nicktag"] = false,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1487820991,
+		["nextreset"] = 1489640171,
 		[133125570] = {
 			"Lepok", -- [1]
 			"Interface\\EncounterJournal\\UI-EJ-BOSS-Vanessa VanCleef", -- [2]
@@ -46,8 +46,8 @@ _detalhes_database = {
 		},
 		["last_version"] = 8,
 	},
-	["combat_counter"] = 11871,
-	["force_font_outline"] = "",
+	["combat_counter"] = 11879,
+	["last_instance_time"] = 1483500370,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -190,16 +190,27 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["enabled"] = false,
-			["arrow_size"] = 10,
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -211,20 +222,9 @@ _detalhes_database = {
 				["x"] = 0,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
+			["font_size"] = 10,
 			["arrow_anchor_y"] = 0,
 			["point"] = "CENTER",
 			["row_height"] = 20,
@@ -235,13 +235,13 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 		},
 	},
-	["last_instance_time"] = 1483500370,
-	["character_data"] = {
-		["logons"] = 415,
-	},
 	["savedbuffs"] = {
 	},
-	["last_version"] = "v7.1.5.3370",
+	["character_data"] = {
+		["logons"] = 419,
+	},
+	["force_font_outline"] = "",
+	["last_version"] = "v7.1.5.3410",
 	["tabela_instancias"] = {
 	},
 	["combat_id"] = 8722,

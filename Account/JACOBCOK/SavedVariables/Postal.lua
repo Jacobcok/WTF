@@ -1,11 +1,36 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Kolento - Aerie Peak"] = "Kolento - Aerie Peak",
+		["Zagrat - Thrall"] = "Zagrat - Thrall",
+		["Human - Aerie Peak"] = "Human - Aerie Peak",
+		["Adope - Thrall"] = "Adope - Thrall",
+		["Subreddit - Aerie Peak"] = "Subreddit - Aerie Peak",
+		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
+		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
+		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
+		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
+		["Yacob - Thrall"] = "Yacob - Thrall",
+		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
+		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
+		["Zagrot - Thrall"] = "Zagrot - Thrall",
+		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
+		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
+		["Zagrut - Thrall"] = "Zagrut - Thrall",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
+		["Zionae - Thrall"] = "Zionae - Thrall",
+		["Züül - Aegwynn"] = "Züül - Aegwynn",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Adope|Thrall|Horde|58|PALADIN", -- [1]
 				"Bigyacob|Aerie Peak|Alliance|110|DEMONHUNTER", -- [2]
-				"Discgusting|Aerie Peak|Alliance|100|PRIEST", -- [3]
+				"Discgusting|Aerie Peak|Alliance|102|PRIEST", -- [3]
 				"Human|Aerie Peak|Alliance|110|DEATHKNIGHT", -- [4]
 				"Kolento|Aerie Peak|Alliance|100|PALADIN", -- [5]
 				"Lepok|Aerie Peak|Alliance|110|ROGUE", -- [6]
@@ -29,31 +54,6 @@ Postal3DB = {
 				"Züül|Aegwynn|Alliance|70|MAGE", -- [24]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Kolento - Aerie Peak"] = "Kolento - Aerie Peak",
-		["Zagrat - Thrall"] = "Zagrat - Thrall",
-		["Human - Aerie Peak"] = "Human - Aerie Peak",
-		["Adope - Thrall"] = "Adope - Thrall",
-		["Subreddit - Aerie Peak"] = "Subreddit - Aerie Peak",
-		["Zygi - Aerie Peak"] = "Zygi - Aerie Peak",
-		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
-		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
-		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
-		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
-		["Yacob - Thrall"] = "Yacob - Thrall",
-		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
-		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
-		["Zagrut - Thrall"] = "Zagrut - Thrall",
-		["Zagrot - Turalyon"] = "Zagrot - Turalyon",
-		["Twogauge - Bleeding Hollow"] = "Twogauge - Bleeding Hollow",
-		["Zagrot - Thrall"] = "Zagrot - Thrall",
-		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
-		["Wurrior - Aerie Peak"] = "Wurrior - Aerie Peak",
-		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
-		["Zagsham - Thrall"] = "Zagsham - Thrall",
-		["Zionae - Thrall"] = "Zionae - Thrall",
-		["Züül - Aegwynn"] = "Züül - Aegwynn",
 	},
 	["profiles"] = {
 		["Kolento - Aerie Peak"] = {
@@ -201,31 +201,18 @@ Postal3DB = {
 				},
 			},
 		},
-		["Zagrot - Aerie Peak"] = {
+		["Zagsham - Thrall"] = {
+		},
+		["Twodrop - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Espyr|Aerie Peak|Alliance", -- [1]
-					"Lepok|Aerie Peak|Alliance", -- [2]
-					"Bigyacob|Aerie Peak|Alliance", -- [3]
-					"Raideon|Aerie Peak|Alliance", -- [4]
-					"Twodrop|Aerie Peak|Alliance", -- [5]
-					"Wurrior|Aerie Peak|Alliance", -- [6]
-					"Yacob|Aerie Peak|Alliance", -- [7]
-					"Zygi|Aerie Peak|Alliance", -- [8]
-					"Human|Aerie Peak|Alliance", -- [9]
-				},
-			},
-		},
-		["Zagrut - Thrall"] = {
-		},
-		["Zagrot - Turalyon"] = {
-		},
-		["Twogauge - Bleeding Hollow"] = {
-		},
-		["Zagrot - Thrall"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Zagsham|Thrall|Horde", -- [1]
+					"Yacub|Aerie Peak|Alliance", -- [1]
+					"Raideon|Aerie Peak|Alliance", -- [2]
+					"Zygi|Aerie Peak|Alliance", -- [3]
+					"Wurrior|Aerie Peak|Alliance", -- [4]
+					"Yacob|Aerie Peak|Alliance", -- [5]
+					"Subreddit|Aerie Peak|Alliance", -- [6]
+					"Human|Aerie Peak|Alliance", -- [7]
 				},
 			},
 		},
@@ -246,6 +233,17 @@ Postal3DB = {
 				},
 			},
 		},
+		["Zagrot - Turalyon"] = {
+		},
+		["Zagrot - Thrall"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Zagsham|Thrall|Horde", -- [1]
+				},
+			},
+		},
+		["Twogauge - Bleeding Hollow"] = {
+		},
 		["Wurrior - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -258,20 +256,22 @@ Postal3DB = {
 				},
 			},
 		},
-		["Twodrop - Aerie Peak"] = {
+		["Zagrut - Thrall"] = {
+		},
+		["Zagrot - Aerie Peak"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Yacub|Aerie Peak|Alliance", -- [1]
-					"Raideon|Aerie Peak|Alliance", -- [2]
-					"Zygi|Aerie Peak|Alliance", -- [3]
-					"Wurrior|Aerie Peak|Alliance", -- [4]
-					"Yacob|Aerie Peak|Alliance", -- [5]
-					"Subreddit|Aerie Peak|Alliance", -- [6]
-					"Human|Aerie Peak|Alliance", -- [7]
+					"Espyr|Aerie Peak|Alliance", -- [1]
+					"Lepok|Aerie Peak|Alliance", -- [2]
+					"Bigyacob|Aerie Peak|Alliance", -- [3]
+					"Raideon|Aerie Peak|Alliance", -- [4]
+					"Twodrop|Aerie Peak|Alliance", -- [5]
+					"Wurrior|Aerie Peak|Alliance", -- [6]
+					"Yacob|Aerie Peak|Alliance", -- [7]
+					"Zygi|Aerie Peak|Alliance", -- [8]
+					"Human|Aerie Peak|Alliance", -- [9]
 				},
 			},
-		},
-		["Zagsham - Thrall"] = {
 		},
 		["Zionae - Thrall"] = {
 		},
