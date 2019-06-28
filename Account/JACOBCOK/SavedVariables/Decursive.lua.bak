@@ -1,0 +1,178 @@
+
+DecursiveDB = {
+	["profileKeys"] = {
+		["Yyacob - Aerie Peak"] = "Default",
+		["Yacobo - Aerie Peak"] = "Default",
+		["Human - Aerie Peak"] = "Default",
+		["Daddyacob - Aerie Peak"] = "Default",
+		["Lepok - Aerie Peak"] = "Default",
+		["Discgusting - Aerie Peak"] = "Default",
+		["Yaccob - Aerie Peak"] = "Default",
+		["Bigyacob - Aerie Peak"] = "Default",
+		["Jäke - Shadowmoon"] = "Default",
+		["Raideon - Aerie Peak"] = "Default",
+		["Jankychan - Aerie Peak"] = "Default",
+		["Yacc - Aerie Peak"] = "Default",
+		["Yaco - Aerie Peak"] = "Default",
+		["Yacoo - Aerie Peak"] = "Default",
+		["Missyacob - Aerie Peak"] = "Default",
+		["Zagsham - Thrall"] = "Default",
+		["Subreddit - Aerie Peak"] = "Default",
+		["Zei - Aerie Peak"] = "Default",
+		["Yacub - Aerie Peak"] = "Default",
+		["Yacob - Aerie Peak"] = "Default",
+		["Yackob - Aerie Peak"] = "Default",
+		["Twodrop - Aerie Peak"] = "Default",
+		["Zagrot - Aerie Peak"] = "Default",
+		["Pepehandss - Aerie Peak"] = "Default",
+		["Zion - Aerie Peak"] = "Default",
+	},
+	["class"] = {
+		["DEATHKNIGHT"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["WARRIOR"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["SHAMAN"] = {
+			["CureOrder"] = {
+				-14, -- [1]
+				3, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = -15,
+				[16] = -16,
+				[32] = 2,
+			},
+		},
+		["MAGE"] = {
+			["CureOrder"] = {
+				-14, -- [1]
+				2, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = -15,
+				[16] = -16,
+				[32] = 3,
+			},
+		},
+		["PRIEST"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				2, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = -15,
+				[16] = 1,
+				[32] = -16,
+			},
+		},
+		["PALADIN"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = 1,
+				[16] = 2,
+				[32] = -16,
+			},
+		},
+		["WARLOCK"] = {
+			["CureOrder"] = {
+				-12, -- [1]
+				-13, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = -15,
+				[16] = -16,
+				[32] = 1,
+			},
+		},
+		["DEMONHUNTER"] = {
+			["CureOrder"] = {
+				-12, -- [1]
+				1, -- [2]
+				nil, -- [3]
+				-13, -- [4]
+				[8] = -14,
+				[16] = -15,
+				[32] = -16,
+			},
+		},
+		["HUNTER"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["DRUID"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = 2,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["MONK"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[8] = 1,
+				[16] = 2,
+				[32] = -16,
+			},
+		},
+		["ROGUE"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+	},
+	["global"] = {
+		["NoStartMessages"] = true,
+		["LastVersionAnnounce"] = 1561482008,
+		["TocExpiredDetection"] = 1561481998,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["HideLiveList"] = true,
+			["DebuffsFrameContainer_y"] = 125.155330721532,
+			["MainBarX"] = 366.221927270617,
+			["MainBarY"] = -203.37765249411,
+			["DebuffsFrameContainer_x"] = 347.733732378492,
+		},
+	},
+}

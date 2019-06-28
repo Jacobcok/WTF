@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0115,
+	["LastVersion"] = 2.0228,
 	["LastPlayerFullName"] = "Kolento-Aerie Peak",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

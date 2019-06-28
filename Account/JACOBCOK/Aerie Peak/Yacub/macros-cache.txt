@@ -38,10 +38,9 @@ VER 3 01000000000003F5 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] ironbark
 END
-VER 3 01000000000003F6 " " "INV_MISC_QUESTIONMARK"
-#showtooltip tranquility
-/use 12
-/cast tranquility
+VER 3 01000000000003FB "efflo" "INV_MISC_QUESTIONMARK"
+/s STAND IN CIRCLE(S)
+/cast efflorescence
 END
 VER 3 01000000000003F1 "healing touch" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -51,15 +50,20 @@ VER 3 01000000000003F1 "healing touch" "INV_MISC_QUESTIONMARK"
 END
 VER 3 01000000000003F3 "innervate" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] innervate
+/cast innervate
+/targetlasttarget
 END
 VER 3 01000000000003F2 "KITTY" "INV_MISC_QUESTIONMARK"
 /cast [combat] shadowmeld
 /cast [nocombat] prowl
 END
-VER 3 01000000000003EE "TANK" "INV_MISC_QUESTIONMARK"
-/cast heart of the wild
-/cast bear form
+VER 3 01000000000003FC "sf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][]stellar flare
+END
+VER 3 01000000000003F7 "starfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] starfall
 END
 VER 3 01000000000003EF "ZGVMacro2" "0"
 /target Ambersmith Zikk

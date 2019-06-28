@@ -1,9 +1,28 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0115,
+	["LastVersion"] = 2.0241,
 	["LastPlayerFullName"] = "Discgusting-Aerie Peak",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128827] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 29,
+					["Type"] = "Shadow",
+				}, -- [1]
+				{
+					["ItemLevel"] = 36,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 30,
+					["Type"] = "Shadow",
+				}, -- [3]
+			},
+			["Name"] = "Xal'atath, Blade of the Black Empire",
+		},
+	},
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

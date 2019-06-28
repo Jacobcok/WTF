@@ -1,15 +1,164 @@
 
 MADB = {
-	["autoShowNext"] = true,
+	["noMMMW"] = false,
 	["characters"] = {
 	},
+	["alwaysShowNudger"] = false,
 	["frameListRows"] = 18,
-	["tooltips"] = true,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
+				["BagButtonsMover"] = {
+					["orgPos"] = {
+						{
+							"BOTTOMLEFT", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							1215.238159179688, -- [4]
+							35.00000381469727, -- [5]
+						}, -- [1]
+						{
+							"BOTTOMRIGHT", -- [1]
+							"MainMenuBarArtFrame", -- [2]
+							"BOTTOMRIGHT", -- [3]
+							-4, -- [4]
+							6, -- [5]
+						}, -- [2]
+					},
+					["name"] = "BagButtonsMover",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1756.00061035156, -- [4]
+						45.0001411437988, -- [5]
+					},
+				},
+				["PlayerHitIndicator"] = {
+					["name"] = "PlayerHitIndicator",
+					["orgPos"] = {
+						"CENTER", -- [1]
+						nil, -- [2]
+						"TOPLEFT", -- [3]
+						73, -- [4]
+						-42.00000381469727, -- [5]
+					},
+					["hidden"] = true,
+					["pos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						689, -- [4]
+						-804.999908447266, -- [5]
+					},
+				},
+				["PlayerPowerBarAltMover"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "PlayerPowerBarAltMover",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-400.999938964844, -- [4]
+						172.999481201172, -- [5]
+					},
+				},
+				["MultiBarRightMover"] = {
+					["orgPos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0, -- [4]
+						98, -- [5]
+					},
+					["name"] = "MultiBarRightMover",
+					["pos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0.0001220703125, -- [4]
+						97.999984741211, -- [5]
+					},
+				},
+				["TalkingHeadFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						96, -- [5]
+					},
+					["name"] = "TalkingHeadFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-672.999580621719, -- [4]
+						294, -- [5]
+					},
+				},
+				["ExtraActionBarFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "ExtraActionBarFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-389.999786376953, -- [4]
+						140.999984741211, -- [5]
+					},
+				},
+				["MultiBarLeftMover"] = {
+					["orgPos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-38, -- [4]
+						98, -- [5]
+					},
+					["name"] = "MultiBarLeftMover",
+					["pos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-40.999755859375, -- [4]
+						97.999984741211, -- [5]
+					},
+				},
+				["TooltipMover"] = {
+					["orgPos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						0, -- [3]
+						0, -- [4]
+					},
+					["name"] = "TooltipMover",
+					["pos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						574.000671386719, -- [4]
+						-916.999771118164, -- [5]
+					},
+				},
 			},
 		},
 	},
+	["closeGUIOnEscape"] = false,
+	["playSound"] = false,
+	["noBags"] = false,
+	["tooltips"] = true,
 }

@@ -1,0 +1,214 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1531235470,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[24:53]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Dalaran]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				66, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[24:53]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Dalaran]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				68, -- [5]
+				false, -- [6]
+				6, -- [7]
+				7, -- [8]
+			}, -- [2]
+			{
+				"|cff979797[24:58]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Petè:22:CHANNEL:2|h|cffffffffPetè|r|h|cffd8d8d8]|r: WTS M+15-22 Runs starting at 125k gold! Runs are done by 975+ Ilvl 11/11M Raiders. In time or your money back. Any gear that can be traded is yours! PST for more info!", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				67, -- [5]
+				false, -- [6]
+				9, -- [7]
+				10, -- [8]
+			}, -- [3]
+			{
+				"|cff979797[25:15]|r|c00000000|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:1|h[1. General - Dalaran]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				66, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [4]
+			{
+				"|cff979797[25:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				67, -- [5]
+				false, -- [6]
+				9, -- [7]
+				12, -- [8]
+			}, -- [5]
+			{
+				"|cff979797[25:16]|r|c00000000|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:3|h[3. LocalDefense - Dalaran]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				68, -- [5]
+				false, -- [6]
+				6, -- [7]
+				7, -- [8]
+			}, -- [6]
+			{
+				"|cff979797[27:19]|r|c00000000|r You receive item: |cff00ccff|Hitem:150737::::::::110:259::14::::|h[Abundant Order Resources Cache]|h|r.", -- [1]
+				0, -- [2]
+				0.666666686534882, -- [3]
+				0, -- [4]
+				28, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [7]
+			{
+				"|cff979797[27:35]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				66, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [8]
+			{
+				"|cff979797[27:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				67, -- [5]
+				false, -- [6]
+				10, -- [7]
+				11, -- [8]
+			}, -- [9]
+			{
+				"|cff979797[27:35]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				68, -- [5]
+				false, -- [6]
+				13, -- [7]
+				14, -- [8]
+			}, -- [10]
+			{
+				"|cff979797[27:55]|r|c00000000|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:1|h[1. General - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				66, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [11]
+			{
+				"|cff979797[27:55]|r|c00000000|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:3|h[3. LocalDefense - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				68, -- [5]
+				false, -- [6]
+				13, -- [7]
+				14, -- [8]
+			}, -- [12]
+			{
+				"|cff979797[11:05]|r|c00000000|r Received 1054 Gold, 31 Silver.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [13]
+			{
+				"|cff979797[11:05]|r|c00000000|r Received 1750 Gold.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [14]
+			{
+				"|cff979797[11:06]|r|c00000000|r Received 1070 Gold, 36 Silver.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [15]
+			{
+				"|cff979797[11:06]|r|c00000000|r Received 1750 Gold.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [16]
+			{
+				"|cff979797[11:10]|r|c00000000|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:1|h[1. General - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				66, -- [5]
+				false, -- [6]
+				7, -- [7]
+				8, -- [8]
+			}, -- [17]
+			{
+				"|cff979797[11:10]|r|c00000000|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:3|h[3. LocalDefense - Krokuun]|h", -- [1]
+				1, -- [2]
+				0.752941250801086, -- [3]
+				0.752941250801086, -- [4]
+				68, -- [5]
+				false, -- [6]
+				10, -- [7]
+				11, -- [8]
+			}, -- [18]
+		},
+	},
+}

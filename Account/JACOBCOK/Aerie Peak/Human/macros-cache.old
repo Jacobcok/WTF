@@ -1,6 +1,13 @@
-VER 3 0100000000000001 "trink" "INV_MISC_QUESTIONMARK"
-#showtooltip breath of sindragosa
+VER 3 0100000000000003 "cancel" "INV_MISC_QUESTIONMARK"
+/pull 0
+END
+VER 3 0100000000000002 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip consumption
 /use 13
 /use 14
-/cast breath of sindragosa
+/cast consumption
+END
+VER 3 0100000000000001 "pet grip" "INV_MISC_QUESTIONMARK"
+#showtooltip hook
+/cast hook
 END

@@ -1,0 +1,4 @@
+VER 3 010000000000003D "ZGVMacro2" "0"
+/target Warbringer Arix'Amal
+/run ZGV:MRM()
+END

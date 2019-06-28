@@ -1,0 +1,10 @@
+TotalAP: disabled
+AutoTurnIn: disabled
+Quartz: disabled
+WorldQuestGroupFinder: disabled
+Prat-3.0: disabled
+TidyPlates_ThreatPlates: disabled
+AstralKeys: enabled
+AzeritePowerWeights: enabled
+AzeriteTooltip: enabled
+AAP-Core: disabled

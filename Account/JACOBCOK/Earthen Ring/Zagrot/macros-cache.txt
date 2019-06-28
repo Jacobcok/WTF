@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast feral spirit
+/cast blood fury
+END

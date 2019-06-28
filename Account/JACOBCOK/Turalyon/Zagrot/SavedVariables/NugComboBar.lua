@@ -1,5 +1,0 @@
-
-NugComboBarDB_Character = {
-	["specspec"] = {
-	},
-}

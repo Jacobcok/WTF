@@ -1,6 +1,9 @@
-VER 3 0100000000000054 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast water jet
+VER 3 0100000000000059 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/cast [nochanneling] Arcane Blast
+END
+VER 3 010000000000006B " " "INV_MISC_QUESTIONMARK"
+#show
 END
 VER 3 010000000000005A " " "INV_MISC_QUESTIONMARK"
 #showtooltip arcane barrage
@@ -10,28 +13,42 @@ VER 3 0100000000000058 " " "INV_MISC_QUESTIONMARK"
 #showtooltip arcane missiles
 /cast [nochanneling] Arcane Missiles
 END
-VER 3 0100000000000059 " " "INV_MISC_QUESTIONMARK"
-#showtooltip arcane blast
-/cast [nochanneling] Arcane Blast
-END
-VER 3 010000000000002F " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast freeze
-END
-VER 3 010000000000006B " " "INV_MISC_QUESTIONMARK"
-#show
+VER 3 010000000000006D "blizzard" "INV_MISC_QUESTIONMARK"
+#showtooltip blizzard
+/cast [@cursor] blizzard
 END
 VER 3 0100000000000067 "block" "INV_MISC_QUESTIONMARK"
+#showtoolip Ice Block
 /stopcasting
 /cast ice block
+END
+VER 3 0100000000000070 "cancel" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Block
+/cancelaura Ice Block
+END
+VER 3 010000000000006E "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip glacial spike
+/use 13
+/use 14
+/cast glacial spike
+END
+VER 3 010000000000006F "cd3" "INV_MISC_QUESTIONMARK"
+#showtooltip frozen orb
+/use 13
+/use 14
+/cast frozen orb
+END
+VER 3 0100000000000072 "decurse" "INV_MISC_QUESTIONMARK"
+#showtooltip remove curse
+/cast [@mouseover,help,nodead][] remove curse
 END
 VER 3 0100000000000069 "invis" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast greater invisibility
 END
-VER 3 0100000000000068 "PC" "INV_MISC_QUESTIONMARK"
-#showtooltip Prismatic Crystal
-/cast Prismatic Crystal
+VER 3 0100000000000071 "meteor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] meteor
 END
 VER 3 010000000000006A "trink" "INV_MISC_QUESTIONMARK"
 #showtooltip rune of power

@@ -4,14 +4,21 @@ GreenWall = {
 	["debug"] = 0,
 	["joindelay"] = 30,
 	["verbose"] = false,
-	["redact"] = true,
+	["rank"] = false,
+	["updated"] = "2018-08-30 09:03:15",
 	["roster"] = true,
 	["logsize"] = 2048,
-	["version"] = "1.6.5",
-	["tag"] = true,
-	["achievements"] = false,
+	["redact"] = true,
 	["ochat"] = false,
-	["rank"] = false,
+	["achievements"] = false,
+	["version"] = "1.9.8",
+	["tag"] = true,
+}
+GreenWallMeta = {
+	["updated"] = "2018-08-30 09:03:15",
+	["mode"] = "character",
+	["version"] = "1.9.8",
+	["created"] = "2018-01-09 20:52:58",
 }
 GreenWallLog = {
 }

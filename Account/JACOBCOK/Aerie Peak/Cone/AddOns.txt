@@ -1,0 +1,6 @@
+NugComboBar: disabled
+NugComboBarGUI: disabled
+WorldQuestGroupFinder: disabled
+AutoTurnIn: disabled
+Bartender4: disabled
+ArkInventory: disabled

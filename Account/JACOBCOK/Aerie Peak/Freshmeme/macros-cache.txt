@@ -1,0 +1,28 @@
+VER 3 0100000000000003 "bestow faith" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] bestow faith
+END
+VER 3 0100000000000001 "flash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] flash of light
+END
+VER 3 0100000000000002 "holy light" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] holy light
+END
+VER 3 0100000000000004 "holy shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead] holy shock; holy shock
+END
+VER 3 0100000000000007 "martyr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] light of the martyr
+END
+VER 3 0100000000000005 "sac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] blessing of sacrifice
+END
+VER 3 0100000000000006 "virtue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] beacon of virtue
+END

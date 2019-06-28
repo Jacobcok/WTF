@@ -9,31 +9,30 @@ MADB = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
-				["AchievementAlertFrame1"] = {
-					["name"] = "AchievementAlertFrame1",
-					["pos"] = {
-						"BOTTOM", -- [1]
-						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						-545.999938964844, -- [4]
-						498.000030517578, -- [5]
-					},
-				},
-				["MAOptions"] = {
+				["BagButtonsMover"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						-262, -- [4]
-						110.000007629395, -- [5]
+						{
+							"BOTTOMLEFT", -- [1]
+							"UIParent", -- [2]
+							"BOTTOMLEFT", -- [3]
+							1215.238159179688, -- [4]
+							35.00000381469727, -- [5]
+						}, -- [1]
+						{
+							"BOTTOMRIGHT", -- [1]
+							"MainMenuBarArtFrame", -- [2]
+							"BOTTOMRIGHT", -- [3]
+							-4, -- [4]
+							6, -- [5]
+						}, -- [2]
 					},
-					["name"] = "MAOptions",
+					["name"] = "BagButtonsMover",
 					["pos"] = {
-						"CENTER", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
-						-186.999847412109, -- [4]
-						100.999923706055, -- [5]
+						"BOTTOMLEFT", -- [3]
+						1756.00061035156, -- [4]
+						45.0001411437988, -- [5]
 					},
 				},
 				["TalkingHeadFrame"] = {
@@ -49,8 +48,94 @@ MADB = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
-						-526.000106811523, -- [4]
-						339.000213623047, -- [5]
+						-672.999580621719, -- [4]
+						294, -- [5]
+					},
+				},
+				["PlayerPowerBarAltMover"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "PlayerPowerBarAltMover",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-400.999938964844, -- [4]
+						172.999481201172, -- [5]
+					},
+				},
+				["MultiBarRightMover"] = {
+					["orgPos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0, -- [4]
+						98, -- [5]
+					},
+					["name"] = "MultiBarRightMover",
+					["pos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0.0001220703125, -- [4]
+						97.999984741211, -- [5]
+					},
+				},
+				["PlayerHitIndicator"] = {
+					["name"] = "PlayerHitIndicator",
+					["orgPos"] = {
+						"CENTER", -- [1]
+						nil, -- [2]
+						"TOPLEFT", -- [3]
+						73, -- [4]
+						-42.00000381469727, -- [5]
+					},
+					["hidden"] = true,
+					["pos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						689, -- [4]
+						-804.999908447266, -- [5]
+					},
+				},
+				["ExtraActionBarFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						155, -- [5]
+					},
+					["name"] = "ExtraActionBarFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						-389.999786376953, -- [4]
+						140.999984741211, -- [5]
+					},
+				},
+				["MultiBarLeftMover"] = {
+					["orgPos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-38, -- [4]
+						98, -- [5]
+					},
+					["name"] = "MultiBarLeftMover",
+					["pos"] = {
+						"BOTTOMRIGHT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-40.999755859375, -- [4]
+						97.999984741211, -- [5]
 					},
 				},
 				["TooltipMover"] = {
@@ -65,42 +150,15 @@ MADB = {
 						"TOP", -- [1]
 						"UIParent", -- [2]
 						"TOP", -- [3]
-						684.000244140625, -- [4]
-						-688.999755859375, -- [5]
-					},
-				},
-				["ExtraActionBarFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"BT4BarExtraActionBar", -- [2]
-						"TOPLEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "ExtraActionBarFrame",
-					["pos"] = {
-						"TOPLEFT", -- [1]
-						"BT4BarExtraActionBar", -- [2]
-						"TOPLEFT", -- [3]
-						-307.000122070313, -- [4]
-						45.9997863769531, -- [5]
-					},
-				},
-				["AchievementAlertFrame2"] = {
-					["name"] = "AchievementAlertFrame2",
-					["pos"] = {
-						"BOTTOM", -- [1]
-						"UIParent", -- [2]
-						"BOTTOM", -- [3]
-						-546.000061035156, -- [4]
-						497.999908447266, -- [5]
+						574.000671386719, -- [4]
+						-916.999771118164, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["playSound"] = false,
-	["noBags"] = false,
 	["tooltips"] = true,
+	["noBags"] = false,
+	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }

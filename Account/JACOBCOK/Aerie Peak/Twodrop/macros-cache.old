@@ -16,10 +16,22 @@ VER 3 0100000000000044 "cd" "INV_MISC_QUESTIONMARK"
 /use 14
 /cast rapid fire
 END
+VER 3 0100000000000047 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip aspect of the wild
+/use 13
+/use 14
+/cast aspect of the wild
+END
+VER 3 0100000000000046 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip intimidation
+/cast [@focus] intimidation
+END
+VER 3 0100000000000045 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip counter shot
+/cast [@focus] counter shot
+END
 VER 3 0100000000000043 "MD" "INV_MISC_QUESTIONMARK"
-/tar dog
-/cast misdirection
-/targetlasttarget
+/cast [@focus] misdirection
 END
 VER 3 010000000000003F "ZGVMacro3" "0"
 /target Windroc

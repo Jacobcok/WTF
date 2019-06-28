@@ -1,4 +1,0 @@
-VER 3 0100000000000001 "Intervene" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] intervene
-END

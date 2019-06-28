@@ -5,80 +5,102 @@ ___
 -"-"- 
 O RLY? 
 END
-VER 3 0000000000000035 "art" "INV_MISC_QUESTIONMARK"
-#showtooltip Adventurer's Glory
-/use Jewel of Victory
-/use Adventurer's Glory
-/use Adventurer's Resounding Glory
-/use Selfless Glory
-/use Symbol of Victory
+VER 3 0000000000000053 "1" "INV_MISC_QUESTIONMARK"
+/tar Illyanna Ravenoak
+/tar Immol'thar
 END
-VER 3 0000000000000038 "barrel wq" "INV_MISC_QUESTIONMARK"
-/script SetRaidTarget("mouseover",1)
+VER 3 0000000000000054 "2" "INV_MISC_QUESTIONMARK"
+/tar Pusillin 
+/tar Old Ironbark
 END
-VER 3 0000000000000037 "confirm buy" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000055 "3" "INV_MISC_QUESTIONMARK"
+/tar lethtendris
+/tar alzzin the wildshaper
+END
+VER 3 0000000000000056 "4" "INV_MISC_QUESTIONMARK"
+/tar guard fengus  
+/tar guard slip'kik 
+/tar king gordok
+END
+VER 3 000000000000004B "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Inquisitor's Regalia
+END
+VER 3 000000000000004D "agony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][]agony
+END
+VER 3 0000000000000048 "BFA S1" "INV_MISC_QUESTIONMARK"
+/script AddTrackedAchievement("13079")
+END
+VER 3 000000000000003C "BRAIN POWER" "INV_MISC_QUESTIONMARK"
+O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A-JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA
+END
+VER 3 0000000000000037 "confirm buy" "1003590"
 /click StaticPopup1Button1
 END
-VER 3 0000000000000027 "CWM" "INV_MISC_QUESTIONMARK"
-/cwm all
-END
-VER 3 000000000000001A "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Dispel Magic;  [@mouseover,exists,mod:ctrl] Purify; [@mouseover,exists,mod:shift] Dispel Magic
-END
-VER 3 000000000000002E "extra 2" "SPELL_SHADOW_ANTISHADOW"
-/click [target=mouseover,help,nodead][help][target=player] ExtraActionButton1
-END
-VER 3 000000000000002C "Extra Action But" "134211"
-/click ExtraActionButton1
-END
-VER 3 0000000000000034 "GR" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
-/script UIErrorsFrame:Hide()
+VER 3 000000000000004E "corruption" "INV_MISC_QUESTIONMARK"
 #showtooltip 
-/use big crate of salvage
-/use bag of salvaged goods
-/use crate of salvage
-/use Sack of Salvaged Goods
-/use big crate of salvage
+/cast [@mouseover,harm,nodead][] corruption
 END
-VER 3 0000000000000036 "hide" "SPELL_MISC_PETHEAL"
-/tar Inconspicuous basket
+VER 3 000000000000004A "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
 END
-VER 3 0000000000000021 "Hide Errors" "SPELL_NATURE_SLEEP"
-/script UIErrorsFrame:Hide();
+VER 3 0000000000000051 "fort" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/s fort fort fort
+/cast power word: fortitude
 END
-VER 3 000000000000002A "kolento" "INV_MISC_QUESTIONMARK"
-/use autographed hearthstone card
-END
-VER 3 0000000000000020 "Mount" "Ability_Mount_RidingHorse"
-/run if not IsMounted() then local m,t,f="mount",{{},{}} for i=2,GetNumCompanions(m) do tinsert(t[bit.band(2,select(6,GetCompanionInfo(m,i)))==0 and 1 or 2],i) end f=IsFlyableArea() and 2 or 1 CallCompanion(m,t[f][random(#t[f])]) else Dismount() end
+VER 3 000000000000003F "mb cancel" "INV_MISC_QUESTIONMARK"
+#showtooltip mindbender
+/cancelaura dispersion
+/use 13
+/use 14
+/cast mindbender
 END
 VER 3 000000000000001E "Mouseover" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] Rejuvenation
 END
-VER 3 0000000000000031 "pull" "255142"
+VER 3 0000000000000049 "ocean man" "INV_MISC_QUESTIONMARK"
+OCEAN MAN {square} {x} Take me by the hand {circle} lead me to the land that you understand {triangle} {square} OCEAN MAN {square} {x} The voyage {star} to the corner of the {triangle} globe is a real trip {circle} {square} OCEAN MAN
+END
+VER 3 0000000000000052 "pants" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/s I'm dropping my pants!
+/use malformed herald's legwraps
+END
+VER 3 0000000000000031 "pull 10" "255142"
 /pull 10
+END
+VER 3 0000000000000047 "pull0" "132319"
+/pull 0
+END
+VER 3 000000000000003E "pull3" "1100041"
+/pull 3
+END
+VER 3 000000000000004C "pw:s" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] power word: shield
 END
 VER 3 0000000000000030 "ready?" "SPELL_SHADOW_CHARM"
 /readycheck
 END
-VER 3 000000000000002F "reset" "INV_MISC_NOTE_05"
-/script ResetChallengeMode()
-END
-VER 3 0000000000000032 "ROFL" "134299"
-/s  <:ROFL:ROFL:ROFL:LOL:ROFL:ROFL:ROFL> 
-/s  ............ _________/\_______ 
-/s  \\.......... L / o o o o o o o o\_\_ 
-/s  =======LOL===|| ROFLcopter ..\ 
-/s  //.......... L\_________________/ 
-/s .................... __/______\__ 
-END
 VER 3 0000000000000023 "Show" "Ability_CheapShot"
 /script UIErrorsFrame:Show();
 END
-VER 3 0000000000000033 "target" "INV_MISC_QUESTIONMARK"
-/tar ethereum jailor
+VER 3 0000000000000046 "silence" "INV_MISC_QUESTIONMARK"
+#showtooltip silence
+/cast [@mouseover,harm,nodead][]silence
+END
+VER 3 000000000000004F "siphon life" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm,nodead][]siphon life
+END
+VER 3 0000000000000050 "unstable afflict" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm,nodead][]unstable affliction
 END
 VER 3 0000000000000024 "WM 1" "INV_MISC_QUESTIONMARK"
 /wm 1
@@ -89,6 +111,20 @@ END
 VER 3 0000000000000026 "WM 3" "INV_MISC_QUESTIONMARK"
 /wm 3
 END
+VER 3 000000000000003A "wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip solar wrath
+/use 11
+/use 12
+/cast solar wrath
+END
 VER 3 0000000000000018 "Zoom" "Ability_EyeOfTheOwl"
 /console cameradistancemaxfactor 2.6
+END
+VER 3 0000000000000044 "~moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][]Moonfire
+END
+VER 3 0000000000000045 "~sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm,nodead][]Sunfire
 END

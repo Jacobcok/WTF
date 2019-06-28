@@ -1,13 +1,31 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0013,
+	["LastVersion"] = 2.0241,
 	["LastPlayerFullName"] = "Raideon-Aerie Peak",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128862] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Frost",
+				}, -- [3]
+			},
+			["Name"] = "Ebonchill, Greatstaff of Alodi",
+		},
+	},
 	["LastKeybindingsSet"] = 1,
 }
-PawnMrRobotScaleProviderOptions = nil
-PawnWowheadScaleProviderOptions = {
+PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",
-	["LastAdded"] = 5,
+	["LastAdded"] = 1,
 }

@@ -1,0 +1,14 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+/use 13
+/use 14
+END
+VER 3 0100000000000002 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip dark soul: misery
+/use malformed herald's legwraps
+/cast dark soul: misery
+END
+VER 3 0100000000000003 "drain" "INV_MISC_QUESTIONMARK"
+#showtooltip drain life
+/use malformed herald's legwraps
+/cast [nochanneling:drain life] drain life
+END

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0115,
+	["LastVersion"] = 2.024,
 	["LastPlayerFullName"] = "Yacob-Aerie Peak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,

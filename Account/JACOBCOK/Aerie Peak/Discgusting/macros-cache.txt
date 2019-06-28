@@ -1,15 +1,71 @@
+VER 3 010000000000006C "circle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] circle of healing
+END
+VER 3 0100000000000082 "crash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] shadow crash
+END
+VER 3 010000000000007F "feather" "INV_MISC_QUESTIONMARK"
+/cast [@cursor] angelic feather
+END
 VER 3 010000000000006A "flash heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] flash heal
 END
-VER 3 010000000000006B "penn" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000007E "gs" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,help,nodead][
-help] penance
+/cast [target=mouseover,help,nodead][help][target=player] guardian spirit
 END
-VER 3 010000000000006C "pw:S" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000006B "heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=mouseover,help,nodead][help][target=player] power word: shield
+/cast [target=mouseover,help,nodead][help][target=player] heal
+END
+VER 3 010000000000007C "leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] leap of faith
+END
+VER 3 0100000000000087 "mass dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] mass dispel
+END
+VER 3 0100000000000086 "pom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] prayer of mending
+END
+VER 3 0100000000000084 "prayer of healin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] prayer of healing
+END
+VER 3 0100000000000080 "purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] purify
+END
+VER 3 010000000000007D "rad" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] power word: radiance
+END
+VER 3 0100000000000085 "renew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] renew
+END
+VER 3 0100000000000081 "schism" "INV_MISC_QUESTIONMARK"
+#showtooltip schism
+/use 13
+/use 14
+/cast schism
+END
+VER 3 0100000000000083 "serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] holy word: serenity
+END
+VER 3 0100000000000079 "swp" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Word: Pain
+/cast [@mouseover,harm,nodead][]Shadow Word: Pain
+END
+VER 3 010000000000007A "VT" "INV_MISC_QUESTIONMARK"
+#showtooltip Vampiric Touch
+/cast [@mouseover,harm,nodead][]Vampiric Touch
 END
 VER 3 0100000000000069 "ZGVMacro1" "0"
 /target Marshal Gryan Stoutmantle

@@ -1,0 +1,17 @@
+VER 3 0100000000000003 "Cancel" "Ability_Creature_Cursed_04"
+/cancelaura Hand of Protection
+/cancelaura divine shield
+END
+VER 3 0100000000000001 "CD" "INV_Misc_QuestionMark"
+#showtooltip
+/y Red Bull give you Wings!
+/cast avenging wrath
+/use 13
+/use 14
+END
+VER 3 0100000000000002 "CD2" "INV_Misc_QuestionMark"
+#showtooltip zealotry
+/use 13
+/use 14
+/cast Zealotry
+END

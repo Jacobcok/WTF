@@ -1,14 +1,14 @@
-VER 3 0100000000000004 "CDs" "INV_MISC_QUESTIONMARK"
-#showtooltip metamorphosis
-/use 13
-/use 14
-/cast metamorphosis
-END
 VER 3 0100000000000003 "CDs" "INV_MISC_QUESTIONMARK"
 #showtooltip chaos blades
 /use 13
 /use 14
 /cast chaos blades
+END
+VER 3 0100000000000004 "CDs" "INV_MISC_QUESTIONMARK"
+#showtooltip metamorphosis
+/use 13
+/use 14
+/cast metamorphosis
 END
 VER 3 0100000000000002 "doom" "INV_MISC_QUESTIONMARK"
 /tar doom

@@ -6,6 +6,12 @@ VER 3 0100000000000129 "Cocoon" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] life cocoon
 END
+VER 3 010000000000012E "dave" "INV_MISC_QUESTIONMARK"
+#showtooltip Provoke
+/target Black Ox Statue
+/cast Provoke
+/targetlasttarget
+END
 VER 3 010000000000012A "effuse" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=mouseover,help,nodead][help][target=player] effuse

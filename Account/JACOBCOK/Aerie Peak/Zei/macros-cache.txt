@@ -1,0 +1,8 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [combat] vanish
+/cast stealth
+END
+VER 3 0100000000000002 "tar" "INV_MISC_QUESTIONMARK"
+/tar chi
+END

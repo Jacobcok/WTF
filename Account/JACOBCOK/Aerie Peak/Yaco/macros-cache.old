@@ -1,0 +1,43 @@
+VER 3 0100000000000008 "bs" "INV_MISC_QUESTIONMARK"
+#showtooltip bladestorm
+/use 13
+/use 14
+/cast bladestorm
+END
+VER 3 0100000000000003 "bs" "132096"
+/cancelaura bladestorm
+END
+VER 3 0100000000000004 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip warbreaker
+/use 13
+/use 14
+/cast warbreaker
+END
+VER 3 010000000000000A "cd" "INV_MISC_QUESTIONMARK"
+/use 13
+/use 145
+END
+VER 3 0100000000000005 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip avatar
+/use 13
+/use 14
+/cast avatar
+END
+VER 3 010000000000000B "feast" "2203786"
+/me prepares a Bountiful Captain's Feast!
+END
+VER 3 0100000000000009 "FOCUS" "INV_MISC_QUESTIONMARK"
+/cast [@focus] storm bolt
+END
+VER 3 0100000000000001 "Intervene" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] intervene
+END
+VER 3 0100000000000007 "leap" "INV_MISC_QUESTIONMARK"
+#showtooltip heroic leap
+/cast @cursor heroic leap
+END
+VER 3 0100000000000006 "trinket" "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/cast [@player] 13
+END

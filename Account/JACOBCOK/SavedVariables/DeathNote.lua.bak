@@ -1,0 +1,147 @@
+
+DeathNoteDB = {
+	["profileKeys"] = {
+		["Kolento - Aerie Peak"] = "Kolento - Aerie Peak",
+		["Yyacob - Aerie Peak"] = "Yyacob - Aerie Peak",
+		["Yacobo - Aerie Peak"] = "Yacobo - Aerie Peak",
+		["Human - Aerie Peak"] = "Human - Aerie Peak",
+		["Zei - Aerie Peak"] = "Zei - Aerie Peak",
+		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
+		["Jankychan - Aerie Peak"] = "Jankychan - Aerie Peak",
+		["Discgusting - Aerie Peak"] = "Discgusting - Aerie Peak",
+		["Yaccob - Aerie Peak"] = "Yaccob - Aerie Peak",
+		["Bigyacob - Aerie Peak"] = "Bigyacob - Aerie Peak",
+		["Jäke - Shadowmoon"] = "Jäke - Shadowmoon",
+		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
+		["Zagrot - Aerie Peak"] = "Zagrot - Aerie Peak",
+		["Zagsham - Thrall"] = "Zagsham - Thrall",
+		["Freshmeme - Aerie Peak"] = "Freshmeme - Aerie Peak",
+		["Yacoo - Aerie Peak"] = "Yacoo - Aerie Peak",
+		["Missyacob - Aerie Peak"] = "Missyacob - Aerie Peak",
+		["Yaco - Aerie Peak"] = "Yaco - Aerie Peak",
+		["Daddyacob - Aerie Peak"] = "Daddyacob - Aerie Peak",
+		["Yacub - Aerie Peak"] = "Yacub - Aerie Peak",
+		["Subreddit - Aerie Peak"] = "Subreddit - Aerie Peak",
+		["Yacob - Aerie Peak"] = "Yacob - Aerie Peak",
+		["Yackob - Aerie Peak"] = "Yackob - Aerie Peak",
+		["Twodrop - Aerie Peak"] = "Twodrop - Aerie Peak",
+		["Yacc - Aerie Peak"] = "Yacc - Aerie Peak",
+		["Pepehandss - Aerie Peak"] = "Pepehandss - Aerie Peak",
+		["Zion - Aerie Peak"] = "Zion - Aerie Peak",
+	},
+	["profiles"] = {
+		["Kolento - Aerie Peak"] = {
+		},
+		["Yyacob - Aerie Peak"] = {
+		},
+		["Yacobo - Aerie Peak"] = {
+		},
+		["Human - Aerie Peak"] = {
+		},
+		["Zei - Aerie Peak"] = {
+			["searchbox_text"] = "",
+		},
+		["Lepok - Aerie Peak"] = {
+		},
+		["Jankychan - Aerie Peak"] = {
+		},
+		["Discgusting - Aerie Peak"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["y"] = 128.999877929688,
+				["x"] = -54.9999084472656,
+				["w"] = 700.000183105469,
+				["h"] = 499.999938964844,
+			},
+		},
+		["Yaccob - Aerie Peak"] = {
+			["searchbox_text"] = "",
+		},
+		["Bigyacob - Aerie Peak"] = {
+		},
+		["Jäke - Shadowmoon"] = {
+		},
+		["Raideon - Aerie Peak"] = {
+			["display_filters"] = {
+				["consolidate_damage"] = true,
+				["buff_fades"] = false,
+				["buff_gains"] = false,
+			},
+			["searchbox_text"] = "",
+			["display"] = {
+				["y"] = 23.9996795654297,
+				["h"] = 499.999908447266,
+				["columns"] = {
+					59.9999885559082, -- [1]
+					90.0000152587891, -- [2]
+					85.9999847412109, -- [3]
+					100.000030517578, -- [4]
+				},
+				["w"] = 700.000183105469,
+				["x"] = -117.999816894531,
+			},
+		},
+		["Zagrot - Aerie Peak"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["y"] = 53.9998168945313,
+				["x"] = -141.999969482422,
+				["w"] = 700.000061035156,
+				["h"] = 500.000061035156,
+			},
+		},
+		["Zagsham - Thrall"] = {
+		},
+		["Freshmeme - Aerie Peak"] = {
+		},
+		["Yacoo - Aerie Peak"] = {
+		},
+		["Missyacob - Aerie Peak"] = {
+		},
+		["Yaco - Aerie Peak"] = {
+			["display_filters"] = {
+				["consolidate_auras"] = true,
+				["buff_fades"] = false,
+			},
+			["display"] = {
+				["y"] = 15.0000610351563,
+				["x"] = -144,
+				["namelist"] = 2,
+				["w"] = 700.000061035156,
+				["h"] = 500.000061035156,
+			},
+			["searchbox_text"] = "",
+		},
+		["Daddyacob - Aerie Peak"] = {
+		},
+		["Yacub - Aerie Peak"] = {
+		},
+		["Subreddit - Aerie Peak"] = {
+			["searchbox_text"] = "",
+			["display_filters"] = {
+				["consolidate_damage"] = true,
+				["buff_gains"] = false,
+				["buff_fades"] = false,
+			},
+			["display"] = {
+				["w"] = 700.000061035156,
+				["y"] = -8.0001220703125,
+				["namelist"] = 2,
+				["h"] = 500.000061035156,
+				["x"] = -43.9999694824219,
+			},
+		},
+		["Yacob - Aerie Peak"] = {
+		},
+		["Yackob - Aerie Peak"] = {
+		},
+		["Twodrop - Aerie Peak"] = {
+		},
+		["Yacc - Aerie Peak"] = {
+		},
+		["Pepehandss - Aerie Peak"] = {
+		},
+		["Zion - Aerie Peak"] = {
+		},
+	},
+}

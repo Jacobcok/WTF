@@ -1,0 +1,3 @@
+SexyMap: disabled
+WorldQuestGroupFinder: disabled
+Grid2: disabled

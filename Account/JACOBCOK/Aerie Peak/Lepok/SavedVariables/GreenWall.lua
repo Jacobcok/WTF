@@ -7,11 +7,17 @@ GreenWall = {
 	["redact"] = true,
 	["roster"] = true,
 	["logsize"] = 2048,
-	["tag"] = true,
-	["version"] = "1.8.2",
-	["achievements"] = false,
-	["ochat"] = false,
 	["rank"] = false,
+	["ochat"] = false,
+	["achievements"] = false,
+	["version"] = "1.9.12",
+	["tag"] = true,
+}
+GreenWallMeta = {
+	["updated"] = "2018-01-31 21:52:13",
+	["mode"] = "character",
+	["version"] = "1.9.12",
+	["created"] = "2018-01-31 21:52:13",
 }
 GreenWallLog = {
 }

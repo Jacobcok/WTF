@@ -1,0 +1,25 @@
+
+GreenWall = {
+	["created"] = "2018-02-02 17:43:26",
+	["log"] = false,
+	["debug"] = 0,
+	["joindelay"] = 30,
+	["verbose"] = false,
+	["rank"] = false,
+	["updated"] = "2018-02-02 17:43:26",
+	["roster"] = true,
+	["version"] = "1.9.0",
+	["redact"] = true,
+	["ochat"] = false,
+	["achievements"] = false,
+	["logsize"] = 2048,
+	["tag"] = true,
+}
+GreenWallMeta = {
+	["updated"] = "2018-02-02 18:29:29",
+	["mode"] = "account",
+	["version"] = "1.9.0",
+	["created"] = "2018-02-02 17:43:26",
+}
+GreenWallLog = {
+}
