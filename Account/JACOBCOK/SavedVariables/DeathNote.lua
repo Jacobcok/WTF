@@ -48,9 +48,9 @@ DeathNoteDB = {
 		["Discgusting - Aerie Peak"] = {
 			["searchbox_text"] = "",
 			["display"] = {
-				["w"] = 700.000183105469,
 				["y"] = 128.999877929688,
 				["x"] = -54.9999084472656,
+				["w"] = 700.000183105469,
 				["h"] = 499.999938964844,
 			},
 		},
@@ -67,9 +67,10 @@ DeathNoteDB = {
 				["buff_fades"] = false,
 				["buff_gains"] = false,
 			},
+			["searchbox_text"] = "",
 			["display"] = {
 				["y"] = 23.9996795654297,
-				["h"] = 499.999908447266,
+				["x"] = -117.999816894531,
 				["columns"] = {
 					59.9999885559082, -- [1]
 					90.0000152587891, -- [2]
@@ -77,9 +78,8 @@ DeathNoteDB = {
 					100.000030517578, -- [4]
 				},
 				["w"] = 700.000183105469,
-				["x"] = -117.999816894531,
+				["h"] = 499.999908447266,
 			},
-			["searchbox_text"] = "",
 		},
 		["Yacc - Aerie Peak"] = {
 		},
@@ -96,29 +96,29 @@ DeathNoteDB = {
 				["consolidate_auras"] = true,
 				["buff_fades"] = false,
 			},
-			["searchbox_text"] = "",
 			["display"] = {
 				["y"] = 15.0000610351563,
-				["x"] = -144,
 				["h"] = 500.000061035156,
-				["w"] = 700.000061035156,
 				["namelist"] = 2,
+				["w"] = 700.000061035156,
+				["x"] = -144,
 			},
+			["searchbox_text"] = "",
 		},
 		["Subreddit - Aerie Peak"] = {
-			["searchbox_text"] = "",
-			["display"] = {
-				["y"] = -8.0001220703125,
-				["namelist"] = 2,
-				["x"] = -43.9999694824219,
-				["w"] = 700.000061035156,
-				["h"] = 500.000061035156,
-			},
 			["display_filters"] = {
 				["consolidate_damage"] = true,
 				["buff_fades"] = false,
 				["buff_gains"] = false,
 			},
+			["display"] = {
+				["y"] = -8.0001220703125,
+				["x"] = -43.9999694824219,
+				["h"] = 500.000061035156,
+				["w"] = 700.000061035156,
+				["namelist"] = 2,
+			},
+			["searchbox_text"] = "",
 		},
 		["Yacub - Aerie Peak"] = {
 		},

@@ -2,3 +2,7 @@
 RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Subreddit-aerie-peak"
+RaiderIO_MissingCharacters = {
+	["us-Galliana-aerie-peak"] = true,
+	["us-Draedock-aerie-peak"] = true,
+}

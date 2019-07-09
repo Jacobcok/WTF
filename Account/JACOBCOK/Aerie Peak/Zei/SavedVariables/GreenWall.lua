@@ -8,7 +8,7 @@ GreenWall = {
 	["tag"] = true,
 	["updated"] = "2018-02-03 01:06:32",
 	["roster"] = true,
-	["version"] = "1.9.12",
+	["version"] = "1.9.13",
 	["logsize"] = 2048,
 	["achievements"] = false,
 	["ochat"] = false,
@@ -18,7 +18,7 @@ GreenWall = {
 GreenWallMeta = {
 	["updated"] = "2019-05-24 14:06:04",
 	["mode"] = "account",
-	["version"] = "1.9.12",
+	["version"] = "1.9.13",
 	["created"] = "2018-02-03 01:06:32",
 }
 GreenWallLog = {

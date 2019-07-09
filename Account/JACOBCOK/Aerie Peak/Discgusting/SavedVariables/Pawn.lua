@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0241,
+	["LastVersion"] = 2.0243,
 	["LastPlayerFullName"] = "Discgusting-Aerie Peak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

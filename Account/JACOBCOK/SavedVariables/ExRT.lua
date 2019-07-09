@@ -325,7 +325,7 @@ VExRT = {
 			[1661] = "Chalgra Razorflank",
 			[1406] = "Commander Ri'mok",
 			[1662] = "Aaurx",
-			[1940] = "Quagmirran",
+			[1429] = "Lilian Voss",
 			[1663] = "Mordresh Fire Eye",
 			[1919] = "Aeonus",
 			[1664] = "Mushlump",
@@ -348,7 +348,7 @@ VExRT = {
 			[1417] = "Lorewalker Stonestep",
 			[593] = "Hydromancer Velratha",
 			[1418] = "Wise Mari",
-			[425] = "Celebras the Cursed",
+			[1696] = "Oregorger the Devourer",
 			[1419] = "Raigonn",
 			[1675] = "Thruk",
 			[1420] = "Flameweaver Koegler",
@@ -360,7 +360,7 @@ VExRT = {
 			[1423] = "Thalnos the Soulrender",
 			[1679] = "Bonemaw",
 			[1424] = "Brother Korloff",
-			[1443] = "Adarogg",
+			[1954] = "Maiden of Virtue",
 			[1936] = "Grand Warlock Nethekurse",
 			[586] = "Lord Cobrahn",
 			[1426] = "Instructor Chillheart",
@@ -369,7 +369,7 @@ VExRT = {
 			[587] = "Kresh",
 			[1428] = "Rattlegore",
 			[422] = "Noxxion",
-			[486] = "Dreamscythe",
+			[1940] = "Quagmirran",
 			[588] = "Lord Pythas",
 			[1430] = "Darkmaster Gandling",
 			[1686] = "Vigilant Kaathar",
@@ -392,12 +392,12 @@ VExRT = {
 			[1439] = "Sha of Doubt",
 			[1695] = "The Iron Maidens",
 			[361] = "Prince Tortheldrin",
-			[1185] = "Majordomo Staghelm",
+			[425] = "Celebras the Cursed",
 			[1441] = "Xin the Weaponmaster",
 			[594] = "Ghaz'rilla",
 			[1442] = "Trial of the King",
 			[1698] = "Ranjit",
-			[245] = "Emperor Dagran Thaurissan",
+			[1443] = "Adarogg",
 			[595] = "Antu'sul",
 			[362] = "Guard Mol'dar",
 			[1700] = "Rukhran",
@@ -476,12 +476,12 @@ VExRT = {
 			[596] = "Theka the Martyr",
 			[426] = "Landslide",
 			[1444] = "Dark Shaman Koranthal",
-			[1954] = "Maiden of Virtue",
-			[1696] = "Oregorger the Devourer",
+			[245] = "Emperor Dagran Thaurissan",
+			[1185] = "Majordomo Staghelm",
 			[1689] = "Flamebender Ka'graz",
 			[1688] = "Nhallish",
 			[1685] = "Soulbinder Nyami",
-			[1429] = "Lilian Voss",
+			[486] = "Dreamscythe",
 			[1425] = "High Inquisitor Whitemane",
 			[242] = "Ambassador Flamelash",
 			[1656] = "Hunter Bonetusk",
@@ -6474,6 +6474,124 @@ VExRT = {
 				"^2118^8^1561337547^109^1^5^415.23^", -- [602]
 				"^2112^8^1561338053^115^1^5^415.23^", -- [603]
 				"^2123^8^1561338504^164^1^5^415.23^Greystach", -- [604]
+				"^2280^16^1561814734^126^0^20^416.59^Teech", -- [605]
+				"^2280^16^1561815127^98^0^20^416.59^Teech", -- [606]
+				"^2280^16^1561815407^104^0^20^416.59^Sou", -- [607]
+				"^2280^16^1561815665^79^0^20^416.59^Ryudari", -- [608]
+				"^2280^16^1561815893^264^0^20^416.62^Encosin", -- [609]
+				"^2280^16^1561816300^143^0^20^416.62^Locryn", -- [610]
+				"^2280^16^1561816576^99^0^20^416.56^Yuromaru", -- [611]
+				"^2280^16^1561816794^160^0^20^416.56^Kaylie", -- [612]
+				"^2280^16^1561817455^116^0^20^416.50^Tehkyer", -- [613]
+				"^2280^16^1561817692^52^0^20^416.50^Marcös", -- [614]
+				"^2280^16^1561817841^165^0^20^416.50^Marcös", -- [615]
+				"^2280^16^1561818138^246^0^20^416.50^Subreddit", -- [616]
+				"^2280^16^1561818515^172^0^20^416.50^Rada", -- [617]
+				"^2280^16^1561819000^121^0^20^416.50^Marcös", -- [618]
+				"^2280^16^1561819246^311^0^20^416.50^Nertoc", -- [619]
+				"^2280^16^1561819738^111^0^20^416.50^Jamal", -- [620]
+				"^2280^16^1561819961^150^0^20^416.53^Bownéd", -- [621]
+				"^2280^16^1561820231^257^0^20^416.53^Locryn", -- [622]
+				"^2280^16^1561821592^63^0^20^416.53^Kleptik", -- [623]
+				"^2280^16^1561821769^109^0^20^416.53^Zear", -- [624]
+				"^2280^16^1561822003^315^0^20^416.53^Bownéd", -- [625]
+				"^2280^16^1561822477^140^0^20^416.53^Encosin", -- [626]
+				"^2280^16^1561822730^51^0^20^416.53^Teech", -- [627]
+				"^2280^16^1561822884^102^0^20^416.53^Jamal", -- [628]
+				"^2280^16^1561823098^346^0^20^416.55^Nertoc", -- [629]
+				"^2280^16^1561823563^71^0^20^416.55^Lyllianne", -- [630]
+				"^2280^16^1561823751^68^0^20^416.55^Jamal", -- [631]
+				"^2280^16^1561823931^254^0^20^416.55^Kleptik", -- [632]
+				"^2280^16^1561824334^306^0^20^416.55^Kaylie", -- [633]
+				"^2280^16^1561824780^343^0^20^416.55^Rada", -- [634]
+				"^2280^16^1561825257^346^0^20^416.55^Solodk-Stormrage", -- [635]
+				"^2280^16^1561825764^112^0^20^416.28^Subreddit", -- [636]
+				"^2280^16^1561826017^312^0^20^416.33^Zear", -- [637]
+				"^2280^16^1561826518^353^0^20^416.33^Teech", -- [638]
+				"^2280^16^1561826994^112^0^20^416.50^Jamal", -- [639]
+				"^2280^16^1561827191^302^0^20^416.50^Marcös", -- [640]
+				"^2265^14^1562027546^56^1^21^413.28^", -- [641]
+				"^2285^14^1562027758^3^0^22^413.05^", -- [642]
+				"^2285^14^1562027820^145^1^22^413.05^", -- [643]
+				"^2284^14^1562028070^6^0^22^413.05^", -- [644]
+				"^2284^14^1562028109^112^1^22^413.05^", -- [645]
+				"^2271^14^1562028265^3^0^22^413.05^", -- [646]
+				"^2271^14^1562028303^3^0^22^413.05^", -- [647]
+				"^2271^14^1562028341^3^0^22^413.05^", -- [648]
+				"^2271^14^1562028390^3^0^22^413.05^", -- [649]
+				"^2271^14^1562028450^258^1^22^413.05^", -- [650]
+				"^2268^14^1562028829^8^0^22^413.11^", -- [651]
+				"^2268^14^1562028870^9^0^22^413.11^", -- [652]
+				"^2268^14^1562028915^169^1^22^413.11^Exitwound", -- [653]
+				"^2272^14^1562029442^217^1^23^413.32^Sulfate-Kel'Thuzad", -- [654]
+				"^2276^14^1562029841^7^0^23^413.29^", -- [655]
+				"^2276^14^1562029883^218^1^23^413.29^Exitwound", -- [656]
+				"^2280^14^1562030658^196^1^23^413.29^", -- [657]
+				"^2281^14^1562031003^292^1^23^413.30^", -- [658]
+				"^2093^8^1562034489^75^1^5^408.02^", -- [659]
+				"^2094^8^1562034936^95^1^5^408.02^", -- [660]
+				"^2095^8^1562035445^77^1^5^408.02^", -- [661]
+				"^2096^8^1562035611^99^1^5^408.02^", -- [662]
+				"^2280^16^1562419425^194^0^20^416.39^Marcös", -- [663]
+				"^2280^16^1562419778^144^0^20^416.39^Crios", -- [664]
+				"^2280^16^1562420041^73^0^20^416.45^Lyllianne", -- [665]
+				"^2280^16^1562420226^292^0^20^416.45^Ryudari", -- [666]
+				"^2280^16^1562420637^50^0^20^416.45^Sou", -- [667]
+				"^2280^16^1562420952^80^0^20^416.32^Kleptik", -- [668]
+				"^2280^16^1562421186^305^0^20^416.32^Kleptik", -- [669]
+				"^2280^16^1562421627^100^0^20^416.32^Bownéd", -- [670]
+				"^2280^16^1562421845^143^0^20^416.32^Crios", -- [671]
+				"^2280^16^1562422131^61^0^20^416.32^Sou", -- [672]
+				"^2280^16^1562422488^336^0^20^416.37^Crios", -- [673]
+				"^2280^16^1562422929^240^0^20^416.37^Rada", -- [674]
+				"^2280^16^1562423325^41^0^20^416.37^Bownéd", -- [675]
+				"^2280^16^1562423477^93^0^20^416.37^Crios", -- [676]
+				"^2280^16^1562423712^317^0^20^416.37^Kleptik", -- [677]
+				"^2280^16^1562424153^59^0^20^416.37^Crios", -- [678]
+				"^2280^16^1562424360^298^0^20^416.37^Yuromaru", -- [679]
+				"^2280^16^1562424806^213^0^20^416.37^Lottee-Magtheridon", -- [680]
+				"^2280^16^1562425143^339^0^20^416.37^Rada", -- [681]
+				"^2280^16^1562425632^40^0^20^416.37^Crios", -- [682]
+				"^2280^16^1562426566^177^0^20^416.49^Rada", -- [683]
+				"^2280^16^1562426844^339^0^20^416.49^Marcös", -- [684]
+				"^2280^16^1562427343^101^0^20^416.49^Bownéd", -- [685]
+				"^2280^16^1562427545^330^0^20^416.49^Marcös", -- [686]
+				"^2280^16^1562428011^399^0^20^416.49^Bownéd", -- [687]
+				"^2280^16^1562428781^348^0^20^416.49^Solodk-Stormrage", -- [688]
+				"^2280^16^1562429242^297^0^20^416.49^Nertoc", -- [689]
+				"^2280^16^1562429667^227^0^20^416.49^Kleptik", -- [690]
+				"^2280^16^1562430183^104^0^20^416.43^Tehkyer", -- [691]
+				"^2280^16^1562430396^133^0^20^416.46^Yuromaru", -- [692]
+				"^2280^16^1562430636^94^0^20^416.46^Jamal", -- [693]
+				"^2280^16^1562430831^256^0^20^416.46^Marcös", -- [694]
+				"^2280^16^1562431186^349^0^20^416.46^Tehkyer", -- [695]
+				"^2280^16^1562431705^308^0^20^416.46^Nertoc", -- [696]
+				"^2280^16^1562432125^332^0^20^416.46^Marcös", -- [697]
+				"^2280^16^1562432553^357^0^20^416.46^Sou", -- [698]
+				"^2280^16^1562433015^106^0^20^416.46^Lyllianne", -- [699]
+				"^2280^16^1562433250^340^0^20^416.46^Locryn", -- [700]
+				"^2265^14^1562548229^57^1^21^413.13^", -- [701]
+				"^2285^14^1562548458^4^0^21^413.13^", -- [702]
+				"^2285^14^1562548596^148^1^23^412.82^", -- [703]
+				"^2284^14^1562548824^3^0^23^412.82^", -- [704]
+				"^2284^14^1562548860^4^0^24^412.82^", -- [705]
+				"^2284^14^1562548932^116^1^24^411.72^", -- [706]
+				"^2271^14^1562549109^53^0^24^411.72^Jamal", -- [707]
+				"^2271^14^1562549230^243^1^24^411.72^", -- [708]
+				"^2268^14^1562549704^9^0^25^413.04^", -- [709]
+				"^2268^14^1562549757^150^1^25^413.04^", -- [710]
+				"^2272^14^1562550218^9^0^25^413.20^", -- [711]
+				"^2272^14^1562550273^223^1^25^413.20^Philliee", -- [712]
+				"^2276^14^1562550712^6^0^25^412.68^", -- [713]
+				"^2276^14^1562550800^228^1^26^235.21^", -- [714]
+				"^2280^14^1562551436^195^1^27^410.21^Philliee", -- [715]
+				"^2281^14^1562551774^340^1^27^410.19^", -- [716]
+				"^2269^14^1562552561^282^1^23^411.24^Bigohunter", -- [717]
+				"^2273^14^1562553254^281^1^23^411.24^", -- [718]
+				"^2101^8^1562554213^125^1^5^415.88^", -- [719]
+				"^2102^8^1562555083^157^1^5^415.88^Cleverbot", -- [720]
+				"^2103^8^1562555939^98^1^5^415.94^", -- [721]
+				"^2104^8^1562556170^108^1^5^415.94^", -- [722]
 			},
 			["Zion"] = {
 				"^1443^1^1517627428^36^1^5^24.55^", -- [1]
@@ -15232,6 +15350,73 @@ VExRT = {
 				"^2280^16^1561692433^51^0^20^415.84^Lyquíd", -- [3375]
 				"^2280^16^1561692607^309^0^20^415.84^Sail", -- [3376]
 				"^2280^16^1561693050^75^0^20^415.84^Philibuster", -- [3377]
+				"^2265^14^1561944863^77^1^20^399.74^", -- [3378]
+				"^2285^14^1561945210^4^0^20^399.72^", -- [3379]
+				"^2285^14^1561945279^220^1^20^400.68^Monkedup-KulTiras", -- [3380]
+				"^2284^14^1561945719^138^1^19^400.88^", -- [3381]
+				"^2271^14^1561946044^3^0^19^400.92^", -- [3382]
+				"^2271^14^1561946153^288^1^19^400.92^Dísh", -- [3383]
+				"^2268^14^1561946670^7^0^19^400.93^", -- [3384]
+				"^2268^14^1561946744^192^1^19^400.93^Dísh", -- [3385]
+				"^2272^14^1561947335^13^0^17^399.18^", -- [3386]
+				"^2272^14^1561947418^264^1^17^192.01^Dîsh", -- [3387]
+				"^2276^14^1561947997^261^1^13^409.98^Dishwasher-Gul'dan", -- [3388]
+				"^2280^14^1561948781^210^1^14^410.51^Monkedup-KulTiras", -- [3389]
+				"^2281^14^1561949136^339^1^14^410.51^", -- [3390]
+				"^2093^8^1562023791^104^1^5^414.75^", -- [3391]
+				"^2094^8^1562024409^102^1^5^414.75^", -- [3392]
+				"^2095^8^1562025006^101^1^5^414.75^", -- [3393]
+				"^2096^8^1562025395^82^1^5^414.75^", -- [3394]
+				"^2280^16^1562117367^47^0^20^415.47^Vuro", -- [3395]
+				"^2280^16^1562117663^82^0^20^415.37^Bigohunter", -- [3396]
+				"^2280^16^1562117859^126^0^20^415.37^Bigohunter", -- [3397]
+				"^2280^16^1562118164^86^0^20^415.34^Discgusting", -- [3398]
+				"^2280^16^1562118411^152^0^20^333.38^Millari", -- [3399]
+				"^2280^16^1562118684^117^0^20^415.36^Vuro", -- [3400]
+				"^2280^16^1562118919^63^0^20^415.36^Philibuster", -- [3401]
+				"^2280^16^1562119059^67^0^20^415.36^Zaramage", -- [3402]
+				"^2280^16^1562119248^192^0^20^415.36^Millari", -- [3403]
+				"^2280^16^1562119598^104^0^20^415.36^Lyquíd", -- [3404]
+				"^2280^16^1562119845^259^0^20^415.36^Vuro", -- [3405]
+				"^2280^16^1562120267^81^0^20^415.60^Lyquíd", -- [3406]
+				"^2280^16^1562120464^36^0^20^415.60^Philibuster", -- [3407]
+				"^2280^16^1562120590^106^0^20^415.60^Greystach", -- [3408]
+				"^2280^16^1562122423^45^0^20^415.60^Cleverbot", -- [3409]
+				"^2280^16^1562122548^116^0^20^415.60^Kaidyn", -- [3410]
+				"^2280^16^1562122768^281^0^20^415.60^Philibuster", -- [3411]
+				"^2280^16^1562123144^46^0^20^415.60^Philibuster", -- [3412]
+				"^2280^16^1562123293^337^0^20^415.60^Millari", -- [3413]
+				"^2280^16^1562123745^48^0^20^415.60^Akau", -- [3414]
+				"^2280^16^1562123897^335^0^20^415.60^Bigohunter", -- [3415]
+				"^2280^16^1562124378^146^0^20^415.60^Lolshot", -- [3416]
+				"^2280^16^1562124618^84^0^20^415.60^Lolshot", -- [3417]
+				"^2280^16^1562124834^274^0^20^415.60^Millari", -- [3418]
+				"^2280^16^1562125272^68^0^20^415.60^Encia", -- [3419]
+				"^2280^16^1562125437^347^0^20^415.60^Zaramage", -- [3420]
+				"^2280^16^1562125919^144^0^20^415.60^Zaramage", -- [3421]
+				"^2280^16^1562126146^97^0^20^415.60^Philibuster", -- [3422]
+				"^2280^16^1562126340^325^0^20^415.60^Millari", -- [3423]
+				"^2093^23^1562379966^37^1^5^407.60^", -- [3424]
+				"^2094^23^1562380172^42^1^5^407.60^", -- [3425]
+				"^2095^23^1562380463^36^1^5^407.60^", -- [3426]
+				"^2096^23^1562380621^36^1^5^407.60^", -- [3427]
+				"^2111^23^1562381276^20^1^5^408.63^", -- [3428]
+				"^2118^23^1562381508^40^1^5^408.63^", -- [3429]
+				"^2112^23^1562381651^30^1^5^408.63^", -- [3430]
+				"^2123^23^1562381842^45^1^5^408.63^", -- [3431]
+				"^2098^23^1562382260^39^1^5^408.75^", -- [3432]
+				"^2109^23^1562382463^42^1^5^408.75^", -- [3433]
+				"^2099^23^1562382700^13^0^5^408.75^", -- [3434]
+				"^2099^23^1562382753^22^1^5^408.75^", -- [3435]
+				"^2100^23^1562382817^112^1^5^408.75^", -- [3436]
+				"^2085^23^1562383355^52^1^5^408.75^", -- [3437]
+				"^2086^23^1562383508^35^1^5^408.75^", -- [3438]
+				"^2084^23^1562383699^46^1^5^408.75^", -- [3439]
+				"^2087^23^1562383794^39^1^5^408.75^", -- [3440]
+				"^2105^2^1562531985^38^1^5^386.13^", -- [3441]
+				"^2106^2^1562532159^47^1^5^386.13^", -- [3442]
+				"^2107^2^1562532343^32^1^5^386.13^", -- [3443]
+				"^2108^2^1562532530^102^1^5^386.13^", -- [3444]
 			},
 			["Züül"] = {
 			},
@@ -35734,39 +35919,310 @@ VExRT = {
 			"!7161393Rockafella-Stormrage1561388380:3:4798:1477:4786", -- [18038]
 			"!3161393Ramaldi-Perenolde1561388384:4:4798:40:1477:4786", -- [18039]
 			"!3166694Driss-Icecrown1561388469:4:5479:42:1517:4786", -- [18040]
+			"!B161359Tygrida-WyrmrestAccord1561747425:3:4798:1477:4786", -- [18041]
+			"!C165526Of-Kel'Thuzad1561946445:4:4822:1507:4786:5414", -- [18042]
+			"!A165567Monkedup-KulTiras1561947685:3:4798:1507:4786", -- [18043]
+			"!2165924Liampreinor-Greymane1561948272:4:4798:1808:1507:4786", -- [18044]
+			"!C161467Kruise-Kel'Thuzad1562444077:4:5120:1492:4786:5398", -- [18045]
+			"!B165919Lyquíd1562548299:4:4798:1507:5855:4783", -- [18046]
+			"!1165602Phennx1562551655:3:4798:1507:4786", -- [18047]
 		},
 	},
 	["ExCD2"] = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
-			["Yaccob"] = 102,
-			["Simonar"] = 64,
-			["Outlander-Thunderhorn"] = 267,
-			["Lunae-Daggerspine"] = 105,
-			["Discgusting"] = 258,
-			["Chagalas-Nemesis"] = 250,
-			["Osherio"] = 264,
-			["Malinne-Proudmoore"] = 581,
-			["Maraad"] = 70,
-			["Graelynn-Hyjal"] = 64,
-			["Kaidyn"] = 64,
-			["Adonrager"] = 104,
-			["Illwil"] = 577,
+			["Breannafaire-ScarletCrusade"] = 267,
+			["Pekeloboy-Sargeras"] = 72,
+			["Sgthutch-Norgannon"] = 66,
+			["Jamal"] = 66,
+			["Malfoyy-Zangarmarsh"] = 577,
+			["Beatngu-Nemesis"] = 253,
+			["Brujanna"] = 581,
+			["Dìsh"] = 250,
+			["Wargutz-Duskwood"] = 70,
+			["Hunnyvaer-Dalaran"] = 102,
+			["Yuromaru"] = 64,
+			["Ellwyndre-MoonGuard"] = 105,
+			["Dîsh"] = 253,
+			["Lisara-Nemesis"] = 262,
+			["Grigmudokon-Whisperwind"] = 262,
+			["Eclípse-Thrall"] = 104,
+			["Monkedup-KulTiras"] = 269,
+			["Devori"] = 259,
+			["Kashe-Feathermoon"] = 70,
+			["Squake-Stormrage"] = 70,
+			["Atrues-Stormrage"] = 253,
+			["Kaylie"] = 257,
 			["Agurthedruid"] = 102,
-			["Cìlantro-Stormrage"] = 102,
-			["Wyrmsten-Dalaran"] = 254,
-			["Confesser-Madoran"] = 264,
-			["Hadriansbane-Kel'Thuzad"] = 103,
-			["Darrwin-Stormrage"] = 70,
-			["Subreddit"] = 265,
+			["Azeren-Shadowsong"] = 262,
+			["Demonrom-Whisperwind"] = 577,
+			["Marcös"] = 269,
+			["Dishwasher-Gul'dan"] = 64,
+			["Shaaman"] = 263,
+			["Goodbody-Elune"] = 72,
+			["Sindariian-Stormrage"] = 253,
+			["Ryuchi-Nathrezim"] = 269,
+			["Suuton-Sargeras"] = 105,
+			["Kruise-Kel'Thuzad"] = 577,
+			["Kooman-KhazModan"] = 267,
+			["Dharyus-Drakkari"] = 263,
+			["Zeechi-Durotan"] = 268,
+			["Søujirø-Darkspear"] = 102,
+			["Dísh"] = 253,
+			["Skylar-Norgannon"] = 257,
+			["Agurthestorm"] = 262,
+			["Rachel"] = 253,
+			["Fgfilms-Dalaran"] = 250,
+			["Stabanpoke-Turalyon"] = 259,
+			["Simonar"] = 64,
+			["Nalesean-Sen'jin"] = 70,
+			["Ocsir-Frostmourne"] = 70,
+			["Philliee"] = 257,
+			["Ivieanna-Stormrage"] = 102,
+			["Kaidyn"] = 64,
+			["Yulicilla-KhazModan"] = 104,
+			["Wilm-Blade'sEdge"] = 266,
+			["Scfy-Terenas"] = 105,
+			["Of-Kel'Thuzad"] = 577,
+			["Kimarrah-Alleria"] = 267,
+			["Tubi-Proudmoore"] = 102,
 			["Lyquíd"] = 102,
-			["Bigosaric"] = 73,
+			["Morbalon-Aegwynn"] = 258,
+			["Ryudari"] = 577,
+			["Trallyn-WyrmrestAccord"] = 260,
+			["Encia"] = 72,
+			["Kolris-Proudmoore"] = 577,
+			["Jheinotk-Quel'Thalas"] = 70,
+			["Bluivy"] = 266,
+			["Korinay-Goldrinn"] = 269,
+			["Lolshot"] = 254,
+			["Enchantrelle-Medivh"] = 258,
+			["Stormclasher-Stormrage"] = 102,
+			["Cìlantro-Stormrage"] = 102,
+			["Siegurd-Uldum"] = 253,
+			["Dooderdot-Rexxar"] = 253,
+			["Sylarkill-Nemesis"] = 256,
+			["Gargoyled-Garona"] = 62,
+			["Scalar-Ursin"] = 70,
+			["Arlovski-Stormrage"] = 66,
+			["Malinne-Proudmoore"] = 581,
+			["Evillmadara-Nemesis"] = 577,
+			["Cleverbot"] = 268,
+			["Destiniia-Lightbringer"] = 64,
+			["Prota-Executus"] = 71,
+			["Tiabeanie-Uther"] = 260,
+			["Neryssa"] = 267,
+			["Raideon"] = 64,
+			["Shadespark-Whisperwind"] = 64,
+			["Outlander-Thunderhorn"] = 267,
+			["Whiteshell"] = 62,
+			["Liampreinor-Greymane"] = 70,
+			["Gilfaethwy-Tanaris"] = 267,
+			["Crocolisk-Sargeras"] = 102,
+			["Mottle-Firetree"] = 266,
+			["Freefarmed-Azshara"] = 102,
+			["Rowan-Proudmoore"] = 258,
+			["Nainpuissånt-Zul'jin"] = 73,
+			["Silverhart-MoonGuard"] = 260,
+			["Xyipher-Dalaran"] = 263,
+			["Yaco"] = 73,
+			["Exitwound"] = 253,
+			["Rackstar-Dunemaul"] = 252,
+			["Sentinél-Hellscream"] = 254,
+			["Trotskey"] = 260,
+			["Boltuk-Cenarius"] = 71,
 			["Daidzor-Magtheridon"] = 260,
+			["Dïsh"] = 253,
+			["Fusegu"] = 102,
+			["Wahina-WyrmrestAccord"] = 253,
+			["Lottee-Magtheridon"] = 257,
+			["Adrianu-Dalaran"] = 70,
+			["Nisarra-ScarletCrusade"] = 264,
+			["Poccoyo-Lightbringer"] = 65,
+			["Phennx"] = 72,
+			["Zeeklol-Stormrage"] = 258,
+			["Morlyon-Llane"] = 70,
+			["Zhaleen-Drakkari"] = 105,
+			["Shamazîng-Drenden"] = 262,
+			["Setsuna-SteamwheedleCartel"] = 253,
+			["Jilskill"] = 263,
+			["Peeksatyou-Stonemaul"] = 70,
+			["Veelah"] = 64,
+			["Namadà-Sargeras"] = 258,
+			["Subreddit"] = 265,
+			["Bigosaric"] = 73,
+			["Onikra"] = 103,
+			["Gitaxian"] = 258,
+			["Sail"] = 72,
+			["Chagalas-Nemesis"] = 250,
+			["Evanaron-Goldrinn"] = 260,
+			["Kithelyn-KhazModan"] = 70,
+			["Locryn"] = 102,
+			["Anshlun"] = 258,
+			["Lascivious-Stormreaver"] = 72,
+			["Makthaz-Quel'Thalas"] = 71,
+			["Esquilax-Windrunner"] = 266,
+			["Darrwin-Stormrage"] = 70,
+			["Maxwrist-Kel'Thuzad"] = 71,
+			["Canse-Llane"] = 265,
+			["Jaames-Stormrage"] = 70,
+			["Adonrager"] = 104,
+			["Kelza"] = 65,
+			["Falcd-Stormrage"] = 577,
+			["Dhaldreth-Gilneas"] = 577,
+			["Vuro"] = 251,
+			["Themyth"] = 268,
+			["Anillusion-Dalaran"] = 70,
+			["Bouserh"] = 253,
+			["Zinodan"] = 581,
+			["Lightmyfire-Thunderhorn"] = 62,
+			["Greenway"] = 102,
+			["Reyalz"] = 70,
+			["Goldbêard-Garona"] = 66,
+			["Silvafoxy-Drenden"] = 64,
+			["Tygrida-WyrmrestAccord"] = 102,
+			["Fizzlyclaw-Dalaran"] = 265,
+			["Buranedi-Moonrunner"] = 269,
+			["Epidaura-GrizzlyHills"] = 253,
+			["Píradona-Nemesis"] = 70,
+			["Encosin"] = 262,
+			["Agurthewolf"] = 262,
+			["Quelotiro-Quel'Thalas"] = 253,
+			["Tsugdis-WyrmrestAccord"] = 63,
+			["Kitanic-Proudmoore"] = 270,
+			["Faska-Draka"] = 251,
+			["Luthvelan-Kel'Thuzad"] = 266,
+			["Emmalicious-Rexxar"] = 64,
+			["Nisara"] = 270,
+			["Tehkyer"] = 253,
+			["Akayu"] = 577,
+			["Philibuster"] = 270,
+			["Muskydh"] = 577,
+			["Millari"] = 265,
+			["Lunae-Daggerspine"] = 105,
+			["Märcos"] = 253,
+			["Bigohunter"] = 253,
+			["Zarzie-AltarofStorms"] = 258,
+			["Zezra"] = 102,
+			["Voidchad-Frostmourne"] = 259,
+			["Greystach"] = 267,
+			["Burglerber-Stormrage"] = 70,
+			["Xének-Ragnaros"] = 265,
+			["Greatassets-Sargeras"] = 250,
+			["Chopsuêy-Feathermoon"] = 104,
+			["Kongfublack-Stormrage"] = 269,
+			["Gumdropbob-EmeraldDream"] = 267,
+			["Demonkissy-Stormrage"] = 581,
+			["Gingerelf-Akama"] = 71,
+			["Lorinaa-Stormrage"] = 253,
+			["Beatriixx-Zangarmarsh"] = 581,
+			["Torvik-Drenden"] = 258,
+			["Maadara-Nemesis"] = 102,
+			["Hadriansbane-Kel'Thuzad"] = 103,
+			["Damsk-Proudmoore"] = 256,
+			["Sou"] = 259,
+			["Kandu-Hydraxis"] = 102,
+			["Zear"] = 262,
+			["Ironhunter-Nemesis"] = 253,
+			["Elk-Drakkari"] = 63,
+			["Lyllianne"] = 105,
+			["Zaraystiria"] = 577,
+			["Moridin-Hydraxis"] = 267,
+			["Hymdar"] = 66,
+			["Crios"] = 253,
+			["Roond-Duskwood"] = 253,
+			["Akau"] = 70,
+			["Discgusting"] = 258,
+			["Shvrmetmbrs-Shu'halo"] = 250,
+			["Yehuda-Llane"] = 70,
+			["Gunmetal-Frostmourne"] = 73,
+			["Vulomir-Lightbringer"] = 252,
+			["Stfinan-Dalaran"] = 70,
+			["Ehroh-Skywall"] = 253,
+			["Valcaius-Dalaran"] = 577,
+			["Zulema-WyrmrestAccord"] = 266,
+			["Waitfrsundrs-Stormrage"] = 71,
+			["Oshobi"] = 270,
+			["Aquatechnic-Whisperwind"] = 577,
+			["Shandro-Kilrogg"] = 64,
+			["Truok-Whisperwind"] = 253,
+			["Yeagar-KhazModan"] = 256,
+			["Mathorak-WyrmrestAccord"] = 260,
+			["Graelynn-Hyjal"] = 64,
+			["Santannie"] = 258,
 			["Zei"] = 259,
 			["Jändy-Quel'Thalas"] = 268,
-			["Poccoyo-Lightbringer"] = 65,
+			["Nukleshuffle-Lightbringer"] = 256,
+			["Hotlink-Kil'jaeden"] = 251,
+			["Zilvra-Madoran"] = 253,
+			["Aurellena-Sen'jin"] = 577,
+			["Gaohd-Azralon"] = 261,
+			["Bownéd"] = 253,
+			["Kleptik"] = 72,
+			["Meijiwu-Bloodhoof"] = 257,
+			["Kystra-Proudmoore"] = 253,
+			["Ártus-MoonGuard"] = 64,
+			["Osherio"] = 264,
+			["Gymsunplay-Anvilmar"] = 253,
+			["Rhodarlak-Shadowmoon"] = 66,
+			["Brogas-Ragnaros"] = 66,
+			["Notshteve"] = 102,
+			["Tallytuna-MoonGuard"] = 66,
+			["Wyrmsten-Dalaran"] = 254,
+			["Pallyplegic-Drenden"] = 66,
+			["Fraudk-Stormrage"] = 250,
+			["Annalisia-Elune"] = 102,
+			["Zarapri"] = 257,
+			["Mudman-Stormrage"] = 253,
+			["Iceelk-Darrowmere"] = 64,
+			["Codap-Dawnbringer"] = 253,
+			["Purewill"] = 254,
+			["Illwil"] = 577,
+			["Rebirthsoul-Dalaran"] = 62,
+			["Leylanora-Mannoroth"] = 262,
+			["Skysweeper-Cenarius"] = 70,
+			["Leagion-Arygos"] = 66,
+			["Brotherbert"] = 270,
+			["Confesser-Madoran"] = 264,
+			["Nertoc"] = 258,
+			["Legoland-Skullcrusher"] = 258,
+			["Solodk-Stormrage"] = 250,
+			["Storthe-Stormrage"] = 577,
+			["Maraad"] = 70,
+			["Pelydactyl-Stormrage"] = 102,
+			["Jazer-Korgath"] = 102,
+			["Garboom-Sargeras"] = 102,
+			["Lorabella-EarthenRing"] = 262,
+			["Rada"] = 262,
+			["Amoozer-Velen"] = 577,
+			["Polonysa-Goldrinn"] = 258,
+			["Dondore-Alleria"] = 103,
+			["Balmar-Darrowmere"] = 62,
+			["Akari-Uther"] = 265,
+			["Sulfate-Kel'Thuzad"] = 72,
+			["Exkanor-Ragnaros"] = 70,
+			["Teech"] = 267,
+			["Silverjustis-Garona"] = 70,
+			["Canaboy-Crushridge"] = 254,
+			["Daemonist-Alleria"] = 577,
+			["Dwoggurd-Sargeras"] = 64,
 			["Humsa-Alexstrasza"] = 581,
+			["Yaccob"] = 102,
+			["Reese"] = 66,
+			["Shimaria-GrizzlyHills"] = 269,
+			["Kyrkwynn"] = 70,
+			["Astralla-ArgentDawn"] = 63,
+			["Surgewave-Stormrage"] = 253,
+			["Dunraz-Sargeras"] = 64,
+			["Ravenmoon-GrizzlyHills"] = 260,
+			["Charius-SteamwheedleCartel"] = 251,
+			["Fällen-Kael'thas"] = 250,
+			["Kellthrus-Quel'dorei"] = 577,
+			["Genkidin"] = 70,
+			["Threefity-Rexxar"] = 72,
+			["Shifterror-MoonGuard"] = 104,
+			["Tehproofter-Stormrage"] = 64,
 		},
 		["userDB"] = {
 			{
@@ -36256,13 +36712,13 @@ VExRT = {
 			[38] = "Roniin",
 			[243] = "Aladelre",
 			[29] = "Agurthewise",
-			[67] = "Emilawafer",
-			[126] = "Arríl",
-			[43] = "Aladelre",
-			[160] = "Nisara",
-			[272] = "Elisabit",
-			[259] = "Sayr",
 			[132] = "Notshteve",
+			[126] = "Arríl",
+			["time"] = 1458092456,
+			[41] = "Naoyuki",
+			[138] = "Roniin",
+			[259] = "Sayr",
+			[260] = "Nisara",
 			[42] = "Fizzl",
 			[125] = "Zygi",
 			[68] = "Sanctym-Sargeras",
@@ -36273,18 +36729,18 @@ VExRT = {
 			[172] = "Elisabit",
 			[35] = "Scotchz",
 			[64] = "Genkidin",
-			[168] = "Sanctym-Sargeras",
+			[43] = "Aladelre",
 			[59] = "Sayr",
 			[159] = "Sayr",
 			[33] = "Adonrager",
-			["name"] = "Lacotll-AeriePeak",
+			[160] = "Nisara",
 			[129] = "Agurthewise",
 			[170] = "Lacotll",
-			[138] = "Roniin",
+			[70] = "Lacotll",
 			[225] = "Zygi",
 			[25] = "Zygi",
 			[163] = "Daggered-Proudmoore",
-			[260] = "Nisara",
+			[67] = "Emilawafer",
 			[164] = "Genkidin",
 			[133] = "Adonrager",
 			[263] = "Daggered-Proudmoore",
@@ -36293,10 +36749,10 @@ VExRT = {
 			[135] = "Scotchz",
 			[267] = "Emilawafer",
 			[268] = "Sanctym-Sargeras",
-			["time"] = 1458092456,
+			[168] = "Sanctym-Sargeras",
 			[270] = "Lacotll",
 			[232] = "Notshteve",
-			[70] = "Lacotll",
+			[272] = "Elisabit",
 			[233] = "Adonrager",
 			[26] = "Arríl",
 			[137] = "ßellatrix",
@@ -36310,7 +36766,7 @@ VExRT = {
 			[238] = "Roniin",
 			[37] = "ßellatrix",
 			["sync"] = true,
-			[41] = "Naoyuki",
+			["name"] = "Lacotll-AeriePeak",
 			[136] = "Osherio",
 			[63] = "Daggered-Proudmoore",
 			[241] = "Naoyuki",
@@ -43368,6 +43824,266 @@ VExRT = {
 				["g"] = 20,
 				["d"] = 16,
 			}, -- [250]
+			{
+				"CBownéd", -- [1]
+				"GEncosin", -- [2]
+				"DDevori", -- [3]
+				"FSolodk-Stormrage", -- [4]
+				"JOshobi", -- [5]
+				"AKleptik", -- [6]
+				"ISubreddit", -- [7]
+				"LRyudari", -- [8]
+				"EKaylie", -- [9]
+				"GRada", -- [10]
+				"KLocryn", -- [11]
+				"KLyllianne", -- [12]
+				"ITeech", -- [13]
+				"GZear", -- [14]
+				"LZinodan", -- [15]
+				"BJamal", -- [16]
+				"ENertoc", -- [17]
+				"HYuromaru", -- [18]
+				"DSou", -- [19]
+				"JMarcös", -- [20]
+				["c"] = "Subreddit-AeriePeak",
+				["eI"] = 2280,
+				["eN"] = "Stormwall Blockade",
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1561814734,
+			}, -- [251]
+			{
+				"EDiscgusting", -- [1]
+				"JPhilibuster", -- [2]
+				"KAgurthedruid", -- [3]
+				"JThemyth", -- [4]
+				"KLyquíd", -- [5]
+				"HKaidyn", -- [6]
+				"LOf-Kel'Thuzad", -- [7]
+				"KNotshteve", -- [8]
+				"FDìsh", -- [9]
+				"AEncia", -- [10]
+				"CDîsh", -- [11]
+				"CDïsh", -- [12]
+				"CÐísh", -- [13]
+				"CDísh", -- [14]
+				"HDishwasher-Gul'dan", -- [15]
+				"JMonkedup-KulTiras", -- [16]
+				"EZarapri", -- [17]
+				"KCrocolisk-Sargeras", -- [18]
+				"BLiampreinor-Greymane", -- [19]
+				"BPíradona-Nemesis", -- [20]
+				["c"] = "Discgusting-AeriePeak",
+				["eN"] = "Champion of the Light",
+				["eI"] = 2265,
+				["d"] = 14,
+				["g"] = 20,
+				["t"] = 1561944863,
+			}, -- [252]
+			{
+				"EDiscgusting", -- [1]
+				"JPhilibuster", -- [2]
+				"JThemyth", -- [3]
+				"KLyquíd", -- [4]
+				nil, -- [5]
+				"JMonkedup-KulTiras", -- [6]
+				"HDishwasher-Gul'dan", -- [7]
+				"BLiampreinor-Greymane", -- [8]
+				nil, -- [9]
+				nil, -- [10]
+				"HKaidyn", -- [11]
+				"LOf-Kel'Thuzad", -- [12]
+				"JCleverbot", -- [13]
+				"EZarapri", -- [14]
+				"AEncia", -- [15]
+				"CDîsh", -- [16]
+				"CDïsh", -- [17]
+				"CÐísh", -- [18]
+				"CDísh", -- [19]
+				"KAgurthedruid", -- [20]
+				["c"] = "Discgusting-AeriePeak",
+				["eN"] = "King Rastakhan",
+				["eI"] = 2272,
+				["t"] = 1561947418,
+				["g"] = 17,
+				["d"] = 14,
+			}, -- [253]
+			{
+				"GAgurthewolf", -- [1]
+				"ISeribus", -- [2]
+				"FDrezzed", -- [3]
+				"BReese", -- [4]
+				"DTrotskey", -- [5]
+				"CRachel", -- [6]
+				"CBouserh", -- [7]
+				"INeryssa", -- [8]
+				"HZaramage", -- [9]
+				"ISubreddit", -- [10]
+				"ITeech", -- [11]
+				"ESantannie", -- [12]
+				"EAnshlun", -- [13]
+				"EGitaxian", -- [14]
+				"KFusegu", -- [15]
+				"EKaylie", -- [16]
+				"JBrotherbert", -- [17]
+				"BKelza", -- [18]
+				"LMuskydh", -- [19]
+				"JPhilibuster", -- [20]
+				"CExitwound", -- [21]
+				["c"] = "Subreddit-AeriePeak",
+				["eN"] = "Champion of the Light",
+				["eI"] = 2265,
+				["d"] = 14,
+				["g"] = 21,
+				["t"] = 1562027546,
+			}, -- [254]
+			{
+				"JCleverbot", -- [1]
+				"FVuro", -- [2]
+				"IGreystach", -- [3]
+				"HKaidyn", -- [4]
+				"HZaramage", -- [5]
+				"KAgurthedruid", -- [6]
+				"CBigohunter", -- [7]
+				"JPhilibuster", -- [8]
+				"KLyquíd", -- [9]
+				"LBrujanna", -- [10]
+				"LIllwil", -- [11]
+				"AEncia", -- [12]
+				"EDiscgusting", -- [13]
+				"CPurewill", -- [14]
+				"BAkau", -- [15]
+				"GOsherio", -- [16]
+				"JThemyth", -- [17]
+				"CLolshot", -- [18]
+				"JNisara", -- [19]
+				"IMillari", -- [20]
+				["c"] = "Discgusting-AeriePeak",
+				["t"] = 1562117367,
+				["eN"] = "Stormwall Blockade",
+				["d"] = 16,
+				["g"] = 20,
+				["eI"] = 2280,
+			}, -- [255]
+			{
+				"JCleverbot", -- [1]
+				"IMillari", -- [2]
+				"IGreystach", -- [3]
+				"HKaidyn", -- [4]
+				"HZaramage", -- [5]
+				"KAgurthedruid", -- [6]
+				"CBigohunter", -- [7]
+				"JPhilibuster", -- [8]
+				"KLyquíd", -- [9]
+				"LBrujanna", -- [10]
+				"ASail", -- [11]
+				"AEncia", -- [12]
+				"EDiscgusting", -- [13]
+				"CPurewill", -- [14]
+				"BAkau", -- [15]
+				"GOsherio", -- [16]
+				"JThemyth", -- [17]
+				"CLolshot", -- [18]
+				"JNisara", -- [19]
+				"FVuro", -- [20]
+				["c"] = "Discgusting-AeriePeak",
+				["eN"] = "Stormwall Blockade",
+				["eI"] = 2280,
+				["d"] = 16,
+				["g"] = 20,
+				["t"] = 1562118411,
+			}, -- [256]
+			{
+				"FSolodk-Stormrage", -- [1]
+				"JMarcös", -- [2]
+				"KLyllianne", -- [3]
+				"GRada", -- [4]
+				"EKaylie", -- [5]
+				"AKleptik", -- [6]
+				"LRyudari", -- [7]
+				"CBownéd", -- [8]
+				"CCrios", -- [9]
+				"ITeech", -- [10]
+				"BJamal", -- [11]
+				"JOshobi", -- [12]
+				"GZear", -- [13]
+				"GNisarra-ScarletCrusade", -- [14]
+				"HYuromaru", -- [15]
+				"LZinodan", -- [16]
+				"KLocryn", -- [17]
+				"CTehkyer", -- [18]
+				"ISubreddit", -- [19]
+				"DSou", -- [20]
+				["c"] = "Subreddit-AeriePeak",
+				["d"] = 16,
+				["eN"] = "Stormwall Blockade",
+				["t"] = 1562419425,
+				["g"] = 20,
+				["eI"] = 2280,
+			}, -- [257]
+			{
+				"ISubreddit", -- [1]
+				"ASail", -- [2]
+				"EKaylie", -- [3]
+				"HKaidyn", -- [4]
+				"IGreystach", -- [5]
+				"BAkau", -- [6]
+				"HZaramage", -- [7]
+				"ISeribus", -- [8]
+				"BJamal", -- [9]
+				"KZezra", -- [10]
+				"EZarzie-AltarofStorms", -- [11]
+				"KAgurthedruid", -- [12]
+				"CPurewill", -- [13]
+				"CBigohunter", -- [14]
+				"DSou", -- [15]
+				"APhennx", -- [16]
+				"JNisara", -- [17]
+				"KLyquíd", -- [18]
+				"CBouserh", -- [19]
+				"EPhilliee", -- [20]
+				"BGenkidin", -- [21]
+				["c"] = "Subreddit-AeriePeak",
+				["eI"] = 2265,
+				["eN"] = "Champion of the Light",
+				["t"] = 1562548229,
+				["g"] = 21,
+				["d"] = 14,
+			}, -- [258]
+			{
+				"ISubreddit", -- [1]
+				"ASail", -- [2]
+				"EKaylie", -- [3]
+				"HKaidyn", -- [4]
+				"IGreystach", -- [5]
+				"BAkau", -- [6]
+				"HZaramage", -- [7]
+				"ISeribus", -- [8]
+				"BJamal", -- [9]
+				"KZezra", -- [10]
+				"EZarzie-AltarofStorms", -- [11]
+				"GAgurthestorm", -- [12]
+				"CPurewill", -- [13]
+				"CBigohunter", -- [14]
+				"DSou", -- [15]
+				"APhennx", -- [16]
+				"JNisara", -- [17]
+				"KLyquíd", -- [18]
+				"CBouserh", -- [19]
+				"EPhilliee", -- [20]
+				"BGenkidin", -- [21]
+				"IBluivy", -- [22]
+				"BReyalz", -- [23]
+				"IMillari", -- [24]
+				"CBownéd", -- [25]
+				"CMärcos", -- [26]
+				["c"] = "Subreddit-AeriePeak",
+				["t"] = 1562550800,
+				["eN"] = "Mekkatorque",
+				["d"] = 14,
+				["g"] = 26,
+				["eI"] = 2276,
+			}, -- [259]
 		},
 		["enabled"] = 1,
 	},
@@ -43435,11 +44151,11 @@ VExRT = {
 		["Left"] = 21.22158622741699,
 		["OnlyPromoted"] = true,
 		["ScaleBack"] = 47,
-		["Text1"] = "Left\n\n||cff00fe95Philibuster||r ||cfffe7b09Lyquíd||r \n||cffc59a6cSail||r ||cfff38bb9Akau||r ||cffa9d271Lolshot||r ||cffa9d271Purewill||r ||cff3ec5e9Zaramage||r ||cff8686ecGreystach||r \n\n\nRight\n\n||cff00fe95Nisara||r ||cfff38bb9Genkidin||r \n||cfffe7b09Agurthedruid||r ||cffa22fc8Illwil||r  ||cff3ec5e9Kaidyn||r ||cff006fdcTentontotem||r ||cfffefefeDiscgusting||r ||cffa9d271Ðísh||r ||cffa9d271Bigohunter||r ",
+		["Text1"] = "Pod Order\n||cffff7d0aYacub||r \n||cffa330c9Illwil||r \n||cfff58cbaHeauxpless||r \n||cffc41f3bVuro||r \n||cffff7d0aNotshteve||r \n||cffabd473Agurthewise||r \n||cffa330c9Zaraystiria||r \n||cffc41f3bVyllith||r \n||cfff58cbaAkau||r \n||cfff58cbaGenkidin||r \n\nHealing CDs\n1st HTT\n2nd None\n3rd Ascendance\n4th SL + AG\n5th Tranq\n6th Revival lol",
 		["OptionsFormatting"] = true,
-		["DefName"] = "Stormwall",
+		["DefName"] = "Pods",
 		["LastUpdateName"] = "Agurthedruid-AeriePeak",
-		["LastUpdateTime"] = 1561684629,
+		["LastUpdateTime"] = 1562117487,
 		["Width"] = 374.5550231933594,
 		["Top"] = 1089.286743164063,
 		["SelfText"] = "",

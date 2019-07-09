@@ -5,22 +5,8 @@ ___
 -"-"- 
 O RLY? 
 END
-VER 3 0000000000000053 "1" "INV_MISC_QUESTIONMARK"
-/tar Illyanna Ravenoak
-/tar Immol'thar
-END
-VER 3 0000000000000054 "2" "INV_MISC_QUESTIONMARK"
-/tar Pusillin 
-/tar Old Ironbark
-END
-VER 3 0000000000000055 "3" "INV_MISC_QUESTIONMARK"
-/tar lethtendris
-/tar alzzin the wildshaper
-END
 VER 3 0000000000000056 "4" "INV_MISC_QUESTIONMARK"
-/tar guard fengus  
-/tar guard slip'kik 
-/tar king gordok
+/tar sti
 END
 VER 3 000000000000004B "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip

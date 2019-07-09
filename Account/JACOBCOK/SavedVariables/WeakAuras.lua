@@ -15,21 +15,20 @@ WeakAurasSaved = {
 			["fontSize"] = 72,
 			["xOffset"] = -2,
 			["displayText"] = "Check Pet!",
-			["anchorPoint"] = "CENTER",
-			["yOffset"] = 43.9999389648438,
-			["regionType"] = "text",
 			["authorOptions"] = {
 			},
-			["config"] = {
-			},
+			["yOffset"] = 43.9999389648438,
+			["regionType"] = "text",
 			["color"] = {
 				1, -- [1]
 				0.41176470588235, -- [2]
 				0.70196078431373, -- [3]
 				1, -- [4]
 			},
+			["font"] = "Action Man",
+			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["url"] = "https://wago.io/BykEEkGFQ/4",
+			["automaticWidth"] = "Auto",
 			["actions"] = {
 				["start"] = {
 				},
@@ -63,19 +62,6 @@ WeakAurasSaved = {
 				["disjunctive"] = "all",
 				["activeTriggerMode"] = -10,
 			},
-			["fixedWidth"] = 200,
-			["internalVersion"] = 16,
-			["justify"] = "LEFT",
-			["wordWrap"] = "WordWrap",
-			["id"] = "No Pet",
-			["font"] = "Action Man",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["automaticWidth"] = "Auto",
-			["uid"] = "YPZENZB1yGA",
-			["version"] = 4,
-			["selfPoint"] = "BOTTOM",
-			["semver"] = "1.0.1",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -88,18 +74,37 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["internalVersion"] = 16,
+			["semver"] = "1.0.1",
+			["selfPoint"] = "BOTTOM",
+			["id"] = "No Pet",
+			["uid"] = "YPZENZB1yGA",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["url"] = "https://wago.io/BykEEkGFQ/4",
+			["config"] = {
+			},
+			["version"] = 4,
+			["justify"] = "LEFT",
+			["wordWrap"] = "WordWrap",
+			["fixedWidth"] = 200,
 			["load"] = {
 				["use_class"] = false,
+				["ingroup"] = {
+					["single"] = "group",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["multi"] = {
 						["DEATHKNIGHT"] = true,
 						["MAGE"] = true,
 						["WARLOCK"] = true,
 						["HUNTER"] = true,
-					},
-				},
-				["spec"] = {
-					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -137,7 +142,8 @@ WeakAurasSaved = {
 				0, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "m3k4pdkVEKn",
+			["config"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["automaticWidth"] = "Auto",
@@ -177,6 +183,15 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 16,
 			["justify"] = "CENTER",
+			["selfPoint"] = "BOTTOM",
+			["id"] = "Opulence - Liquid Gold",
+			["wordWrap"] = "WordWrap",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["url"] = "https://wago.io/tYGbMFGiJ/2",
+			["uid"] = "m3k4pdkVEKn",
+			["version"] = 2,
+			["semver"] = "1.0.1",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -192,15 +207,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Opulence - Liquid Gold",
-			["selfPoint"] = "BOTTOM",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/tYGbMFGiJ/2",
-			["font"] = "Friz Quadrata TT",
-			["version"] = 2,
-			["semver"] = "1.0.1",
-			["wordWrap"] = "WordWrap",
 			["fixedWidth"] = 200,
 			["load"] = {
 				["difficulty"] = {
@@ -209,19 +215,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
 				["encounterid"] = "2271",
 				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
 				["use_encounterid"] = true,
 			},
-			["config"] = {
-			},
+			["font"] = "Friz Quadrata TT",
 		},
 		["Range Marker BFD v1.0"] = {
 			["backdropColor"] = {
@@ -298,10 +303,11 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
 			},
-			["borderInset"] = 11,
+			["config"] = {
+			},
 			["version"] = 1,
 			["borderOffset"] = 5,
-			["uid"] = "M0cgI5qvDFa",
+			["borderInset"] = 11,
 			["conditions"] = {
 			},
 			["load"] = {
@@ -319,8 +325,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["config"] = {
-			},
+			["uid"] = "M0cgI5qvDFa",
 		},
 		["Ruby Tracker"] = {
 			["text2Point"] = "RIGHT",
@@ -348,12 +353,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["encounterid"] = "2271",
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["encounterid"] = "2271",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -497,12 +502,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["encounterid"] = "2280",
-				["class"] = {
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["encounterid"] = "2280",
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -541,8 +546,8 @@ WeakAurasSaved = {
 						["names"] = {
 							"Sea Swell", -- [1]
 						},
+						["debuffType"] = "HARMFUL",
 						["custom_hide"] = "timed",
-						["buffShowOn"] = "showOnActive",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "custom",
 						["use_unit"] = true,
@@ -560,7 +565,7 @@ WeakAurasSaved = {
 						["check"] = "event",
 						["subeventSuffix"] = "_CAST_START",
 						["unit"] = "player",
-						["debuffType"] = "HARMFUL",
+						["buffShowOn"] = "showOnActive",
 					},
 					["untrigger"] = {
 						["unit"] = "player",
@@ -801,16 +806,16 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "stateupdate",
 						["genericShowOn"] = "showOnActive",
-						["names"] = {
-						},
+						["unit"] = "player",
 						["event"] = "Chat Message",
-						["custom"] = "function(allstates, WAevent, event, id, msg, exp, icon, colors)\n    if event == \"START\" then\n        if not id then return end\n        aura_env.hideDBMBarsHelper() -- Sometimes DBM will revert the screen clamping.\n        allstates[id] = allstates[id] or {}\n        local state = allstates[id]\n        state.name = msg\n        state.icon = icon    \n        state.progressType = \"timed\"\n        state.expirationTime = exp\n        state.duration = exp-GetTime()\n        state.colorTable = colors\n        state.c_offset = 0\n        state.autoHide = true\n        state.changed = true\n        state.show = true\n        local now = GetTime()\n        if exp < now + aura_env.config.maxDur then\n            state.c_queued=false\n        else\n            state.c_queued=true\n            C_Timer.After(exp-now-aura_env.config.maxDur, function() WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"REFRESH\",id) end)\n        end\n    elseif event==\"STOP\" then\n        if not id then return end\n        allstates[id] = allstates[id] or {}\n        local state = allstates[id]\n        state.show=false\n        state.changed=true\n    elseif event==\"UPDATEPROG\" then\n        if not id then return end\n        local state = allstates[id]\n        if state then\n            state.duration = msg\n            state.expirationTime = exp\n            local now = GetTime()\n            if exp < now + aura_env.config.maxDur then\n                state.c_queued=false\n            else\n                state.c_queued=true\n                C_Timer.After(exp-now-aura_env.config.maxDur, function() WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"REFRESH\",id) end)\n            end\n            state.changed = true\n        end\n    elseif event==\"FORCESTOP\" then\n        -- This is called from DBM.Bars:CancelBar function hook callback.\n        -- This needs to be removed once we are 100% confident that DBM_TimerStop event will fire for everything\n        if not id then return end\n        local state = allstates[id]\n        if state then\n            state.show=false\n            state.changed=true\n        else\n            for _,state in pairs(allstates) do\n                if state.name == id then\n                    state.show=false\n                    state.changed=true\n                    break\n                end\n            end\n        end\n    elseif event==\"STOPALL\" then\n        for cid,state in pairs(allstates) do\n            if not id or tostring(id)==strsplit(\"^\",cid) then --With BW, id (called module in BW) can be a table here\n                state.show=false\n                state.changed=true\n            end\n        end\n    elseif event==\"REFRESH\" then\n        if not allstates[id] then return end\n        -- For performance reasons, we are not canceling the REFRESH callbacks when events are canceled. \n        -- Therefore we need to disregard the ones that are leaked from the previous pull.\n        local timeLeft = (allstates[id].expirationTime or 0) - GetTime()\n        if (aura_env.config.maxDur or 0)-timeLeft > 0.5 or (aura_env.config.maxDur or 0)-timeLeft < -0.1 then return end\n        allstates[id].c_offset=0\n        allstates[id].c_queued=false\n        allstates[id].changed=true\n    end\n    -- Refresh and recalculate offset\n    local queuedEvents={}\n    local events={}\n    -- Sort everything by exp\n    for id,state in pairs(allstates) do\n        if state.c_queued then\n            table.insert(queuedEvents,{id=id,exp=state.expirationTime})\n        else\n            table.insert(events,{id=id,exp=state.expirationTime})\n        end\n    end\n    table.sort(queuedEvents,function(a,b) return (a.exp or 0)<(b.exp or 0) end)\n    table.sort(events,function(a,b) return (a.exp or 0)<(b.exp or 0) end)\n    -- Calculate offset for queued events\n    for i,event in ipairs(queuedEvents) do\n        allstates[event.id].c_offset=i*aura_env.config.spacing\n    end\n    -- Calculate offset for the regluar events to prevent icon collision\n    for i=#events,1,-1 do\n        local event=events[i]\n        local lastEvent = events[i+1]\n        if lastEvent then\n            allstates[event.id].c_offset = aura_env.config.spacing - \n            (((allstates[lastEvent.id].expirationTime or 0)-(allstates[event.id].expirationTime or 0)) *\n                aura_env.config.travelDist / aura_env.config.maxDur - (allstates[lastEvent.id].c_offset or 0))\n            -- offset must be positive\n            if allstates[event.id].c_offset < 0 then allstates[event.id].c_offset = 0 end\n        end\n    end\n    return true\nend",
-						["events"] = "PHOGUILD_RAT",
 						["spellIds"] = {
 						},
+						["custom"] = "function(allstates, WAevent, event, id, msg, exp, icon, colors)\n    if event == \"START\" then\n        if not id then return end\n        aura_env.hideDBMBarsHelper() -- Sometimes DBM will revert the screen clamping.\n        allstates[id] = allstates[id] or {}\n        local state = allstates[id]\n        state.name = msg\n        state.icon = icon    \n        state.progressType = \"timed\"\n        state.expirationTime = exp\n        state.duration = exp-GetTime()\n        state.colorTable = colors\n        state.c_offset = 0\n        state.autoHide = true\n        state.changed = true\n        state.show = true\n        local now = GetTime()\n        if exp < now + aura_env.config.maxDur then\n            state.c_queued=false\n        else\n            state.c_queued=true\n            C_Timer.After(exp-now-aura_env.config.maxDur, function() WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"REFRESH\",id) end)\n        end\n    elseif event==\"STOP\" then\n        if not id then return end\n        allstates[id] = allstates[id] or {}\n        local state = allstates[id]\n        state.show=false\n        state.changed=true\n    elseif event==\"UPDATEPROG\" then\n        if not id then return end\n        local state = allstates[id]\n        if state then\n            state.duration = msg\n            state.expirationTime = exp\n            local now = GetTime()\n            if exp < now + aura_env.config.maxDur then\n                state.c_queued=false\n            else\n                state.c_queued=true\n                C_Timer.After(exp-now-aura_env.config.maxDur, function() WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"REFRESH\",id) end)\n            end\n            state.changed = true\n        end\n    elseif event==\"FORCESTOP\" then\n        -- This is called from DBM.Bars:CancelBar function hook callback.\n        -- This needs to be removed once we are 100% confident that DBM_TimerStop event will fire for everything\n        if not id then return end\n        local state = allstates[id]\n        if state then\n            state.show=false\n            state.changed=true\n        else\n            for _,state in pairs(allstates) do\n                if state.name == id then\n                    state.show=false\n                    state.changed=true\n                    break\n                end\n            end\n        end\n    elseif event==\"STOPALL\" then\n        for cid,state in pairs(allstates) do\n            if not id or tostring(id)==strsplit(\"^\",cid) then --With BW, id (called module in BW) can be a table here\n                state.show=false\n                state.changed=true\n            end\n        end\n    elseif event==\"REFRESH\" then\n        if not allstates[id] then return end\n        -- For performance reasons, we are not canceling the REFRESH callbacks when events are canceled. \n        -- Therefore we need to disregard the ones that are leaked from the previous pull.\n        local timeLeft = (allstates[id].expirationTime or 0) - GetTime()\n        if (aura_env.config.maxDur or 0)-timeLeft > 0.5 or (aura_env.config.maxDur or 0)-timeLeft < -0.1 then return end\n        allstates[id].c_offset=0\n        allstates[id].c_queued=false\n        allstates[id].changed=true\n    end\n    -- Refresh and recalculate offset\n    local queuedEvents={}\n    local events={}\n    -- Sort everything by exp\n    for id,state in pairs(allstates) do\n        if state.c_queued then\n            table.insert(queuedEvents,{id=id,exp=state.expirationTime})\n        else\n            table.insert(events,{id=id,exp=state.expirationTime})\n        end\n    end\n    table.sort(queuedEvents,function(a,b) return (a.exp or 0)<(b.exp or 0) end)\n    table.sort(events,function(a,b) return (a.exp or 0)<(b.exp or 0) end)\n    -- Calculate offset for queued events\n    for i,event in ipairs(queuedEvents) do\n        allstates[event.id].c_offset=i*aura_env.config.spacing\n    end\n    -- Calculate offset for the regluar events to prevent icon collision\n    for i=#events,1,-1 do\n        local event=events[i]\n        local lastEvent = events[i+1]\n        if lastEvent then\n            allstates[event.id].c_offset = aura_env.config.spacing - \n            (((allstates[lastEvent.id].expirationTime or 0)-(allstates[event.id].expirationTime or 0)) *\n                aura_env.config.travelDist / aura_env.config.maxDur - (allstates[lastEvent.id].c_offset or 0))\n            -- offset must be positive\n            if allstates[event.id].c_offset < 0 then allstates[event.id].c_offset = 0 end\n        end\n    end\n    return true\nend",
+						["events"] = "PHOGUILD_RAT",
 						["check"] = "event",
-						["unit"] = "player",
 						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -869,18 +874,18 @@ WeakAurasSaved = {
 			["version"] = 26,
 			["height"] = 25,
 			["glowLines"] = 8,
+			["cooldownTextDisabled"] = false,
+			["glowFrequency"] = 0.25,
+			["fontSize"] = 12,
+			["text2Containment"] = "INSIDE",
+			["glowLength"] = 10,
+			["text1Font"] = "Arial Narrow",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glowFrequency"] = 0.25,
-			["fontSize"] = 12,
-			["text2Containment"] = "INSIDE",
-			["cooldownTextDisabled"] = false,
-			["text1Font"] = "Arial Narrow",
-			["glowLength"] = 10,
 			["icon"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -1127,29 +1132,13 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["scale"] = 1,
-			["backgroundInset"] = 0,
+			["background"] = "None",
 			["border"] = "None",
 			["limit"] = 5,
 			["regionType"] = "dynamicgroup",
-			["gridType"] = "RD",
-			["sort"] = "ascending",
 			["arcLength"] = 360,
-			["useLimit"] = false,
-			["constantFactor"] = "RADIUS",
-			["rowSpace"] = 1,
-			["borderOffset"] = 16,
-			["semver"] = "1.0.0",
-			["config"] = {
-			},
-			["id"] = "Mythic+ Interrupt Tracker DG v3",
-			["gridWidth"] = 5,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["rotation"] = 0,
-			["uid"] = "vIe3W9ZEaeB",
-			["internalVersion"] = 16,
-			["background"] = "None",
-			["conditions"] = {
+			["sort"] = "ascending",
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -1165,8 +1154,24 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["authorOptions"] = {
+			["constantFactor"] = "RADIUS",
+			["rowSpace"] = 1,
+			["borderOffset"] = 16,
+			["semver"] = "1.0.0",
+			["config"] = {
 			},
+			["id"] = "Mythic+ Interrupt Tracker DG v3",
+			["gridWidth"] = 5,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["rotation"] = 0,
+			["uid"] = "vIe3W9ZEaeB",
+			["internalVersion"] = 16,
+			["useLimit"] = false,
+			["conditions"] = {
+			},
+			["gridType"] = "RD",
+			["backgroundInset"] = 0,
 		},
 		["PhoGuild - Raid Ability Timeline Backdrop ElvUI"] = {
 			["sparkWidth"] = 10,
@@ -1586,20 +1591,20 @@ WeakAurasSaved = {
 				},
 				["main"] = {
 					["colorR"] = 1,
-					["use_color"] = true,
-					["scalex"] = 1,
-					["colorB"] = 1,
 					["duration_type"] = "seconds",
+					["scaley"] = 1,
+					["colorA"] = 1,
+					["use_color"] = true,
 					["alpha"] = 0,
-					["x"] = 0,
-					["y"] = 0,
 					["colorType"] = "custom",
+					["y"] = 0,
+					["x"] = 0,
 					["colorG"] = 1,
 					["type"] = "custom",
 					["colorFunc"] = "function()\n    \n    if aura_env.state and aura_env.state.sourceName then\n        local englishClass = select(2,UnitClass(aura_env.state.sourceName))\n        if englishClass then            \n            local colors = RAID_CLASS_COLORS[englishClass]\n            if colors then\n                return colors.r,colors.g,colors.b,1\n            end            \n        end\n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n",
 					["rotate"] = 0,
-					["scaley"] = 1,
-					["colorA"] = 1,
+					["scalex"] = 1,
+					["colorB"] = 1,
 				},
 				["finish"] = {
 					["type"] = "none",
@@ -1913,7 +1918,7 @@ WeakAurasSaved = {
 			["borderEdge"] = "None",
 			["anchorPoint"] = "CENTER",
 			["borderSize"] = 16,
-			["uid"] = "67jl5GV8EIx",
+			["borderInset"] = 11,
 			["borderColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1933,16 +1938,16 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["debuffType"] = "HELPFUL",
+						["unit"] = "player",
 						["type"] = "aura",
 						["spellIds"] = {
 						},
 						["subeventSuffix"] = "_CAST_START",
 						["subeventPrefix"] = "SPELL",
-						["unit"] = "player",
-						["event"] = "Health",
 						["names"] = {
 						},
+						["event"] = "Health",
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 					},
@@ -1970,7 +1975,8 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["xOffset"] = 0.832763671875,
-			["borderInset"] = 11,
+			["config"] = {
+			},
 			["version"] = 3,
 			["internalVersion"] = 16,
 			["selfPoint"] = "BOTTOMLEFT",
@@ -1991,8 +1997,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["config"] = {
-			},
+			["uid"] = "67jl5GV8EIx",
 		},
 		["T23 CotC Akundas Zorn Green Circle"] = {
 			["user_y"] = 0,
@@ -2149,9 +2154,9 @@ WeakAurasSaved = {
 			["useAdjustededMax"] = false,
 			["backgroundTexture"] = "450915",
 			["mirror"] = false,
-			["xOffset"] = 0,
 			["parent"] = "Range Marker BFD v1.0",
 			["fontSize"] = 72,
+			["uid"] = "CsQjGnVOpUN",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2197,8 +2202,8 @@ WeakAurasSaved = {
 			},
 			["orientation"] = "ANTICLOCKWISE",
 			["crop_x"] = 0,
+			["xOffset"] = 0,
 			["crop_y"] = 0,
-			["uid"] = "CsQjGnVOpUN",
 		},
 		["Plague of Fire Spread"] = {
 			["outline"] = "THICKOUTLINE",
@@ -2215,7 +2220,7 @@ WeakAurasSaved = {
 			["yOffset"] = 95,
 			["anchorPoint"] = "CENTER",
 			["xOffset"] = 0,
-			["font"] = "2002 Bold",
+			["uid"] = "tvsqZHWzEps",
 			["regionType"] = "text",
 			["customTextUpdate"] = "update",
 			["automaticWidth"] = "Auto",
@@ -2245,15 +2250,15 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["custom_type"] = "status",
-						["subeventSuffix"] = "_CAST_START",
+						["useExactSpellId"] = true,
 						["text_operator"] = "find('%s')",
 						["debuffType"] = "HARMFUL",
+						["subeventSuffix"] = "_CAST_START",
+						["use_remaining"] = true,
+						["unevent"] = "auto",
 						["auraspellids"] = {
 							"285014", -- [1]
 						},
-						["use_remaining"] = true,
-						["unevent"] = "auto",
-						["useExactSpellId"] = true,
 						["event"] = "BigWigs Timer",
 						["text"] = "Plague of Fire",
 						["use_text"] = true,
@@ -2324,16 +2329,8 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 16,
 			["justify"] = "LEFT",
-			["wordWrap"] = "WordWrap",
-			["id"] = "Plague of Fire Spread",
 			["selfPoint"] = "CENTER",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/YbOxC_7m0/2",
-			["config"] = {
-			},
-			["version"] = 2,
-			["semver"] = "1.0.1",
+			["id"] = "Plague of Fire Spread",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -2348,6 +2345,13 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["url"] = "https://wago.io/YbOxC_7m0/2",
+			["font"] = "2002 Bold",
+			["version"] = 2,
+			["semver"] = "1.0.1",
+			["wordWrap"] = "WordWrap",
 			["fixedWidth"] = 200,
 			["load"] = {
 				["use_never"] = false,
@@ -2374,7 +2378,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["uid"] = "tvsqZHWzEps",
+			["config"] = {
+			},
 		},
 		["Mekkatorque In-Vehicle PlayerName Announcer"] = {
 			["outline"] = "OUTLINE",
@@ -2445,12 +2450,12 @@ WeakAurasSaved = {
 			["fixedWidth"] = 200,
 			["load"] = {
 				["use_encounterid"] = true,
-				["encounterid"] = "2276",
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["encounterid"] = "2276",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -2533,6 +2538,32 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["scale"] = 1,
+			["arcLength"] = 360,
+			["border"] = "None",
+			["sort"] = "none",
+			["regionType"] = "dynamicgroup",
+			["backgroundInset"] = 0,
+			["limit"] = 5,
+			["rowSpace"] = 1,
+			["authorOptions"] = {
+			},
+			["constantFactor"] = "RADIUS",
+			["internalVersion"] = 16,
+			["borderOffset"] = 16,
+			["semver"] = "1.0.1",
+			["uid"] = "FvI6g71FsH2",
+			["id"] = "Ruby Tracker Dynamic Group",
+			["gridWidth"] = 5,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["url"] = "https://wago.io/FU4aMBPUf/2",
+			["config"] = {
+			},
+			["stagger"] = 0,
+			["useLimit"] = false,
+			["conditions"] = {
+			},
+			["gridType"] = "RD",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2547,32 +2578,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["border"] = "None",
-			["sort"] = "none",
-			["regionType"] = "dynamicgroup",
-			["gridType"] = "RD",
-			["limit"] = 5,
-			["backgroundInset"] = 0,
-			["useLimit"] = false,
-			["constantFactor"] = "RADIUS",
-			["internalVersion"] = 16,
-			["borderOffset"] = 16,
-			["semver"] = "1.0.1",
-			["uid"] = "FvI6g71FsH2",
-			["id"] = "Ruby Tracker Dynamic Group",
-			["gridWidth"] = 5,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/FU4aMBPUf/2",
-			["config"] = {
-			},
-			["stagger"] = 0,
-			["arcLength"] = 360,
-			["conditions"] = {
-			},
-			["authorOptions"] = {
-			},
-			["rowSpace"] = 1,
 		},
 		["Harbinger's Inscrutable Will TSU"] = {
 			["outline"] = "OUTLINE",
@@ -2838,35 +2843,21 @@ WeakAurasSaved = {
 				["activeTriggerMode"] = 1,
 			},
 			["internalVersion"] = 16,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["selfPoint"] = "BOTTOM",
 			["font"] = "000 PFSquareSansPro-Medium",
 			["version"] = 8,
 			["load"] = {
+				["use_never"] = true,
 				["use_encounterid"] = false,
-				["use_never"] = false,
-				["spec"] = {
-					["multi"] = {
-					},
-				},
+				["encounterid"] = "2268",
 				["class"] = {
 					["multi"] = {
 					},
 				},
-				["encounterid"] = "2268",
-				["use_combat"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
@@ -2875,16 +2866,16 @@ WeakAurasSaved = {
 			["fontSize"] = 16,
 			["regionType"] = "text",
 			["uid"] = "8UIYLBSjkMF",
-			["xOffset"] = 0,
+			["parent"] = "Harbinger's Inscrutable Will lines to nameplate",
 			["semver"] = "1.0.7",
+			["xOffset"] = 0,
+			["id"] = "Harbinger's Inscrutable Will TSU",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["id"] = "Harbinger's Inscrutable Will TSU",
-			["parent"] = "Harbinger's Inscrutable Will lines to nameplate",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["fixedWidth"] = 200,
@@ -2927,8 +2918,21 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["selfPoint"] = "BOTTOM",
 			["wordWrap"] = "WordWrap",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["PhoGuild - Raid Ability Timeline"] = {
 			["backdropColor"] = {
@@ -2997,8 +3001,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["borderOffset"] = 5,
-			["config"] = {
-			},
+			["borderInset"] = 11,
 			["version"] = 26,
 			["animation"] = {
 				["start"] = {
@@ -3014,7 +3017,8 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["uid"] = "u1iyH0Dh9eh",
+			["config"] = {
+			},
 			["conditions"] = {
 			},
 			["load"] = {
@@ -3068,7 +3072,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["borderInset"] = 11,
+			["uid"] = "u1iyH0Dh9eh",
 		},
 		["T23 CotC Kimbuls Zorn Green Circle"] = {
 			["user_y"] = 0,
@@ -3222,9 +3226,9 @@ WeakAurasSaved = {
 			["useAdjustededMax"] = false,
 			["fontSize"] = 72,
 			["mirror"] = false,
-			["displayText"] = "%c Penis",
 			["parent"] = "Range Marker BFD v1.0",
 			["uid"] = "RLZu4ZyHfip",
+			["crop_y"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -3273,8 +3277,8 @@ WeakAurasSaved = {
 			["startAngle"] = 0,
 			["orientation"] = "ANTICLOCKWISE",
 			["crop_x"] = 0,
+			["displayText"] = "%c Penis",
 			["backgroundTexture"] = "450915",
-			["crop_y"] = 0,
 		},
 		["Harbinger's Inscrutable Will lines to nameplate"] = {
 			["arcLength"] = 360,
@@ -3336,8 +3340,6 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["scale"] = 1,
-			["rotation"] = 0,
-			["border"] = "None",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -3352,11 +3354,13 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["border"] = "None",
+			["rotation"] = 0,
 			["regionType"] = "dynamicgroup",
-			["background"] = "None",
+			["selfPoint"] = "TOPLEFT",
 			["limit"] = 5,
-			["internalVersion"] = 16,
 			["rowSpace"] = 1,
+			["internalVersion"] = 16,
 			["constantFactor"] = "RADIUS",
 			["sort"] = "none",
 			["borderOffset"] = 16,
@@ -3370,11 +3374,11 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "TOPLEFT",
+			["background"] = "None",
 			["conditions"] = {
 			},
-			["xOffset"] = -166.999816894531,
 			["anchorPoint"] = "CENTER",
+			["xOffset"] = -166.999816894531,
 		},
 		["Incandescent Sliver"] = {
 			["text2Point"] = "CENTER",
@@ -3407,12 +3411,12 @@ WeakAurasSaved = {
 				["use_spellknown"] = false,
 				["use_petbattle"] = false,
 				["use_never"] = false,
-				["class"] = {
+				["use_combat"] = true,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -3534,20 +3538,20 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["custom_type"] = "status",
 						["type"] = "custom",
-						["customStacks"] = "",
-						["unevent"] = "auto",
-						["unit"] = "player",
-						["use_absorbMode"] = true,
-						["event"] = "Health",
 						["names"] = {
 						},
+						["unevent"] = "auto",
+						["subeventPrefix"] = "SPELL",
+						["use_absorbMode"] = true,
+						["event"] = "Health",
+						["customStacks"] = "",
 						["use_unit"] = true,
 						["duration"] = "1",
 						["custom"] = "function()\n    if (not aura_env.last or GetTime() - aura_env.last > aura_env.config[\"updateRate\"]) and IsEquippedItem(165571) then\n        aura_env.last = GetTime()\n        aura_env.playerInRange = false\n        for unit in WA_IterateGroupMembers() do\n            if IsItemInRange(37727,unit) and not WA_GetUnitBuff(unit, 289523)\n            then\n                aura_env.playerInRange = true\n                break\n            end\n        end\n    end\n    return aura_env.playerInRange\nend",
 						["spellIds"] = {
 						},
 						["check"] = "update",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["subeventSuffix"] = "_CAST_START",
 						["debuffType"] = "HELPFUL",
 					},
@@ -3768,24 +3772,44 @@ WeakAurasSaved = {
 			},
 		},
 		["#Raid_Mark"] = {
-			["glow"] = false,
-			["alpha"] = 1,
-			["text1FontSize"] = 12,
-			["glowLength"] = 10,
 			["text2Point"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["yOffset"] = 168.497863769531,
-			["anchorPoint"] = "CENTER",
-			["xOffset"] = 381,
-			["cooldownSwipe"] = true,
+			["text2Enabled"] = false,
+			["text1FontSize"] = 12,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["glow"] = false,
+			["glowLength"] = 10,
+			["yOffset"] = 168.497863769531,
+			["anchorPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
+			["cooldownSwipe"] = true,
+			["xOffset"] = 381,
 			["customTextUpdate"] = "update",
+			["url"] = "https://wago.io/HyDbPiJVX/1",
+			["icon"] = true,
+			["useglowColor"] = false,
+			["alpha"] = 1,
+			["internalVersion"] = 16,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
@@ -3820,13 +3844,6 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = 1,
 			},
-			["text2Enabled"] = false,
-			["internalVersion"] = 16,
-			["glowXOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["url"] = "https://wago.io/HyDbPiJVX/1",
-			["icon"] = true,
-			["useglowColor"] = false,
 			["desaturate"] = false,
 			["glowColor"] = {
 				1, -- [1]
@@ -3838,43 +3855,13 @@ WeakAurasSaved = {
 			["version"] = 1,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 150,
-			["semver"] = "1.0.0",
-			["glowLines"] = 8,
-			["text1Enabled"] = true,
-			["glowFrequency"] = 0.25,
-			["keepAspectRatio"] = false,
-			["text2Containment"] = "INSIDE",
-			["glowType"] = "buttonOverlay",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["stickyDuration"] = false,
-			["text1FontFlags"] = "OUTLINE",
-			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
+			["glowThickness"] = 4,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
 					},
 				},
-				["use_never"] = false,
+				["use_never"] = true,
 				["talent"] = {
 					["multi"] = {
 					},
@@ -3918,17 +3905,34 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
-			["glowThickness"] = 4,
-			["text1"] = "%s",
-			["uid"] = "4b5B2iZ(UEh",
+			["text1Enabled"] = true,
+			["glowFrequency"] = 0.25,
+			["glowXOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["glowType"] = "buttonOverlay",
+			["text1Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["semver"] = "1.0.0",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["glowLines"] = 8,
+			["text2FontSize"] = 24,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1"] = "%s",
+			["uid"] = "4b5B2iZ(UEh",
+			["text1FontFlags"] = "OUTLINE",
 			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["glowScale"] = 1,
@@ -3940,18 +3944,18 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["text1Font"] = "Friz Quadrata TT",
-			["zoom"] = 0,
+			["stickyDuration"] = false,
+			["text2"] = "%p",
 			["conditions"] = {
 			},
-			["text2"] = "%p",
+			["zoom"] = 0,
 			["glowBorder"] = false,
 		},
 	},
 	["frame"] = {
-		["xOffset"] = -758.000854492188,
-		["yOffset"] = -154.998107910156,
-		["height"] = 665.000122070313,
+		["xOffset"] = -973.3659057617188,
+		["yOffset"] = -208.83935546875,
+		["height"] = 665.0001220703125,
 		["width"] = 830,
 	},
 	["minimap"] = {

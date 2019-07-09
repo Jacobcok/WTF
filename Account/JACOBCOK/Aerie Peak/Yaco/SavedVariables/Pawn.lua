@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0241,
+	["LastVersion"] = 2.0243,
 	["LastPlayerFullName"] = "Yaco-Aerie Peak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Strom'kar, the Warbreaker",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

@@ -13,9 +13,9 @@ SimulationCraftDB = {
 		["Raideon - Aerie Peak"] = "Raideon - Aerie Peak",
 		["Jankychan - Aerie Peak"] = "Jankychan - Aerie Peak",
 		["Yacc - Aerie Peak"] = "Yacc - Aerie Peak",
-		["Yacoo - Aerie Peak"] = "Yacoo - Aerie Peak",
 		["Missyacob - Aerie Peak"] = "Missyacob - Aerie Peak",
 		["Yaco - Aerie Peak"] = "Yaco - Aerie Peak",
+		["Yacoo - Aerie Peak"] = "Yacoo - Aerie Peak",
 		["Zagsham - Thrall"] = "Zagsham - Thrall",
 		["Lepok - Aerie Peak"] = "Lepok - Aerie Peak",
 		["Zei - Aerie Peak"] = "Zei - Aerie Peak",
@@ -83,14 +83,14 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Yacoo - Aerie Peak"] = {
+		["Missyacob - Aerie Peak"] = {
+		},
+		["Yaco - Aerie Peak"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Missyacob - Aerie Peak"] = {
-		},
-		["Yaco - Aerie Peak"] = {
+		["Yacoo - Aerie Peak"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},

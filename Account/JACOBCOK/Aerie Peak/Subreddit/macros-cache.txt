@@ -9,9 +9,11 @@ VER 3 0100000000000002 "cd" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000003 "drain" "INV_MISC_QUESTIONMARK"
 #showtooltip drain life
-/use malformed herald's legwraps
 /cast [nochanneling:drain life] drain life
 /cast [nochanneling:drain life] drain life
 /cast [nochanneling:drain life] drain life
 /cast [nochanneling:drain life] drain life
+END
+VER 3 0100000000000004 "tar" "INV_MISC_QUESTIONMARK"
+/tar stick
 END

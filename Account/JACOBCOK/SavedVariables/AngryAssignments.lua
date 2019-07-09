@@ -106,12 +106,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2982644443,
 		["Contents"] = "3 DARKS DEVO\n4 TRANQ\n5 revival\n6 Hiyun Hymn\n7 Atri devo\n8 hiyun",
 	},
-	[278330368] = {
-		["Updated"] = 1511022278,
-		["Name"] = "Mistress",
-		["Id"] = 278330368,
-		["UpdateId"] = 920919672,
-		["Contents"] = "B-Fish\nSet 1 Ignore\nSet 2 stun behind tornadoes\nSet 3 the abysal void damage\nSet 4",
+	[753844932] = {
+		["Updated"] = 1458093951,
+		["Name"] = "Kilrogg",
+		["Id"] = 753844932,
+		["UpdateId"] = 3984745044,
+		["Contents"] = "1) Emila & Aladdin & Shteve\n2) Agur & Fizz & Genk\n3) Scotchz & Nao & Bella\n\nDeath Throw Heal CDs:\n1 ) Personals\n2 ) 1.Osh CD\n3 ) Tranq\n4 ) 1.Osh CD\n5 ) Revival",
 	},
 	[1186533395] = {
 		["Updated"] = 1505579326,
@@ -155,19 +155,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 4030841661,
 		["Contents"] = "Ring on pull\n\nDom 1: Hero\nDom 2: Ring\nDom 3: big cd's\n\nStuns:\nEmila, Ron, Lac",
 	},
-	[753844932] = {
-		["Updated"] = 1458093951,
-		["Name"] = "Kilrogg",
-		["Id"] = 753844932,
-		["UpdateId"] = 3984745044,
-		["Contents"] = "1) Emila & Aladdin & Shteve\n2) Agur & Fizz & Genk\n3) Scotchz & Nao & Bella\n\nDeath Throw Heal CDs:\n1 ) Personals\n2 ) 1.Osh CD\n3 ) Tranq\n4 ) 1.Osh CD\n5 ) Revival",
-	},
 	[869608095] = {
 		["Updated"] = 1452049345,
 		["Name"] = "m assault",
 		["Id"] = 869608095,
 		["UpdateId"] = 3088977255,
 		["Contents"] = "Hero for transporter and crusher (3m in)\n\nGROUPS 1&2 ON BLUE\nGROUPS 3&4 ON ORANGE\n\nRing 1 - on pull\nRing 2 - transport\nRing 3 - Zygi uses for 2nd transport",
+	},
+	[278330368] = {
+		["Updated"] = 1511022278,
+		["Name"] = "Mistress",
+		["Id"] = 278330368,
+		["UpdateId"] = 920919672,
+		["Contents"] = "B-Fish\nSet 1 Ignore\nSet 2 stun behind tornadoes\nSet 3 the abysal void damage\nSet 4",
 	},
 }
 AngryAssign_Categories = {

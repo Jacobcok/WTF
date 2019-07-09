@@ -45,7 +45,7 @@ VER 3 000000000000004E "corruption" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000004A "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
+/cast [@mouseover,nomod,exists] Purify Disease;  [@mouseover,exists,mod:ctrl] Dispel Magic; [@mouseover,exists,mod:shift] Purify Disease
 END
 VER 3 0000000000000051 "fort" "INV_MISC_QUESTIONMARK"
 #showtooltip 

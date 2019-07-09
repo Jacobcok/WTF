@@ -1,3 +1,7 @@
+VER 3 0100000000000002 "flight form" "INV_MISC_QUESTIONMARK"
+/cancelaura travel form
+/cast prowl
+END
 VER 3 0100000000000001 "prowl" "INV_MISC_QUESTIONMARK"
 /cancelaura travel form
 /cast prowl
